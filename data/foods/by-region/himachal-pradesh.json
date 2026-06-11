@@ -1,0 +1,132 @@
+[
+  {
+    "id": "hp-siddu",
+    "name": "Siddu (steamed stuffed bread)",
+    "localNames": {
+      "hi": "Siddu"
+    },
+    "region": "himalayan",
+    "state": "himachal-pradesh",
+    "category": "grains-breads",
+    "subcategory": "regional-bread",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 230,
+      "protein": 8,
+      "carbs": 38,
+      "fat": 5,
+      "fiber": 4
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 90,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "low",
+    "mealTags": [
+      "breakfast",
+      "lunch",
+      "main",
+      "home-cooked"
+    ],
+    "healthTags": [],
+    "proteinScore": 2,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "hp-madra",
+    "name": "Chana Madra",
+    "localNames": {
+      "hi": "Madra"
+    },
+    "region": "himalayan",
+    "state": "himachal-pradesh",
+    "category": "dal-legumes",
+    "subcategory": "whole-legume",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 175,
+      "protein": 6.5,
+      "carbs": 19,
+      "fat": 8.5,
+      "fiber": 5
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 150,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "high",
+    "mealTags": [
+      "lunch",
+      "festival",
+      "main",
+      "home-cooked"
+    ],
+    "healthTags": [
+      "high-fiber"
+    ],
+    "proteinScore": 2,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "hp-dham-rajmah",
+    "name": "Pahari Rajma (Dham)",
+    "localNames": {
+      "hi": "Rajmah"
+    },
+    "region": "himalayan",
+    "state": "himachal-pradesh",
+    "category": "dal-legumes",
+    "subcategory": "whole-legume",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 135,
+      "protein": 6.5,
+      "carbs": 18,
+      "fat": 4,
+      "fiber": 6
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 150,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": [
+      "lunch",
+      "festival",
+      "main",
+      "home-cooked"
+    ],
+    "healthTags": [
+      "high-fiber"
+    ],
+    "proteinScore": 2,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  }
+]

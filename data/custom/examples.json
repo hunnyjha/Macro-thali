@@ -1,0 +1,59 @@
+[
+  {
+    "id": "usr-moms-rajma",
+    "name": "Mom's Rajma",
+    "ownerId": "demo-user",
+    "kind": "moms-recipe",
+    "basedOnFoodId": "pi-rajma-curry",
+    "dietType": "veg",
+    "category": "dal-legumes",
+    "subcategory": "whole-legume",
+    "per100g": { "calories": 135, "protein": 6.5, "carbs": 18, "fat": 4, "fiber": 6 },
+    "portions": [
+      { "unit": "katori", "grams": 150, "default": true },
+      { "unit": "gram", "grams": 1 }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": ["lunch", "dinner", "home-cooked"],
+    "confidence": "low",
+    "source": "user-created",
+    "isPrivate": true,
+    "createdAt": "2026-06-11T10:00:00Z"
+  },
+  {
+    "id": "usr-hostel-maggi-egg",
+    "name": "Hostel Egg Maggi",
+    "ownerId": "demo-user",
+    "kind": "custom-food",
+    "dietType": "egg",
+    "category": "snacks",
+    "per100g": { "calories": 175, "protein": 6, "carbs": 22, "fat": 7, "fiber": 1.5 },
+    "portions": [
+      { "unit": "bowl", "grams": 250, "default": true, "label": "1 pack + 1 egg" },
+      { "unit": "gram", "grams": 1 }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": ["snack", "dinner", "hostel", "student", "budget"],
+    "confidence": "low",
+    "source": "user-created",
+    "isPrivate": true,
+    "createdAt": "2026-06-11T10:05:00Z"
+  },
+  {
+    "id": "usr-saved-postworkout-combo",
+    "name": "Post-Workout Combo (saved)",
+    "ownerId": "demo-user",
+    "kind": "saved-combo",
+    "dietType": "egg",
+    "components": [
+      { "foodId": "hp-whey-protein-scoop", "unit": "scoop", "quantity": 1 },
+      { "foodId": "pi-banana", "unit": "piece", "quantity": 1 },
+      { "foodId": "pi-boiled-egg", "unit": "piece", "quantity": 2 }
+    ],
+    "mealTags": ["post-workout", "snack"],
+    "confidence": "low",
+    "source": "user-created",
+    "isPrivate": false,
+    "createdAt": "2026-06-11T10:10:00Z"
+  }
+]

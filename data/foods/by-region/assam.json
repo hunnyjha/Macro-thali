@@ -1,0 +1,175 @@
+[
+  {
+    "id": "as-masor-tenga",
+    "name": "Masor Tenga (sour fish curry)",
+    "localNames": {
+      "as": "Masor Tenga"
+    },
+    "region": "north-east",
+    "state": "assam",
+    "category": "non-veg",
+    "subcategory": "fish",
+    "dietType": "non-veg",
+    "per100g": {
+      "calories": 120,
+      "protein": 13,
+      "carbs": 4,
+      "fat": 6,
+      "fiber": 0.8
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 150,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ],
+    "healthTags": [
+      "high-protein"
+    ],
+    "proteinScore": 4,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "as-aloo-pitika",
+    "name": "Aloo Pitika",
+    "localNames": {
+      "as": "Aloo Pitika"
+    },
+    "region": "north-east",
+    "state": "assam",
+    "category": "vegetables",
+    "subcategory": "dry-sabzi",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 110,
+      "protein": 2.2,
+      "carbs": 17,
+      "fat": 4,
+      "fiber": 2
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 120,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "low",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "side",
+      "home-cooked",
+      "budget"
+    ],
+    "healthTags": [],
+    "proteinScore": 1,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "as-pork-bamboo-shoot",
+    "name": "Pork with Bamboo Shoot",
+    "localNames": {
+      "as": "Gahori Mangxo"
+    },
+    "region": "north-east",
+    "state": "assam",
+    "category": "non-veg",
+    "subcategory": "pork",
+    "dietType": "non-veg",
+    "per100g": {
+      "calories": 245,
+      "protein": 16,
+      "carbs": 3,
+      "fat": 19,
+      "fiber": 1
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 150,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ],
+    "healthTags": [
+      "high-protein"
+    ],
+    "proteinScore": 4,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "as-pitha",
+    "name": "Til Pitha",
+    "localNames": {
+      "as": "Til Pitha"
+    },
+    "region": "north-east",
+    "state": "assam",
+    "category": "desserts",
+    "subcategory": "festival-sweet",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 290,
+      "protein": 5,
+      "carbs": 48,
+      "fat": 9,
+      "fiber": 2.5
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 45,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "dessert",
+      "festival",
+      "snack"
+    ],
+    "healthTags": [],
+    "proteinScore": 1,
+    "confidence": "low",
+    "source": "community-estimate",
+    "sourceNote": "Bihu festival sweet.",
+    "lastReviewed": "2026-06-11"
+  }
+]

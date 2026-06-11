@@ -1,0 +1,184 @@
+[
+  {
+    "id": "dl-chole-kulche",
+    "name": "Chole Kulche (street)",
+    "localNames": {
+      "hi": "Chole Kulche"
+    },
+    "region": "north",
+    "state": "delhi",
+    "category": "street-food",
+    "subcategory": "regional-street",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 220,
+      "protein": 6,
+      "carbs": 32,
+      "fat": 8,
+      "fiber": 4
+    },
+    "portions": [
+      {
+        "unit": "plate",
+        "grams": 300,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": [
+      "breakfast",
+      "lunch",
+      "street",
+      "budget",
+      "student"
+    ],
+    "healthTags": [],
+    "proteinScore": 2,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "dl-aloo-tikki-chaat",
+    "name": "Aloo Tikki Chaat",
+    "localNames": {
+      "hi": "Aloo Tikki"
+    },
+    "region": "north",
+    "state": "delhi",
+    "category": "street-food",
+    "subcategory": "chaat",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 180,
+      "protein": 3.5,
+      "carbs": 24,
+      "fat": 8,
+      "fiber": 2.5
+    },
+    "portions": [
+      {
+        "unit": "plate",
+        "grams": 200,
+        "default": true,
+        "label": "2 tikki + chutney"
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "fried",
+    "mealTags": [
+      "snack",
+      "street",
+      "budget"
+    ],
+    "healthTags": [
+      "fried"
+    ],
+    "proteinScore": 1,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "dl-golgappa",
+    "name": "Golgappa / Pani Puri",
+    "localNames": {
+      "hi": "Golgappa"
+    },
+    "aliases": [
+      "pani puri",
+      "puchka"
+    ],
+    "region": "north",
+    "state": "delhi",
+    "category": "street-food",
+    "subcategory": "chaat",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 130,
+      "protein": 2.5,
+      "carbs": 22,
+      "fat": 3.5,
+      "fiber": 1.5
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 15,
+        "default": true,
+        "label": "1 golgappa"
+      },
+      {
+        "unit": "plate",
+        "grams": 90
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "low",
+    "mealTags": [
+      "snack",
+      "street",
+      "budget"
+    ],
+    "healthTags": [],
+    "proteinScore": 1,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "dl-chicken-shawarma",
+    "name": "Chicken Shawarma Roll",
+    "localNames": {
+      "hi": "Shawarma"
+    },
+    "region": "north",
+    "state": "delhi",
+    "category": "street-food",
+    "subcategory": "rolls-wraps",
+    "dietType": "non-veg",
+    "per100g": {
+      "calories": 215,
+      "protein": 13,
+      "carbs": 20,
+      "fat": 9,
+      "fiber": 1.5
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 200,
+        "default": true,
+        "label": "1 roll"
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": [
+      "snack",
+      "street",
+      "student",
+      "lunch"
+    ],
+    "healthTags": [
+      "high-protein"
+    ],
+    "proteinScore": 4,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  }
+]

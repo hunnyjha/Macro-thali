@@ -1,0 +1,463 @@
+[
+  {
+    "id": "bihar-litti",
+    "name": "Litti (sattu stuffed)",
+    "localNames": {
+      "hi": "Litti",
+      "bho": "Litti"
+    },
+    "region": "east",
+    "state": "bihar",
+    "category": "grains-breads",
+    "subcategory": "regional-bread",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 280,
+      "protein": 9,
+      "carbs": 42,
+      "fat": 8,
+      "fiber": 6
+    },
+    "portions": [
+      {
+        "unit": "litti",
+        "grams": 80,
+        "default": true,
+        "label": "1 litti"
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "low",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked",
+      "budget"
+    ],
+    "healthTags": [
+      "high-fiber"
+    ],
+    "proteinScore": 2,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "sourceNote": "Roasted wheat ball stuffed with spiced sattu (roasted gram flour).",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "bihar-chokha",
+    "name": "Baigan-Aloo Chokha",
+    "localNames": {
+      "hi": "Chokha"
+    },
+    "aliases": [
+      "bharta",
+      "litti chokha side"
+    ],
+    "region": "east",
+    "state": "bihar",
+    "category": "vegetables",
+    "subcategory": "dry-sabzi",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 85,
+      "protein": 2,
+      "carbs": 11,
+      "fat": 4,
+      "fiber": 3.5
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 120,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "low",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "side",
+      "home-cooked",
+      "budget"
+    ],
+    "healthTags": [
+      "low-cal"
+    ],
+    "proteinScore": 1,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "bihar-sattu-paratha",
+    "name": "Sattu Paratha",
+    "localNames": {
+      "hi": "Sattu Paratha"
+    },
+    "region": "east",
+    "state": "bihar",
+    "category": "grains-breads",
+    "subcategory": "paratha",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 300,
+      "protein": 11,
+      "carbs": 44,
+      "fat": 9,
+      "fiber": 6.5
+    },
+    "portions": [
+      {
+        "unit": "paratha",
+        "grams": 80,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "high",
+    "mealTags": [
+      "breakfast",
+      "lunch",
+      "home-cooked",
+      "budget"
+    ],
+    "healthTags": [
+      "high-cal",
+      "high-fiber",
+      "high-protein"
+    ],
+    "proteinScore": 3,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "bihar-sattu-sharbat",
+    "name": "Sattu Sharbat (savoury)",
+    "localNames": {
+      "hi": "Sattu Sharbat"
+    },
+    "aliases": [
+      "sattu drink"
+    ],
+    "region": "east",
+    "state": "bihar",
+    "category": "drinks",
+    "subcategory": "sherbet",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 70,
+      "protein": 4,
+      "carbs": 11,
+      "fat": 1,
+      "fiber": 2
+    },
+    "portions": [
+      {
+        "unit": "glass",
+        "grams": 250,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "drink",
+      "snack",
+      "budget",
+      "post-workout"
+    ],
+    "healthTags": [
+      "budget-protein",
+      "low-cal"
+    ],
+    "proteinScore": 2,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "bihar-dal-pitha",
+    "name": "Dal Pitha (steamed)",
+    "localNames": {
+      "hi": "Dal Pitha"
+    },
+    "aliases": [
+      "pitha",
+      "rice dumpling"
+    ],
+    "region": "east",
+    "state": "bihar",
+    "category": "snacks",
+    "subcategory": "tikki-cutlet",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 175,
+      "protein": 6,
+      "carbs": 33,
+      "fat": 2,
+      "fiber": 3
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 45,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "breakfast",
+      "snack",
+      "home-cooked"
+    ],
+    "healthTags": [],
+    "proteinScore": 2,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "bihar-ghugni",
+    "name": "Ghugni (black chana)",
+    "localNames": {
+      "hi": "Ghugni"
+    },
+    "region": "east",
+    "state": "bihar",
+    "category": "dal-legumes",
+    "subcategory": "whole-legume",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 150,
+      "protein": 7.5,
+      "carbs": 20,
+      "fat": 4,
+      "fiber": 6.5
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 130,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": [
+      "breakfast",
+      "snack",
+      "street",
+      "budget"
+    ],
+    "healthTags": [
+      "budget-protein",
+      "high-fiber"
+    ],
+    "proteinScore": 2,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "bihar-khaja",
+    "name": "Silao Khaja",
+    "localNames": {
+      "hi": "Khaja"
+    },
+    "region": "east",
+    "state": "bihar",
+    "category": "desserts",
+    "subcategory": "fried-sweet",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 430,
+      "protein": 5,
+      "carbs": 60,
+      "fat": 19,
+      "fiber": 1
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 50,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "fried",
+    "mealTags": [
+      "dessert",
+      "festival"
+    ],
+    "healthTags": [
+      "fried",
+      "high-cal",
+      "high-carb"
+    ],
+    "proteinScore": 1,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "bihar-thekua",
+    "name": "Thekua",
+    "localNames": {
+      "hi": "Thekua",
+      "bho": "Thekua"
+    },
+    "aliases": [
+      "chhath prasad"
+    ],
+    "region": "east",
+    "state": "bihar",
+    "category": "desserts",
+    "subcategory": "festival-sweet",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 420,
+      "protein": 6,
+      "carbs": 58,
+      "fat": 18,
+      "fiber": 2
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 30,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "fried",
+    "mealTags": [
+      "dessert",
+      "festival",
+      "snack"
+    ],
+    "healthTags": [
+      "fried",
+      "high-cal",
+      "high-carb"
+    ],
+    "proteinScore": 1,
+    "confidence": "low",
+    "source": "community-estimate",
+    "sourceNote": "Traditional Chhath festival sweet.",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "bihar-kadhi-bari",
+    "name": "Kadhi Bari",
+    "localNames": {
+      "hi": "Kadhi Bari"
+    },
+    "region": "east",
+    "state": "bihar",
+    "category": "dal-legumes",
+    "subcategory": "besan-based",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 130,
+      "protein": 4.5,
+      "carbs": 11,
+      "fat": 7.5,
+      "fiber": 1.5
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 150,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ],
+    "healthTags": [],
+    "proteinScore": 1,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "bihar-malpua",
+    "name": "Malpua (Bihari)",
+    "localNames": {
+      "hi": "Malpua"
+    },
+    "region": "east",
+    "state": "bihar",
+    "category": "desserts",
+    "subcategory": "fried-sweet",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 350,
+      "protein": 5,
+      "carbs": 50,
+      "fat": 15,
+      "fiber": 0.5
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 50,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "fried",
+    "mealTags": [
+      "dessert",
+      "festival"
+    ],
+    "healthTags": [
+      "fried",
+      "high-cal",
+      "high-carb"
+    ],
+    "proteinScore": 1,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  }
+]

@@ -1,0 +1,135 @@
+[
+  {
+    "id": "mz-bai",
+    "name": "Bai (mixed veg stew)",
+    "localNames": {
+      "lus": "Bai"
+    },
+    "region": "north-east",
+    "state": "mizoram",
+    "category": "vegetables",
+    "subcategory": "gravy-sabzi",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 65,
+      "protein": 3.5,
+      "carbs": 9,
+      "fat": 1.5,
+      "fiber": 3.5
+    },
+    "portions": [
+      {
+        "unit": "bowl",
+        "grams": 200,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ],
+    "healthTags": [
+      "high-fiber",
+      "low-cal"
+    ],
+    "proteinScore": 2,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "mz-vawksa-rep",
+    "name": "Vawksa Rep (smoked pork)",
+    "localNames": {
+      "lus": "Vawksa Rep"
+    },
+    "region": "north-east",
+    "state": "mizoram",
+    "category": "non-veg",
+    "subcategory": "pork",
+    "dietType": "non-veg",
+    "per100g": {
+      "calories": 270,
+      "protein": 19,
+      "carbs": 2,
+      "fat": 21,
+      "fiber": 0.5
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 120,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "low",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ],
+    "healthTags": [
+      "high-fat",
+      "high-protein"
+    ],
+    "proteinScore": 5,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "mz-koat-pitha",
+    "name": "Koat Pitha",
+    "localNames": {
+      "lus": "Koat Pitha"
+    },
+    "region": "north-east",
+    "state": "mizoram",
+    "category": "snacks",
+    "subcategory": "fried-snack",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 300,
+      "protein": 4,
+      "carbs": 48,
+      "fat": 11,
+      "fiber": 2
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 40,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "fried",
+    "mealTags": [
+      "snack",
+      "home-cooked"
+    ],
+    "healthTags": [
+      "fried",
+      "high-cal"
+    ],
+    "proteinScore": 1,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  }
+]

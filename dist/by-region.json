@@ -1,0 +1,267 @@
+{
+  "andhra-pradesh": [
+    "ap-pesarattu",
+    "ap-gongura-mutton",
+    "ap-pulihora",
+    "ap-gutti-vankaya"
+  ],
+  "arunachal-pradesh": [
+    "ar-thukpa",
+    "ar-pika-pila",
+    "ar-apong-rice"
+  ],
+  "assam": [
+    "as-masor-tenga",
+    "as-aloo-pitika",
+    "as-pork-bamboo-shoot",
+    "as-pitha"
+  ],
+  "bihar": [
+    "bihar-litti",
+    "bihar-chokha",
+    "bihar-sattu-paratha",
+    "bihar-sattu-sharbat",
+    "bihar-dal-pitha",
+    "bihar-ghugni",
+    "bihar-khaja",
+    "bihar-thekua",
+    "bihar-kadhi-bari",
+    "bihar-malpua"
+  ],
+  "chhattisgarh": [
+    "cg-chila",
+    "cg-fara",
+    "cg-aamat"
+  ],
+  "delhi": [
+    "dl-chole-kulche",
+    "dl-aloo-tikki-chaat",
+    "dl-golgappa",
+    "dl-chicken-shawarma"
+  ],
+  "goa": [
+    "goa-fish-curry-rice",
+    "goa-pork-vindaloo",
+    "goa-prawn-balchao",
+    "goa-bebinca"
+  ],
+  "gujarat": [
+    "gujarat-dhokla",
+    "gujarat-thepla",
+    "gujarat-undhiyu",
+    "gujarat-khandvi",
+    "gujarat-handvo",
+    "gujarat-kadhi",
+    "gujarat-fafda"
+  ],
+  "haryana": [
+    "hr-bajra-khichdi",
+    "hr-hara-cholia",
+    "hr-kachri-ki-sabzi"
+  ],
+  "himachal-pradesh": [
+    "hp-siddu",
+    "hp-madra",
+    "hp-dham-rajmah"
+  ],
+  "jammu-kashmir": [
+    "jk-rogan-josh",
+    "jk-dum-aloo-kashmiri",
+    "jk-haakh",
+    "jk-kahwa"
+  ],
+  "jharkhand": [
+    "jh-dhuska",
+    "jh-litti-jharkhand",
+    "jh-rugra"
+  ],
+  "karnataka": [
+    "ka-bisi-bele-bath",
+    "ka-ragi-mudde",
+    "ka-mysore-masala-dosa",
+    "ka-neer-dosa",
+    "ka-mysore-pak"
+  ],
+  "kerala": [
+    "kerala-appam",
+    "kerala-puttu",
+    "kerala-fish-molee",
+    "kerala-avial",
+    "kerala-beef-fry",
+    "kerala-banana-chips",
+    "kerala-payasam"
+  ],
+  "ladakh": [
+    "lad-thukpa-ladakhi",
+    "lad-skyu",
+    "lad-butter-tea"
+  ],
+  "madhya-pradesh": [
+    "mp-poha-jalebi",
+    "mp-bhutte-ki-kees",
+    "mp-dal-bafla"
+  ],
+  "maharashtra": [
+    "mh-poha-kanda",
+    "mh-vada-pav",
+    "mh-misal-pav",
+    "mh-pav-bhaji",
+    "mh-puran-poli",
+    "mh-zunka",
+    "mh-modak"
+  ],
+  "manipur": [
+    "mn-eromba",
+    "mn-singju",
+    "mn-chamthong"
+  ],
+  "meghalaya": [
+    "ml-jadoh",
+    "ml-doh-khlieh",
+    "ml-tungrymbai"
+  ],
+  "mizoram": [
+    "mz-bai",
+    "mz-vawksa-rep",
+    "mz-koat-pitha"
+  ],
+  "nagaland": [
+    "nl-smoked-pork-akhuni",
+    "nl-galho",
+    "nl-bamboo-steamed-fish"
+  ],
+  "odisha": [
+    "od-dalma",
+    "od-pakhala-bhata",
+    "od-chhena-poda",
+    "od-macha-besara"
+  ],
+  "pan-india": [
+    "pi-cooked-white-rice",
+    "pi-roti-chapati",
+    "pi-tawa-paratha",
+    "pi-toor-dal",
+    "pi-moong-dal",
+    "pi-chana-dal",
+    "pi-rajma-curry",
+    "pi-chole-curry",
+    "pi-paneer-raw",
+    "pi-paneer-butter-masala",
+    "pi-aloo-gobi",
+    "pi-aloo-jeera",
+    "pi-mixed-veg-curry",
+    "pi-palak-paneer",
+    "pi-curd-dahi",
+    "pi-milk-toned",
+    "pi-boiled-egg",
+    "pi-egg-bhurji",
+    "pi-chicken-curry",
+    "pi-tandoori-chicken",
+    "pi-grilled-chicken-breast",
+    "pi-soya-chunks-cooked",
+    "pi-sprouts-salad",
+    "pi-plain-dosa",
+    "pi-idli",
+    "pi-poha",
+    "pi-upma",
+    "pi-veg-pulao",
+    "pi-chicken-biryani",
+    "pi-khichdi",
+    "pi-masala-chai",
+    "pi-sweet-lassi",
+    "pi-gulab-jamun",
+    "pi-banana",
+    "pi-peanuts-roasted",
+    "pi-samosa",
+    "pi-black-coffee",
+    "pi-green-tea",
+    "pi-nimbu-pani",
+    "pi-buttermilk-chaas",
+    "pi-mango-lassi",
+    "pi-banana-milkshake",
+    "hp-whey-protein-scoop",
+    "hp-paneer-bhurji-dry",
+    "hp-egg-white-boiled",
+    "hp-tofu",
+    "hp-roasted-chana",
+    "hp-fish-tikka",
+    "hp-greek-yogurt",
+    "pi-apple",
+    "pi-mango",
+    "pi-ghee",
+    "pi-mustard-oil",
+    "pi-mango-pickle",
+    "pi-papad-roasted",
+    "pi-green-salad"
+  ],
+  "punjab": [
+    "punjab-dal-makhani",
+    "punjab-sarson-ka-saag",
+    "punjab-makki-di-roti",
+    "punjab-amritsari-kulcha",
+    "punjab-butter-chicken",
+    "punjab-amritsari-fish",
+    "punjab-chole-bhature",
+    "punjab-lassi-namkeen"
+  ],
+  "rajasthan": [
+    "raj-dal-baati",
+    "raj-gatte-ki-sabzi",
+    "raj-ker-sangri",
+    "raj-laal-maas",
+    "raj-pyaaz-kachori",
+    "raj-ghevar"
+  ],
+  "sikkim": [
+    "sk-veg-momo",
+    "sk-chicken-momo",
+    "sk-gundruk-soup",
+    "sk-phagshapa"
+  ],
+  "tamil-nadu": [
+    "tn-sambar",
+    "tn-rasam",
+    "tn-masala-dosa",
+    "tn-medu-vada",
+    "tn-pongal",
+    "tn-curd-rice",
+    "tn-chettinad-chicken",
+    "tn-filter-coffee"
+  ],
+  "telangana": [
+    "ts-hyderabadi-biryani",
+    "ts-haleem",
+    "ts-sarva-pindi",
+    "ts-double-ka-meetha"
+  ],
+  "tripura": [
+    "tr-mui-borok-wahan-mosdeng",
+    "tr-chakhwi",
+    "tr-mui-borok-bangui-rice"
+  ],
+  "uttar-pradesh": [
+    "up-tehri",
+    "up-bedmi-puri",
+    "up-galouti-kebab",
+    "up-aloo-tamatar-sabzi",
+    "up-peda"
+  ],
+  "uttarakhand": [
+    "uk-kafuli",
+    "uk-aloo-ke-gutke",
+    "uk-bhatt-ki-churkani"
+  ],
+  "west-bengal": [
+    "wb-macher-jhol",
+    "wb-shorshe-ilish",
+    "wb-kosha-mangsho",
+    "wb-aloo-posto",
+    "wb-shukto",
+    "wb-cholar-dal",
+    "wb-luchi",
+    "wb-mishti-doi",
+    "wb-rosogolla",
+    "wb-sandesh",
+    "wb-kathi-roll"
+  ]
+}

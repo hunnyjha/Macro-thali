@@ -1,0 +1,131 @@
+[
+  {
+    "id": "lad-thukpa-ladakhi",
+    "name": "Ladakhi Thukpa",
+    "localNames": {
+      "bo": "Thukpa"
+    },
+    "region": "himalayan",
+    "state": "ladakh",
+    "category": "non-veg",
+    "subcategory": "chicken",
+    "dietType": "non-veg",
+    "per100g": {
+      "calories": 100,
+      "protein": 5.5,
+      "carbs": 14,
+      "fat": 2.5,
+      "fiber": 1
+    },
+    "portions": [
+      {
+        "unit": "bowl",
+        "grams": 350,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "low",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ],
+    "healthTags": [
+      "low-cal"
+    ],
+    "proteinScore": 2,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "lad-skyu",
+    "name": "Skyu (wheat pasta stew)",
+    "localNames": {
+      "bo": "Skyu"
+    },
+    "region": "himalayan",
+    "state": "ladakh",
+    "category": "grains-breads",
+    "subcategory": "regional-bread",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 130,
+      "protein": 4,
+      "carbs": 23,
+      "fat": 2.5,
+      "fiber": 2
+    },
+    "portions": [
+      {
+        "unit": "bowl",
+        "grams": 300,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "low",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ],
+    "healthTags": [],
+    "proteinScore": 1,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "lad-butter-tea",
+    "name": "Butter Tea (Gur Gur Cha)",
+    "localNames": {
+      "bo": "Cha"
+    },
+    "region": "himalayan",
+    "state": "ladakh",
+    "category": "drinks",
+    "subcategory": "hot-beverage",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 70,
+      "protein": 1.5,
+      "carbs": 1.5,
+      "fat": 6.5,
+      "fiber": 0
+    },
+    "portions": [
+      {
+        "unit": "cup",
+        "grams": 150,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "drink",
+      "breakfast"
+    ],
+    "healthTags": [
+      "high-fat",
+      "low-cal"
+    ],
+    "proteinScore": 1,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  }
+]

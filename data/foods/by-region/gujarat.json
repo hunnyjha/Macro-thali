@@ -1,0 +1,309 @@
+[
+  {
+    "id": "gujarat-dhokla",
+    "name": "Khaman Dhokla",
+    "localNames": {
+      "gu": "Dhokla"
+    },
+    "region": "west",
+    "state": "gujarat",
+    "category": "snacks",
+    "subcategory": "baked-snack",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 160,
+      "protein": 6,
+      "carbs": 22,
+      "fat": 5,
+      "fiber": 2.5
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 35,
+        "default": true,
+        "label": "1 square"
+      },
+      {
+        "unit": "katori",
+        "grams": 100
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "low",
+    "mealTags": [
+      "breakfast",
+      "snack",
+      "home-cooked"
+    ],
+    "healthTags": [],
+    "proteinScore": 2,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "gujarat-thepla",
+    "name": "Methi Thepla",
+    "localNames": {
+      "gu": "Thepla"
+    },
+    "region": "west",
+    "state": "gujarat",
+    "category": "grains-breads",
+    "subcategory": "regional-bread",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 300,
+      "protein": 8,
+      "carbs": 44,
+      "fat": 10,
+      "fiber": 6
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 40,
+        "default": true,
+        "label": "1 thepla"
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "high",
+    "mealTags": [
+      "breakfast",
+      "snack",
+      "home-cooked",
+      "student"
+    ],
+    "healthTags": [
+      "high-cal",
+      "high-fiber"
+    ],
+    "proteinScore": 2,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "gujarat-undhiyu",
+    "name": "Undhiyu",
+    "localNames": {
+      "gu": "Undhiyu"
+    },
+    "region": "west",
+    "state": "gujarat",
+    "category": "vegetables",
+    "subcategory": "gravy-sabzi",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 165,
+      "protein": 4.5,
+      "carbs": 16,
+      "fat": 9.5,
+      "fiber": 5
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 150,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "high",
+    "mealTags": [
+      "lunch",
+      "festival",
+      "main",
+      "home-cooked"
+    ],
+    "healthTags": [
+      "high-fiber"
+    ],
+    "proteinScore": 1,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "gujarat-khandvi",
+    "name": "Khandvi",
+    "localNames": {
+      "gu": "Khandvi"
+    },
+    "region": "west",
+    "state": "gujarat",
+    "category": "snacks",
+    "subcategory": "baked-snack",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 180,
+      "protein": 6,
+      "carbs": 16,
+      "fat": 10,
+      "fiber": 1.5
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 100,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "low",
+    "mealTags": [
+      "snack",
+      "home-cooked"
+    ],
+    "healthTags": [],
+    "proteinScore": 2,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "gujarat-handvo",
+    "name": "Handvo",
+    "localNames": {
+      "gu": "Handvo"
+    },
+    "region": "west",
+    "state": "gujarat",
+    "category": "snacks",
+    "subcategory": "baked-snack",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 200,
+      "protein": 7,
+      "carbs": 26,
+      "fat": 7.5,
+      "fiber": 3.5
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 60,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": [
+      "breakfast",
+      "snack",
+      "home-cooked"
+    ],
+    "healthTags": [],
+    "proteinScore": 2,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "gujarat-kadhi",
+    "name": "Gujarati Kadhi",
+    "localNames": {
+      "gu": "Kadhi"
+    },
+    "region": "west",
+    "state": "gujarat",
+    "category": "dal-legumes",
+    "subcategory": "besan-based",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 75,
+      "protein": 2.8,
+      "carbs": 7,
+      "fat": 4,
+      "fiber": 0.5
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 150,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "low",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ],
+    "healthTags": [
+      "low-cal"
+    ],
+    "proteinScore": 1,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "gujarat-fafda",
+    "name": "Fafda",
+    "localNames": {
+      "gu": "Fafda"
+    },
+    "region": "west",
+    "state": "gujarat",
+    "category": "snacks",
+    "subcategory": "fried-snack",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 480,
+      "protein": 12,
+      "carbs": 42,
+      "fat": 29,
+      "fiber": 5
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 50,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "fried",
+    "mealTags": [
+      "snack",
+      "festival",
+      "street"
+    ],
+    "healthTags": [
+      "fried",
+      "high-cal",
+      "high-fat",
+      "high-protein"
+    ],
+    "proteinScore": 3,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  }
+]

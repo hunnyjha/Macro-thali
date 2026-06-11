@@ -1,0 +1,3548 @@
+[
+  {
+    "id": "ap-pesarattu",
+    "name": "Pesarattu",
+    "t": "pesarattu pesarattu",
+    "cat": "breakfast",
+    "state": "andhra-pradesh",
+    "region": "south",
+    "diet": "veg",
+    "kcal": 165,
+    "protein": 8,
+    "ps": 2,
+    "meal": [
+      "breakfast",
+      "home-cooked",
+      "budget"
+    ]
+  },
+  {
+    "id": "ap-gongura-mutton",
+    "name": "Gongura Mutton",
+    "t": "gongura mutton gongura mamsam",
+    "cat": "non-veg",
+    "state": "andhra-pradesh",
+    "region": "south",
+    "diet": "non-veg",
+    "kcal": 235,
+    "protein": 19,
+    "ps": 5,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "restaurant"
+    ]
+  },
+  {
+    "id": "ap-pulihora",
+    "name": "Pulihora (tamarind rice)",
+    "t": "pulihora (tamarind rice) pulihora",
+    "cat": "rice-dishes",
+    "state": "andhra-pradesh",
+    "region": "south",
+    "diet": "veg",
+    "kcal": 170,
+    "protein": 3,
+    "ps": 1,
+    "meal": [
+      "lunch",
+      "festival",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "ap-gutti-vankaya",
+    "name": "Gutti Vankaya Kura (stuffed brinjal)",
+    "t": "gutti vankaya kura (stuffed brinjal) gutti vankaya",
+    "cat": "vegetables",
+    "state": "andhra-pradesh",
+    "region": "south",
+    "diet": "veg",
+    "kcal": 150,
+    "protein": 3.5,
+    "ps": 1,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "ar-thukpa",
+    "name": "Thukpa (noodle soup)",
+    "t": "thukpa (noodle soup) thukpa",
+    "cat": "non-veg",
+    "state": "arunachal-pradesh",
+    "region": "north-east",
+    "diet": "non-veg",
+    "kcal": 95,
+    "protein": 5,
+    "ps": 2,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "ar-pika-pila",
+    "name": "Pika Pila (pickle)",
+    "t": "pika pila (pickle) pika pila",
+    "cat": "staples-basics",
+    "state": "arunachal-pradesh",
+    "region": "north-east",
+    "diet": "non-veg",
+    "kcal": 130,
+    "protein": 4,
+    "ps": 1,
+    "meal": [
+      "side",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "ar-apong-rice",
+    "name": "Boiled Rice (Apatani style)",
+    "t": "boiled rice (apatani style) boiled rice",
+    "cat": "rice-dishes",
+    "state": "arunachal-pradesh",
+    "region": "north-east",
+    "diet": "veg",
+    "kcal": 130,
+    "protein": 2.7,
+    "ps": 1,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "as-masor-tenga",
+    "name": "Masor Tenga (sour fish curry)",
+    "t": "masor tenga (sour fish curry) masor tenga",
+    "cat": "non-veg",
+    "state": "assam",
+    "region": "north-east",
+    "diet": "non-veg",
+    "kcal": 120,
+    "protein": 13,
+    "ps": 4,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "as-aloo-pitika",
+    "name": "Aloo Pitika",
+    "t": "aloo pitika aloo pitika",
+    "cat": "vegetables",
+    "state": "assam",
+    "region": "north-east",
+    "diet": "veg",
+    "kcal": 110,
+    "protein": 2.2,
+    "ps": 1,
+    "meal": [
+      "lunch",
+      "dinner",
+      "side",
+      "home-cooked",
+      "budget"
+    ]
+  },
+  {
+    "id": "as-pork-bamboo-shoot",
+    "name": "Pork with Bamboo Shoot",
+    "t": "pork with bamboo shoot gahori mangxo",
+    "cat": "non-veg",
+    "state": "assam",
+    "region": "north-east",
+    "diet": "non-veg",
+    "kcal": 245,
+    "protein": 16,
+    "ps": 4,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "as-pitha",
+    "name": "Til Pitha",
+    "t": "til pitha til pitha",
+    "cat": "desserts",
+    "state": "assam",
+    "region": "north-east",
+    "diet": "veg",
+    "kcal": 290,
+    "protein": 5,
+    "ps": 1,
+    "meal": [
+      "dessert",
+      "festival",
+      "snack"
+    ]
+  },
+  {
+    "id": "bihar-litti",
+    "name": "Litti (sattu stuffed)",
+    "t": "litti (sattu stuffed) litti litti",
+    "cat": "grains-breads",
+    "state": "bihar",
+    "region": "east",
+    "diet": "veg",
+    "kcal": 280,
+    "protein": 9,
+    "ps": 2,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked",
+      "budget"
+    ]
+  },
+  {
+    "id": "bihar-chokha",
+    "name": "Baigan-Aloo Chokha",
+    "t": "baigan-aloo chokha bharta litti chokha side chokha",
+    "cat": "vegetables",
+    "state": "bihar",
+    "region": "east",
+    "diet": "veg",
+    "kcal": 85,
+    "protein": 2,
+    "ps": 1,
+    "meal": [
+      "lunch",
+      "dinner",
+      "side",
+      "home-cooked",
+      "budget"
+    ]
+  },
+  {
+    "id": "bihar-sattu-paratha",
+    "name": "Sattu Paratha",
+    "t": "sattu paratha sattu paratha",
+    "cat": "grains-breads",
+    "state": "bihar",
+    "region": "east",
+    "diet": "veg",
+    "kcal": 300,
+    "protein": 11,
+    "ps": 3,
+    "meal": [
+      "breakfast",
+      "lunch",
+      "home-cooked",
+      "budget"
+    ]
+  },
+  {
+    "id": "bihar-sattu-sharbat",
+    "name": "Sattu Sharbat (savoury)",
+    "t": "sattu sharbat (savoury) sattu drink sattu sharbat",
+    "cat": "drinks",
+    "state": "bihar",
+    "region": "east",
+    "diet": "veg",
+    "kcal": 70,
+    "protein": 4,
+    "ps": 2,
+    "meal": [
+      "drink",
+      "snack",
+      "budget",
+      "post-workout"
+    ]
+  },
+  {
+    "id": "bihar-dal-pitha",
+    "name": "Dal Pitha (steamed)",
+    "t": "dal pitha (steamed) pitha rice dumpling dal pitha",
+    "cat": "snacks",
+    "state": "bihar",
+    "region": "east",
+    "diet": "veg",
+    "kcal": 175,
+    "protein": 6,
+    "ps": 2,
+    "meal": [
+      "breakfast",
+      "snack",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "bihar-ghugni",
+    "name": "Ghugni (black chana)",
+    "t": "ghugni (black chana) ghugni",
+    "cat": "dal-legumes",
+    "state": "bihar",
+    "region": "east",
+    "diet": "veg",
+    "kcal": 150,
+    "protein": 7.5,
+    "ps": 2,
+    "meal": [
+      "breakfast",
+      "snack",
+      "street",
+      "budget"
+    ]
+  },
+  {
+    "id": "bihar-khaja",
+    "name": "Silao Khaja",
+    "t": "silao khaja khaja",
+    "cat": "desserts",
+    "state": "bihar",
+    "region": "east",
+    "diet": "veg",
+    "kcal": 430,
+    "protein": 5,
+    "ps": 1,
+    "meal": [
+      "dessert",
+      "festival"
+    ]
+  },
+  {
+    "id": "bihar-thekua",
+    "name": "Thekua",
+    "t": "thekua chhath prasad thekua thekua",
+    "cat": "desserts",
+    "state": "bihar",
+    "region": "east",
+    "diet": "veg",
+    "kcal": 420,
+    "protein": 6,
+    "ps": 1,
+    "meal": [
+      "dessert",
+      "festival",
+      "snack"
+    ]
+  },
+  {
+    "id": "bihar-kadhi-bari",
+    "name": "Kadhi Bari",
+    "t": "kadhi bari kadhi bari",
+    "cat": "dal-legumes",
+    "state": "bihar",
+    "region": "east",
+    "diet": "veg",
+    "kcal": 130,
+    "protein": 4.5,
+    "ps": 1,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "bihar-malpua",
+    "name": "Malpua (Bihari)",
+    "t": "malpua (bihari) malpua",
+    "cat": "desserts",
+    "state": "bihar",
+    "region": "east",
+    "diet": "veg",
+    "kcal": 350,
+    "protein": 5,
+    "ps": 1,
+    "meal": [
+      "dessert",
+      "festival"
+    ]
+  },
+  {
+    "id": "cg-chila",
+    "name": "Chila (rice flour)",
+    "t": "chila (rice flour) chila",
+    "cat": "breakfast",
+    "state": "chhattisgarh",
+    "region": "central",
+    "diet": "veg",
+    "kcal": 150,
+    "protein": 4,
+    "ps": 1,
+    "meal": [
+      "breakfast",
+      "snack",
+      "home-cooked",
+      "budget"
+    ]
+  },
+  {
+    "id": "cg-fara",
+    "name": "Fara (steamed rice rolls)",
+    "t": "fara (steamed rice rolls) fara",
+    "cat": "snacks",
+    "state": "chhattisgarh",
+    "region": "central",
+    "diet": "veg",
+    "kcal": 165,
+    "protein": 4,
+    "ps": 1,
+    "meal": [
+      "breakfast",
+      "snack",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "cg-aamat",
+    "name": "Aamat (tribal mixed veg)",
+    "t": "aamat (tribal mixed veg) aamat",
+    "cat": "vegetables",
+    "state": "chhattisgarh",
+    "region": "central",
+    "diet": "veg",
+    "kcal": 70,
+    "protein": 3,
+    "ps": 1,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "dl-chole-kulche",
+    "name": "Chole Kulche (street)",
+    "t": "chole kulche (street) chole kulche",
+    "cat": "street-food",
+    "state": "delhi",
+    "region": "north",
+    "diet": "veg",
+    "kcal": 220,
+    "protein": 6,
+    "ps": 2,
+    "meal": [
+      "breakfast",
+      "lunch",
+      "street",
+      "budget",
+      "student"
+    ]
+  },
+  {
+    "id": "dl-aloo-tikki-chaat",
+    "name": "Aloo Tikki Chaat",
+    "t": "aloo tikki chaat aloo tikki",
+    "cat": "street-food",
+    "state": "delhi",
+    "region": "north",
+    "diet": "veg",
+    "kcal": 180,
+    "protein": 3.5,
+    "ps": 1,
+    "meal": [
+      "snack",
+      "street",
+      "budget"
+    ]
+  },
+  {
+    "id": "dl-golgappa",
+    "name": "Golgappa / Pani Puri",
+    "t": "golgappa / pani puri pani puri puchka golgappa",
+    "cat": "street-food",
+    "state": "delhi",
+    "region": "north",
+    "diet": "veg",
+    "kcal": 130,
+    "protein": 2.5,
+    "ps": 1,
+    "meal": [
+      "snack",
+      "street",
+      "budget"
+    ]
+  },
+  {
+    "id": "dl-chicken-shawarma",
+    "name": "Chicken Shawarma Roll",
+    "t": "chicken shawarma roll shawarma",
+    "cat": "street-food",
+    "state": "delhi",
+    "region": "north",
+    "diet": "non-veg",
+    "kcal": 215,
+    "protein": 13,
+    "ps": 4,
+    "meal": [
+      "snack",
+      "street",
+      "student",
+      "lunch"
+    ]
+  },
+  {
+    "id": "goa-fish-curry-rice",
+    "name": "Goan Fish Curry",
+    "t": "goan fish curry xitti kodi",
+    "cat": "non-veg",
+    "state": "goa",
+    "region": "west",
+    "diet": "non-veg",
+    "kcal": 145,
+    "protein": 13,
+    "ps": 4,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "goa-pork-vindaloo",
+    "name": "Pork Vindaloo",
+    "t": "pork vindaloo vindaloo",
+    "cat": "non-veg",
+    "state": "goa",
+    "region": "west",
+    "diet": "non-veg",
+    "kcal": 255,
+    "protein": 16,
+    "ps": 4,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "restaurant"
+    ]
+  },
+  {
+    "id": "goa-prawn-balchao",
+    "name": "Prawn Balchao",
+    "t": "prawn balchao balchao",
+    "cat": "non-veg",
+    "state": "goa",
+    "region": "west",
+    "diet": "non-veg",
+    "kcal": 175,
+    "protein": 15,
+    "ps": 4,
+    "meal": [
+      "lunch",
+      "dinner",
+      "side",
+      "restaurant"
+    ]
+  },
+  {
+    "id": "goa-bebinca",
+    "name": "Bebinca",
+    "t": "bebinca bebinca",
+    "cat": "desserts",
+    "state": "goa",
+    "region": "west",
+    "diet": "egg",
+    "kcal": 380,
+    "protein": 6,
+    "ps": 1,
+    "meal": [
+      "dessert",
+      "festival"
+    ]
+  },
+  {
+    "id": "gujarat-dhokla",
+    "name": "Khaman Dhokla",
+    "t": "khaman dhokla dhokla",
+    "cat": "snacks",
+    "state": "gujarat",
+    "region": "west",
+    "diet": "veg",
+    "kcal": 160,
+    "protein": 6,
+    "ps": 2,
+    "meal": [
+      "breakfast",
+      "snack",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "gujarat-thepla",
+    "name": "Methi Thepla",
+    "t": "methi thepla thepla",
+    "cat": "grains-breads",
+    "state": "gujarat",
+    "region": "west",
+    "diet": "veg",
+    "kcal": 300,
+    "protein": 8,
+    "ps": 2,
+    "meal": [
+      "breakfast",
+      "snack",
+      "home-cooked",
+      "student"
+    ]
+  },
+  {
+    "id": "gujarat-undhiyu",
+    "name": "Undhiyu",
+    "t": "undhiyu undhiyu",
+    "cat": "vegetables",
+    "state": "gujarat",
+    "region": "west",
+    "diet": "veg",
+    "kcal": 165,
+    "protein": 4.5,
+    "ps": 1,
+    "meal": [
+      "lunch",
+      "festival",
+      "main",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "gujarat-khandvi",
+    "name": "Khandvi",
+    "t": "khandvi khandvi",
+    "cat": "snacks",
+    "state": "gujarat",
+    "region": "west",
+    "diet": "veg",
+    "kcal": 180,
+    "protein": 6,
+    "ps": 2,
+    "meal": [
+      "snack",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "gujarat-handvo",
+    "name": "Handvo",
+    "t": "handvo handvo",
+    "cat": "snacks",
+    "state": "gujarat",
+    "region": "west",
+    "diet": "veg",
+    "kcal": 200,
+    "protein": 7,
+    "ps": 2,
+    "meal": [
+      "breakfast",
+      "snack",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "gujarat-kadhi",
+    "name": "Gujarati Kadhi",
+    "t": "gujarati kadhi kadhi",
+    "cat": "dal-legumes",
+    "state": "gujarat",
+    "region": "west",
+    "diet": "veg",
+    "kcal": 75,
+    "protein": 2.8,
+    "ps": 1,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "gujarat-fafda",
+    "name": "Fafda",
+    "t": "fafda fafda",
+    "cat": "snacks",
+    "state": "gujarat",
+    "region": "west",
+    "diet": "veg",
+    "kcal": 480,
+    "protein": 12,
+    "ps": 3,
+    "meal": [
+      "snack",
+      "festival",
+      "street"
+    ]
+  },
+  {
+    "id": "hr-bajra-khichdi",
+    "name": "Bajra Khichdi",
+    "t": "bajra khichdi bajra khichdi",
+    "cat": "rice-dishes",
+    "state": "haryana",
+    "region": "north",
+    "diet": "veg",
+    "kcal": 140,
+    "protein": 5,
+    "ps": 2,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked",
+      "budget"
+    ]
+  },
+  {
+    "id": "hr-hara-cholia",
+    "name": "Hara Cholia (green chickpea)",
+    "t": "hara cholia (green chickpea) hara cholia",
+    "cat": "vegetables",
+    "state": "haryana",
+    "region": "north",
+    "diet": "veg",
+    "kcal": 130,
+    "protein": 7,
+    "ps": 2,
+    "meal": [
+      "lunch",
+      "snack",
+      "home-cooked",
+      "budget"
+    ]
+  },
+  {
+    "id": "hr-kachri-ki-sabzi",
+    "name": "Kachri ki Sabzi",
+    "t": "kachri ki sabzi kachri",
+    "cat": "vegetables",
+    "state": "haryana",
+    "region": "north",
+    "diet": "veg",
+    "kcal": 90,
+    "protein": 2.5,
+    "ps": 1,
+    "meal": [
+      "lunch",
+      "side",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "hp-siddu",
+    "name": "Siddu (steamed stuffed bread)",
+    "t": "siddu (steamed stuffed bread) siddu",
+    "cat": "grains-breads",
+    "state": "himachal-pradesh",
+    "region": "himalayan",
+    "diet": "veg",
+    "kcal": 230,
+    "protein": 8,
+    "ps": 2,
+    "meal": [
+      "breakfast",
+      "lunch",
+      "main",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "hp-madra",
+    "name": "Chana Madra",
+    "t": "chana madra madra",
+    "cat": "dal-legumes",
+    "state": "himachal-pradesh",
+    "region": "himalayan",
+    "diet": "veg",
+    "kcal": 175,
+    "protein": 6.5,
+    "ps": 2,
+    "meal": [
+      "lunch",
+      "festival",
+      "main",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "hp-dham-rajmah",
+    "name": "Pahari Rajma (Dham)",
+    "t": "pahari rajma (dham) rajmah",
+    "cat": "dal-legumes",
+    "state": "himachal-pradesh",
+    "region": "himalayan",
+    "diet": "veg",
+    "kcal": 135,
+    "protein": 6.5,
+    "ps": 2,
+    "meal": [
+      "lunch",
+      "festival",
+      "main",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "jk-rogan-josh",
+    "name": "Rogan Josh",
+    "t": "rogan josh rogan josh",
+    "cat": "non-veg",
+    "state": "jammu-kashmir",
+    "region": "himalayan",
+    "diet": "non-veg",
+    "kcal": 230,
+    "protein": 18,
+    "ps": 5,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "festival",
+      "restaurant"
+    ]
+  },
+  {
+    "id": "jk-dum-aloo-kashmiri",
+    "name": "Kashmiri Dum Aloo",
+    "t": "kashmiri dum aloo dum aloo",
+    "cat": "vegetables",
+    "state": "jammu-kashmir",
+    "region": "himalayan",
+    "diet": "veg",
+    "kcal": 160,
+    "protein": 3,
+    "ps": 1,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "jk-haakh",
+    "name": "Haakh (collard greens)",
+    "t": "haakh (collard greens) haakh",
+    "cat": "vegetables",
+    "state": "jammu-kashmir",
+    "region": "himalayan",
+    "diet": "veg",
+    "kcal": 60,
+    "protein": 3,
+    "ps": 1,
+    "meal": [
+      "lunch",
+      "dinner",
+      "side",
+      "home-cooked",
+      "budget"
+    ]
+  },
+  {
+    "id": "jk-kahwa",
+    "name": "Kashmiri Kahwa",
+    "t": "kashmiri kahwa kahwa",
+    "cat": "drinks",
+    "state": "jammu-kashmir",
+    "region": "himalayan",
+    "diet": "veg",
+    "kcal": 25,
+    "protein": 0.5,
+    "ps": 0,
+    "meal": [
+      "drink",
+      "snack"
+    ]
+  },
+  {
+    "id": "jh-dhuska",
+    "name": "Dhuska",
+    "t": "dhuska dhuska",
+    "cat": "snacks",
+    "state": "jharkhand",
+    "region": "east",
+    "diet": "veg",
+    "kcal": 260,
+    "protein": 7,
+    "ps": 2,
+    "meal": [
+      "breakfast",
+      "snack",
+      "street",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "jh-litti-jharkhand",
+    "name": "Litti (Jharkhand style)",
+    "t": "litti (jharkhand style) litti",
+    "cat": "grains-breads",
+    "state": "jharkhand",
+    "region": "east",
+    "diet": "veg",
+    "kcal": 280,
+    "protein": 9,
+    "ps": 2,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked",
+      "budget"
+    ]
+  },
+  {
+    "id": "jh-rugra",
+    "name": "Rugra Sabzi (tribal mushroom)",
+    "t": "rugra sabzi (tribal mushroom) rugra",
+    "cat": "vegetables",
+    "state": "jharkhand",
+    "region": "east",
+    "diet": "veg",
+    "kcal": 90,
+    "protein": 4,
+    "ps": 2,
+    "meal": [
+      "lunch",
+      "side",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "ka-bisi-bele-bath",
+    "name": "Bisi Bele Bath",
+    "t": "bisi bele bath bisi bele bath",
+    "cat": "rice-dishes",
+    "state": "karnataka",
+    "region": "south",
+    "diet": "veg",
+    "kcal": 160,
+    "protein": 5,
+    "ps": 2,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "ka-ragi-mudde",
+    "name": "Ragi Mudde",
+    "t": "ragi mudde ragi mudde",
+    "cat": "grains-breads",
+    "state": "karnataka",
+    "region": "south",
+    "diet": "veg",
+    "kcal": 120,
+    "protein": 3,
+    "ps": 1,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked",
+      "budget"
+    ]
+  },
+  {
+    "id": "ka-mysore-masala-dosa",
+    "name": "Mysore Masala Dosa",
+    "t": "mysore masala dosa mysore masala dose",
+    "cat": "breakfast",
+    "state": "karnataka",
+    "region": "south",
+    "diet": "veg",
+    "kcal": 200,
+    "protein": 4,
+    "ps": 1,
+    "meal": [
+      "breakfast",
+      "dinner",
+      "restaurant"
+    ]
+  },
+  {
+    "id": "ka-neer-dosa",
+    "name": "Neer Dosa",
+    "t": "neer dosa neer dose",
+    "cat": "breakfast",
+    "state": "karnataka",
+    "region": "south",
+    "diet": "veg",
+    "kcal": 130,
+    "protein": 2.5,
+    "ps": 1,
+    "meal": [
+      "breakfast",
+      "dinner",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "ka-mysore-pak",
+    "name": "Mysore Pak",
+    "t": "mysore pak mysore pak",
+    "cat": "desserts",
+    "state": "karnataka",
+    "region": "south",
+    "diet": "veg",
+    "kcal": 520,
+    "protein": 6,
+    "ps": 1,
+    "meal": [
+      "dessert",
+      "festival"
+    ]
+  },
+  {
+    "id": "kerala-appam",
+    "name": "Appam",
+    "t": "appam appam",
+    "cat": "breakfast",
+    "state": "kerala",
+    "region": "south",
+    "diet": "veg",
+    "kcal": 140,
+    "protein": 2.5,
+    "ps": 1,
+    "meal": [
+      "breakfast",
+      "dinner",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "kerala-puttu",
+    "name": "Puttu",
+    "t": "puttu puttu",
+    "cat": "breakfast",
+    "state": "kerala",
+    "region": "south",
+    "diet": "veg",
+    "kcal": 155,
+    "protein": 3,
+    "ps": 1,
+    "meal": [
+      "breakfast",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "kerala-fish-molee",
+    "name": "Fish Molee (coconut)",
+    "t": "fish molee (coconut) meen moilee",
+    "cat": "non-veg",
+    "state": "kerala",
+    "region": "south",
+    "diet": "non-veg",
+    "kcal": 165,
+    "protein": 14,
+    "ps": 4,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "kerala-avial",
+    "name": "Avial",
+    "t": "avial avial",
+    "cat": "vegetables",
+    "state": "kerala",
+    "region": "south",
+    "diet": "veg",
+    "kcal": 120,
+    "protein": 3,
+    "ps": 1,
+    "meal": [
+      "lunch",
+      "festival",
+      "side",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "kerala-beef-fry",
+    "name": "Kerala Beef Fry",
+    "t": "kerala beef fry beef ularthiyathu",
+    "cat": "non-veg",
+    "state": "kerala",
+    "region": "south",
+    "diet": "non-veg",
+    "kcal": 250,
+    "protein": 22,
+    "ps": 6,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "restaurant"
+    ]
+  },
+  {
+    "id": "kerala-banana-chips",
+    "name": "Kerala Banana Chips",
+    "t": "kerala banana chips upperi",
+    "cat": "snacks",
+    "state": "kerala",
+    "region": "south",
+    "diet": "veg",
+    "kcal": 520,
+    "protein": 2.3,
+    "ps": 1,
+    "meal": [
+      "snack",
+      "festival"
+    ]
+  },
+  {
+    "id": "kerala-payasam",
+    "name": "Palada Payasam",
+    "t": "palada payasam payasam",
+    "cat": "desserts",
+    "state": "kerala",
+    "region": "south",
+    "diet": "veg",
+    "kcal": 165,
+    "protein": 3.5,
+    "ps": 1,
+    "meal": [
+      "dessert",
+      "festival"
+    ]
+  },
+  {
+    "id": "lad-thukpa-ladakhi",
+    "name": "Ladakhi Thukpa",
+    "t": "ladakhi thukpa thukpa",
+    "cat": "non-veg",
+    "state": "ladakh",
+    "region": "himalayan",
+    "diet": "non-veg",
+    "kcal": 100,
+    "protein": 5.5,
+    "ps": 2,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "lad-skyu",
+    "name": "Skyu (wheat pasta stew)",
+    "t": "skyu (wheat pasta stew) skyu",
+    "cat": "grains-breads",
+    "state": "ladakh",
+    "region": "himalayan",
+    "diet": "veg",
+    "kcal": 130,
+    "protein": 4,
+    "ps": 1,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "lad-butter-tea",
+    "name": "Butter Tea (Gur Gur Cha)",
+    "t": "butter tea (gur gur cha) cha",
+    "cat": "drinks",
+    "state": "ladakh",
+    "region": "himalayan",
+    "diet": "veg",
+    "kcal": 70,
+    "protein": 1.5,
+    "ps": 1,
+    "meal": [
+      "drink",
+      "breakfast"
+    ]
+  },
+  {
+    "id": "mp-poha-jalebi",
+    "name": "Indori Poha (with sev)",
+    "t": "indori poha (with sev) indori poha",
+    "cat": "breakfast",
+    "state": "madhya-pradesh",
+    "region": "central",
+    "diet": "veg",
+    "kcal": 190,
+    "protein": 3.5,
+    "ps": 1,
+    "meal": [
+      "breakfast",
+      "snack",
+      "street",
+      "budget",
+      "student"
+    ]
+  },
+  {
+    "id": "mp-bhutte-ki-kees",
+    "name": "Bhutte ki Kees",
+    "t": "bhutte ki kees bhutte ki kees",
+    "cat": "snacks",
+    "state": "madhya-pradesh",
+    "region": "central",
+    "diet": "veg",
+    "kcal": 140,
+    "protein": 4,
+    "ps": 1,
+    "meal": [
+      "snack",
+      "street",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "mp-dal-bafla",
+    "name": "Dal Bafla (bafla only)",
+    "t": "dal bafla (bafla only) bafla",
+    "cat": "grains-breads",
+    "state": "madhya-pradesh",
+    "region": "central",
+    "diet": "veg",
+    "kcal": 320,
+    "protein": 9,
+    "ps": 2,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "mh-poha-kanda",
+    "name": "Kanda Poha",
+    "t": "kanda poha kanda pohe",
+    "cat": "breakfast",
+    "state": "maharashtra",
+    "region": "west",
+    "diet": "veg",
+    "kcal": 180,
+    "protein": 3,
+    "ps": 1,
+    "meal": [
+      "breakfast",
+      "snack",
+      "home-cooked",
+      "budget",
+      "student"
+    ]
+  },
+  {
+    "id": "mh-vada-pav",
+    "name": "Vada Pav",
+    "t": "vada pav vada pav",
+    "cat": "street-food",
+    "state": "maharashtra",
+    "region": "west",
+    "diet": "veg",
+    "kcal": 290,
+    "protein": 6,
+    "ps": 2,
+    "meal": [
+      "snack",
+      "street",
+      "budget",
+      "student"
+    ]
+  },
+  {
+    "id": "mh-misal-pav",
+    "name": "Misal Pav",
+    "t": "misal pav misal pav",
+    "cat": "street-food",
+    "state": "maharashtra",
+    "region": "west",
+    "diet": "veg",
+    "kcal": 180,
+    "protein": 7,
+    "ps": 2,
+    "meal": [
+      "breakfast",
+      "lunch",
+      "street",
+      "budget"
+    ]
+  },
+  {
+    "id": "mh-pav-bhaji",
+    "name": "Pav Bhaji",
+    "t": "pav bhaji pav bhaji",
+    "cat": "street-food",
+    "state": "maharashtra",
+    "region": "west",
+    "diet": "veg",
+    "kcal": 200,
+    "protein": 4.5,
+    "ps": 1,
+    "meal": [
+      "snack",
+      "dinner",
+      "street",
+      "restaurant"
+    ]
+  },
+  {
+    "id": "mh-puran-poli",
+    "name": "Puran Poli",
+    "t": "puran poli puran poli",
+    "cat": "desserts",
+    "state": "maharashtra",
+    "region": "west",
+    "diet": "veg",
+    "kcal": 320,
+    "protein": 7,
+    "ps": 2,
+    "meal": [
+      "dessert",
+      "festival",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "mh-zunka",
+    "name": "Zunka (dry)",
+    "t": "zunka (dry) zunka",
+    "cat": "dal-legumes",
+    "state": "maharashtra",
+    "region": "west",
+    "diet": "veg",
+    "kcal": 175,
+    "protein": 7,
+    "ps": 2,
+    "meal": [
+      "lunch",
+      "dinner",
+      "home-cooked",
+      "budget"
+    ]
+  },
+  {
+    "id": "mh-modak",
+    "name": "Ukadiche Modak",
+    "t": "ukadiche modak modak",
+    "cat": "desserts",
+    "state": "maharashtra",
+    "region": "west",
+    "diet": "veg",
+    "kcal": 230,
+    "protein": 3.5,
+    "ps": 1,
+    "meal": [
+      "dessert",
+      "festival"
+    ]
+  },
+  {
+    "id": "mn-eromba",
+    "name": "Eromba",
+    "t": "eromba eromba",
+    "cat": "vegetables",
+    "state": "manipur",
+    "region": "north-east",
+    "diet": "non-veg",
+    "kcal": 90,
+    "protein": 5,
+    "ps": 2,
+    "meal": [
+      "lunch",
+      "side",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "mn-singju",
+    "name": "Singju (salad)",
+    "t": "singju (salad) singju",
+    "cat": "snacks",
+    "state": "manipur",
+    "region": "north-east",
+    "diet": "veg",
+    "kcal": 110,
+    "protein": 4,
+    "ps": 1,
+    "meal": [
+      "snack",
+      "side",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "mn-chamthong",
+    "name": "Chamthong (Kangshoi stew)",
+    "t": "chamthong (kangshoi stew) kangshoi",
+    "cat": "vegetables",
+    "state": "manipur",
+    "region": "north-east",
+    "diet": "non-veg",
+    "kcal": 70,
+    "protein": 4,
+    "ps": 2,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "ml-jadoh",
+    "name": "Jadoh (Khasi rice & pork)",
+    "t": "jadoh (khasi rice & pork) jadoh",
+    "cat": "rice-dishes",
+    "state": "meghalaya",
+    "region": "north-east",
+    "diet": "non-veg",
+    "kcal": 200,
+    "protein": 8,
+    "ps": 2,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "ml-doh-khlieh",
+    "name": "Doh Khlieh (pork salad)",
+    "t": "doh khlieh (pork salad) doh khlieh",
+    "cat": "non-veg",
+    "state": "meghalaya",
+    "region": "north-east",
+    "diet": "non-veg",
+    "kcal": 215,
+    "protein": 17,
+    "ps": 5,
+    "meal": [
+      "lunch",
+      "snack",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "ml-tungrymbai",
+    "name": "Tungrymbai (fermented soybean)",
+    "t": "tungrymbai (fermented soybean) tungrymbai",
+    "cat": "high-protein",
+    "state": "meghalaya",
+    "region": "north-east",
+    "diet": "veg",
+    "kcal": 180,
+    "protein": 14,
+    "ps": 4,
+    "meal": [
+      "lunch",
+      "side",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "mz-bai",
+    "name": "Bai (mixed veg stew)",
+    "t": "bai (mixed veg stew) bai",
+    "cat": "vegetables",
+    "state": "mizoram",
+    "region": "north-east",
+    "diet": "veg",
+    "kcal": 65,
+    "protein": 3.5,
+    "ps": 2,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "mz-vawksa-rep",
+    "name": "Vawksa Rep (smoked pork)",
+    "t": "vawksa rep (smoked pork) vawksa rep",
+    "cat": "non-veg",
+    "state": "mizoram",
+    "region": "north-east",
+    "diet": "non-veg",
+    "kcal": 270,
+    "protein": 19,
+    "ps": 5,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "mz-koat-pitha",
+    "name": "Koat Pitha",
+    "t": "koat pitha koat pitha",
+    "cat": "snacks",
+    "state": "mizoram",
+    "region": "north-east",
+    "diet": "veg",
+    "kcal": 300,
+    "protein": 4,
+    "ps": 1,
+    "meal": [
+      "snack",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "nl-smoked-pork-akhuni",
+    "name": "Smoked Pork with Axone (akhuni)",
+    "t": "smoked pork with axone (akhuni) smoked pork with axone",
+    "cat": "non-veg",
+    "state": "nagaland",
+    "region": "north-east",
+    "diet": "non-veg",
+    "kcal": 260,
+    "protein": 17,
+    "ps": 4,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "nl-galho",
+    "name": "Galho (Naga khichdi)",
+    "t": "galho (naga khichdi) galho",
+    "cat": "rice-dishes",
+    "state": "nagaland",
+    "region": "north-east",
+    "diet": "non-veg",
+    "kcal": 145,
+    "protein": 6,
+    "ps": 2,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "nl-bamboo-steamed-fish",
+    "name": "Bamboo Steamed Fish",
+    "t": "bamboo steamed fish bamboo steamed fish",
+    "cat": "non-veg",
+    "state": "nagaland",
+    "region": "north-east",
+    "diet": "non-veg",
+    "kcal": 130,
+    "protein": 20,
+    "ps": 6,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "post-workout"
+    ]
+  },
+  {
+    "id": "od-dalma",
+    "name": "Dalma",
+    "t": "dalma dalma",
+    "cat": "dal-legumes",
+    "state": "odisha",
+    "region": "east",
+    "diet": "veg",
+    "kcal": 110,
+    "protein": 5.5,
+    "ps": 2,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked",
+      "budget"
+    ]
+  },
+  {
+    "id": "od-pakhala-bhata",
+    "name": "Pakhala Bhata (fermented rice)",
+    "t": "pakhala bhata (fermented rice) pakhala",
+    "cat": "rice-dishes",
+    "state": "odisha",
+    "region": "east",
+    "diet": "veg",
+    "kcal": 90,
+    "protein": 2,
+    "ps": 1,
+    "meal": [
+      "lunch",
+      "home-cooked",
+      "budget"
+    ]
+  },
+  {
+    "id": "od-chhena-poda",
+    "name": "Chhena Poda",
+    "t": "chhena poda chhena poda",
+    "cat": "desserts",
+    "state": "odisha",
+    "region": "east",
+    "diet": "veg",
+    "kcal": 290,
+    "protein": 11,
+    "ps": 3,
+    "meal": [
+      "dessert",
+      "festival"
+    ]
+  },
+  {
+    "id": "od-macha-besara",
+    "name": "Macha Besara (fish in mustard)",
+    "t": "macha besara (fish in mustard) macha besara",
+    "cat": "non-veg",
+    "state": "odisha",
+    "region": "east",
+    "diet": "non-veg",
+    "kcal": 160,
+    "protein": 14,
+    "ps": 4,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "pi-cooked-white-rice",
+    "name": "Cooked White Rice",
+    "t": "cooked white rice plain rice steamed rice bhaat chawal bhat sadham annam",
+    "cat": "rice-dishes",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 130,
+    "protein": 2.7,
+    "ps": 1,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "pi-roti-chapati",
+    "name": "Roti / Chapati (whole wheat)",
+    "t": "roti / chapati (whole wheat) chapati phulka wheat roti roti ruti chapathi",
+    "cat": "grains-breads",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 297,
+    "protein": 9.6,
+    "ps": 2,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "pi-tawa-paratha",
+    "name": "Plain Paratha (tawa)",
+    "t": "plain paratha (tawa) paratha",
+    "cat": "grains-breads",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 330,
+    "protein": 7.5,
+    "ps": 2,
+    "meal": [
+      "breakfast",
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "pi-toor-dal",
+    "name": "Toor Dal (arhar, cooked)",
+    "t": "toor dal (arhar, cooked) arhar dal pigeon pea dal tuvar dal arhar dal thuvaram paruppu kandi pappu",
+    "cat": "dal-legumes",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 121,
+    "protein": 6.8,
+    "ps": 2,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked",
+      "budget"
+    ]
+  },
+  {
+    "id": "pi-moong-dal",
+    "name": "Moong Dal (yellow, cooked)",
+    "t": "moong dal (yellow, cooked) yellow moong dal mung dal moong dal",
+    "cat": "dal-legumes",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 105,
+    "protein": 7,
+    "ps": 2,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked",
+      "budget"
+    ]
+  },
+  {
+    "id": "pi-chana-dal",
+    "name": "Chana Dal (cooked)",
+    "t": "chana dal (cooked) chana dal",
+    "cat": "dal-legumes",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 130,
+    "protein": 7.5,
+    "ps": 2,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked",
+      "budget"
+    ]
+  },
+  {
+    "id": "pi-rajma-curry",
+    "name": "Rajma (kidney bean curry)",
+    "t": "rajma (kidney bean curry) kidney bean curry rajma",
+    "cat": "dal-legumes",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 140,
+    "protein": 6.5,
+    "ps": 2,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked",
+      "budget"
+    ]
+  },
+  {
+    "id": "pi-chole-curry",
+    "name": "Chole (chickpea curry)",
+    "t": "chole (chickpea curry) chana masala chickpea curry chole chhole",
+    "cat": "dal-legumes",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 160,
+    "protein": 7,
+    "ps": 2,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked",
+      "budget",
+      "restaurant"
+    ]
+  },
+  {
+    "id": "pi-paneer-raw",
+    "name": "Paneer (raw)",
+    "t": "paneer (raw) cottage cheese indian cheese paneer",
+    "cat": "high-protein",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 296,
+    "protein": 18.3,
+    "ps": 5,
+    "meal": [
+      "snack",
+      "main",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "pi-paneer-butter-masala",
+    "name": "Paneer Butter Masala",
+    "t": "paneer butter masala paneer makhani paneer butter masala",
+    "cat": "paneer-dairy-veg",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 240,
+    "protein": 9,
+    "ps": 2,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "restaurant"
+    ]
+  },
+  {
+    "id": "pi-aloo-gobi",
+    "name": "Aloo Gobi (dry)",
+    "t": "aloo gobi (dry) aloo gobi",
+    "cat": "vegetables",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 110,
+    "protein": 2.8,
+    "ps": 1,
+    "meal": [
+      "lunch",
+      "dinner",
+      "side",
+      "home-cooked",
+      "budget"
+    ]
+  },
+  {
+    "id": "pi-aloo-jeera",
+    "name": "Jeera Aloo",
+    "t": "jeera aloo jeera aloo",
+    "cat": "vegetables",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 120,
+    "protein": 2.2,
+    "ps": 1,
+    "meal": [
+      "lunch",
+      "dinner",
+      "side",
+      "home-cooked",
+      "budget"
+    ]
+  },
+  {
+    "id": "pi-mixed-veg-curry",
+    "name": "Mixed Vegetable Curry",
+    "t": "mixed vegetable curry mix veg",
+    "cat": "vegetables",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 95,
+    "protein": 2.5,
+    "ps": 1,
+    "meal": [
+      "lunch",
+      "dinner",
+      "side",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "pi-palak-paneer",
+    "name": "Palak Paneer",
+    "t": "palak paneer palak paneer",
+    "cat": "paneer-dairy-veg",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 150,
+    "protein": 7,
+    "ps": 2,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "restaurant",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "pi-curd-dahi",
+    "name": "Curd / Dahi (plain)",
+    "t": "curd / dahi (plain) yogurt plain yogurt dahi doi thayir perugu",
+    "cat": "staples-basics",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 60,
+    "protein": 3.1,
+    "ps": 1,
+    "meal": [
+      "lunch",
+      "dinner",
+      "side",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "pi-milk-toned",
+    "name": "Toned Milk (cow, boiled)",
+    "t": "toned milk (cow, boiled) milk doodh dudh paal",
+    "cat": "staples-basics",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 58,
+    "protein": 3.1,
+    "ps": 1,
+    "meal": [
+      "breakfast",
+      "drink",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "pi-boiled-egg",
+    "name": "Boiled Egg (whole)",
+    "t": "boiled egg (whole) egg anda uble ande sheddho dim",
+    "cat": "high-protein",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "egg",
+    "kcal": 155,
+    "protein": 13,
+    "ps": 4,
+    "meal": [
+      "breakfast",
+      "snack",
+      "post-workout",
+      "budget",
+      "student"
+    ]
+  },
+  {
+    "id": "pi-egg-bhurji",
+    "name": "Egg Bhurji",
+    "t": "egg bhurji scrambled egg masala anda bhurji",
+    "cat": "non-veg",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "egg",
+    "kcal": 190,
+    "protein": 12,
+    "ps": 3,
+    "meal": [
+      "breakfast",
+      "dinner",
+      "snack",
+      "hostel",
+      "student",
+      "budget"
+    ]
+  },
+  {
+    "id": "pi-chicken-curry",
+    "name": "Chicken Curry (home style)",
+    "t": "chicken curry (home style) chicken curry",
+    "cat": "non-veg",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "non-veg",
+    "kcal": 180,
+    "protein": 16,
+    "ps": 5,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "pi-tandoori-chicken",
+    "name": "Tandoori Chicken",
+    "t": "tandoori chicken tandoori chicken",
+    "cat": "non-veg",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "non-veg",
+    "kcal": 175,
+    "protein": 25,
+    "ps": 7,
+    "meal": [
+      "dinner",
+      "snack",
+      "restaurant",
+      "post-workout"
+    ]
+  },
+  {
+    "id": "pi-grilled-chicken-breast",
+    "name": "Grilled Chicken Breast (plain)",
+    "t": "grilled chicken breast (plain) chicken breast",
+    "cat": "high-protein",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "non-veg",
+    "kcal": 165,
+    "protein": 31,
+    "ps": 9,
+    "meal": [
+      "lunch",
+      "dinner",
+      "post-workout"
+    ]
+  },
+  {
+    "id": "pi-soya-chunks-cooked",
+    "name": "Soya Chunks (cooked curry)",
+    "t": "soya chunks (cooked curry) nutrela meal maker soya nuggets soya badi",
+    "cat": "high-protein",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 170,
+    "protein": 18,
+    "ps": 5,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "budget",
+      "post-workout",
+      "hostel"
+    ]
+  },
+  {
+    "id": "pi-sprouts-salad",
+    "name": "Moong Sprouts Salad",
+    "t": "moong sprouts salad ankurit moong",
+    "cat": "high-protein",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 100,
+    "protein": 8,
+    "ps": 3,
+    "meal": [
+      "breakfast",
+      "snack",
+      "weight-loss"
+    ]
+  },
+  {
+    "id": "pi-plain-dosa",
+    "name": "Plain Dosa",
+    "t": "plain dosa dosai dosa dose",
+    "cat": "breakfast",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 168,
+    "protein": 3.9,
+    "ps": 1,
+    "meal": [
+      "breakfast",
+      "dinner",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "pi-idli",
+    "name": "Idli (steamed)",
+    "t": "idli (steamed) idli idli idli",
+    "cat": "breakfast",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 130,
+    "protein": 4,
+    "ps": 1,
+    "meal": [
+      "breakfast",
+      "dinner",
+      "home-cooked",
+      "weight-loss"
+    ]
+  },
+  {
+    "id": "pi-poha",
+    "name": "Poha (flattened rice)",
+    "t": "poha (flattened rice) poha pohe",
+    "cat": "breakfast",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 180,
+    "protein": 3,
+    "ps": 1,
+    "meal": [
+      "breakfast",
+      "snack",
+      "home-cooked",
+      "budget",
+      "student"
+    ]
+  },
+  {
+    "id": "pi-upma",
+    "name": "Rava Upma",
+    "t": "rava upma upma uppuma",
+    "cat": "breakfast",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 170,
+    "protein": 4,
+    "ps": 1,
+    "meal": [
+      "breakfast",
+      "home-cooked",
+      "budget",
+      "student"
+    ]
+  },
+  {
+    "id": "pi-veg-pulao",
+    "name": "Vegetable Pulao",
+    "t": "vegetable pulao veg pulao",
+    "cat": "rice-dishes",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 165,
+    "protein": 3.2,
+    "ps": 1,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "pi-chicken-biryani",
+    "name": "Chicken Biryani",
+    "t": "chicken biryani chicken biryani",
+    "cat": "rice-dishes",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "non-veg",
+    "kcal": 190,
+    "protein": 9,
+    "ps": 3,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "restaurant"
+    ]
+  },
+  {
+    "id": "pi-khichdi",
+    "name": "Moong Dal Khichdi",
+    "t": "moong dal khichdi khichdi",
+    "cat": "rice-dishes",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 120,
+    "protein": 4.5,
+    "ps": 2,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked",
+      "budget"
+    ]
+  },
+  {
+    "id": "pi-masala-chai",
+    "name": "Masala Chai (with milk & sugar)",
+    "t": "masala chai (with milk & sugar) tea milk tea chai cha",
+    "cat": "drinks",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 55,
+    "protein": 1.5,
+    "ps": 1,
+    "meal": [
+      "breakfast",
+      "drink",
+      "snack"
+    ]
+  },
+  {
+    "id": "pi-sweet-lassi",
+    "name": "Sweet Lassi",
+    "t": "sweet lassi lassi lassi",
+    "cat": "drinks",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 90,
+    "protein": 2.5,
+    "ps": 1,
+    "meal": [
+      "drink",
+      "snack"
+    ]
+  },
+  {
+    "id": "pi-gulab-jamun",
+    "name": "Gulab Jamun",
+    "t": "gulab jamun gulab jamun",
+    "cat": "desserts",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 300,
+    "protein": 4,
+    "ps": 1,
+    "meal": [
+      "dessert",
+      "festival",
+      "restaurant"
+    ]
+  },
+  {
+    "id": "pi-banana",
+    "name": "Banana (ripe)",
+    "t": "banana (ripe) kela vazhaipazham",
+    "cat": "staples-basics",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 89,
+    "protein": 1.1,
+    "ps": 0,
+    "meal": [
+      "breakfast",
+      "snack",
+      "post-workout",
+      "budget"
+    ]
+  },
+  {
+    "id": "pi-peanuts-roasted",
+    "name": "Roasted Peanuts",
+    "t": "roasted peanuts moongphali shengdana",
+    "cat": "snacks",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 567,
+    "protein": 26,
+    "ps": 6,
+    "meal": [
+      "snack",
+      "budget",
+      "student"
+    ]
+  },
+  {
+    "id": "pi-samosa",
+    "name": "Samosa (aloo)",
+    "t": "samosa (aloo) samosa",
+    "cat": "snacks",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 308,
+    "protein": 5,
+    "ps": 1,
+    "meal": [
+      "snack",
+      "street",
+      "budget"
+    ]
+  },
+  {
+    "id": "punjab-dal-makhani",
+    "name": "Dal Makhani",
+    "t": "dal makhani dal makhani dal makhani",
+    "cat": "dal-legumes",
+    "state": "punjab",
+    "region": "north",
+    "diet": "veg",
+    "kcal": 180,
+    "protein": 6.5,
+    "ps": 2,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "restaurant",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "punjab-sarson-ka-saag",
+    "name": "Sarson Ka Saag",
+    "t": "sarson ka saag sarson da saag",
+    "cat": "vegetables",
+    "state": "punjab",
+    "region": "north",
+    "diet": "veg",
+    "kcal": 120,
+    "protein": 4,
+    "ps": 1,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "festival",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "punjab-makki-di-roti",
+    "name": "Makki di Roti",
+    "t": "makki di roti makki di roti",
+    "cat": "grains-breads",
+    "state": "punjab",
+    "region": "north",
+    "diet": "veg",
+    "kcal": 290,
+    "protein": 7,
+    "ps": 2,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "festival",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "punjab-amritsari-kulcha",
+    "name": "Amritsari Aloo Kulcha",
+    "t": "amritsari aloo kulcha kulcha",
+    "cat": "grains-breads",
+    "state": "punjab",
+    "region": "north",
+    "diet": "veg",
+    "kcal": 290,
+    "protein": 7,
+    "ps": 2,
+    "meal": [
+      "breakfast",
+      "lunch",
+      "restaurant",
+      "street"
+    ]
+  },
+  {
+    "id": "punjab-butter-chicken",
+    "name": "Butter Chicken (Murgh Makhani)",
+    "t": "butter chicken (murgh makhani) butter chicken",
+    "cat": "non-veg",
+    "state": "punjab",
+    "region": "north",
+    "diet": "non-veg",
+    "kcal": 220,
+    "protein": 14,
+    "ps": 4,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "restaurant"
+    ]
+  },
+  {
+    "id": "punjab-amritsari-fish",
+    "name": "Amritsari Fish Fry",
+    "t": "amritsari fish fry amritsari macchi",
+    "cat": "non-veg",
+    "state": "punjab",
+    "region": "north",
+    "diet": "non-veg",
+    "kcal": 230,
+    "protein": 18,
+    "ps": 5,
+    "meal": [
+      "snack",
+      "dinner",
+      "restaurant",
+      "street"
+    ]
+  },
+  {
+    "id": "punjab-chole-bhature",
+    "name": "Chole Bhature",
+    "t": "chole bhature chole bhature",
+    "cat": "street-food",
+    "state": "punjab",
+    "region": "north",
+    "diet": "veg",
+    "kcal": 290,
+    "protein": 7,
+    "ps": 2,
+    "meal": [
+      "breakfast",
+      "lunch",
+      "street",
+      "restaurant"
+    ]
+  },
+  {
+    "id": "punjab-lassi-namkeen",
+    "name": "Punjabi Salted Lassi",
+    "t": "punjabi salted lassi namkeen lassi",
+    "cat": "drinks",
+    "state": "punjab",
+    "region": "north",
+    "diet": "veg",
+    "kcal": 45,
+    "protein": 2.5,
+    "ps": 1,
+    "meal": [
+      "drink",
+      "snack"
+    ]
+  },
+  {
+    "id": "raj-dal-baati",
+    "name": "Dal Baati (baati only)",
+    "t": "dal baati (baati only) baati baati",
+    "cat": "grains-breads",
+    "state": "rajasthan",
+    "region": "west",
+    "diet": "veg",
+    "kcal": 330,
+    "protein": 9,
+    "ps": 2,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "festival",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "raj-gatte-ki-sabzi",
+    "name": "Gatte ki Sabzi",
+    "t": "gatte ki sabzi gatte ki sabzi",
+    "cat": "dal-legumes",
+    "state": "rajasthan",
+    "region": "west",
+    "diet": "veg",
+    "kcal": 165,
+    "protein": 6,
+    "ps": 2,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "raj-ker-sangri",
+    "name": "Ker Sangri",
+    "t": "ker sangri ker sangri",
+    "cat": "vegetables",
+    "state": "rajasthan",
+    "region": "west",
+    "diet": "veg",
+    "kcal": 170,
+    "protein": 5,
+    "ps": 1,
+    "meal": [
+      "lunch",
+      "side",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "raj-laal-maas",
+    "name": "Laal Maas",
+    "t": "laal maas laal maas",
+    "cat": "non-veg",
+    "state": "rajasthan",
+    "region": "west",
+    "diet": "non-veg",
+    "kcal": 240,
+    "protein": 19,
+    "ps": 5,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "restaurant",
+      "festival"
+    ]
+  },
+  {
+    "id": "raj-pyaaz-kachori",
+    "name": "Pyaaz Kachori",
+    "t": "pyaaz kachori pyaaz kachori",
+    "cat": "snacks",
+    "state": "rajasthan",
+    "region": "west",
+    "diet": "veg",
+    "kcal": 400,
+    "protein": 8,
+    "ps": 2,
+    "meal": [
+      "snack",
+      "street",
+      "breakfast"
+    ]
+  },
+  {
+    "id": "raj-ghevar",
+    "name": "Ghevar",
+    "t": "ghevar ghevar",
+    "cat": "desserts",
+    "state": "rajasthan",
+    "region": "west",
+    "diet": "veg",
+    "kcal": 430,
+    "protein": 5,
+    "ps": 1,
+    "meal": [
+      "dessert",
+      "festival"
+    ]
+  },
+  {
+    "id": "sk-veg-momo",
+    "name": "Veg Momo (steamed)",
+    "t": "veg momo (steamed) momo",
+    "cat": "snacks",
+    "state": "sikkim",
+    "region": "north-east",
+    "diet": "veg",
+    "kcal": 160,
+    "protein": 5,
+    "ps": 2,
+    "meal": [
+      "snack",
+      "street",
+      "student",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "sk-chicken-momo",
+    "name": "Chicken Momo (steamed)",
+    "t": "chicken momo (steamed) chicken momo",
+    "cat": "snacks",
+    "state": "sikkim",
+    "region": "north-east",
+    "diet": "non-veg",
+    "kcal": 185,
+    "protein": 10,
+    "ps": 3,
+    "meal": [
+      "snack",
+      "street",
+      "student",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "sk-gundruk-soup",
+    "name": "Gundruk Soup",
+    "t": "gundruk soup gundruk",
+    "cat": "vegetables",
+    "state": "sikkim",
+    "region": "north-east",
+    "diet": "veg",
+    "kcal": 45,
+    "protein": 3,
+    "ps": 2,
+    "meal": [
+      "lunch",
+      "side",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "sk-phagshapa",
+    "name": "Phagshapa (pork & radish)",
+    "t": "phagshapa (pork & radish) phagshapa",
+    "cat": "non-veg",
+    "state": "sikkim",
+    "region": "north-east",
+    "diet": "non-veg",
+    "kcal": 230,
+    "protein": 14,
+    "ps": 4,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "tn-sambar",
+    "name": "Sambar",
+    "t": "sambar sambar",
+    "cat": "dal-legumes",
+    "state": "tamil-nadu",
+    "region": "south",
+    "diet": "veg",
+    "kcal": 85,
+    "protein": 3.5,
+    "ps": 1,
+    "meal": [
+      "breakfast",
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked",
+      "budget"
+    ]
+  },
+  {
+    "id": "tn-rasam",
+    "name": "Rasam",
+    "t": "rasam rasam",
+    "cat": "dal-legumes",
+    "state": "tamil-nadu",
+    "region": "south",
+    "diet": "veg",
+    "kcal": 40,
+    "protein": 1.5,
+    "ps": 1,
+    "meal": [
+      "lunch",
+      "dinner",
+      "side",
+      "home-cooked",
+      "budget"
+    ]
+  },
+  {
+    "id": "tn-masala-dosa",
+    "name": "Masala Dosa",
+    "t": "masala dosa masala dosai",
+    "cat": "breakfast",
+    "state": "tamil-nadu",
+    "region": "south",
+    "diet": "veg",
+    "kcal": 185,
+    "protein": 4,
+    "ps": 1,
+    "meal": [
+      "breakfast",
+      "dinner",
+      "restaurant",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "tn-medu-vada",
+    "name": "Medu Vada",
+    "t": "medu vada medu vadai",
+    "cat": "breakfast",
+    "state": "tamil-nadu",
+    "region": "south",
+    "diet": "veg",
+    "kcal": 250,
+    "protein": 7,
+    "ps": 2,
+    "meal": [
+      "breakfast",
+      "snack",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "tn-pongal",
+    "name": "Ven Pongal",
+    "t": "ven pongal pongal",
+    "cat": "breakfast",
+    "state": "tamil-nadu",
+    "region": "south",
+    "diet": "veg",
+    "kcal": 170,
+    "protein": 5,
+    "ps": 1,
+    "meal": [
+      "breakfast",
+      "home-cooked",
+      "festival"
+    ]
+  },
+  {
+    "id": "tn-curd-rice",
+    "name": "Curd Rice (Thayir Sadham)",
+    "t": "curd rice (thayir sadham) thayir sadham",
+    "cat": "rice-dishes",
+    "state": "tamil-nadu",
+    "region": "south",
+    "diet": "veg",
+    "kcal": 110,
+    "protein": 3,
+    "ps": 1,
+    "meal": [
+      "lunch",
+      "dinner",
+      "home-cooked",
+      "budget"
+    ]
+  },
+  {
+    "id": "tn-chettinad-chicken",
+    "name": "Chettinad Chicken",
+    "t": "chettinad chicken chettinad kozhi",
+    "cat": "non-veg",
+    "state": "tamil-nadu",
+    "region": "south",
+    "diet": "non-veg",
+    "kcal": 200,
+    "protein": 17,
+    "ps": 5,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "restaurant"
+    ]
+  },
+  {
+    "id": "tn-filter-coffee",
+    "name": "Filter Coffee",
+    "t": "filter coffee kaapi",
+    "cat": "drinks",
+    "state": "tamil-nadu",
+    "region": "south",
+    "diet": "veg",
+    "kcal": 60,
+    "protein": 1.8,
+    "ps": 1,
+    "meal": [
+      "breakfast",
+      "drink",
+      "snack"
+    ]
+  },
+  {
+    "id": "ts-hyderabadi-biryani",
+    "name": "Hyderabadi Mutton Biryani",
+    "t": "hyderabadi mutton biryani hyderabadi biryani",
+    "cat": "rice-dishes",
+    "state": "telangana",
+    "region": "south",
+    "diet": "non-veg",
+    "kcal": 210,
+    "protein": 10,
+    "ps": 3,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "restaurant"
+    ]
+  },
+  {
+    "id": "ts-haleem",
+    "name": "Haleem",
+    "t": "haleem haleem",
+    "cat": "non-veg",
+    "state": "telangana",
+    "region": "south",
+    "diet": "non-veg",
+    "kcal": 230,
+    "protein": 14,
+    "ps": 4,
+    "meal": [
+      "dinner",
+      "festival",
+      "restaurant"
+    ]
+  },
+  {
+    "id": "ts-sarva-pindi",
+    "name": "Sarva Pindi",
+    "t": "sarva pindi sarva pindi",
+    "cat": "snacks",
+    "state": "telangana",
+    "region": "south",
+    "diet": "veg",
+    "kcal": 250,
+    "protein": 7,
+    "ps": 2,
+    "meal": [
+      "breakfast",
+      "snack",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "ts-double-ka-meetha",
+    "name": "Double ka Meetha",
+    "t": "double ka meetha double ka meetha",
+    "cat": "desserts",
+    "state": "telangana",
+    "region": "south",
+    "diet": "veg",
+    "kcal": 320,
+    "protein": 6,
+    "ps": 2,
+    "meal": [
+      "dessert",
+      "festival"
+    ]
+  },
+  {
+    "id": "tr-mui-borok-wahan-mosdeng",
+    "name": "Wahan Mosdeng (pork salad)",
+    "t": "wahan mosdeng (pork salad) wahan mosdeng",
+    "cat": "non-veg",
+    "state": "tripura",
+    "region": "north-east",
+    "diet": "non-veg",
+    "kcal": 200,
+    "protein": 16,
+    "ps": 4,
+    "meal": [
+      "lunch",
+      "side",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "tr-chakhwi",
+    "name": "Chakhwi (bamboo shoot stew)",
+    "t": "chakhwi (bamboo shoot stew) chakhwi",
+    "cat": "vegetables",
+    "state": "tripura",
+    "region": "north-east",
+    "diet": "non-veg",
+    "kcal": 80,
+    "protein": 4.5,
+    "ps": 2,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "tr-mui-borok-bangui-rice",
+    "name": "Bangui Rice",
+    "t": "bangui rice bangui",
+    "cat": "rice-dishes",
+    "state": "tripura",
+    "region": "north-east",
+    "diet": "veg",
+    "kcal": 135,
+    "protein": 2.8,
+    "ps": 1,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "up-tehri",
+    "name": "Tehri (veg rice)",
+    "t": "tehri (veg rice) tehri",
+    "cat": "rice-dishes",
+    "state": "uttar-pradesh",
+    "region": "north",
+    "diet": "veg",
+    "kcal": 160,
+    "protein": 3.5,
+    "ps": 1,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked",
+      "budget"
+    ]
+  },
+  {
+    "id": "up-bedmi-puri",
+    "name": "Bedmi Puri",
+    "t": "bedmi puri bedmi puri",
+    "cat": "street-food",
+    "state": "uttar-pradesh",
+    "region": "north",
+    "diet": "veg",
+    "kcal": 360,
+    "protein": 9,
+    "ps": 2,
+    "meal": [
+      "breakfast",
+      "street",
+      "snack"
+    ]
+  },
+  {
+    "id": "up-galouti-kebab",
+    "name": "Galouti Kebab",
+    "t": "galouti kebab galouti kebab",
+    "cat": "non-veg",
+    "state": "uttar-pradesh",
+    "region": "north",
+    "diet": "non-veg",
+    "kcal": 250,
+    "protein": 18,
+    "ps": 5,
+    "meal": [
+      "dinner",
+      "snack",
+      "restaurant"
+    ]
+  },
+  {
+    "id": "up-aloo-tamatar-sabzi",
+    "name": "Aloo Tamatar ki Sabzi",
+    "t": "aloo tamatar ki sabzi aloo tamatar",
+    "cat": "vegetables",
+    "state": "uttar-pradesh",
+    "region": "north",
+    "diet": "veg",
+    "kcal": 95,
+    "protein": 2,
+    "ps": 1,
+    "meal": [
+      "breakfast",
+      "lunch",
+      "dinner",
+      "side",
+      "home-cooked",
+      "budget"
+    ]
+  },
+  {
+    "id": "up-peda",
+    "name": "Mathura Peda",
+    "t": "mathura peda peda",
+    "cat": "desserts",
+    "state": "uttar-pradesh",
+    "region": "north",
+    "diet": "veg",
+    "kcal": 380,
+    "protein": 9,
+    "ps": 2,
+    "meal": [
+      "dessert",
+      "festival"
+    ]
+  },
+  {
+    "id": "uk-kafuli",
+    "name": "Kafuli (greens curry)",
+    "t": "kafuli (greens curry) kafuli",
+    "cat": "vegetables",
+    "state": "uttarakhand",
+    "region": "himalayan",
+    "diet": "veg",
+    "kcal": 75,
+    "protein": 3.5,
+    "ps": 1,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "uk-aloo-ke-gutke",
+    "name": "Aloo ke Gutke",
+    "t": "aloo ke gutke aloo ke gutke",
+    "cat": "vegetables",
+    "state": "uttarakhand",
+    "region": "himalayan",
+    "diet": "veg",
+    "kcal": 130,
+    "protein": 2.2,
+    "ps": 1,
+    "meal": [
+      "lunch",
+      "snack",
+      "side",
+      "home-cooked",
+      "budget"
+    ]
+  },
+  {
+    "id": "uk-bhatt-ki-churkani",
+    "name": "Bhatt ki Churkani (black soybean)",
+    "t": "bhatt ki churkani (black soybean) bhatt ki churkani",
+    "cat": "dal-legumes",
+    "state": "uttarakhand",
+    "region": "himalayan",
+    "diet": "veg",
+    "kcal": 150,
+    "protein": 9,
+    "ps": 3,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "wb-macher-jhol",
+    "name": "Macher Jhol (fish curry)",
+    "t": "macher jhol (fish curry) bengali fish curry rohu curry macher jhol",
+    "cat": "non-veg",
+    "state": "west-bengal",
+    "region": "east",
+    "diet": "non-veg",
+    "kcal": 150,
+    "protein": 14,
+    "ps": 4,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "wb-shorshe-ilish",
+    "name": "Shorshe Ilish (hilsa in mustard)",
+    "t": "shorshe ilish (hilsa in mustard) shorshe ilish",
+    "cat": "non-veg",
+    "state": "west-bengal",
+    "region": "east",
+    "diet": "non-veg",
+    "kcal": 215,
+    "protein": 13,
+    "ps": 4,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "festival",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "wb-kosha-mangsho",
+    "name": "Kosha Mangsho (mutton)",
+    "t": "kosha mangsho (mutton) kosha mangsho",
+    "cat": "non-veg",
+    "state": "west-bengal",
+    "region": "east",
+    "diet": "non-veg",
+    "kcal": 235,
+    "protein": 18,
+    "ps": 5,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "festival",
+      "restaurant"
+    ]
+  },
+  {
+    "id": "wb-aloo-posto",
+    "name": "Aloo Posto",
+    "t": "aloo posto aloo posto",
+    "cat": "vegetables",
+    "state": "west-bengal",
+    "region": "east",
+    "diet": "veg",
+    "kcal": 145,
+    "protein": 3.5,
+    "ps": 1,
+    "meal": [
+      "lunch",
+      "dinner",
+      "side",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "wb-shukto",
+    "name": "Shukto (mixed veg)",
+    "t": "shukto (mixed veg) shukto",
+    "cat": "vegetables",
+    "state": "west-bengal",
+    "region": "east",
+    "diet": "veg",
+    "kcal": 95,
+    "protein": 2.5,
+    "ps": 1,
+    "meal": [
+      "lunch",
+      "side",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "wb-cholar-dal",
+    "name": "Cholar Dal",
+    "t": "cholar dal cholar dal",
+    "cat": "dal-legumes",
+    "state": "west-bengal",
+    "region": "east",
+    "diet": "veg",
+    "kcal": 150,
+    "protein": 7,
+    "ps": 2,
+    "meal": [
+      "lunch",
+      "festival",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "wb-luchi",
+    "name": "Luchi (fried bread)",
+    "t": "luchi (fried bread) luchi",
+    "cat": "grains-breads",
+    "state": "west-bengal",
+    "region": "east",
+    "diet": "veg",
+    "kcal": 360,
+    "protein": 7,
+    "ps": 2,
+    "meal": [
+      "breakfast",
+      "festival",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "wb-mishti-doi",
+    "name": "Mishti Doi (sweet yogurt)",
+    "t": "mishti doi (sweet yogurt) mishti doi",
+    "cat": "desserts",
+    "state": "west-bengal",
+    "region": "east",
+    "diet": "veg",
+    "kcal": 145,
+    "protein": 4,
+    "ps": 1,
+    "meal": [
+      "dessert",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "wb-rosogolla",
+    "name": "Rosogolla",
+    "t": "rosogolla rasgulla rosogolla",
+    "cat": "desserts",
+    "state": "west-bengal",
+    "region": "east",
+    "diet": "veg",
+    "kcal": 186,
+    "protein": 4,
+    "ps": 1,
+    "meal": [
+      "dessert",
+      "festival"
+    ]
+  },
+  {
+    "id": "wb-sandesh",
+    "name": "Sandesh",
+    "t": "sandesh sandesh",
+    "cat": "desserts",
+    "state": "west-bengal",
+    "region": "east",
+    "diet": "veg",
+    "kcal": 300,
+    "protein": 9,
+    "ps": 2,
+    "meal": [
+      "dessert",
+      "festival"
+    ]
+  },
+  {
+    "id": "wb-kathi-roll",
+    "name": "Egg Kathi Roll",
+    "t": "egg kathi roll kathi roll",
+    "cat": "street-food",
+    "state": "west-bengal",
+    "region": "east",
+    "diet": "egg",
+    "kcal": 245,
+    "protein": 9,
+    "ps": 2,
+    "meal": [
+      "snack",
+      "street",
+      "lunch",
+      "student"
+    ]
+  },
+  {
+    "id": "pi-black-coffee",
+    "name": "Black Coffee (no sugar)",
+    "t": "black coffee (no sugar) black coffee",
+    "cat": "drinks",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 2,
+    "protein": 0.1,
+    "ps": 1,
+    "meal": [
+      "drink",
+      "post-workout"
+    ]
+  },
+  {
+    "id": "pi-green-tea",
+    "name": "Green Tea (no sugar)",
+    "t": "green tea (no sugar) green tea",
+    "cat": "drinks",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 1,
+    "protein": 0,
+    "ps": 0,
+    "meal": [
+      "drink",
+      "weight-loss"
+    ]
+  },
+  {
+    "id": "pi-nimbu-pani",
+    "name": "Nimbu Pani (sweet)",
+    "t": "nimbu pani (sweet) lemonade shikanji nimbu pani",
+    "cat": "drinks",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 35,
+    "protein": 0.1,
+    "ps": 0,
+    "meal": [
+      "drink",
+      "snack"
+    ]
+  },
+  {
+    "id": "pi-buttermilk-chaas",
+    "name": "Chaas (buttermilk, spiced)",
+    "t": "chaas (buttermilk, spiced) chaas chaas",
+    "cat": "drinks",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 30,
+    "protein": 1.8,
+    "ps": 1,
+    "meal": [
+      "drink",
+      "lunch"
+    ]
+  },
+  {
+    "id": "pi-mango-lassi",
+    "name": "Mango Lassi",
+    "t": "mango lassi mango lassi",
+    "cat": "drinks",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 110,
+    "protein": 2.8,
+    "ps": 1,
+    "meal": [
+      "drink",
+      "snack",
+      "dessert"
+    ]
+  },
+  {
+    "id": "pi-banana-milkshake",
+    "name": "Banana Milkshake",
+    "t": "banana milkshake banana shake",
+    "cat": "drinks",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 95,
+    "protein": 3,
+    "ps": 1,
+    "meal": [
+      "drink",
+      "breakfast",
+      "post-workout",
+      "weight-gain"
+    ]
+  },
+  {
+    "id": "hp-whey-protein-scoop",
+    "name": "Whey Protein (1 scoop)",
+    "t": "whey protein (1 scoop) whey protein",
+    "cat": "high-protein",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 400,
+    "protein": 75,
+    "ps": 9,
+    "meal": [
+      "post-workout",
+      "snack"
+    ]
+  },
+  {
+    "id": "hp-paneer-bhurji-dry",
+    "name": "Paneer Bhurji (dry)",
+    "t": "paneer bhurji (dry) paneer bhurji",
+    "cat": "high-protein",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 250,
+    "protein": 16,
+    "ps": 4,
+    "meal": [
+      "breakfast",
+      "dinner",
+      "post-workout",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "hp-egg-white-boiled",
+    "name": "Egg White (boiled)",
+    "t": "egg white (boiled) egg white",
+    "cat": "high-protein",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "egg",
+    "kcal": 52,
+    "protein": 11,
+    "ps": 6,
+    "meal": [
+      "breakfast",
+      "post-workout",
+      "snack"
+    ]
+  },
+  {
+    "id": "hp-tofu",
+    "name": "Tofu (firm)",
+    "t": "tofu (firm) soya paneer bean curd tofu",
+    "cat": "high-protein",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 144,
+    "protein": 15,
+    "ps": 5,
+    "meal": [
+      "lunch",
+      "dinner",
+      "post-workout",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "hp-roasted-chana",
+    "name": "Roasted Chana (bhuna chana)",
+    "t": "roasted chana (bhuna chana) bhuna chana",
+    "cat": "high-protein",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 364,
+    "protein": 18,
+    "ps": 4,
+    "meal": [
+      "snack",
+      "budget",
+      "student",
+      "post-workout"
+    ]
+  },
+  {
+    "id": "hp-fish-tikka",
+    "name": "Fish Tikka (grilled)",
+    "t": "fish tikka (grilled) fish tikka",
+    "cat": "high-protein",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "non-veg",
+    "kcal": 150,
+    "protein": 22,
+    "ps": 7,
+    "meal": [
+      "snack",
+      "dinner",
+      "post-workout",
+      "restaurant"
+    ]
+  },
+  {
+    "id": "hp-greek-yogurt",
+    "name": "Hung Curd / Greek Yogurt",
+    "t": "hung curd / greek yogurt hung curd",
+    "cat": "high-protein",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 97,
+    "protein": 9,
+    "ps": 3,
+    "meal": [
+      "breakfast",
+      "snack",
+      "post-workout"
+    ]
+  },
+  {
+    "id": "pi-apple",
+    "name": "Apple",
+    "t": "apple seb",
+    "cat": "staples-basics",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 52,
+    "protein": 0.3,
+    "ps": 0,
+    "meal": [
+      "snack",
+      "breakfast"
+    ]
+  },
+  {
+    "id": "pi-mango",
+    "name": "Mango (ripe)",
+    "t": "mango (ripe) aam",
+    "cat": "staples-basics",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 60,
+    "protein": 0.8,
+    "ps": 0,
+    "meal": [
+      "snack",
+      "dessert"
+    ]
+  },
+  {
+    "id": "pi-ghee",
+    "name": "Desi Ghee",
+    "t": "desi ghee ghee",
+    "cat": "staples-basics",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 900,
+    "protein": 0,
+    "ps": 0,
+    "meal": [
+      "side",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "pi-mustard-oil",
+    "name": "Mustard Oil",
+    "t": "mustard oil sarson tel",
+    "cat": "staples-basics",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 884,
+    "protein": 0,
+    "ps": 0,
+    "meal": [
+      "side",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "pi-mango-pickle",
+    "name": "Mango Pickle (achar)",
+    "t": "mango pickle (achar) aam ka achar",
+    "cat": "staples-basics",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 230,
+    "protein": 1.5,
+    "ps": 0,
+    "meal": [
+      "side",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "pi-papad-roasted",
+    "name": "Papad (roasted)",
+    "t": "papad (roasted) papad",
+    "cat": "staples-basics",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 350,
+    "protein": 22,
+    "ps": 5,
+    "meal": [
+      "side",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "pi-green-salad",
+    "name": "Green Salad (cucumber, onion, tomato)",
+    "t": "green salad (cucumber, onion, tomato) salad",
+    "cat": "staples-basics",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 25,
+    "protein": 1,
+    "ps": 1,
+    "meal": [
+      "side",
+      "lunch",
+      "dinner",
+      "weight-loss"
+    ]
+  }
+]

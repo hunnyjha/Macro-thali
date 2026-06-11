@@ -1,0 +1,131 @@
+[
+  {
+    "id": "mp-poha-jalebi",
+    "name": "Indori Poha (with sev)",
+    "localNames": {
+      "hi": "Indori Poha"
+    },
+    "region": "central",
+    "state": "madhya-pradesh",
+    "category": "breakfast",
+    "subcategory": "regional-breakfast",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 190,
+      "protein": 3.5,
+      "carbs": 32,
+      "fat": 5.5,
+      "fiber": 1.8
+    },
+    "portions": [
+      {
+        "unit": "plate",
+        "grams": 200,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": [
+      "breakfast",
+      "snack",
+      "street",
+      "budget",
+      "student"
+    ],
+    "healthTags": [],
+    "proteinScore": 1,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "mp-bhutte-ki-kees",
+    "name": "Bhutte ki Kees",
+    "localNames": {
+      "hi": "Bhutte ki Kees"
+    },
+    "region": "central",
+    "state": "madhya-pradesh",
+    "category": "snacks",
+    "subcategory": "tikki-cutlet",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 140,
+      "protein": 4,
+      "carbs": 20,
+      "fat": 5,
+      "fiber": 2.5
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 130,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": [
+      "snack",
+      "street",
+      "home-cooked"
+    ],
+    "healthTags": [],
+    "proteinScore": 1,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "mp-dal-bafla",
+    "name": "Dal Bafla (bafla only)",
+    "localNames": {
+      "hi": "Bafla"
+    },
+    "region": "central",
+    "state": "madhya-pradesh",
+    "category": "grains-breads",
+    "subcategory": "regional-bread",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 320,
+      "protein": 9,
+      "carbs": 48,
+      "fat": 11,
+      "fiber": 5.5
+    },
+    "portions": [
+      {
+        "unit": "baati",
+        "grams": 80,
+        "default": true,
+        "label": "1 bafla"
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "high",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ],
+    "healthTags": [
+      "high-cal"
+    ],
+    "proteinScore": 2,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  }
+]

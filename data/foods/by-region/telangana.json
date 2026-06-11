@@ -1,0 +1,176 @@
+[
+  {
+    "id": "ts-hyderabadi-biryani",
+    "name": "Hyderabadi Mutton Biryani",
+    "localNames": {
+      "te": "Hyderabadi Biryani"
+    },
+    "region": "south",
+    "state": "telangana",
+    "category": "rice-dishes",
+    "subcategory": "biryani",
+    "dietType": "non-veg",
+    "per100g": {
+      "calories": 210,
+      "protein": 10,
+      "carbs": 24,
+      "fat": 8.5,
+      "fiber": 1
+    },
+    "portions": [
+      {
+        "unit": "plate",
+        "grams": 350,
+        "default": true
+      },
+      {
+        "unit": "katori",
+        "grams": 200
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "high",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "restaurant"
+    ],
+    "healthTags": [],
+    "proteinScore": 3,
+    "confidence": "medium",
+    "source": "restaurant-menu",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "ts-haleem",
+    "name": "Haleem",
+    "localNames": {
+      "te": "Haleem"
+    },
+    "region": "south",
+    "state": "telangana",
+    "category": "non-veg",
+    "subcategory": "mutton-goat",
+    "dietType": "non-veg",
+    "per100g": {
+      "calories": 230,
+      "protein": 14,
+      "carbs": 16,
+      "fat": 12,
+      "fiber": 2
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 150,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "high",
+    "mealTags": [
+      "dinner",
+      "festival",
+      "restaurant"
+    ],
+    "healthTags": [
+      "high-protein"
+    ],
+    "proteinScore": 4,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "sourceNote": "Ramzan special; wheat, lentils and meat slow-cooked.",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "ts-sarva-pindi",
+    "name": "Sarva Pindi",
+    "localNames": {
+      "te": "Sarva Pindi"
+    },
+    "region": "south",
+    "state": "telangana",
+    "category": "snacks",
+    "subcategory": "baked-snack",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 250,
+      "protein": 7,
+      "carbs": 32,
+      "fat": 10,
+      "fiber": 4
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 90,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": [
+      "breakfast",
+      "snack",
+      "home-cooked"
+    ],
+    "healthTags": [],
+    "proteinScore": 2,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "ts-double-ka-meetha",
+    "name": "Double ka Meetha",
+    "localNames": {
+      "te": "Double ka Meetha"
+    },
+    "region": "south",
+    "state": "telangana",
+    "category": "desserts",
+    "subcategory": "milk-sweet",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 320,
+      "protein": 6,
+      "carbs": 38,
+      "fat": 16,
+      "fiber": 1
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 120,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "fried",
+    "mealTags": [
+      "dessert",
+      "festival"
+    ],
+    "healthTags": [
+      "fried",
+      "high-cal"
+    ],
+    "proteinScore": 2,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  }
+]

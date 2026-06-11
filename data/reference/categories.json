@@ -1,0 +1,77 @@
+{
+  "$comment": "Category + subcategory taxonomy. A food references `category` (required) and `subcategory` (optional). Category-based index files in data/foods/by-category/ are generated from these.",
+  "version": "1.0.0",
+  "lastReviewed": "2026-06-11",
+  "categories": [
+    {
+      "code": "grains-breads",
+      "name": "Grains & Breads",
+      "subcategories": ["roti-flatbread", "rice", "puri-fried-bread", "paratha", "millet", "regional-bread"]
+    },
+    {
+      "code": "dal-legumes",
+      "name": "Dals & Legumes",
+      "subcategories": ["dal", "whole-legume", "sprouts", "besan-based"]
+    },
+    {
+      "code": "vegetables",
+      "name": "Vegetable Dishes",
+      "subcategories": ["dry-sabzi", "gravy-sabzi", "leafy-greens", "stuffed", "kofta"]
+    },
+    {
+      "code": "non-veg",
+      "name": "Non-Vegetarian",
+      "subcategories": ["chicken", "mutton-goat", "fish", "prawn-seafood", "egg", "pork", "beef-buff"]
+    },
+    {
+      "code": "paneer-dairy-veg",
+      "name": "Paneer & Dairy Dishes",
+      "subcategories": ["paneer", "curd-based", "cheese"]
+    },
+    {
+      "code": "rice-dishes",
+      "name": "Rice Dishes",
+      "subcategories": ["biryani", "pulao", "khichdi", "fried-rice", "curd-rice", "regional-rice"]
+    },
+    {
+      "code": "breakfast",
+      "name": "Breakfast",
+      "subcategories": ["south-tiffin", "north-breakfast", "egg-breakfast", "cereal-porridge", "regional-breakfast"]
+    },
+    {
+      "code": "snacks",
+      "name": "Snacks",
+      "subcategories": ["fried-snack", "chaat", "baked-snack", "namkeen", "tikki-cutlet"]
+    },
+    {
+      "code": "street-food",
+      "name": "Street Food",
+      "subcategories": ["chaat", "rolls-wraps", "pav-based", "tandoori", "regional-street"]
+    },
+    {
+      "code": "drinks",
+      "name": "Drinks & Beverages",
+      "subcategories": ["hot-beverage", "lassi-shake", "juice", "sherbet", "milk-based", "regional-drink"]
+    },
+    {
+      "code": "desserts",
+      "name": "Desserts & Sweets",
+      "subcategories": ["milk-sweet", "fried-sweet", "halwa", "kheer-payasam", "festival-sweet", "regional-sweet"]
+    },
+    {
+      "code": "staples-basics",
+      "name": "Staples & Basics",
+      "subcategories": ["plain-cooked", "raw-ingredient", "fruit", "dairy-raw", "oil-fat", "condiment-pickle"]
+    },
+    {
+      "code": "high-protein",
+      "name": "High-Protein Foods",
+      "subcategories": ["lean-meat", "egg", "legume", "dairy-protein", "soya", "protein-supplement"]
+    },
+    {
+      "code": "thali-combo",
+      "name": "Thalis & Combo Meals",
+      "subcategories": ["regional-thali", "combo-meal", "mini-meal"]
+    }
+  ]
+}

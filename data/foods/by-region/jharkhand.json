@@ -1,0 +1,134 @@
+[
+  {
+    "id": "jh-dhuska",
+    "name": "Dhuska",
+    "localNames": {
+      "hi": "Dhuska"
+    },
+    "region": "east",
+    "state": "jharkhand",
+    "category": "snacks",
+    "subcategory": "fried-snack",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 260,
+      "protein": 7,
+      "carbs": 36,
+      "fat": 10,
+      "fiber": 3
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 45,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "fried",
+    "mealTags": [
+      "breakfast",
+      "snack",
+      "street",
+      "home-cooked"
+    ],
+    "healthTags": [
+      "fried"
+    ],
+    "proteinScore": 2,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "jh-litti-jharkhand",
+    "name": "Litti (Jharkhand style)",
+    "localNames": {
+      "hi": "Litti"
+    },
+    "region": "east",
+    "state": "jharkhand",
+    "category": "grains-breads",
+    "subcategory": "regional-bread",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 280,
+      "protein": 9,
+      "carbs": 42,
+      "fat": 8,
+      "fiber": 6
+    },
+    "portions": [
+      {
+        "unit": "litti",
+        "grams": 80,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "low",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked",
+      "budget"
+    ],
+    "healthTags": [
+      "high-fiber"
+    ],
+    "proteinScore": 2,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "jh-rugra",
+    "name": "Rugra Sabzi (tribal mushroom)",
+    "localNames": {
+      "hi": "Rugra"
+    },
+    "region": "east",
+    "state": "jharkhand",
+    "category": "vegetables",
+    "subcategory": "dry-sabzi",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 90,
+      "protein": 4,
+      "carbs": 8,
+      "fat": 5,
+      "fiber": 2.5
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 120,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": [
+      "lunch",
+      "side",
+      "home-cooked"
+    ],
+    "healthTags": [
+      "low-cal"
+    ],
+    "proteinScore": 2,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  }
+]

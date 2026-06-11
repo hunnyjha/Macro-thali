@@ -1,0 +1,367 @@
+[
+  {
+    "id": "punjab-dal-makhani",
+    "name": "Dal Makhani",
+    "localNames": {
+      "pa": "Dal Makhani",
+      "hi": "Dal Makhani"
+    },
+    "region": "north",
+    "state": "punjab",
+    "category": "dal-legumes",
+    "subcategory": "whole-legume",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 180,
+      "protein": 6.5,
+      "carbs": 15,
+      "fat": 10,
+      "fiber": 5
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 150,
+        "default": true
+      },
+      {
+        "unit": "bowl",
+        "grams": 250
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "high",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "restaurant",
+      "home-cooked"
+    ],
+    "healthTags": [],
+    "proteinScore": 2,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "punjab-sarson-ka-saag",
+    "name": "Sarson Ka Saag",
+    "localNames": {
+      "pa": "Sarson da Saag"
+    },
+    "region": "north",
+    "state": "punjab",
+    "category": "vegetables",
+    "subcategory": "leafy-greens",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 120,
+      "protein": 4,
+      "carbs": 9,
+      "fat": 7.5,
+      "fiber": 4.5
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 150,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "high",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "festival",
+      "home-cooked"
+    ],
+    "healthTags": [
+      "high-fiber"
+    ],
+    "proteinScore": 1,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "punjab-makki-di-roti",
+    "name": "Makki di Roti",
+    "localNames": {
+      "pa": "Makki di Roti"
+    },
+    "region": "north",
+    "state": "punjab",
+    "category": "grains-breads",
+    "subcategory": "regional-bread",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 290,
+      "protein": 7,
+      "carbs": 52,
+      "fat": 6,
+      "fiber": 7
+    },
+    "portions": [
+      {
+        "unit": "roti",
+        "grams": 60,
+        "default": true,
+        "label": "1 makki roti"
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "low",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "festival",
+      "home-cooked"
+    ],
+    "healthTags": [
+      "gluten-free",
+      "high-carb",
+      "high-fiber"
+    ],
+    "proteinScore": 2,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "punjab-amritsari-kulcha",
+    "name": "Amritsari Aloo Kulcha",
+    "localNames": {
+      "pa": "Kulcha"
+    },
+    "region": "north",
+    "state": "punjab",
+    "category": "grains-breads",
+    "subcategory": "regional-bread",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 290,
+      "protein": 7,
+      "carbs": 45,
+      "fat": 9,
+      "fiber": 3
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 120,
+        "default": true,
+        "label": "1 kulcha"
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "high",
+    "mealTags": [
+      "breakfast",
+      "lunch",
+      "restaurant",
+      "street"
+    ],
+    "healthTags": [],
+    "proteinScore": 2,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "punjab-butter-chicken",
+    "name": "Butter Chicken (Murgh Makhani)",
+    "localNames": {
+      "pa": "Butter Chicken"
+    },
+    "region": "north",
+    "state": "punjab",
+    "category": "non-veg",
+    "subcategory": "chicken",
+    "dietType": "non-veg",
+    "per100g": {
+      "calories": 220,
+      "protein": 14,
+      "carbs": 6,
+      "fat": 15,
+      "fiber": 1
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 150,
+        "default": true
+      },
+      {
+        "unit": "bowl",
+        "grams": 250
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "high",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "restaurant"
+    ],
+    "healthTags": [
+      "high-protein"
+    ],
+    "proteinScore": 4,
+    "confidence": "medium",
+    "source": "restaurant-menu",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "punjab-amritsari-fish",
+    "name": "Amritsari Fish Fry",
+    "localNames": {
+      "pa": "Amritsari Macchi"
+    },
+    "region": "north",
+    "state": "punjab",
+    "category": "non-veg",
+    "subcategory": "fish",
+    "dietType": "non-veg",
+    "per100g": {
+      "calories": 230,
+      "protein": 18,
+      "carbs": 9,
+      "fat": 13,
+      "fiber": 0.5
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 60,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "fried",
+    "mealTags": [
+      "snack",
+      "dinner",
+      "restaurant",
+      "street"
+    ],
+    "healthTags": [
+      "fried",
+      "high-protein"
+    ],
+    "proteinScore": 5,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "punjab-chole-bhature",
+    "name": "Chole Bhature",
+    "localNames": {
+      "pa": "Chole Bhature"
+    },
+    "region": "north",
+    "state": "punjab",
+    "category": "street-food",
+    "subcategory": "regional-street",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 290,
+      "protein": 7,
+      "carbs": 38,
+      "fat": 13,
+      "fiber": 4
+    },
+    "portions": [
+      {
+        "unit": "plate",
+        "grams": 350,
+        "default": true,
+        "label": "2 bhature + chole"
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "fried",
+    "mealTags": [
+      "breakfast",
+      "lunch",
+      "street",
+      "restaurant"
+    ],
+    "healthTags": [
+      "fried"
+    ],
+    "proteinScore": 2,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "punjab-lassi-namkeen",
+    "name": "Punjabi Salted Lassi",
+    "localNames": {
+      "pa": "Namkeen Lassi"
+    },
+    "region": "north",
+    "state": "punjab",
+    "category": "drinks",
+    "subcategory": "lassi-shake",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 45,
+      "protein": 2.5,
+      "carbs": 3.5,
+      "fat": 2.3,
+      "fiber": 0
+    },
+    "portions": [
+      {
+        "unit": "glass",
+        "grams": 300,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "drink",
+      "snack"
+    ],
+    "healthTags": [
+      "low-cal",
+      "probiotic"
+    ],
+    "proteinScore": 1,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  }
+]

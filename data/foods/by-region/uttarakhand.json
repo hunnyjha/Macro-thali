@@ -1,0 +1,135 @@
+[
+  {
+    "id": "uk-kafuli",
+    "name": "Kafuli (greens curry)",
+    "localNames": {
+      "hi": "Kafuli"
+    },
+    "region": "himalayan",
+    "state": "uttarakhand",
+    "category": "vegetables",
+    "subcategory": "leafy-greens",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 75,
+      "protein": 3.5,
+      "carbs": 7,
+      "fat": 4,
+      "fiber": 3
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 130,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "low",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ],
+    "healthTags": [
+      "low-cal"
+    ],
+    "proteinScore": 1,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "uk-aloo-ke-gutke",
+    "name": "Aloo ke Gutke",
+    "localNames": {
+      "hi": "Aloo ke Gutke"
+    },
+    "region": "himalayan",
+    "state": "uttarakhand",
+    "category": "vegetables",
+    "subcategory": "dry-sabzi",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 130,
+      "protein": 2.2,
+      "carbs": 19,
+      "fat": 5,
+      "fiber": 2.2
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 120,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": [
+      "lunch",
+      "snack",
+      "side",
+      "home-cooked",
+      "budget"
+    ],
+    "healthTags": [],
+    "proteinScore": 1,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "uk-bhatt-ki-churkani",
+    "name": "Bhatt ki Churkani (black soybean)",
+    "localNames": {
+      "hi": "Bhatt ki Churkani"
+    },
+    "region": "himalayan",
+    "state": "uttarakhand",
+    "category": "dal-legumes",
+    "subcategory": "whole-legume",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 150,
+      "protein": 9,
+      "carbs": 13,
+      "fat": 7,
+      "fiber": 5
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 150,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ],
+    "healthTags": [
+      "budget-protein",
+      "high-fiber",
+      "high-protein"
+    ],
+    "proteinScore": 3,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  }
+]

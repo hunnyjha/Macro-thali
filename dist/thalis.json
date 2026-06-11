@@ -1,0 +1,473 @@
+[
+  {
+    "id": "thali-north-indian",
+    "name": "North Indian Thali",
+    "localNames": {
+      "hi": "Uttar Bharatiya Thali"
+    },
+    "region": "north",
+    "state": "pan-india",
+    "dietType": "veg",
+    "description": "Classic North Indian plate: roti, rice, dal makhani, a sabzi, curd, salad, pickle and a sweet.",
+    "components": [
+      {
+        "foodId": "pi-roti-chapati",
+        "unit": "roti",
+        "quantity": 3
+      },
+      {
+        "foodId": "pi-cooked-white-rice",
+        "unit": "katori",
+        "quantity": 1
+      },
+      {
+        "foodId": "punjab-dal-makhani",
+        "unit": "katori",
+        "quantity": 1
+      },
+      {
+        "foodId": "pi-aloo-gobi",
+        "unit": "katori",
+        "quantity": 1
+      },
+      {
+        "foodId": "pi-curd-dahi",
+        "unit": "katori",
+        "quantity": 1
+      },
+      {
+        "foodId": "pi-green-salad",
+        "unit": "katori",
+        "quantity": 1,
+        "optional": true
+      },
+      {
+        "foodId": "pi-mango-pickle",
+        "unit": "teaspoon",
+        "quantity": 1,
+        "optional": true
+      },
+      {
+        "foodId": "pi-gulab-jamun",
+        "unit": "piece",
+        "quantity": 1,
+        "optional": true
+      }
+    ],
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "combo",
+      "main"
+    ],
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11",
+    "computedTotals": {
+      "calories": 1206.8,
+      "protein": 36.1,
+      "carbs": 180.7,
+      "fat": 38,
+      "fiber": 24.6
+    }
+  },
+  {
+    "id": "thali-south-indian",
+    "name": "South Indian Thali",
+    "localNames": {
+      "ta": "Saapadu"
+    },
+    "region": "south",
+    "state": "pan-india",
+    "dietType": "veg",
+    "description": "Rice-based meal with sambar, rasam, avial, curd rice, papad and payasam.",
+    "components": [
+      {
+        "foodId": "pi-cooked-white-rice",
+        "unit": "katori",
+        "quantity": 1.5
+      },
+      {
+        "foodId": "tn-sambar",
+        "unit": "katori",
+        "quantity": 1
+      },
+      {
+        "foodId": "tn-rasam",
+        "unit": "katori",
+        "quantity": 1
+      },
+      {
+        "foodId": "kerala-avial",
+        "unit": "katori",
+        "quantity": 1
+      },
+      {
+        "foodId": "tn-curd-rice",
+        "unit": "katori",
+        "quantity": 1
+      },
+      {
+        "foodId": "pi-papad-roasted",
+        "unit": "piece",
+        "quantity": 1,
+        "optional": true
+      },
+      {
+        "foodId": "kerala-payasam",
+        "unit": "katori",
+        "quantity": 1,
+        "optional": true
+      }
+    ],
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "combo",
+      "main"
+    ],
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11",
+    "computedTotals": {
+      "calories": 1061,
+      "protein": 29.4,
+      "carbs": 171.4,
+      "fat": 27.9,
+      "fiber": 13.9
+    }
+  },
+  {
+    "id": "thali-bengali",
+    "name": "Bengali Thali",
+    "localNames": {
+      "bn": "Bangali Thali"
+    },
+    "region": "east",
+    "state": "west-bengal",
+    "dietType": "non-veg",
+    "description": "Rice, cholar dal, aloo posto, shukto, fish curry, curd and mishti doi.",
+    "components": [
+      {
+        "foodId": "pi-cooked-white-rice",
+        "unit": "katori",
+        "quantity": 1.5
+      },
+      {
+        "foodId": "wb-cholar-dal",
+        "unit": "katori",
+        "quantity": 1
+      },
+      {
+        "foodId": "wb-aloo-posto",
+        "unit": "katori",
+        "quantity": 1
+      },
+      {
+        "foodId": "wb-shukto",
+        "unit": "katori",
+        "quantity": 1,
+        "optional": true
+      },
+      {
+        "foodId": "wb-macher-jhol",
+        "unit": "katori",
+        "quantity": 1
+      },
+      {
+        "foodId": "wb-mishti-doi",
+        "unit": "katori",
+        "quantity": 1,
+        "optional": true
+      }
+    ],
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "combo",
+      "main"
+    ],
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11",
+    "computedTotals": {
+      "calories": 1185,
+      "protein": 49,
+      "carbs": 158,
+      "fat": 39.1,
+      "fiber": 16.5
+    }
+  },
+  {
+    "id": "thali-bihari",
+    "name": "Bihari Thali",
+    "localNames": {
+      "hi": "Bihari Thali"
+    },
+    "region": "east",
+    "state": "bihar",
+    "dietType": "veg",
+    "description": "Litti with chokha, dal, rice, ghugni, curd and thekua.",
+    "components": [
+      {
+        "foodId": "bihar-litti",
+        "unit": "litti",
+        "quantity": 2
+      },
+      {
+        "foodId": "bihar-chokha",
+        "unit": "katori",
+        "quantity": 1
+      },
+      {
+        "foodId": "pi-toor-dal",
+        "unit": "katori",
+        "quantity": 1
+      },
+      {
+        "foodId": "pi-cooked-white-rice",
+        "unit": "katori",
+        "quantity": 1,
+        "optional": true
+      },
+      {
+        "foodId": "bihar-ghugni",
+        "unit": "katori",
+        "quantity": 1,
+        "optional": true
+      },
+      {
+        "foodId": "pi-curd-dahi",
+        "unit": "katori",
+        "quantity": 1,
+        "optional": true
+      },
+      {
+        "foodId": "bihar-thekua",
+        "unit": "piece",
+        "quantity": 1,
+        "optional": true
+      }
+    ],
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "combo",
+      "main"
+    ],
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11",
+    "computedTotals": {
+      "calories": 1337.5,
+      "protein": 47.2,
+      "carbs": 198.4,
+      "fat": 37.4,
+      "fiber": 28.3
+    }
+  },
+  {
+    "id": "thali-gujarati",
+    "name": "Gujarati Thali",
+    "localNames": {
+      "gu": "Gujarati Thali"
+    },
+    "region": "west",
+    "state": "gujarat",
+    "dietType": "veg",
+    "description": "Rotli, kadhi, dal, undhiyu, rice, dhokla, curd and a sweet.",
+    "components": [
+      {
+        "foodId": "pi-roti-chapati",
+        "unit": "roti",
+        "quantity": 3
+      },
+      {
+        "foodId": "gujarat-kadhi",
+        "unit": "katori",
+        "quantity": 1
+      },
+      {
+        "foodId": "pi-toor-dal",
+        "unit": "katori",
+        "quantity": 1
+      },
+      {
+        "foodId": "gujarat-undhiyu",
+        "unit": "katori",
+        "quantity": 1
+      },
+      {
+        "foodId": "pi-cooked-white-rice",
+        "unit": "katori",
+        "quantity": 1
+      },
+      {
+        "foodId": "gujarat-dhokla",
+        "unit": "piece",
+        "quantity": 2,
+        "optional": true
+      },
+      {
+        "foodId": "pi-curd-dahi",
+        "unit": "katori",
+        "quantity": 1,
+        "optional": true
+      }
+    ],
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "combo",
+      "main"
+    ],
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11",
+    "computedTotals": {
+      "calories": 1294.9,
+      "protein": 45.6,
+      "carbs": 194.1,
+      "fat": 37.3,
+      "fiber": 26.1
+    }
+  },
+  {
+    "id": "thali-rajasthani",
+    "name": "Rajasthani Thali",
+    "localNames": {
+      "raj": "Rajasthani Thali"
+    },
+    "region": "west",
+    "state": "rajasthan",
+    "dietType": "veg",
+    "description": "Dal baati, gatte ki sabzi, ker sangri, rice, curd and ghevar.",
+    "components": [
+      {
+        "foodId": "raj-dal-baati",
+        "unit": "baati",
+        "quantity": 2
+      },
+      {
+        "foodId": "pi-toor-dal",
+        "unit": "katori",
+        "quantity": 1
+      },
+      {
+        "foodId": "raj-gatte-ki-sabzi",
+        "unit": "katori",
+        "quantity": 1
+      },
+      {
+        "foodId": "raj-ker-sangri",
+        "unit": "katori",
+        "quantity": 1,
+        "optional": true
+      },
+      {
+        "foodId": "pi-cooked-white-rice",
+        "unit": "katori",
+        "quantity": 1,
+        "optional": true
+      },
+      {
+        "foodId": "pi-curd-dahi",
+        "unit": "katori",
+        "quantity": 1,
+        "optional": true
+      },
+      {
+        "foodId": "raj-ghevar",
+        "unit": "piece",
+        "quantity": 1,
+        "optional": true
+      }
+    ],
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "combo",
+      "main",
+      "festival"
+    ],
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11",
+    "computedTotals": {
+      "calories": 1637,
+      "protein": 49.4,
+      "carbs": 219.6,
+      "fat": 62,
+      "fiber": 25.7
+    }
+  },
+  {
+    "id": "thali-maharashtrian",
+    "name": "Maharashtrian Thali",
+    "localNames": {
+      "mr": "Maharashtrian Thali"
+    },
+    "region": "west",
+    "state": "maharashtra",
+    "dietType": "veg",
+    "description": "Rice, varan (dal), zunka, a bhaji, curd, salad and puran poli.",
+    "components": [
+      {
+        "foodId": "pi-cooked-white-rice",
+        "unit": "katori",
+        "quantity": 1.5
+      },
+      {
+        "foodId": "pi-toor-dal",
+        "unit": "katori",
+        "quantity": 1
+      },
+      {
+        "foodId": "mh-zunka",
+        "unit": "katori",
+        "quantity": 1
+      },
+      {
+        "foodId": "pi-mixed-veg-curry",
+        "unit": "katori",
+        "quantity": 1,
+        "optional": true
+      },
+      {
+        "foodId": "pi-curd-dahi",
+        "unit": "katori",
+        "quantity": 1,
+        "optional": true
+      },
+      {
+        "foodId": "pi-green-salad",
+        "unit": "katori",
+        "quantity": 1,
+        "optional": true
+      },
+      {
+        "foodId": "mh-puran-poli",
+        "unit": "piece",
+        "quantity": 1,
+        "optional": true
+      }
+    ],
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "combo",
+      "main",
+      "festival"
+    ],
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11",
+    "computedTotals": {
+      "calories": 1178.5,
+      "protein": 39.2,
+      "carbs": 179.6,
+      "fat": 32.4,
+      "fiber": 19.7
+    }
+  }
+]

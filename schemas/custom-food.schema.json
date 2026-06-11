@@ -1,0 +1,86 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://macrokatori.app/schemas/custom-food.schema.json",
+  "title": "CustomFood",
+  "description": "User-created foods, family/mom's recipes, and saved meals/combos. Extends the food shape with ownership + provenance fields. These live per-user (data/custom/ holds the template/examples) and are always confidence:low source:user-created unless promoted.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "ownerId", "kind", "dietType", "per100g", "portions", "createdAt"],
+  "properties": {
+    "id": { "type": "string", "description": "Unique id, recommended prefix 'usr-'." },
+    "name": { "type": "string", "minLength": 1 },
+    "ownerId": { "type": "string", "description": "Id of the user who created this." },
+    "kind": {
+      "type": "string",
+      "enum": ["custom-food", "family-recipe", "moms-recipe", "saved-meal", "saved-combo"],
+      "description": "Type of custom entry."
+    },
+    "basedOnFoodId": { "type": "string", "description": "Optional id of a catalog food this was cloned/adapted from." },
+    "localNames": { "type": "object", "additionalProperties": { "type": "string" } },
+    "dietType": { "type": "string", "enum": ["veg", "non-veg", "egg"] },
+    "category": { "type": "string" },
+    "subcategory": { "type": "string" },
+    "per100g": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["calories", "protein", "carbs", "fat"],
+      "properties": {
+        "calories": { "type": "number", "minimum": 0 },
+        "protein": { "type": "number", "minimum": 0 },
+        "carbs": { "type": "number", "minimum": 0 },
+        "fat": { "type": "number", "minimum": 0 },
+        "fiber": { "type": "number", "minimum": 0 }
+      }
+    },
+    "portions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["unit", "grams"],
+        "properties": {
+          "unit": { "type": "string" },
+          "grams": { "type": "number", "exclusiveMinimum": 0 },
+          "label": { "type": "string" },
+          "default": { "type": "boolean" }
+        }
+      }
+    },
+    "oilSensitivity": { "type": "string", "enum": ["none", "low", "medium", "high", "fried"] },
+    "oilModifiers": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "very_light": { "type": "number" },
+        "home_style": { "type": "number" },
+        "medium": { "type": "number" },
+        "heavy": { "type": "number" },
+        "dhaba": { "type": "number" }
+      }
+    },
+    "components": {
+      "type": "array",
+      "description": "For kind=saved-meal / saved-combo: references to catalog/custom foods, same shape as thali components.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["foodId", "unit", "quantity"],
+        "properties": {
+          "foodId": { "type": "string" },
+          "unit": { "type": "string" },
+          "quantity": { "type": "number", "exclusiveMinimum": 0 },
+          "oilStyle": { "type": "string", "enum": ["very_light", "home_style", "medium", "heavy", "dhaba"] }
+        }
+      }
+    },
+    "mealTags": { "type": "array", "items": { "type": "string" } },
+    "healthTags": { "type": "array", "items": { "type": "string" } },
+    "proteinScore": { "type": "integer", "minimum": 0, "maximum": 10 },
+    "confidence": { "type": "string", "enum": ["high", "medium", "low"], "default": "low" },
+    "source": { "type": "string", "default": "user-created" },
+    "isPrivate": { "type": "boolean", "default": true, "description": "If false, eligible for review/promotion into the shared catalog." },
+    "createdAt": { "type": "string", "description": "ISO 8601 timestamp." },
+    "updatedAt": { "type": "string", "description": "ISO 8601 timestamp." }
+  }
+}

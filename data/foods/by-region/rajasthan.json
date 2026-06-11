@@ -1,0 +1,272 @@
+[
+  {
+    "id": "raj-dal-baati",
+    "name": "Dal Baati (baati only)",
+    "localNames": {
+      "hi": "Baati",
+      "raj": "Baati"
+    },
+    "region": "west",
+    "state": "rajasthan",
+    "category": "grains-breads",
+    "subcategory": "regional-bread",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 330,
+      "protein": 9,
+      "carbs": 50,
+      "fat": 11,
+      "fiber": 6
+    },
+    "portions": [
+      {
+        "unit": "baati",
+        "grams": 75,
+        "default": true,
+        "label": "1 baati"
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "high",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "festival",
+      "home-cooked"
+    ],
+    "healthTags": [
+      "high-cal",
+      "high-carb",
+      "high-fiber"
+    ],
+    "proteinScore": 2,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "raj-gatte-ki-sabzi",
+    "name": "Gatte ki Sabzi",
+    "localNames": {
+      "raj": "Gatte ki Sabzi"
+    },
+    "region": "west",
+    "state": "rajasthan",
+    "category": "dal-legumes",
+    "subcategory": "besan-based",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 165,
+      "protein": 6,
+      "carbs": 14,
+      "fat": 9.5,
+      "fiber": 2
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 150,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "high",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ],
+    "healthTags": [],
+    "proteinScore": 2,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "raj-ker-sangri",
+    "name": "Ker Sangri",
+    "localNames": {
+      "raj": "Ker Sangri"
+    },
+    "region": "west",
+    "state": "rajasthan",
+    "category": "vegetables",
+    "subcategory": "dry-sabzi",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 170,
+      "protein": 5,
+      "carbs": 16,
+      "fat": 9.5,
+      "fiber": 8
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 100,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "high",
+    "mealTags": [
+      "lunch",
+      "side",
+      "home-cooked"
+    ],
+    "healthTags": [
+      "high-fiber"
+    ],
+    "proteinScore": 1,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "raj-laal-maas",
+    "name": "Laal Maas",
+    "localNames": {
+      "raj": "Laal Maas"
+    },
+    "region": "west",
+    "state": "rajasthan",
+    "category": "non-veg",
+    "subcategory": "mutton-goat",
+    "dietType": "non-veg",
+    "per100g": {
+      "calories": 240,
+      "protein": 19,
+      "carbs": 3,
+      "fat": 17,
+      "fiber": 0.5
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 150,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "high",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "restaurant",
+      "festival"
+    ],
+    "healthTags": [
+      "high-protein"
+    ],
+    "proteinScore": 5,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "raj-pyaaz-kachori",
+    "name": "Pyaaz Kachori",
+    "localNames": {
+      "raj": "Pyaaz Kachori"
+    },
+    "region": "west",
+    "state": "rajasthan",
+    "category": "snacks",
+    "subcategory": "fried-snack",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 400,
+      "protein": 8,
+      "carbs": 40,
+      "fat": 23,
+      "fiber": 3
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 80,
+        "default": true,
+        "label": "1 kachori"
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "fried",
+    "mealTags": [
+      "snack",
+      "street",
+      "breakfast"
+    ],
+    "healthTags": [
+      "fried",
+      "high-cal",
+      "high-fat"
+    ],
+    "proteinScore": 2,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "raj-ghevar",
+    "name": "Ghevar",
+    "localNames": {
+      "raj": "Ghevar"
+    },
+    "region": "west",
+    "state": "rajasthan",
+    "category": "desserts",
+    "subcategory": "festival-sweet",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 430,
+      "protein": 5,
+      "carbs": 55,
+      "fat": 21,
+      "fiber": 0.5
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 60,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "fried",
+    "mealTags": [
+      "dessert",
+      "festival"
+    ],
+    "healthTags": [
+      "fried",
+      "high-cal",
+      "high-carb",
+      "high-fat"
+    ],
+    "proteinScore": 1,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  }
+]

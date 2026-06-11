@@ -1,0 +1,227 @@
+[
+  {
+    "id": "up-tehri",
+    "name": "Tehri (veg rice)",
+    "localNames": {
+      "hi": "Tehri"
+    },
+    "region": "north",
+    "state": "uttar-pradesh",
+    "category": "rice-dishes",
+    "subcategory": "pulao",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 160,
+      "protein": 3.5,
+      "carbs": 26,
+      "fat": 5,
+      "fiber": 2
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 150,
+        "default": true
+      },
+      {
+        "unit": "plate",
+        "grams": 300
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked",
+      "budget"
+    ],
+    "healthTags": [],
+    "proteinScore": 1,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "up-bedmi-puri",
+    "name": "Bedmi Puri",
+    "localNames": {
+      "hi": "Bedmi Puri"
+    },
+    "region": "north",
+    "state": "uttar-pradesh",
+    "category": "street-food",
+    "subcategory": "regional-street",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 360,
+      "protein": 9,
+      "carbs": 44,
+      "fat": 16,
+      "fiber": 4
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 50,
+        "default": true,
+        "label": "1 puri"
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "fried",
+    "mealTags": [
+      "breakfast",
+      "street",
+      "snack"
+    ],
+    "healthTags": [
+      "fried",
+      "high-cal"
+    ],
+    "proteinScore": 2,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "up-galouti-kebab",
+    "name": "Galouti Kebab",
+    "localNames": {
+      "hi": "Galouti Kebab"
+    },
+    "region": "north",
+    "state": "uttar-pradesh",
+    "category": "non-veg",
+    "subcategory": "mutton-goat",
+    "dietType": "non-veg",
+    "per100g": {
+      "calories": 250,
+      "protein": 18,
+      "carbs": 5,
+      "fat": 18,
+      "fiber": 0.5
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 40,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "high",
+    "mealTags": [
+      "dinner",
+      "snack",
+      "restaurant"
+    ],
+    "healthTags": [
+      "high-protein"
+    ],
+    "proteinScore": 5,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "sourceNote": "Awadhi/Lucknowi minced mutton kebab.",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "up-aloo-tamatar-sabzi",
+    "name": "Aloo Tamatar ki Sabzi",
+    "localNames": {
+      "hi": "Aloo Tamatar"
+    },
+    "region": "north",
+    "state": "uttar-pradesh",
+    "category": "vegetables",
+    "subcategory": "gravy-sabzi",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 95,
+      "protein": 2,
+      "carbs": 14,
+      "fat": 3.5,
+      "fiber": 2
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 150,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": [
+      "breakfast",
+      "lunch",
+      "dinner",
+      "side",
+      "home-cooked",
+      "budget"
+    ],
+    "healthTags": [
+      "low-cal"
+    ],
+    "proteinScore": 1,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "up-peda",
+    "name": "Mathura Peda",
+    "localNames": {
+      "hi": "Peda"
+    },
+    "region": "north",
+    "state": "uttar-pradesh",
+    "category": "desserts",
+    "subcategory": "milk-sweet",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 380,
+      "protein": 9,
+      "carbs": 50,
+      "fat": 16,
+      "fiber": 0
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 25,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "dessert",
+      "festival"
+    ],
+    "healthTags": [
+      "high-cal",
+      "high-carb"
+    ],
+    "proteinScore": 2,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "name": "macro-katori-food-db",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Scalable Indian nutrition database for Macro Katori. Region- and category-organized JSON with portion, oil, confidence and thali systems.",
+  "type": "module",
+  "scripts": {
+    "validate": "node tools/validate.js",
+    "build": "node tools/build-index.js",
+    "stats": "node tools/stats.js",
+    "search": "node tools/search.js",
+    "check": "node tools/validate.js && node tools/stats.js"
+  },
+  "engines": { "node": ">=18" },
+  "license": "UNLICENSED"
+}

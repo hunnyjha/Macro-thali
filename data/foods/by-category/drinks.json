@@ -1,0 +1,268 @@
+[
+  {
+    "id": "pi-black-coffee",
+    "name": "Black Coffee (no sugar)",
+    "localNames": {
+      "hi": "Black Coffee"
+    },
+    "region": "pan-india",
+    "state": "pan-india",
+    "category": "drinks",
+    "subcategory": "hot-beverage",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 2,
+      "protein": 0.1,
+      "carbs": 0,
+      "fat": 0,
+      "fiber": 0
+    },
+    "portions": [
+      {
+        "unit": "cup",
+        "grams": 240,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "drink",
+      "post-workout"
+    ],
+    "healthTags": [
+      "low-cal",
+      "vegan",
+      "weight-loss"
+    ],
+    "proteinScore": 1,
+    "confidence": "high",
+    "source": "USDA",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "pi-green-tea",
+    "name": "Green Tea (no sugar)",
+    "localNames": {
+      "hi": "Green Tea"
+    },
+    "region": "pan-india",
+    "state": "pan-india",
+    "category": "drinks",
+    "subcategory": "hot-beverage",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 1,
+      "protein": 0,
+      "carbs": 0.2,
+      "fat": 0,
+      "fiber": 0
+    },
+    "portions": [
+      {
+        "unit": "cup",
+        "grams": 240,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "drink",
+      "weight-loss"
+    ],
+    "healthTags": [
+      "low-cal",
+      "vegan",
+      "weight-loss"
+    ],
+    "proteinScore": 0,
+    "confidence": "high",
+    "source": "USDA",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "pi-nimbu-pani",
+    "name": "Nimbu Pani (sweet)",
+    "localNames": {
+      "hi": "Nimbu Pani"
+    },
+    "aliases": [
+      "lemonade",
+      "shikanji"
+    ],
+    "region": "pan-india",
+    "state": "pan-india",
+    "category": "drinks",
+    "subcategory": "sherbet",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 35,
+      "protein": 0.1,
+      "carbs": 9,
+      "fat": 0,
+      "fiber": 0
+    },
+    "portions": [
+      {
+        "unit": "glass",
+        "grams": 250,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "drink",
+      "snack"
+    ],
+    "healthTags": [
+      "low-cal",
+      "vegan"
+    ],
+    "proteinScore": 0,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "pi-buttermilk-chaas",
+    "name": "Chaas (buttermilk, spiced)",
+    "localNames": {
+      "hi": "Chaas",
+      "gu": "Chaas"
+    },
+    "region": "pan-india",
+    "state": "pan-india",
+    "category": "drinks",
+    "subcategory": "lassi-shake",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 30,
+      "protein": 1.8,
+      "carbs": 2.5,
+      "fat": 1.2,
+      "fiber": 0
+    },
+    "portions": [
+      {
+        "unit": "glass",
+        "grams": 250,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "drink",
+      "lunch"
+    ],
+    "healthTags": [
+      "low-cal",
+      "probiotic"
+    ],
+    "proteinScore": 1,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "pi-mango-lassi",
+    "name": "Mango Lassi",
+    "localNames": {
+      "hi": "Mango Lassi"
+    },
+    "region": "pan-india",
+    "state": "pan-india",
+    "category": "drinks",
+    "subcategory": "lassi-shake",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 110,
+      "protein": 2.8,
+      "carbs": 18,
+      "fat": 3,
+      "fiber": 0.4
+    },
+    "portions": [
+      {
+        "unit": "glass",
+        "grams": 250,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "drink",
+      "snack",
+      "dessert"
+    ],
+    "healthTags": [],
+    "proteinScore": 1,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "pi-banana-milkshake",
+    "name": "Banana Milkshake",
+    "localNames": {
+      "hi": "Banana Shake"
+    },
+    "region": "pan-india",
+    "state": "pan-india",
+    "category": "drinks",
+    "subcategory": "lassi-shake",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 95,
+      "protein": 3,
+      "carbs": 16,
+      "fat": 2.2,
+      "fiber": 0.8
+    },
+    "portions": [
+      {
+        "unit": "glass",
+        "grams": 300,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "drink",
+      "breakfast",
+      "post-workout",
+      "weight-gain"
+    ],
+    "healthTags": [
+      "low-cal",
+      "post-workout",
+      "weight-gain"
+    ],
+    "proteinScore": 1,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  }
+]

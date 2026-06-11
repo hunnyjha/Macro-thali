@@ -1,0 +1,135 @@
+[
+  {
+    "id": "nl-smoked-pork-akhuni",
+    "name": "Smoked Pork with Axone (akhuni)",
+    "localNames": {
+      "en": "Smoked Pork with Axone"
+    },
+    "region": "north-east",
+    "state": "nagaland",
+    "category": "non-veg",
+    "subcategory": "pork",
+    "dietType": "non-veg",
+    "per100g": {
+      "calories": 260,
+      "protein": 17,
+      "carbs": 4,
+      "fat": 20,
+      "fiber": 1.5
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 150,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "low",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ],
+    "healthTags": [
+      "fermented",
+      "high-fat",
+      "high-protein"
+    ],
+    "proteinScore": 4,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "nl-galho",
+    "name": "Galho (Naga khichdi)",
+    "localNames": {
+      "en": "Galho"
+    },
+    "region": "north-east",
+    "state": "nagaland",
+    "category": "rice-dishes",
+    "subcategory": "khichdi",
+    "dietType": "non-veg",
+    "per100g": {
+      "calories": 145,
+      "protein": 6,
+      "carbs": 22,
+      "fat": 3.5,
+      "fiber": 2
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 180,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "low",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ],
+    "healthTags": [],
+    "proteinScore": 2,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "nl-bamboo-steamed-fish",
+    "name": "Bamboo Steamed Fish",
+    "localNames": {
+      "en": "Bamboo Steamed Fish"
+    },
+    "region": "north-east",
+    "state": "nagaland",
+    "category": "non-veg",
+    "subcategory": "fish",
+    "dietType": "non-veg",
+    "per100g": {
+      "calories": 130,
+      "protein": 20,
+      "carbs": 1,
+      "fat": 5,
+      "fiber": 0.5
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 100,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "post-workout"
+    ],
+    "healthTags": [
+      "high-protein",
+      "low-carb"
+    ],
+    "proteinScore": 6,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  }
+]

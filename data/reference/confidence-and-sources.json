@@ -1,0 +1,38 @@
+{
+  "$comment": "Confidence levels and source references. A food carries `confidence` (high|medium|low) and `source` (one of the source codes). Confidence should be consistent with the source: government/published databases => high; recipe analysis => medium; community/user estimates => low.",
+  "version": "1.0.0",
+  "lastReviewed": "2026-06-11",
+  "confidenceLevels": [
+    {
+      "code": "high",
+      "name": "High",
+      "description": "Backed by a government or published nutritional database.",
+      "validSources": ["ICMR", "NIN", "FSSAI", "USDA", "IFCT", "published-database"]
+    },
+    {
+      "code": "medium",
+      "name": "Medium",
+      "description": "Recipe-based estimate computed from ingredient nutrition.",
+      "validSources": ["recipe-analysis", "restaurant-menu", "brand-label"]
+    },
+    {
+      "code": "low",
+      "name": "Low",
+      "description": "Community or user-provided estimate, not independently verified.",
+      "validSources": ["community-estimate", "user-created"]
+    }
+  ],
+  "sources": [
+    { "code": "ICMR", "name": "Indian Council of Medical Research", "tier": "government" },
+    { "code": "NIN", "name": "National Institute of Nutrition", "tier": "government" },
+    { "code": "IFCT", "name": "Indian Food Composition Tables 2017 (NIN/ICMR)", "tier": "government" },
+    { "code": "FSSAI", "name": "Food Safety and Standards Authority of India", "tier": "government" },
+    { "code": "USDA", "name": "USDA FoodData Central", "tier": "government" },
+    { "code": "published-database", "name": "Peer-reviewed / published nutritional database", "tier": "published" },
+    { "code": "recipe-analysis", "name": "Computed from standard recipe ingredients", "tier": "estimate" },
+    { "code": "restaurant-menu", "name": "Restaurant / chain published nutrition", "tier": "estimate" },
+    { "code": "brand-label", "name": "Packaged product nutrition label", "tier": "estimate" },
+    { "code": "community-estimate", "name": "Community-contributed estimate", "tier": "community" },
+    { "code": "user-created", "name": "User-created custom food", "tier": "community" }
+  ]
+}

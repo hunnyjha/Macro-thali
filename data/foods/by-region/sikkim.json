@@ -1,0 +1,178 @@
+[
+  {
+    "id": "sk-veg-momo",
+    "name": "Veg Momo (steamed)",
+    "localNames": {
+      "ne": "Momo"
+    },
+    "region": "north-east",
+    "state": "sikkim",
+    "category": "snacks",
+    "subcategory": "tikki-cutlet",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 160,
+      "protein": 5,
+      "carbs": 28,
+      "fat": 3,
+      "fiber": 2
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 25,
+        "default": true,
+        "label": "1 momo"
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "low",
+    "mealTags": [
+      "snack",
+      "street",
+      "student",
+      "home-cooked"
+    ],
+    "healthTags": [],
+    "proteinScore": 2,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "sk-chicken-momo",
+    "name": "Chicken Momo (steamed)",
+    "localNames": {
+      "ne": "Chicken Momo"
+    },
+    "region": "north-east",
+    "state": "sikkim",
+    "category": "snacks",
+    "subcategory": "tikki-cutlet",
+    "dietType": "non-veg",
+    "per100g": {
+      "calories": 185,
+      "protein": 10,
+      "carbs": 24,
+      "fat": 5,
+      "fiber": 1.5
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 28,
+        "default": true,
+        "label": "1 momo"
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "low",
+    "mealTags": [
+      "snack",
+      "street",
+      "student",
+      "home-cooked"
+    ],
+    "healthTags": [
+      "high-protein"
+    ],
+    "proteinScore": 3,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "sk-gundruk-soup",
+    "name": "Gundruk Soup",
+    "localNames": {
+      "ne": "Gundruk"
+    },
+    "region": "north-east",
+    "state": "sikkim",
+    "category": "vegetables",
+    "subcategory": "leafy-greens",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 45,
+      "protein": 3,
+      "carbs": 6,
+      "fat": 1,
+      "fiber": 3
+    },
+    "portions": [
+      {
+        "unit": "bowl",
+        "grams": 200,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "low",
+    "mealTags": [
+      "lunch",
+      "side",
+      "home-cooked"
+    ],
+    "healthTags": [
+      "fermented",
+      "low-cal"
+    ],
+    "proteinScore": 2,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "sk-phagshapa",
+    "name": "Phagshapa (pork & radish)",
+    "localNames": {
+      "ne": "Phagshapa"
+    },
+    "region": "north-east",
+    "state": "sikkim",
+    "category": "non-veg",
+    "subcategory": "pork",
+    "dietType": "non-veg",
+    "per100g": {
+      "calories": 230,
+      "protein": 14,
+      "carbs": 4,
+      "fat": 18,
+      "fiber": 1.5
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 150,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ],
+    "healthTags": [
+      "high-protein"
+    ],
+    "proteinScore": 4,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "$comment": "Master list of Indian-first portion units. A food's `portions` array maps applicable unit codes to exact gram weights. `defaultGrams` here is only a fallback hint for UI; the authoritative weight is the per-food mapping because a katori of dal weighs differently from a katori of dry sabzi.",
+  "version": "1.0.0",
+  "lastReviewed": "2026-06-11",
+  "units": [
+    { "code": "katori", "name": "Katori", "type": "volume", "defaultGrams": 150, "note": "Standard Indian small steel bowl. ICMR 'My Plate' katori ≈ 150 ml." },
+    { "code": "bowl", "name": "Bowl", "type": "volume", "defaultGrams": 250, "note": "Larger serving bowl." },
+    { "code": "glass", "name": "Glass", "type": "volume", "defaultGrams": 200, "note": "Standard drinking glass for liquids." },
+    { "code": "cup", "name": "Cup", "type": "volume", "defaultGrams": 200, "note": "Tea/coffee cup or measuring cup." },
+    { "code": "plate", "name": "Plate", "type": "serving", "defaultGrams": 300, "note": "Full plate serving." },
+    { "code": "half-plate", "name": "Half Plate", "type": "serving", "defaultGrams": 150 },
+    { "code": "serving", "name": "Serving", "type": "serving", "defaultGrams": 100, "note": "Generic single serving." },
+    { "code": "piece", "name": "Piece", "type": "count", "defaultGrams": 50, "note": "One unit of a discrete item." },
+    { "code": "ladle", "name": "Ladle", "type": "volume", "defaultGrams": 100, "note": "One serving ladle (karchi) of gravy/dal." },
+    { "code": "tablespoon", "name": "Tablespoon", "type": "volume", "defaultGrams": 15 },
+    { "code": "teaspoon", "name": "Teaspoon", "type": "volume", "defaultGrams": 5 },
+    { "code": "phulka", "name": "Phulka", "type": "count", "defaultGrams": 30, "note": "Thin dry chapati without oil." },
+    { "code": "roti", "name": "Roti / Chapati", "type": "count", "defaultGrams": 40, "note": "Standard wheat roti." },
+    { "code": "paratha", "name": "Paratha", "type": "count", "defaultGrams": 70, "note": "Oiled/stuffed flatbread, weight before stuffing." },
+    { "code": "idli", "name": "Idli", "type": "count", "defaultGrams": 40 },
+    { "code": "dosa", "name": "Dosa", "type": "count", "defaultGrams": 90, "note": "Plain dosa; masala/ghee variants differ." },
+    { "code": "litti", "name": "Litti", "type": "count", "defaultGrams": 80, "note": "Bihari roasted wheat-sattu ball." },
+    { "code": "baati", "name": "Baati", "type": "count", "defaultGrams": 75, "note": "Rajasthani baked wheat ball." },
+    { "code": "vada", "name": "Vada", "type": "count", "defaultGrams": 45 },
+    { "code": "samosa", "name": "Samosa", "type": "count", "defaultGrams": 60 },
+    { "code": "slice", "name": "Slice", "type": "count", "defaultGrams": 25, "note": "Slice of bread/cake." },
+    { "code": "scoop", "name": "Scoop", "type": "count", "defaultGrams": 60 },
+    { "code": "gram", "name": "Grams", "type": "weight", "defaultGrams": 1, "note": "Direct weight entry; always available." }
+  ]
+}

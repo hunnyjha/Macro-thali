@@ -1,0 +1,299 @@
+[
+  {
+    "id": "kerala-appam",
+    "name": "Appam",
+    "localNames": {
+      "ml": "Appam"
+    },
+    "region": "south",
+    "state": "kerala",
+    "category": "breakfast",
+    "subcategory": "regional-breakfast",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 140,
+      "protein": 2.5,
+      "carbs": 28,
+      "fat": 2,
+      "fiber": 0.8
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 60,
+        "default": true,
+        "label": "1 appam"
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "low",
+    "mealTags": [
+      "breakfast",
+      "dinner",
+      "home-cooked"
+    ],
+    "healthTags": [],
+    "proteinScore": 1,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "kerala-puttu",
+    "name": "Puttu",
+    "localNames": {
+      "ml": "Puttu"
+    },
+    "region": "south",
+    "state": "kerala",
+    "category": "breakfast",
+    "subcategory": "regional-breakfast",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 155,
+      "protein": 3,
+      "carbs": 33,
+      "fat": 1,
+      "fiber": 1.5
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 120,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "breakfast",
+      "home-cooked"
+    ],
+    "healthTags": [],
+    "proteinScore": 1,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "kerala-fish-molee",
+    "name": "Fish Molee (coconut)",
+    "localNames": {
+      "ml": "Meen Moilee"
+    },
+    "region": "south",
+    "state": "kerala",
+    "category": "non-veg",
+    "subcategory": "fish",
+    "dietType": "non-veg",
+    "per100g": {
+      "calories": 165,
+      "protein": 14,
+      "carbs": 4,
+      "fat": 11,
+      "fiber": 1
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 150,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ],
+    "healthTags": [
+      "high-protein"
+    ],
+    "proteinScore": 4,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "kerala-avial",
+    "name": "Avial",
+    "localNames": {
+      "ml": "Avial"
+    },
+    "region": "south",
+    "state": "kerala",
+    "category": "vegetables",
+    "subcategory": "gravy-sabzi",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 120,
+      "protein": 3,
+      "carbs": 10,
+      "fat": 8,
+      "fiber": 3.5
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 130,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": [
+      "lunch",
+      "festival",
+      "side",
+      "home-cooked"
+    ],
+    "healthTags": [],
+    "proteinScore": 1,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "kerala-beef-fry",
+    "name": "Kerala Beef Fry",
+    "localNames": {
+      "ml": "Beef Ularthiyathu"
+    },
+    "region": "south",
+    "state": "kerala",
+    "category": "non-veg",
+    "subcategory": "beef-buff",
+    "dietType": "non-veg",
+    "per100g": {
+      "calories": 250,
+      "protein": 22,
+      "carbs": 5,
+      "fat": 16,
+      "fiber": 1.5
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 120,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "high",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "restaurant"
+    ],
+    "healthTags": [
+      "high-protein"
+    ],
+    "proteinScore": 6,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "kerala-banana-chips",
+    "name": "Kerala Banana Chips",
+    "localNames": {
+      "ml": "Upperi"
+    },
+    "region": "south",
+    "state": "kerala",
+    "category": "snacks",
+    "subcategory": "fried-snack",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 520,
+      "protein": 2.3,
+      "carbs": 58,
+      "fat": 31,
+      "fiber": 4
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 40,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "fried",
+    "mealTags": [
+      "snack",
+      "festival"
+    ],
+    "healthTags": [
+      "fried",
+      "high-cal",
+      "high-carb",
+      "high-fat"
+    ],
+    "proteinScore": 1,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "kerala-payasam",
+    "name": "Palada Payasam",
+    "localNames": {
+      "ml": "Payasam"
+    },
+    "region": "south",
+    "state": "kerala",
+    "category": "desserts",
+    "subcategory": "kheer-payasam",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 165,
+      "protein": 3.5,
+      "carbs": 28,
+      "fat": 4.5,
+      "fiber": 0.3
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 130,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "dessert",
+      "festival"
+    ],
+    "healthTags": [],
+    "proteinScore": 1,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  }
+]

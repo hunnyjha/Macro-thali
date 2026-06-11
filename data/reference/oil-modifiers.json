@@ -1,0 +1,37 @@
+{
+  "$comment": "Oil adjustment system. Every food declares an `oilSensitivity` level. The macros stored on a food are the BASE values measured at the `baseStyle` cooking style (home_style). Selecting a different style adds/removes cooking oil per 100g of food using the grams below. Resolver: addedOilGrams = oilGramsPer100g[style] * (servingGrams/100); fat += addedOilGrams; calories += addedOilGrams * kcalPerGramOil. A food may override these defaults with its own `oilModifiers` object (same shape as a sensitivity level entry).",
+  "version": "1.0.0",
+  "lastReviewed": "2026-06-11",
+  "kcalPerGramOil": 8.84,
+  "fatGramsPerGramOil": 1.0,
+  "baseStyle": "home_style",
+  "styles": [
+    { "code": "very_light", "name": "Very Light Oil", "description": "Steamed, air-fried, or minimal oil (≈1 tsp or less)." },
+    { "code": "home_style", "name": "Home Style", "description": "Typical home cooking. This is the baseline the stored macros represent." },
+    { "code": "medium", "name": "Medium Oil", "description": "Slightly richer home/restaurant cooking." },
+    { "code": "heavy", "name": "Heavy Oil", "description": "Rich restaurant-style with generous oil/ghee." },
+    { "code": "dhaba", "name": "Dhaba Style", "description": "Heavily tempered dhaba cooking with floating oil." }
+  ],
+  "sensitivityLevels": {
+    "none": {
+      "$note": "No cooking oil applies (raw, boiled, steamed, fruit, milk, plain rice). Style selection has no effect.",
+      "oilGramsPer100g": { "very_light": 0, "home_style": 0, "medium": 0, "heavy": 0, "dhaba": 0 }
+    },
+    "low": {
+      "$note": "Lightly cooked items: dals, plain sabzi, tikki. Small oil swings.",
+      "oilGramsPer100g": { "very_light": -1.5, "home_style": 0, "medium": 1.5, "heavy": 3, "dhaba": 4.5 }
+    },
+    "medium": {
+      "$note": "Standard sabzi, gravies, sauteed dishes.",
+      "oilGramsPer100g": { "very_light": -3, "home_style": 0, "medium": 3, "heavy": 6, "dhaba": 9 }
+    },
+    "high": {
+      "$note": "Rich gravies, paneer/meat curries, parathas. Large oil swings.",
+      "oilGramsPer100g": { "very_light": -5, "home_style": 0, "medium": 4, "heavy": 8, "dhaba": 12 }
+    },
+    "fried": {
+      "$note": "Deep-fried items (pakora, puri, samosa). Oil is intrinsic; very_light cannot remove much.",
+      "oilGramsPer100g": { "very_light": -3, "home_style": 0, "medium": 4, "heavy": 8, "dhaba": 12 }
+    }
+  }
+}

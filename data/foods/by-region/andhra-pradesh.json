@@ -1,0 +1,172 @@
+[
+  {
+    "id": "ap-pesarattu",
+    "name": "Pesarattu",
+    "localNames": {
+      "te": "Pesarattu"
+    },
+    "region": "south",
+    "state": "andhra-pradesh",
+    "category": "breakfast",
+    "subcategory": "south-tiffin",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 165,
+      "protein": 8,
+      "carbs": 24,
+      "fat": 4,
+      "fiber": 4
+    },
+    "portions": [
+      {
+        "unit": "dosa",
+        "grams": 100,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": [
+      "breakfast",
+      "home-cooked",
+      "budget"
+    ],
+    "healthTags": [
+      "high-protein"
+    ],
+    "proteinScore": 2,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "ap-gongura-mutton",
+    "name": "Gongura Mutton",
+    "localNames": {
+      "te": "Gongura Mamsam"
+    },
+    "region": "south",
+    "state": "andhra-pradesh",
+    "category": "non-veg",
+    "subcategory": "mutton-goat",
+    "dietType": "non-veg",
+    "per100g": {
+      "calories": 235,
+      "protein": 19,
+      "carbs": 4,
+      "fat": 16,
+      "fiber": 1.5
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 150,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "high",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "restaurant"
+    ],
+    "healthTags": [
+      "high-protein"
+    ],
+    "proteinScore": 5,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "ap-pulihora",
+    "name": "Pulihora (tamarind rice)",
+    "localNames": {
+      "te": "Pulihora"
+    },
+    "region": "south",
+    "state": "andhra-pradesh",
+    "category": "rice-dishes",
+    "subcategory": "regional-rice",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 170,
+      "protein": 3,
+      "carbs": 29,
+      "fat": 5,
+      "fiber": 1.2
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 150,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": [
+      "lunch",
+      "festival",
+      "home-cooked"
+    ],
+    "healthTags": [],
+    "proteinScore": 1,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "ap-gutti-vankaya",
+    "name": "Gutti Vankaya Kura (stuffed brinjal)",
+    "localNames": {
+      "te": "Gutti Vankaya"
+    },
+    "region": "south",
+    "state": "andhra-pradesh",
+    "category": "vegetables",
+    "subcategory": "stuffed",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 150,
+      "protein": 3.5,
+      "carbs": 12,
+      "fat": 10,
+      "fiber": 4
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 130,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "high",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ],
+    "healthTags": [],
+    "proteinScore": 1,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  }
+]

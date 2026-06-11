@@ -1,0 +1,217 @@
+[
+  {
+    "id": "ka-bisi-bele-bath",
+    "name": "Bisi Bele Bath",
+    "localNames": {
+      "kn": "Bisi Bele Bath"
+    },
+    "region": "south",
+    "state": "karnataka",
+    "category": "rice-dishes",
+    "subcategory": "regional-rice",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 160,
+      "protein": 5,
+      "carbs": 26,
+      "fat": 4.5,
+      "fiber": 3
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 180,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ],
+    "healthTags": [],
+    "proteinScore": 2,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "ka-ragi-mudde",
+    "name": "Ragi Mudde",
+    "localNames": {
+      "kn": "Ragi Mudde"
+    },
+    "region": "south",
+    "state": "karnataka",
+    "category": "grains-breads",
+    "subcategory": "millet",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 120,
+      "protein": 3,
+      "carbs": 26,
+      "fat": 0.8,
+      "fiber": 3
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 100,
+        "default": true,
+        "label": "1 ball"
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked",
+      "budget"
+    ],
+    "healthTags": [
+      "diabetic-friendly",
+      "gluten-free"
+    ],
+    "proteinScore": 1,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "ka-mysore-masala-dosa",
+    "name": "Mysore Masala Dosa",
+    "localNames": {
+      "kn": "Mysore Masala Dose"
+    },
+    "region": "south",
+    "state": "karnataka",
+    "category": "breakfast",
+    "subcategory": "south-tiffin",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 200,
+      "protein": 4,
+      "carbs": 30,
+      "fat": 7,
+      "fiber": 2
+    },
+    "portions": [
+      {
+        "unit": "dosa",
+        "grams": 160,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": [
+      "breakfast",
+      "dinner",
+      "restaurant"
+    ],
+    "healthTags": [],
+    "proteinScore": 1,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "ka-neer-dosa",
+    "name": "Neer Dosa",
+    "localNames": {
+      "kn": "Neer Dose"
+    },
+    "region": "south",
+    "state": "karnataka",
+    "category": "breakfast",
+    "subcategory": "south-tiffin",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 130,
+      "protein": 2.5,
+      "carbs": 26,
+      "fat": 1.5,
+      "fiber": 0.8
+    },
+    "portions": [
+      {
+        "unit": "dosa",
+        "grams": 50,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "low",
+    "mealTags": [
+      "breakfast",
+      "dinner",
+      "home-cooked"
+    ],
+    "healthTags": [],
+    "proteinScore": 1,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "ka-mysore-pak",
+    "name": "Mysore Pak",
+    "localNames": {
+      "kn": "Mysore Pak"
+    },
+    "region": "south",
+    "state": "karnataka",
+    "category": "desserts",
+    "subcategory": "fried-sweet",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 520,
+      "protein": 6,
+      "carbs": 55,
+      "fat": 31,
+      "fiber": 1
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 40,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "dessert",
+      "festival"
+    ],
+    "healthTags": [
+      "high-cal",
+      "high-carb",
+      "high-fat"
+    ],
+    "proteinScore": 1,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  }
+]

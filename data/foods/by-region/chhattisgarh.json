@@ -1,0 +1,130 @@
+[
+  {
+    "id": "cg-chila",
+    "name": "Chila (rice flour)",
+    "localNames": {
+      "hi": "Chila"
+    },
+    "region": "central",
+    "state": "chhattisgarh",
+    "category": "breakfast",
+    "subcategory": "regional-breakfast",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 150,
+      "protein": 4,
+      "carbs": 26,
+      "fat": 3,
+      "fiber": 1.5
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 80,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": [
+      "breakfast",
+      "snack",
+      "home-cooked",
+      "budget"
+    ],
+    "healthTags": [],
+    "proteinScore": 1,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "cg-fara",
+    "name": "Fara (steamed rice rolls)",
+    "localNames": {
+      "hi": "Fara"
+    },
+    "region": "central",
+    "state": "chhattisgarh",
+    "category": "snacks",
+    "subcategory": "tikki-cutlet",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 165,
+      "protein": 4,
+      "carbs": 33,
+      "fat": 1.5,
+      "fiber": 2
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 50,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "breakfast",
+      "snack",
+      "home-cooked"
+    ],
+    "healthTags": [],
+    "proteinScore": 1,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "cg-aamat",
+    "name": "Aamat (tribal mixed veg)",
+    "localNames": {
+      "hi": "Aamat"
+    },
+    "region": "central",
+    "state": "chhattisgarh",
+    "category": "vegetables",
+    "subcategory": "gravy-sabzi",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 70,
+      "protein": 3,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 3.5
+    },
+    "portions": [
+      {
+        "unit": "bowl",
+        "grams": 200,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "low",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ],
+    "healthTags": [
+      "high-fiber",
+      "low-cal"
+    ],
+    "proteinScore": 1,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  }
+]

@@ -1,0 +1,177 @@
+[
+  {
+    "id": "goa-fish-curry-rice",
+    "name": "Goan Fish Curry",
+    "localNames": {
+      "kok": "Xitti Kodi"
+    },
+    "region": "west",
+    "state": "goa",
+    "category": "non-veg",
+    "subcategory": "fish",
+    "dietType": "non-veg",
+    "per100g": {
+      "calories": 145,
+      "protein": 13,
+      "carbs": 5,
+      "fat": 8,
+      "fiber": 1
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 150,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ],
+    "healthTags": [
+      "high-protein"
+    ],
+    "proteinScore": 4,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "goa-pork-vindaloo",
+    "name": "Pork Vindaloo",
+    "localNames": {
+      "kok": "Vindaloo"
+    },
+    "region": "west",
+    "state": "goa",
+    "category": "non-veg",
+    "subcategory": "pork",
+    "dietType": "non-veg",
+    "per100g": {
+      "calories": 255,
+      "protein": 16,
+      "carbs": 5,
+      "fat": 19,
+      "fiber": 1
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 150,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "high",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "restaurant"
+    ],
+    "healthTags": [
+      "high-protein"
+    ],
+    "proteinScore": 4,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "goa-prawn-balchao",
+    "name": "Prawn Balchao",
+    "localNames": {
+      "kok": "Balchao"
+    },
+    "region": "west",
+    "state": "goa",
+    "category": "non-veg",
+    "subcategory": "prawn-seafood",
+    "dietType": "non-veg",
+    "per100g": {
+      "calories": 175,
+      "protein": 15,
+      "carbs": 6,
+      "fat": 10,
+      "fiber": 1
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 120,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "high",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "side",
+      "restaurant"
+    ],
+    "healthTags": [
+      "high-protein"
+    ],
+    "proteinScore": 4,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "goa-bebinca",
+    "name": "Bebinca",
+    "localNames": {
+      "kok": "Bebinca"
+    },
+    "region": "west",
+    "state": "goa",
+    "category": "desserts",
+    "subcategory": "regional-sweet",
+    "dietType": "egg",
+    "per100g": {
+      "calories": 380,
+      "protein": 6,
+      "carbs": 45,
+      "fat": 20,
+      "fiber": 0.5
+    },
+    "portions": [
+      {
+        "unit": "slice",
+        "grams": 60,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "dessert",
+      "festival"
+    ],
+    "healthTags": [
+      "high-cal",
+      "high-fat"
+    ],
+    "proteinScore": 1,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  }
+]

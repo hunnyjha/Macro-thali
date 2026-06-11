@@ -1,0 +1,332 @@
+[
+  {
+    "id": "hp-whey-protein-scoop",
+    "name": "Whey Protein (1 scoop)",
+    "localNames": {
+      "hi": "Whey Protein"
+    },
+    "region": "pan-india",
+    "state": "pan-india",
+    "category": "high-protein",
+    "subcategory": "protein-supplement",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 400,
+      "protein": 75,
+      "carbs": 10,
+      "fat": 6,
+      "fiber": 1
+    },
+    "portions": [
+      {
+        "unit": "scoop",
+        "grams": 30,
+        "default": true,
+        "label": "1 scoop (~30g)"
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "post-workout",
+      "snack"
+    ],
+    "healthTags": [
+      "high-cal",
+      "high-protein",
+      "low-carb",
+      "post-workout"
+    ],
+    "proteinScore": 9,
+    "confidence": "medium",
+    "source": "brand-label",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "hp-paneer-bhurji-dry",
+    "name": "Paneer Bhurji (dry)",
+    "localNames": {
+      "hi": "Paneer Bhurji"
+    },
+    "region": "pan-india",
+    "state": "pan-india",
+    "category": "high-protein",
+    "subcategory": "dairy-protein",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 250,
+      "protein": 16,
+      "carbs": 6,
+      "fat": 18,
+      "fiber": 1.5
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 120,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "high",
+    "mealTags": [
+      "breakfast",
+      "dinner",
+      "post-workout",
+      "home-cooked"
+    ],
+    "healthTags": [
+      "high-protein",
+      "post-workout"
+    ],
+    "proteinScore": 4,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "hp-egg-white-boiled",
+    "name": "Egg White (boiled)",
+    "localNames": {
+      "hi": "Egg White"
+    },
+    "region": "pan-india",
+    "state": "pan-india",
+    "category": "high-protein",
+    "subcategory": "egg",
+    "dietType": "egg",
+    "per100g": {
+      "calories": 52,
+      "protein": 11,
+      "carbs": 0.7,
+      "fat": 0.2,
+      "fiber": 0
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 33,
+        "default": true,
+        "label": "1 large egg white"
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "breakfast",
+      "post-workout",
+      "snack"
+    ],
+    "healthTags": [
+      "high-protein",
+      "low-cal",
+      "low-carb",
+      "post-workout"
+    ],
+    "proteinScore": 6,
+    "confidence": "high",
+    "source": "USDA",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "hp-tofu",
+    "name": "Tofu (firm)",
+    "localNames": {
+      "hi": "Tofu"
+    },
+    "aliases": [
+      "soya paneer",
+      "bean curd"
+    ],
+    "region": "pan-india",
+    "state": "pan-india",
+    "category": "high-protein",
+    "subcategory": "soya",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 144,
+      "protein": 15,
+      "carbs": 3,
+      "fat": 8,
+      "fiber": 1
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 100,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "post-workout",
+      "home-cooked"
+    ],
+    "healthTags": [
+      "dairy-free",
+      "high-protein",
+      "post-workout",
+      "vegan"
+    ],
+    "proteinScore": 5,
+    "confidence": "high",
+    "source": "USDA",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "hp-roasted-chana",
+    "name": "Roasted Chana (bhuna chana)",
+    "localNames": {
+      "hi": "Bhuna Chana"
+    },
+    "region": "pan-india",
+    "state": "pan-india",
+    "category": "high-protein",
+    "subcategory": "legume",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 364,
+      "protein": 18,
+      "carbs": 58,
+      "fat": 5,
+      "fiber": 17
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 40,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "snack",
+      "budget",
+      "student",
+      "post-workout"
+    ],
+    "healthTags": [
+      "budget-protein",
+      "high-cal",
+      "high-carb",
+      "high-fiber",
+      "high-protein",
+      "vegan"
+    ],
+    "proteinScore": 4,
+    "confidence": "high",
+    "source": "IFCT",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "hp-fish-tikka",
+    "name": "Fish Tikka (grilled)",
+    "localNames": {
+      "hi": "Fish Tikka"
+    },
+    "region": "pan-india",
+    "state": "pan-india",
+    "category": "high-protein",
+    "subcategory": "lean-meat",
+    "dietType": "non-veg",
+    "per100g": {
+      "calories": 150,
+      "protein": 22,
+      "carbs": 3,
+      "fat": 6,
+      "fiber": 0.5
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 40,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "low",
+    "mealTags": [
+      "snack",
+      "dinner",
+      "post-workout",
+      "restaurant"
+    ],
+    "healthTags": [
+      "high-protein",
+      "low-carb",
+      "post-workout"
+    ],
+    "proteinScore": 7,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "hp-greek-yogurt",
+    "name": "Hung Curd / Greek Yogurt",
+    "localNames": {
+      "hi": "Hung Curd"
+    },
+    "region": "pan-india",
+    "state": "pan-india",
+    "category": "high-protein",
+    "subcategory": "dairy-protein",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 97,
+      "protein": 9,
+      "carbs": 4,
+      "fat": 5,
+      "fiber": 0
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 150,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "breakfast",
+      "snack",
+      "post-workout"
+    ],
+    "healthTags": [
+      "high-protein",
+      "low-cal",
+      "post-workout",
+      "probiotic"
+    ],
+    "proteinScore": 3,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  }
+]

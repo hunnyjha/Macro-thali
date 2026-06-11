@@ -1,0 +1,135 @@
+[
+  {
+    "id": "hr-bajra-khichdi",
+    "name": "Bajra Khichdi",
+    "localNames": {
+      "hi": "Bajra Khichdi"
+    },
+    "region": "north",
+    "state": "haryana",
+    "category": "rice-dishes",
+    "subcategory": "khichdi",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 140,
+      "protein": 5,
+      "carbs": 23,
+      "fat": 3,
+      "fiber": 3.5
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 180,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "low",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked",
+      "budget"
+    ],
+    "healthTags": [
+      "high-fiber"
+    ],
+    "proteinScore": 2,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "hr-hara-cholia",
+    "name": "Hara Cholia (green chickpea)",
+    "localNames": {
+      "hi": "Hara Cholia"
+    },
+    "region": "north",
+    "state": "haryana",
+    "category": "vegetables",
+    "subcategory": "dry-sabzi",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 130,
+      "protein": 7,
+      "carbs": 18,
+      "fat": 3.5,
+      "fiber": 6
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 120,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": [
+      "lunch",
+      "snack",
+      "home-cooked",
+      "budget"
+    ],
+    "healthTags": [
+      "budget-protein",
+      "high-fiber"
+    ],
+    "proteinScore": 2,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "hr-kachri-ki-sabzi",
+    "name": "Kachri ki Sabzi",
+    "localNames": {
+      "hi": "Kachri"
+    },
+    "region": "north",
+    "state": "haryana",
+    "category": "vegetables",
+    "subcategory": "dry-sabzi",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 90,
+      "protein": 2.5,
+      "carbs": 10,
+      "fat": 4.5,
+      "fiber": 3
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 120,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": [
+      "lunch",
+      "side",
+      "home-cooked"
+    ],
+    "healthTags": [
+      "low-cal"
+    ],
+    "proteinScore": 1,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  }
+]
