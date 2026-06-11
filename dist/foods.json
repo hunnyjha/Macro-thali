@@ -469,6 +469,1115 @@
     "lastReviewed": "2026-06-11"
   },
   {
+    "id": "bihar-champaran-mutton",
+    "name": "Champaran Mutton (Ahuna)",
+    "localNames": {
+      "hi": "Champaran Meat",
+      "bho": "Ahuna Mutton"
+    },
+    "aliases": [
+      "handi mutton",
+      "matka mutton"
+    ],
+    "region": "east",
+    "state": "bihar",
+    "category": "non-veg",
+    "subcategory": "mutton-goat",
+    "dietType": "non-veg",
+    "per100g": {
+      "calories": 240,
+      "protein": 18,
+      "carbs": 4,
+      "fat": 17,
+      "fiber": 0.8
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 150,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "high",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "festival",
+      "restaurant"
+    ],
+    "healthTags": [
+      "high-protein"
+    ],
+    "proteinScore": 5,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "bihar-fish-curry",
+    "name": "Bihari Fish Curry (machhli jhor)",
+    "localNames": {
+      "hi": "Machhli Curry"
+    },
+    "region": "east",
+    "state": "bihar",
+    "category": "non-veg",
+    "subcategory": "fish",
+    "dietType": "non-veg",
+    "per100g": {
+      "calories": 150,
+      "protein": 14,
+      "carbs": 4,
+      "fat": 9,
+      "fiber": 0.8
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 150,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "high",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ],
+    "healthTags": [
+      "high-protein"
+    ],
+    "proteinScore": 4,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "bihar-chicken-curry-bihari",
+    "name": "Bihari Chicken Curry",
+    "localNames": {
+      "hi": "Chicken Curry"
+    },
+    "region": "east",
+    "state": "bihar",
+    "category": "non-veg",
+    "subcategory": "chicken",
+    "dietType": "non-veg",
+    "per100g": {
+      "calories": 185,
+      "protein": 16,
+      "carbs": 4,
+      "fat": 11,
+      "fiber": 1
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 150,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "high",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ],
+    "healthTags": [
+      "high-protein"
+    ],
+    "proteinScore": 5,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "bihar-egg-curry-bihari",
+    "name": "Bihari Egg Curry (anda curry)",
+    "localNames": {
+      "hi": "Anda Curry"
+    },
+    "region": "east",
+    "state": "bihar",
+    "category": "non-veg",
+    "subcategory": "egg",
+    "dietType": "egg",
+    "per100g": {
+      "calories": 165,
+      "protein": 9,
+      "carbs": 5,
+      "fat": 12,
+      "fiber": 1
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 150,
+        "default": true,
+        "label": "1 katori with 1 egg"
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "high",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked",
+      "budget"
+    ],
+    "healthTags": [],
+    "proteinScore": 3,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "bihar-chana-ghugni-bihari",
+    "name": "Bihari Ghugni (white peas)",
+    "localNames": {
+      "hi": "Ghugni"
+    },
+    "region": "east",
+    "state": "bihar",
+    "category": "dal-legumes",
+    "subcategory": "whole-legume",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 145,
+      "protein": 7,
+      "carbs": 20,
+      "fat": 4,
+      "fiber": 6
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 130,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": [
+      "breakfast",
+      "snack",
+      "street",
+      "budget"
+    ],
+    "healthTags": [
+      "high-fiber"
+    ],
+    "proteinScore": 2,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "bihar-dahi-chura",
+    "name": "Dahi Chura (curd & flattened rice)",
+    "localNames": {
+      "hi": "Dahi Chura",
+      "bho": "Dahi Chuda"
+    },
+    "aliases": [
+      "chura dahi",
+      "poha curd"
+    ],
+    "region": "east",
+    "state": "bihar",
+    "category": "breakfast",
+    "subcategory": "regional-breakfast",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 130,
+      "protein": 3,
+      "carbs": 24,
+      "fat": 2.5,
+      "fiber": 1.2
+    },
+    "portions": [
+      {
+        "unit": "bowl",
+        "grams": 250,
+        "default": true,
+        "label": "1 bowl with jaggery"
+      },
+      {
+        "unit": "katori",
+        "grams": 150
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "breakfast",
+      "home-cooked",
+      "budget",
+      "festival"
+    ],
+    "healthTags": [],
+    "proteinScore": 1,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "sourceNote": "Classic Makar Sankranti breakfast.",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "bihar-makhana-kheer",
+    "name": "Makhana Kheer",
+    "localNames": {
+      "hi": "Makhana Kheer"
+    },
+    "aliases": [
+      "fox nut pudding"
+    ],
+    "region": "east",
+    "state": "bihar",
+    "category": "desserts",
+    "subcategory": "kheer-payasam",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 150,
+      "protein": 4,
+      "carbs": 24,
+      "fat": 4,
+      "fiber": 1
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 130,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "dessert",
+      "festival"
+    ],
+    "healthTags": [],
+    "proteinScore": 1,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "bihar-roasted-makhana",
+    "name": "Roasted Makhana (phool makhana)",
+    "localNames": {
+      "hi": "Bhuna Makhana"
+    },
+    "aliases": [
+      "fox nuts",
+      "lotus seeds"
+    ],
+    "region": "east",
+    "state": "bihar",
+    "category": "snacks",
+    "subcategory": "namkeen",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 350,
+      "protein": 9.7,
+      "carbs": 65,
+      "fat": 5,
+      "fiber": 7
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 25,
+        "default": true,
+        "label": "1 katori roasted"
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "low",
+    "mealTags": [
+      "snack",
+      "weight-loss",
+      "student"
+    ],
+    "healthTags": [
+      "high-cal",
+      "high-carb",
+      "high-fiber",
+      "weight-loss"
+    ],
+    "proteinScore": 2,
+    "confidence": "high",
+    "source": "IFCT",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "bihar-tilkut",
+    "name": "Tilkut (Gaya)",
+    "localNames": {
+      "hi": "Tilkut"
+    },
+    "region": "east",
+    "state": "bihar",
+    "category": "desserts",
+    "subcategory": "festival-sweet",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 470,
+      "protein": 12,
+      "carbs": 55,
+      "fat": 22,
+      "fiber": 5
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 20,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "dessert",
+      "festival",
+      "snack"
+    ],
+    "healthTags": [
+      "high-cal",
+      "high-carb",
+      "high-fat",
+      "high-protein"
+    ],
+    "proteinScore": 3,
+    "confidence": "low",
+    "source": "community-estimate",
+    "sourceNote": "Makar Sankranti sesame-jaggery sweet from Gaya.",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "bihar-anarsa",
+    "name": "Anarsa",
+    "localNames": {
+      "hi": "Anarsa"
+    },
+    "region": "east",
+    "state": "bihar",
+    "category": "desserts",
+    "subcategory": "fried-sweet",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 420,
+      "protein": 5,
+      "carbs": 60,
+      "fat": 18,
+      "fiber": 1.5
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 35,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "fried",
+    "mealTags": [
+      "dessert",
+      "festival"
+    ],
+    "healthTags": [
+      "fried",
+      "high-cal",
+      "high-carb"
+    ],
+    "proteinScore": 1,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "bihar-balushahi",
+    "name": "Balushahi",
+    "localNames": {
+      "hi": "Balushahi"
+    },
+    "region": "east",
+    "state": "bihar",
+    "category": "desserts",
+    "subcategory": "fried-sweet",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 410,
+      "protein": 5,
+      "carbs": 55,
+      "fat": 19,
+      "fiber": 0.8
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 45,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "fried",
+    "mealTags": [
+      "dessert",
+      "festival"
+    ],
+    "healthTags": [
+      "fried",
+      "high-cal",
+      "high-carb"
+    ],
+    "proteinScore": 1,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "bihar-rasiya-kheer",
+    "name": "Rasiya (jaggery rice kheer)",
+    "localNames": {
+      "hi": "Rasiyaw"
+    },
+    "aliases": [
+      "gur ki kheer"
+    ],
+    "region": "east",
+    "state": "bihar",
+    "category": "desserts",
+    "subcategory": "kheer-payasam",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 145,
+      "protein": 3,
+      "carbs": 26,
+      "fat": 3,
+      "fiber": 0.4
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 150,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "dessert",
+      "festival"
+    ],
+    "healthTags": [],
+    "proteinScore": 1,
+    "confidence": "low",
+    "source": "community-estimate",
+    "sourceNote": "Chhath festival prasad.",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "bihar-pidukiya",
+    "name": "Pidukiya (Gujhiya)",
+    "localNames": {
+      "hi": "Pidukiya",
+      "bho": "Pidakiya"
+    },
+    "aliases": [
+      "gujhiya",
+      "karanji"
+    ],
+    "region": "east",
+    "state": "bihar",
+    "category": "desserts",
+    "subcategory": "fried-sweet",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 400,
+      "protein": 6,
+      "carbs": 52,
+      "fat": 19,
+      "fiber": 2
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 40,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "fried",
+    "mealTags": [
+      "dessert",
+      "festival"
+    ],
+    "healthTags": [
+      "fried",
+      "high-cal",
+      "high-carb"
+    ],
+    "proteinScore": 1,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "bihar-parwal-ki-sabzi",
+    "name": "Parwal ki Sabzi (pointed gourd)",
+    "localNames": {
+      "hi": "Parwal ki Sabzi"
+    },
+    "region": "east",
+    "state": "bihar",
+    "category": "vegetables",
+    "subcategory": "dry-sabzi",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 95,
+      "protein": 2,
+      "carbs": 9,
+      "fat": 5.5,
+      "fiber": 3
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 120,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "side",
+      "home-cooked",
+      "budget"
+    ],
+    "healthTags": [
+      "low-cal"
+    ],
+    "proteinScore": 1,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "bihar-parwal-ki-mithai",
+    "name": "Parwal ki Mithai",
+    "localNames": {
+      "hi": "Parwal ki Mithai"
+    },
+    "region": "east",
+    "state": "bihar",
+    "category": "desserts",
+    "subcategory": "milk-sweet",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 320,
+      "protein": 8,
+      "carbs": 42,
+      "fat": 13,
+      "fiber": 1
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 40,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "dessert",
+      "festival"
+    ],
+    "healthTags": [
+      "high-cal"
+    ],
+    "proteinScore": 2,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "bihar-baigan-bharta",
+    "name": "Baingan Bharta (Bihari)",
+    "localNames": {
+      "hi": "Baingan Bharta"
+    },
+    "region": "east",
+    "state": "bihar",
+    "category": "vegetables",
+    "subcategory": "dry-sabzi",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 90,
+      "protein": 2,
+      "carbs": 9,
+      "fat": 5,
+      "fiber": 3.5
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 120,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "side",
+      "home-cooked",
+      "budget"
+    ],
+    "healthTags": [
+      "low-cal"
+    ],
+    "proteinScore": 1,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "bihar-aloo-bhujia",
+    "name": "Aloo Bhujia (dry potato)",
+    "localNames": {
+      "hi": "Aloo Bhujia"
+    },
+    "region": "east",
+    "state": "bihar",
+    "category": "vegetables",
+    "subcategory": "dry-sabzi",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 125,
+      "protein": 2.2,
+      "carbs": 18,
+      "fat": 5,
+      "fiber": 2.2
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 120,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": [
+      "breakfast",
+      "lunch",
+      "side",
+      "home-cooked",
+      "budget"
+    ],
+    "healthTags": [],
+    "proteinScore": 1,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "bihar-sattu-litti-bharwa",
+    "name": "Sattu (roasted gram flour)",
+    "localNames": {
+      "hi": "Sattu",
+      "bho": "Sattu"
+    },
+    "aliases": [
+      "roasted bengal gram flour"
+    ],
+    "region": "east",
+    "state": "bihar",
+    "category": "high-protein",
+    "subcategory": "legume",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 410,
+      "protein": 20,
+      "carbs": 60,
+      "fat": 7,
+      "fiber": 18
+    },
+    "portions": [
+      {
+        "unit": "tablespoon",
+        "grams": 15,
+        "default": true
+      },
+      {
+        "unit": "katori",
+        "grams": 50
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "breakfast",
+      "budget",
+      "student",
+      "post-workout"
+    ],
+    "healthTags": [
+      "budget-protein",
+      "high-cal",
+      "high-carb",
+      "high-fiber",
+      "high-protein",
+      "vegan"
+    ],
+    "proteinScore": 5,
+    "confidence": "high",
+    "source": "IFCT",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "bihar-til-laddu",
+    "name": "Til Laddu (sesame)",
+    "localNames": {
+      "hi": "Til Laddu"
+    },
+    "region": "east",
+    "state": "bihar",
+    "category": "desserts",
+    "subcategory": "festival-sweet",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 480,
+      "protein": 12,
+      "carbs": 50,
+      "fat": 26,
+      "fiber": 6
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 25,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "dessert",
+      "festival",
+      "snack"
+    ],
+    "healthTags": [
+      "high-cal",
+      "high-carb",
+      "high-fat",
+      "high-fiber",
+      "high-protein"
+    ],
+    "proteinScore": 3,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "bihar-laai-laddu",
+    "name": "Laai (puffed rice jaggery laddu)",
+    "localNames": {
+      "hi": "Laai",
+      "bho": "Lai"
+    },
+    "region": "east",
+    "state": "bihar",
+    "category": "desserts",
+    "subcategory": "festival-sweet",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 390,
+      "protein": 5,
+      "carbs": 80,
+      "fat": 5,
+      "fiber": 1.5
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 30,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "dessert",
+      "festival",
+      "snack"
+    ],
+    "healthTags": [
+      "high-cal",
+      "high-carb"
+    ],
+    "proteinScore": 1,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "bihar-khichdi-chokha",
+    "name": "Bihari Khichdi (with chokha)",
+    "localNames": {
+      "hi": "Khichdi"
+    },
+    "region": "east",
+    "state": "bihar",
+    "category": "rice-dishes",
+    "subcategory": "khichdi",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 120,
+      "protein": 4.5,
+      "carbs": 20,
+      "fat": 2.5,
+      "fiber": 2
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 180,
+        "default": true
+      },
+      {
+        "unit": "bowl",
+        "grams": 250
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "low",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked",
+      "budget"
+    ],
+    "healthTags": [],
+    "proteinScore": 2,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "sourceNote": "Traditional Saturday meal, served with chokha and ghee.",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "bihar-pua",
+    "name": "Pua (rice flour fritter)",
+    "localNames": {
+      "hi": "Pua",
+      "bho": "Pua"
+    },
+    "region": "east",
+    "state": "bihar",
+    "category": "desserts",
+    "subcategory": "fried-sweet",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 340,
+      "protein": 5,
+      "carbs": 50,
+      "fat": 13,
+      "fiber": 1
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 40,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "fried",
+    "mealTags": [
+      "dessert",
+      "festival",
+      "snack"
+    ],
+    "healthTags": [
+      "fried",
+      "high-cal",
+      "high-carb"
+    ],
+    "proteinScore": 1,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "bihar-kala-chana-ghugni",
+    "name": "Kala Chana Ghugni (black chana)",
+    "localNames": {
+      "hi": "Kala Chana"
+    },
+    "region": "east",
+    "state": "bihar",
+    "category": "dal-legumes",
+    "subcategory": "whole-legume",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 150,
+      "protein": 8,
+      "carbs": 21,
+      "fat": 3.5,
+      "fiber": 7
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 130,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "low",
+    "mealTags": [
+      "breakfast",
+      "snack",
+      "budget",
+      "festival"
+    ],
+    "healthTags": [
+      "budget-protein",
+      "high-fiber"
+    ],
+    "proteinScore": 2,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "bihar-besan-cheela",
+    "name": "Besan Cheela (Bihari)",
+    "localNames": {
+      "hi": "Besan Cheela"
+    },
+    "region": "east",
+    "state": "bihar",
+    "category": "breakfast",
+    "subcategory": "north-breakfast",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 180,
+      "protein": 9,
+      "carbs": 20,
+      "fat": 7,
+      "fiber": 4
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 80,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": [
+      "breakfast",
+      "snack",
+      "home-cooked",
+      "budget",
+      "student"
+    ],
+    "healthTags": [
+      "high-protein"
+    ],
+    "proteinScore": 3,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
     "id": "bihar-litti",
     "name": "Litti (sattu stuffed)",
     "localNames": {
@@ -2154,6 +3263,541 @@
       "low-cal"
     ],
     "proteinScore": 0,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "jh-marua-roti",
+    "name": "Marua Roti (ragi)",
+    "localNames": {
+      "hi": "Marua Roti"
+    },
+    "aliases": [
+      "ragi roti",
+      "finger millet roti"
+    ],
+    "region": "east",
+    "state": "jharkhand",
+    "category": "grains-breads",
+    "subcategory": "millet",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 270,
+      "protein": 7,
+      "carbs": 55,
+      "fat": 2,
+      "fiber": 8
+    },
+    "portions": [
+      {
+        "unit": "roti",
+        "grams": 50,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "low",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked",
+      "budget"
+    ],
+    "healthTags": [
+      "diabetic-friendly",
+      "gluten-free",
+      "high-carb",
+      "high-fiber"
+    ],
+    "proteinScore": 2,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "jh-chilka-roti",
+    "name": "Chilka Roti (rice-dal)",
+    "localNames": {
+      "hi": "Chilka Roti"
+    },
+    "region": "east",
+    "state": "jharkhand",
+    "category": "breakfast",
+    "subcategory": "regional-breakfast",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 175,
+      "protein": 6,
+      "carbs": 30,
+      "fat": 3.5,
+      "fiber": 2.5
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 70,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "low",
+    "mealTags": [
+      "breakfast",
+      "home-cooked",
+      "budget"
+    ],
+    "healthTags": [],
+    "proteinScore": 2,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "jh-aloo-chokha",
+    "name": "Aloo Chokha (Jharkhandi)",
+    "localNames": {
+      "hi": "Aloo Chokha"
+    },
+    "region": "east",
+    "state": "jharkhand",
+    "category": "vegetables",
+    "subcategory": "dry-sabzi",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 95,
+      "protein": 2,
+      "carbs": 15,
+      "fat": 3,
+      "fiber": 2
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 120,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "low",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "side",
+      "home-cooked",
+      "budget"
+    ],
+    "healthTags": [
+      "low-cal"
+    ],
+    "proteinScore": 1,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "jh-koinar-saag",
+    "name": "Koinar Saag",
+    "localNames": {
+      "hi": "Koinar Saag"
+    },
+    "region": "east",
+    "state": "jharkhand",
+    "category": "vegetables",
+    "subcategory": "leafy-greens",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 70,
+      "protein": 3.5,
+      "carbs": 7,
+      "fat": 3,
+      "fiber": 4
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 120,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "low",
+    "mealTags": [
+      "lunch",
+      "side",
+      "home-cooked",
+      "budget"
+    ],
+    "healthTags": [
+      "high-fiber",
+      "low-cal"
+    ],
+    "proteinScore": 2,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "jh-bamboo-shoot-sabzi",
+    "name": "Sanai (bamboo shoot) Sabzi",
+    "localNames": {
+      "hi": "Sanai Sabzi"
+    },
+    "region": "east",
+    "state": "jharkhand",
+    "category": "vegetables",
+    "subcategory": "dry-sabzi",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 80,
+      "protein": 3,
+      "carbs": 8,
+      "fat": 4,
+      "fiber": 4
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 120,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": [
+      "lunch",
+      "side",
+      "home-cooked"
+    ],
+    "healthTags": [
+      "high-fiber",
+      "low-cal"
+    ],
+    "proteinScore": 1,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "jh-putu-mushroom",
+    "name": "Putu (wild mushroom) Curry",
+    "localNames": {
+      "hi": "Putu"
+    },
+    "region": "east",
+    "state": "jharkhand",
+    "category": "vegetables",
+    "subcategory": "gravy-sabzi",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 90,
+      "protein": 4.5,
+      "carbs": 7,
+      "fat": 5,
+      "fiber": 2.5
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 120,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": [
+      "lunch",
+      "main",
+      "home-cooked"
+    ],
+    "healthTags": [
+      "low-cal"
+    ],
+    "proteinScore": 2,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "jh-mutton-curry-jharkhandi",
+    "name": "Jharkhandi Mutton Curry",
+    "localNames": {
+      "hi": "Mutton Curry"
+    },
+    "region": "east",
+    "state": "jharkhand",
+    "category": "non-veg",
+    "subcategory": "mutton-goat",
+    "dietType": "non-veg",
+    "per100g": {
+      "calories": 235,
+      "protein": 18,
+      "carbs": 4,
+      "fat": 16.5,
+      "fiber": 0.8
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 150,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "high",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "festival",
+      "home-cooked"
+    ],
+    "healthTags": [
+      "high-protein"
+    ],
+    "proteinScore": 5,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "jh-arsa-roti",
+    "name": "Arsa Roti",
+    "localNames": {
+      "hi": "Arsa Roti"
+    },
+    "region": "east",
+    "state": "jharkhand",
+    "category": "desserts",
+    "subcategory": "fried-sweet",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 380,
+      "protein": 5,
+      "carbs": 58,
+      "fat": 15,
+      "fiber": 1.5
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 50,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "fried",
+    "mealTags": [
+      "dessert",
+      "festival",
+      "snack"
+    ],
+    "healthTags": [
+      "fried",
+      "high-cal",
+      "high-carb"
+    ],
+    "proteinScore": 1,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "jh-til-barfi",
+    "name": "Til Barfi",
+    "localNames": {
+      "hi": "Til Barfi"
+    },
+    "region": "east",
+    "state": "jharkhand",
+    "category": "desserts",
+    "subcategory": "festival-sweet",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 450,
+      "protein": 10,
+      "carbs": 52,
+      "fat": 23,
+      "fiber": 4
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 25,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "dessert",
+      "festival",
+      "snack"
+    ],
+    "healthTags": [
+      "high-cal",
+      "high-carb",
+      "high-fat"
+    ],
+    "proteinScore": 2,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "jh-dhuska-ghugni",
+    "name": "Dhuska with Ghugni",
+    "localNames": {
+      "hi": "Dhuska Ghugni"
+    },
+    "region": "east",
+    "state": "jharkhand",
+    "category": "street-food",
+    "subcategory": "regional-street",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 230,
+      "protein": 7,
+      "carbs": 32,
+      "fat": 8.5,
+      "fiber": 4
+    },
+    "portions": [
+      {
+        "unit": "plate",
+        "grams": 250,
+        "default": true,
+        "label": "2 dhuska + ghugni"
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "fried",
+    "mealTags": [
+      "breakfast",
+      "snack",
+      "street",
+      "budget"
+    ],
+    "healthTags": [
+      "fried"
+    ],
+    "proteinScore": 2,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "jh-pittha-jharkhandi",
+    "name": "Pittha (steamed, Jharkhandi)",
+    "localNames": {
+      "hi": "Pittha"
+    },
+    "region": "east",
+    "state": "jharkhand",
+    "category": "snacks",
+    "subcategory": "tikki-cutlet",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 175,
+      "protein": 6,
+      "carbs": 33,
+      "fat": 2,
+      "fiber": 3
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 50,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "breakfast",
+      "snack",
+      "home-cooked"
+    ],
+    "healthTags": [],
+    "proteinScore": 2,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "jh-malpua-jharkhandi",
+    "name": "Malpua (Jharkhandi)",
+    "localNames": {
+      "hi": "Malpua"
+    },
+    "region": "east",
+    "state": "jharkhand",
+    "category": "desserts",
+    "subcategory": "fried-sweet",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 350,
+      "protein": 5,
+      "carbs": 50,
+      "fat": 15,
+      "fiber": 0.5
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 50,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "fried",
+    "mealTags": [
+      "dessert",
+      "festival"
+    ],
+    "healthTags": [
+      "fried",
+      "high-cal",
+      "high-carb"
+    ],
+    "proteinScore": 1,
     "confidence": "low",
     "source": "community-estimate",
     "lastReviewed": "2026-06-11"
@@ -3895,6 +5539,830 @@
       "low-carb"
     ],
     "proteinScore": 6,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "od-santula",
+    "name": "Santula (mixed veg)",
+    "localNames": {
+      "or": "Santula"
+    },
+    "region": "east",
+    "state": "odisha",
+    "category": "vegetables",
+    "subcategory": "gravy-sabzi",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 75,
+      "protein": 2.5,
+      "carbs": 11,
+      "fat": 2.5,
+      "fiber": 3.5
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 130,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "low",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked",
+      "budget"
+    ],
+    "healthTags": [
+      "high-fiber",
+      "low-cal"
+    ],
+    "proteinScore": 1,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "od-dahi-baigana",
+    "name": "Dahi Baigana (curd brinjal)",
+    "localNames": {
+      "or": "Dahi Baigana"
+    },
+    "region": "east",
+    "state": "odisha",
+    "category": "vegetables",
+    "subcategory": "gravy-sabzi",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 100,
+      "protein": 2.5,
+      "carbs": 9,
+      "fat": 6,
+      "fiber": 2.5
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 130,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": [
+      "lunch",
+      "side",
+      "home-cooked"
+    ],
+    "healthTags": [
+      "low-cal",
+      "probiotic"
+    ],
+    "proteinScore": 1,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "od-besara",
+    "name": "Besara (veg in mustard)",
+    "localNames": {
+      "or": "Besara"
+    },
+    "region": "east",
+    "state": "odisha",
+    "category": "vegetables",
+    "subcategory": "gravy-sabzi",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 95,
+      "protein": 3,
+      "carbs": 11,
+      "fat": 4.5,
+      "fiber": 3.5
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 130,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ],
+    "healthTags": [
+      "low-cal"
+    ],
+    "proteinScore": 1,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "od-saga-bhaja",
+    "name": "Saga Bhaja (greens)",
+    "localNames": {
+      "or": "Saga Bhaja"
+    },
+    "region": "east",
+    "state": "odisha",
+    "category": "vegetables",
+    "subcategory": "leafy-greens",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 70,
+      "protein": 3,
+      "carbs": 6,
+      "fat": 4,
+      "fiber": 3.5
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 100,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "low",
+    "mealTags": [
+      "lunch",
+      "side",
+      "home-cooked",
+      "budget"
+    ],
+    "healthTags": [
+      "high-fiber",
+      "low-cal"
+    ],
+    "proteinScore": 1,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "od-ghanta-tarkari",
+    "name": "Ghanta Tarkari",
+    "localNames": {
+      "or": "Ghanta Tarkari"
+    },
+    "region": "east",
+    "state": "odisha",
+    "category": "vegetables",
+    "subcategory": "gravy-sabzi",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 105,
+      "protein": 4,
+      "carbs": 14,
+      "fat": 3.5,
+      "fiber": 4.5
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 130,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "low",
+    "mealTags": [
+      "lunch",
+      "main",
+      "festival",
+      "home-cooked"
+    ],
+    "healthTags": [
+      "high-fiber"
+    ],
+    "proteinScore": 1,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "od-chingudi-jhola",
+    "name": "Chingudi Jhola (prawn curry)",
+    "localNames": {
+      "or": "Chingudi Jhola"
+    },
+    "region": "east",
+    "state": "odisha",
+    "category": "non-veg",
+    "subcategory": "prawn-seafood",
+    "dietType": "non-veg",
+    "per100g": {
+      "calories": 150,
+      "protein": 15,
+      "carbs": 5,
+      "fat": 8,
+      "fiber": 1
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 150,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "high",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ],
+    "healthTags": [
+      "high-protein"
+    ],
+    "proteinScore": 5,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "od-macha-ghanta",
+    "name": "Macha Ghanta (fish-head & veg)",
+    "localNames": {
+      "or": "Macha Ghanta"
+    },
+    "region": "east",
+    "state": "odisha",
+    "category": "non-veg",
+    "subcategory": "fish",
+    "dietType": "non-veg",
+    "per100g": {
+      "calories": 150,
+      "protein": 12,
+      "carbs": 8,
+      "fat": 8,
+      "fiber": 2
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 150,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "high",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ],
+    "healthTags": [
+      "high-protein"
+    ],
+    "proteinScore": 4,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "od-mansa-tarkari",
+    "name": "Mutton Tarkari (Odia)",
+    "localNames": {
+      "or": "Mansa Tarkari"
+    },
+    "region": "east",
+    "state": "odisha",
+    "category": "non-veg",
+    "subcategory": "mutton-goat",
+    "dietType": "non-veg",
+    "per100g": {
+      "calories": 230,
+      "protein": 18,
+      "carbs": 5,
+      "fat": 15.5,
+      "fiber": 1
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 150,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "high",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "festival"
+    ],
+    "healthTags": [
+      "high-protein"
+    ],
+    "proteinScore": 5,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "od-kanika",
+    "name": "Kanika (sweet pulao)",
+    "localNames": {
+      "or": "Kanika"
+    },
+    "region": "east",
+    "state": "odisha",
+    "category": "rice-dishes",
+    "subcategory": "pulao",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 195,
+      "protein": 3,
+      "carbs": 33,
+      "fat": 6,
+      "fiber": 1
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 150,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": [
+      "lunch",
+      "festival",
+      "main",
+      "home-cooked"
+    ],
+    "healthTags": [],
+    "proteinScore": 1,
+    "confidence": "low",
+    "source": "community-estimate",
+    "sourceNote": "Jagannath temple bhog.",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "od-mudhi-mansa",
+    "name": "Mudhi Mansa (puffed rice & mutton)",
+    "localNames": {
+      "or": "Mudhi Mansa"
+    },
+    "region": "east",
+    "state": "odisha",
+    "category": "street-food",
+    "subcategory": "regional-street",
+    "dietType": "non-veg",
+    "per100g": {
+      "calories": 200,
+      "protein": 11,
+      "carbs": 24,
+      "fat": 7,
+      "fiber": 2
+    },
+    "portions": [
+      {
+        "unit": "plate",
+        "grams": 200,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": [
+      "snack",
+      "street",
+      "lunch"
+    ],
+    "healthTags": [
+      "high-protein"
+    ],
+    "proteinScore": 3,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "od-dahi-vada-aloo-dum",
+    "name": "Dahi Vada Aloo Dum (Cuttack)",
+    "localNames": {
+      "or": "Dahibara Aloodum"
+    },
+    "region": "east",
+    "state": "odisha",
+    "category": "street-food",
+    "subcategory": "chaat",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 160,
+      "protein": 4.5,
+      "carbs": 20,
+      "fat": 7,
+      "fiber": 2.5
+    },
+    "portions": [
+      {
+        "unit": "plate",
+        "grams": 250,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": [
+      "breakfast",
+      "snack",
+      "street",
+      "budget"
+    ],
+    "healthTags": [],
+    "proteinScore": 1,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "od-gupchup",
+    "name": "Gupchup",
+    "localNames": {
+      "or": "Gupchup"
+    },
+    "aliases": [
+      "golgappa",
+      "pani puri",
+      "phuchka"
+    ],
+    "region": "east",
+    "state": "odisha",
+    "category": "street-food",
+    "subcategory": "chaat",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 135,
+      "protein": 2.5,
+      "carbs": 22,
+      "fat": 4,
+      "fiber": 1.5
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 16,
+        "default": true
+      },
+      {
+        "unit": "plate",
+        "grams": 110
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "low",
+    "mealTags": [
+      "snack",
+      "street",
+      "budget"
+    ],
+    "healthTags": [],
+    "proteinScore": 1,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "od-rasabali",
+    "name": "Rasabali",
+    "localNames": {
+      "or": "Rasabali"
+    },
+    "region": "east",
+    "state": "odisha",
+    "category": "desserts",
+    "subcategory": "milk-sweet",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 290,
+      "protein": 6,
+      "carbs": 38,
+      "fat": 12,
+      "fiber": 0.5
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 50,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "fried",
+    "mealTags": [
+      "dessert",
+      "festival"
+    ],
+    "healthTags": [
+      "fried"
+    ],
+    "proteinScore": 2,
+    "confidence": "low",
+    "source": "community-estimate",
+    "sourceNote": "Kendrapara temple sweet.",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "od-chhena-jhili",
+    "name": "Chhena Jhili",
+    "localNames": {
+      "or": "Chhena Jhili"
+    },
+    "region": "east",
+    "state": "odisha",
+    "category": "desserts",
+    "subcategory": "fried-sweet",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 330,
+      "protein": 6,
+      "carbs": 46,
+      "fat": 13,
+      "fiber": 0
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 35,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "fried",
+    "mealTags": [
+      "dessert",
+      "festival"
+    ],
+    "healthTags": [
+      "fried",
+      "high-cal"
+    ],
+    "proteinScore": 1,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "od-chakuli-pitha",
+    "name": "Chakuli Pitha",
+    "localNames": {
+      "or": "Chakuli Pitha"
+    },
+    "region": "east",
+    "state": "odisha",
+    "category": "breakfast",
+    "subcategory": "regional-breakfast",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 165,
+      "protein": 4,
+      "carbs": 30,
+      "fat": 3,
+      "fiber": 1.2
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 60,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "low",
+    "mealTags": [
+      "breakfast",
+      "home-cooked",
+      "budget"
+    ],
+    "healthTags": [],
+    "proteinScore": 1,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "od-enduri-pitha",
+    "name": "Enduri Pitha (steamed)",
+    "localNames": {
+      "or": "Enduri Pitha"
+    },
+    "region": "east",
+    "state": "odisha",
+    "category": "desserts",
+    "subcategory": "festival-sweet",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 210,
+      "protein": 5,
+      "carbs": 38,
+      "fat": 4.5,
+      "fiber": 2.5
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 70,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "dessert",
+      "festival",
+      "breakfast"
+    ],
+    "healthTags": [],
+    "proteinScore": 1,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "od-poda-pitha",
+    "name": "Poda Pitha",
+    "localNames": {
+      "or": "Poda Pitha"
+    },
+    "region": "east",
+    "state": "odisha",
+    "category": "desserts",
+    "subcategory": "festival-sweet",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 240,
+      "protein": 5,
+      "carbs": 42,
+      "fat": 6,
+      "fiber": 2
+    },
+    "portions": [
+      {
+        "unit": "slice",
+        "grams": 70,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "dessert",
+      "festival"
+    ],
+    "healthTags": [],
+    "proteinScore": 1,
+    "confidence": "low",
+    "source": "community-estimate",
+    "sourceNote": "Raja festival baked rice cake.",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "od-kheeri",
+    "name": "Kheeri (Odia rice kheer)",
+    "localNames": {
+      "or": "Kheeri"
+    },
+    "region": "east",
+    "state": "odisha",
+    "category": "desserts",
+    "subcategory": "kheer-payasam",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 150,
+      "protein": 3.5,
+      "carbs": 26,
+      "fat": 3.5,
+      "fiber": 0.3
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 130,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "dessert",
+      "festival"
+    ],
+    "healthTags": [],
+    "proteinScore": 1,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "od-aloo-potala-rasa",
+    "name": "Aloo Potala Rasa",
+    "localNames": {
+      "or": "Aloo Potala Rasa"
+    },
+    "region": "east",
+    "state": "odisha",
+    "category": "vegetables",
+    "subcategory": "gravy-sabzi",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 110,
+      "protein": 2.5,
+      "carbs": 14,
+      "fat": 5,
+      "fiber": 2.5
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 150,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ],
+    "healthTags": [],
+    "proteinScore": 1,
     "confidence": "low",
     "source": "community-estimate",
     "lastReviewed": "2026-06-11"
@@ -7320,6 +9788,1185 @@
     "lastReviewed": "2026-06-11"
   },
   {
+    "id": "up-tunday-kebab",
+    "name": "Tunday Kebab (Lucknowi)",
+    "localNames": {
+      "hi": "Tunday Kebab"
+    },
+    "region": "north",
+    "state": "uttar-pradesh",
+    "category": "non-veg",
+    "subcategory": "mutton-goat",
+    "dietType": "non-veg",
+    "per100g": {
+      "calories": 240,
+      "protein": 17,
+      "carbs": 4,
+      "fat": 17.5,
+      "fiber": 0.5
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 35,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "high",
+    "mealTags": [
+      "snack",
+      "dinner",
+      "restaurant"
+    ],
+    "healthTags": [
+      "high-protein"
+    ],
+    "proteinScore": 5,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "up-seekh-kebab",
+    "name": "Mutton Seekh Kebab",
+    "localNames": {
+      "hi": "Seekh Kebab"
+    },
+    "region": "north",
+    "state": "uttar-pradesh",
+    "category": "non-veg",
+    "subcategory": "mutton-goat",
+    "dietType": "non-veg",
+    "per100g": {
+      "calories": 230,
+      "protein": 19,
+      "carbs": 3,
+      "fat": 16,
+      "fiber": 0.5
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 50,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": [
+      "snack",
+      "dinner",
+      "restaurant",
+      "post-workout"
+    ],
+    "healthTags": [
+      "high-protein"
+    ],
+    "proteinScore": 5,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "up-shami-kebab",
+    "name": "Shami Kebab",
+    "localNames": {
+      "hi": "Shami Kebab"
+    },
+    "region": "north",
+    "state": "uttar-pradesh",
+    "category": "non-veg",
+    "subcategory": "mutton-goat",
+    "dietType": "non-veg",
+    "per100g": {
+      "calories": 220,
+      "protein": 16,
+      "carbs": 8,
+      "fat": 14,
+      "fiber": 1.5
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 45,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": [
+      "snack",
+      "dinner",
+      "restaurant"
+    ],
+    "healthTags": [
+      "high-protein"
+    ],
+    "proteinScore": 4,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "up-mutton-korma-awadhi",
+    "name": "Awadhi Mutton Korma",
+    "localNames": {
+      "hi": "Mutton Korma"
+    },
+    "region": "north",
+    "state": "uttar-pradesh",
+    "category": "non-veg",
+    "subcategory": "mutton-goat",
+    "dietType": "non-veg",
+    "per100g": {
+      "calories": 250,
+      "protein": 17,
+      "carbs": 5,
+      "fat": 18,
+      "fiber": 1
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 150,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "high",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "restaurant",
+      "festival"
+    ],
+    "healthTags": [
+      "high-protein"
+    ],
+    "proteinScore": 4,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "up-chicken-korma",
+    "name": "Awadhi Chicken Korma",
+    "localNames": {
+      "hi": "Chicken Korma"
+    },
+    "region": "north",
+    "state": "uttar-pradesh",
+    "category": "non-veg",
+    "subcategory": "chicken",
+    "dietType": "non-veg",
+    "per100g": {
+      "calories": 215,
+      "protein": 15,
+      "carbs": 6,
+      "fat": 14.5,
+      "fiber": 1
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 150,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "high",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "restaurant"
+    ],
+    "healthTags": [
+      "high-protein"
+    ],
+    "proteinScore": 4,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "up-awadhi-mutton-biryani",
+    "name": "Awadhi Mutton Biryani (pukht)",
+    "localNames": {
+      "hi": "Awadhi Biryani"
+    },
+    "region": "north",
+    "state": "uttar-pradesh",
+    "category": "rice-dishes",
+    "subcategory": "biryani",
+    "dietType": "non-veg",
+    "per100g": {
+      "calories": 200,
+      "protein": 10,
+      "carbs": 24,
+      "fat": 8,
+      "fiber": 1
+    },
+    "portions": [
+      {
+        "unit": "plate",
+        "grams": 350,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "high",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "restaurant"
+    ],
+    "healthTags": [],
+    "proteinScore": 3,
+    "confidence": "medium",
+    "source": "restaurant-menu",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "up-nihari",
+    "name": "Nihari (mutton)",
+    "localNames": {
+      "hi": "Nihari"
+    },
+    "region": "north",
+    "state": "uttar-pradesh",
+    "category": "non-veg",
+    "subcategory": "mutton-goat",
+    "dietType": "non-veg",
+    "per100g": {
+      "calories": 235,
+      "protein": 16,
+      "carbs": 6,
+      "fat": 16,
+      "fiber": 0.8
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 180,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "high",
+    "mealTags": [
+      "breakfast",
+      "lunch",
+      "main",
+      "restaurant"
+    ],
+    "healthTags": [
+      "high-protein"
+    ],
+    "proteinScore": 4,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "up-sheermal",
+    "name": "Sheermal",
+    "localNames": {
+      "hi": "Sheermal"
+    },
+    "region": "north",
+    "state": "uttar-pradesh",
+    "category": "grains-breads",
+    "subcategory": "regional-bread",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 320,
+      "protein": 7,
+      "carbs": 48,
+      "fat": 11,
+      "fiber": 1.8
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 60,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "restaurant"
+    ],
+    "healthTags": [
+      "high-cal"
+    ],
+    "proteinScore": 2,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "up-rumali-roti",
+    "name": "Rumali Roti",
+    "localNames": {
+      "hi": "Rumali Roti"
+    },
+    "region": "north",
+    "state": "uttar-pradesh",
+    "category": "grains-breads",
+    "subcategory": "regional-bread",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 285,
+      "protein": 9,
+      "carbs": 56,
+      "fat": 2.5,
+      "fiber": 3
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 45,
+        "default": true,
+        "label": "1 rumali roti"
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "low",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "restaurant"
+    ],
+    "healthTags": [
+      "high-carb"
+    ],
+    "proteinScore": 2,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "up-banarasi-dum-aloo",
+    "name": "Banarasi Dum Aloo",
+    "localNames": {
+      "hi": "Dum Aloo"
+    },
+    "region": "north",
+    "state": "uttar-pradesh",
+    "category": "vegetables",
+    "subcategory": "gravy-sabzi",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 150,
+      "protein": 3,
+      "carbs": 18,
+      "fat": 8,
+      "fiber": 2.5
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 150,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "high",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ],
+    "healthTags": [],
+    "proteinScore": 1,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "up-khasta-kachori-sabzi",
+    "name": "Khasta Kachori with Aloo Sabzi",
+    "localNames": {
+      "hi": "Khasta Kachori"
+    },
+    "region": "north",
+    "state": "uttar-pradesh",
+    "category": "street-food",
+    "subcategory": "regional-street",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 300,
+      "protein": 6,
+      "carbs": 36,
+      "fat": 15,
+      "fiber": 3
+    },
+    "portions": [
+      {
+        "unit": "plate",
+        "grams": 200,
+        "default": true,
+        "label": "2 kachori + sabzi"
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "fried",
+    "mealTags": [
+      "breakfast",
+      "snack",
+      "street",
+      "budget"
+    ],
+    "healthTags": [
+      "fried",
+      "high-cal"
+    ],
+    "proteinScore": 2,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "up-matar-kachori",
+    "name": "Matar Kachori (green pea)",
+    "localNames": {
+      "hi": "Matar Kachori"
+    },
+    "region": "north",
+    "state": "uttar-pradesh",
+    "category": "snacks",
+    "subcategory": "fried-snack",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 350,
+      "protein": 7,
+      "carbs": 40,
+      "fat": 18,
+      "fiber": 4
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 60,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "fried",
+    "mealTags": [
+      "breakfast",
+      "snack",
+      "street"
+    ],
+    "healthTags": [
+      "fried",
+      "high-cal"
+    ],
+    "proteinScore": 2,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "up-aloo-puri",
+    "name": "Aloo Puri (UP style)",
+    "localNames": {
+      "hi": "Aloo Puri"
+    },
+    "region": "north",
+    "state": "uttar-pradesh",
+    "category": "street-food",
+    "subcategory": "regional-street",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 290,
+      "protein": 5,
+      "carbs": 36,
+      "fat": 14,
+      "fiber": 2.5
+    },
+    "portions": [
+      {
+        "unit": "plate",
+        "grams": 250,
+        "default": true,
+        "label": "3 puri + aloo"
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "fried",
+    "mealTags": [
+      "breakfast",
+      "lunch",
+      "street",
+      "festival"
+    ],
+    "healthTags": [
+      "fried"
+    ],
+    "proteinScore": 1,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "up-tamatar-chaat-banarasi",
+    "name": "Banarasi Tamatar Chaat",
+    "localNames": {
+      "hi": "Tamatar Chaat"
+    },
+    "region": "north",
+    "state": "uttar-pradesh",
+    "category": "street-food",
+    "subcategory": "chaat",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 130,
+      "protein": 2.5,
+      "carbs": 18,
+      "fat": 5.5,
+      "fiber": 2.5
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 150,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": [
+      "snack",
+      "street",
+      "budget"
+    ],
+    "healthTags": [],
+    "proteinScore": 1,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "up-baingan-ka-bharta-up",
+    "name": "Baingan ka Bharta (UP)",
+    "localNames": {
+      "hi": "Baingan Bharta"
+    },
+    "region": "north",
+    "state": "uttar-pradesh",
+    "category": "vegetables",
+    "subcategory": "dry-sabzi",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 95,
+      "protein": 2,
+      "carbs": 9,
+      "fat": 5.5,
+      "fiber": 3.5
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 120,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "side",
+      "home-cooked",
+      "budget"
+    ],
+    "healthTags": [
+      "low-cal"
+    ],
+    "proteinScore": 1,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "up-lauki-chana-dal",
+    "name": "Lauki Chana Dal",
+    "localNames": {
+      "hi": "Lauki Chana Dal"
+    },
+    "region": "north",
+    "state": "uttar-pradesh",
+    "category": "dal-legumes",
+    "subcategory": "dal",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 110,
+      "protein": 5,
+      "carbs": 14,
+      "fat": 4,
+      "fiber": 3.5
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 150,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "low",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked",
+      "budget"
+    ],
+    "healthTags": [],
+    "proteinScore": 2,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "up-arbi-ki-sabzi",
+    "name": "Arbi ki Sabzi (colocasia)",
+    "localNames": {
+      "hi": "Arbi ki Sabzi"
+    },
+    "region": "north",
+    "state": "uttar-pradesh",
+    "category": "vegetables",
+    "subcategory": "dry-sabzi",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 145,
+      "protein": 2.5,
+      "carbs": 22,
+      "fat": 5.5,
+      "fiber": 3
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 120,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "side",
+      "home-cooked"
+    ],
+    "healthTags": [],
+    "proteinScore": 1,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "up-kaddu-ki-sabzi-banarasi",
+    "name": "Banarasi Khatta Meetha Kaddu",
+    "localNames": {
+      "hi": "Kaddu ki Sabzi"
+    },
+    "region": "north",
+    "state": "uttar-pradesh",
+    "category": "vegetables",
+    "subcategory": "dry-sabzi",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 100,
+      "protein": 1.5,
+      "carbs": 16,
+      "fat": 4,
+      "fiber": 2
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 120,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": [
+      "breakfast",
+      "lunch",
+      "side",
+      "home-cooked",
+      "festival"
+    ],
+    "healthTags": [
+      "low-cal"
+    ],
+    "proteinScore": 1,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "up-rabri",
+    "name": "Rabri",
+    "localNames": {
+      "hi": "Rabri"
+    },
+    "region": "north",
+    "state": "uttar-pradesh",
+    "category": "desserts",
+    "subcategory": "milk-sweet",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 230,
+      "protein": 7,
+      "carbs": 26,
+      "fat": 11,
+      "fiber": 0
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 100,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "dessert",
+      "festival"
+    ],
+    "healthTags": [],
+    "proteinScore": 2,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "up-imarti",
+    "name": "Imarti",
+    "localNames": {
+      "hi": "Imarti"
+    },
+    "region": "north",
+    "state": "uttar-pradesh",
+    "category": "desserts",
+    "subcategory": "fried-sweet",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 360,
+      "protein": 4,
+      "carbs": 60,
+      "fat": 12,
+      "fiber": 1
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 35,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "fried",
+    "mealTags": [
+      "dessert",
+      "festival",
+      "snack"
+    ],
+    "healthTags": [
+      "fried",
+      "high-cal",
+      "high-carb"
+    ],
+    "proteinScore": 1,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "up-jalebi",
+    "name": "Jalebi",
+    "localNames": {
+      "hi": "Jalebi"
+    },
+    "region": "north",
+    "state": "uttar-pradesh",
+    "category": "desserts",
+    "subcategory": "fried-sweet",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 380,
+      "protein": 3.5,
+      "carbs": 62,
+      "fat": 13,
+      "fiber": 0.5
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 25,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "fried",
+    "mealTags": [
+      "dessert",
+      "breakfast",
+      "street",
+      "festival"
+    ],
+    "healthTags": [
+      "fried",
+      "high-cal",
+      "high-carb"
+    ],
+    "proteinScore": 1,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "up-petha-agra",
+    "name": "Agra Petha",
+    "localNames": {
+      "hi": "Petha"
+    },
+    "region": "north",
+    "state": "uttar-pradesh",
+    "category": "desserts",
+    "subcategory": "regional-sweet",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 310,
+      "protein": 0.5,
+      "carbs": 78,
+      "fat": 0.1,
+      "fiber": 0.5
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 40,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "dessert",
+      "snack"
+    ],
+    "healthTags": [
+      "high-cal",
+      "high-carb"
+    ],
+    "proteinScore": 0,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "up-thandai",
+    "name": "Thandai",
+    "localNames": {
+      "hi": "Thandai"
+    },
+    "region": "north",
+    "state": "uttar-pradesh",
+    "category": "drinks",
+    "subcategory": "milk-based",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 120,
+      "protein": 3.5,
+      "carbs": 16,
+      "fat": 4.5,
+      "fiber": 0.5
+    },
+    "portions": [
+      {
+        "unit": "glass",
+        "grams": 250,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "drink",
+      "festival"
+    ],
+    "healthTags": [],
+    "proteinScore": 1,
+    "confidence": "low",
+    "source": "community-estimate",
+    "sourceNote": "Holi/Mahashivratri drink.",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "up-banarasi-lassi",
+    "name": "Banarasi Lassi (malai)",
+    "localNames": {
+      "hi": "Banarasi Lassi"
+    },
+    "region": "north",
+    "state": "uttar-pradesh",
+    "category": "drinks",
+    "subcategory": "lassi-shake",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 130,
+      "protein": 3,
+      "carbs": 16,
+      "fat": 6,
+      "fiber": 0
+    },
+    "portions": [
+      {
+        "unit": "glass",
+        "grams": 300,
+        "default": true,
+        "label": "1 kulhad"
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "drink",
+      "snack"
+    ],
+    "healthTags": [],
+    "proteinScore": 1,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "up-malaiyo",
+    "name": "Malaiyo (Banarasi foam)",
+    "localNames": {
+      "hi": "Malaiyo"
+    },
+    "aliases": [
+      "nimish",
+      "daulat ki chaat"
+    ],
+    "region": "north",
+    "state": "uttar-pradesh",
+    "category": "desserts",
+    "subcategory": "milk-sweet",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 140,
+      "protein": 4,
+      "carbs": 18,
+      "fat": 6,
+      "fiber": 0
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 60,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "dessert",
+      "festival",
+      "snack"
+    ],
+    "healthTags": [],
+    "proteinScore": 1,
+    "confidence": "low",
+    "source": "community-estimate",
+    "sourceNote": "Winter-morning Banaras specialty.",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "up-gajak",
+    "name": "Gajak (sesame brittle)",
+    "localNames": {
+      "hi": "Gajak"
+    },
+    "region": "north",
+    "state": "uttar-pradesh",
+    "category": "desserts",
+    "subcategory": "festival-sweet",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 480,
+      "protein": 11,
+      "carbs": 56,
+      "fat": 24,
+      "fiber": 5
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 20,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "dessert",
+      "festival",
+      "snack"
+    ],
+    "healthTags": [
+      "high-cal",
+      "high-carb",
+      "high-fat"
+    ],
+    "proteinScore": 3,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "up-dal-moth",
+    "name": "Dal Moth (namkeen)",
+    "localNames": {
+      "hi": "Dal Moth"
+    },
+    "region": "north",
+    "state": "uttar-pradesh",
+    "category": "snacks",
+    "subcategory": "namkeen",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 480,
+      "protein": 15,
+      "carbs": 50,
+      "fat": 24,
+      "fiber": 8
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 40,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "fried",
+    "mealTags": [
+      "snack",
+      "budget"
+    ],
+    "healthTags": [
+      "fried",
+      "high-cal",
+      "high-carb",
+      "high-fat",
+      "high-fiber",
+      "high-protein"
+    ],
+    "proteinScore": 4,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
     "id": "up-tehri",
     "name": "Tehri (veg rice)",
     "localNames": {
@@ -7673,6 +11320,1272 @@
       "high-protein"
     ],
     "proteinScore": 3,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "wb-chingri-malai-curry",
+    "name": "Chingri Malai Curry (prawn)",
+    "localNames": {
+      "bn": "Chingri Malai Curry"
+    },
+    "region": "east",
+    "state": "west-bengal",
+    "category": "non-veg",
+    "subcategory": "prawn-seafood",
+    "dietType": "non-veg",
+    "per100g": {
+      "calories": 190,
+      "protein": 14,
+      "carbs": 5,
+      "fat": 13,
+      "fiber": 0.8
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 150,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "high",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "festival",
+      "restaurant"
+    ],
+    "healthTags": [
+      "high-protein"
+    ],
+    "proteinScore": 4,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "wb-doi-maach",
+    "name": "Doi Maach (fish in yogurt)",
+    "localNames": {
+      "bn": "Doi Maach"
+    },
+    "region": "east",
+    "state": "west-bengal",
+    "category": "non-veg",
+    "subcategory": "fish",
+    "dietType": "non-veg",
+    "per100g": {
+      "calories": 160,
+      "protein": 15,
+      "carbs": 4,
+      "fat": 9,
+      "fiber": 0.5
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 150,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "high",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ],
+    "healthTags": [
+      "high-protein"
+    ],
+    "proteinScore": 5,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "wb-chicken-kosha",
+    "name": "Chicken Kosha",
+    "localNames": {
+      "bn": "Chicken Kosha"
+    },
+    "region": "east",
+    "state": "west-bengal",
+    "category": "non-veg",
+    "subcategory": "chicken",
+    "dietType": "non-veg",
+    "per100g": {
+      "calories": 205,
+      "protein": 16,
+      "carbs": 5,
+      "fat": 13,
+      "fiber": 1
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 150,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "high",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "restaurant",
+      "home-cooked"
+    ],
+    "healthTags": [
+      "high-protein"
+    ],
+    "proteinScore": 4,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "wb-kolkata-mutton-biryani",
+    "name": "Kolkata Mutton Biryani (with aloo)",
+    "localNames": {
+      "bn": "Kolkata Biryani"
+    },
+    "region": "east",
+    "state": "west-bengal",
+    "category": "rice-dishes",
+    "subcategory": "biryani",
+    "dietType": "non-veg",
+    "per100g": {
+      "calories": 195,
+      "protein": 9,
+      "carbs": 24,
+      "fat": 7.5,
+      "fiber": 1
+    },
+    "portions": [
+      {
+        "unit": "plate",
+        "grams": 350,
+        "default": true,
+        "label": "1 plate with aloo + egg"
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "high",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "restaurant"
+    ],
+    "healthTags": [],
+    "proteinScore": 3,
+    "confidence": "medium",
+    "source": "restaurant-menu",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "wb-dimer-dalna",
+    "name": "Dimer Dalna (egg curry)",
+    "localNames": {
+      "bn": "Dimer Dalna"
+    },
+    "region": "east",
+    "state": "west-bengal",
+    "category": "non-veg",
+    "subcategory": "egg",
+    "dietType": "egg",
+    "per100g": {
+      "calories": 165,
+      "protein": 9,
+      "carbs": 6,
+      "fat": 11.5,
+      "fiber": 1
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 150,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "high",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked",
+      "budget"
+    ],
+    "healthTags": [],
+    "proteinScore": 3,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "wb-dimer-devil",
+    "name": "Dimer Devil (egg chop)",
+    "localNames": {
+      "bn": "Dimer Devil"
+    },
+    "aliases": [
+      "egg devil"
+    ],
+    "region": "east",
+    "state": "west-bengal",
+    "category": "snacks",
+    "subcategory": "fried-snack",
+    "dietType": "egg",
+    "per100g": {
+      "calories": 250,
+      "protein": 10,
+      "carbs": 22,
+      "fat": 13,
+      "fiber": 1.5
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 90,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "fried",
+    "mealTags": [
+      "snack",
+      "street"
+    ],
+    "healthTags": [
+      "fried"
+    ],
+    "proteinScore": 3,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "wb-aloo-bhaja",
+    "name": "Aloo Bhaja (potato fry)",
+    "localNames": {
+      "bn": "Aloo Bhaja"
+    },
+    "region": "east",
+    "state": "west-bengal",
+    "category": "vegetables",
+    "subcategory": "dry-sabzi",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 180,
+      "protein": 2,
+      "carbs": 22,
+      "fat": 10,
+      "fiber": 2
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 80,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "high",
+    "mealTags": [
+      "lunch",
+      "side",
+      "home-cooked",
+      "budget"
+    ],
+    "healthTags": [],
+    "proteinScore": 1,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "wb-begun-bhaja",
+    "name": "Begun Bhaja (fried brinjal)",
+    "localNames": {
+      "bn": "Begun Bhaja"
+    },
+    "region": "east",
+    "state": "west-bengal",
+    "category": "vegetables",
+    "subcategory": "dry-sabzi",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 150,
+      "protein": 1.5,
+      "carbs": 9,
+      "fat": 12,
+      "fiber": 3
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 40,
+        "default": true,
+        "label": "1 slice"
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "fried",
+    "mealTags": [
+      "lunch",
+      "side",
+      "home-cooked"
+    ],
+    "healthTags": [
+      "fried"
+    ],
+    "proteinScore": 0,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "wb-aloo-posto-bora",
+    "name": "Posto Bora (poppy seed fritter)",
+    "localNames": {
+      "bn": "Posto Bora"
+    },
+    "region": "east",
+    "state": "west-bengal",
+    "category": "snacks",
+    "subcategory": "fried-snack",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 270,
+      "protein": 8,
+      "carbs": 14,
+      "fat": 20,
+      "fiber": 4
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 30,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "fried",
+    "mealTags": [
+      "lunch",
+      "side",
+      "home-cooked"
+    ],
+    "healthTags": [
+      "fried",
+      "high-fat"
+    ],
+    "proteinScore": 2,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "wb-mochar-ghonto",
+    "name": "Mochar Ghonto (banana flower)",
+    "localNames": {
+      "bn": "Mochar Ghonto"
+    },
+    "region": "east",
+    "state": "west-bengal",
+    "category": "vegetables",
+    "subcategory": "dry-sabzi",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 110,
+      "protein": 3,
+      "carbs": 14,
+      "fat": 5,
+      "fiber": 5
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 120,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": [
+      "lunch",
+      "side",
+      "home-cooked",
+      "festival"
+    ],
+    "healthTags": [
+      "high-fiber"
+    ],
+    "proteinScore": 1,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "wb-dhokar-dalna",
+    "name": "Dhokar Dalna (lentil cake curry)",
+    "localNames": {
+      "bn": "Dhokar Dalna"
+    },
+    "region": "east",
+    "state": "west-bengal",
+    "category": "dal-legumes",
+    "subcategory": "besan-based",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 165,
+      "protein": 7,
+      "carbs": 18,
+      "fat": 7.5,
+      "fiber": 4
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 150,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "high",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked",
+      "festival"
+    ],
+    "healthTags": [],
+    "proteinScore": 2,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "wb-labra",
+    "name": "Labra (mixed veg)",
+    "localNames": {
+      "bn": "Labra"
+    },
+    "region": "east",
+    "state": "west-bengal",
+    "category": "vegetables",
+    "subcategory": "gravy-sabzi",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 90,
+      "protein": 2.5,
+      "carbs": 12,
+      "fat": 4,
+      "fiber": 4
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 130,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": [
+      "lunch",
+      "side",
+      "home-cooked",
+      "festival"
+    ],
+    "healthTags": [
+      "high-fiber",
+      "low-cal"
+    ],
+    "proteinScore": 1,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "wb-bengali-aloo-dum",
+    "name": "Bengali Aloo Dum",
+    "localNames": {
+      "bn": "Aloor Dom"
+    },
+    "region": "east",
+    "state": "west-bengal",
+    "category": "vegetables",
+    "subcategory": "gravy-sabzi",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 140,
+      "protein": 2.5,
+      "carbs": 18,
+      "fat": 7,
+      "fiber": 2.5
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 150,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "high",
+    "mealTags": [
+      "breakfast",
+      "lunch",
+      "side",
+      "home-cooked"
+    ],
+    "healthTags": [],
+    "proteinScore": 1,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "wb-radhaballavi",
+    "name": "Radhaballavi (dal kachori)",
+    "localNames": {
+      "bn": "Radhaballabi"
+    },
+    "region": "east",
+    "state": "west-bengal",
+    "category": "grains-breads",
+    "subcategory": "puri-fried-bread",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 330,
+      "protein": 8,
+      "carbs": 44,
+      "fat": 14,
+      "fiber": 3
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 45,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "fried",
+    "mealTags": [
+      "breakfast",
+      "snack",
+      "festival",
+      "home-cooked"
+    ],
+    "healthTags": [
+      "fried",
+      "high-cal"
+    ],
+    "proteinScore": 2,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "wb-koraishutir-kochuri",
+    "name": "Koraishutir Kochuri (green pea kachori)",
+    "localNames": {
+      "bn": "Koraishutir Kochuri"
+    },
+    "region": "east",
+    "state": "west-bengal",
+    "category": "grains-breads",
+    "subcategory": "puri-fried-bread",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 320,
+      "protein": 8,
+      "carbs": 44,
+      "fat": 13,
+      "fiber": 4
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 45,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "fried",
+    "mealTags": [
+      "breakfast",
+      "snack",
+      "festival",
+      "home-cooked"
+    ],
+    "healthTags": [
+      "fried",
+      "high-cal"
+    ],
+    "proteinScore": 2,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "wb-mughlai-paratha",
+    "name": "Mughlai Paratha (egg-stuffed)",
+    "localNames": {
+      "bn": "Mughlai Porota"
+    },
+    "region": "east",
+    "state": "west-bengal",
+    "category": "street-food",
+    "subcategory": "regional-street",
+    "dietType": "egg",
+    "per100g": {
+      "calories": 320,
+      "protein": 9,
+      "carbs": 32,
+      "fat": 17,
+      "fiber": 2
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 150,
+        "default": true,
+        "label": "1 mughlai paratha"
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "fried",
+    "mealTags": [
+      "snack",
+      "street",
+      "lunch",
+      "student"
+    ],
+    "healthTags": [
+      "fried",
+      "high-cal"
+    ],
+    "proteinScore": 2,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "wb-jhalmuri",
+    "name": "Jhalmuri",
+    "localNames": {
+      "bn": "Jhalmuri"
+    },
+    "region": "east",
+    "state": "west-bengal",
+    "category": "street-food",
+    "subcategory": "chaat",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 200,
+      "protein": 5,
+      "carbs": 30,
+      "fat": 7,
+      "fiber": 3
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 80,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "low",
+    "mealTags": [
+      "snack",
+      "street",
+      "budget",
+      "student"
+    ],
+    "healthTags": [],
+    "proteinScore": 1,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "wb-phuchka",
+    "name": "Phuchka",
+    "localNames": {
+      "bn": "Phuchka"
+    },
+    "aliases": [
+      "puchka",
+      "golgappa",
+      "pani puri"
+    ],
+    "region": "east",
+    "state": "west-bengal",
+    "category": "street-food",
+    "subcategory": "chaat",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 140,
+      "protein": 3,
+      "carbs": 23,
+      "fat": 4,
+      "fiber": 2
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 16,
+        "default": true,
+        "label": "1 phuchka"
+      },
+      {
+        "unit": "plate",
+        "grams": 110
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "low",
+    "mealTags": [
+      "snack",
+      "street",
+      "budget"
+    ],
+    "healthTags": [],
+    "proteinScore": 1,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "wb-beguni",
+    "name": "Beguni (brinjal fritter)",
+    "localNames": {
+      "bn": "Beguni"
+    },
+    "region": "east",
+    "state": "west-bengal",
+    "category": "snacks",
+    "subcategory": "fried-snack",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 230,
+      "protein": 4,
+      "carbs": 20,
+      "fat": 15,
+      "fiber": 3
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 40,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "fried",
+    "mealTags": [
+      "snack",
+      "street",
+      "home-cooked"
+    ],
+    "healthTags": [
+      "fried"
+    ],
+    "proteinScore": 1,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "wb-fish-fry-kolkata",
+    "name": "Kolkata Fish Fry (cutlet)",
+    "localNames": {
+      "bn": "Fish Fry"
+    },
+    "region": "east",
+    "state": "west-bengal",
+    "category": "snacks",
+    "subcategory": "fried-snack",
+    "dietType": "non-veg",
+    "per100g": {
+      "calories": 245,
+      "protein": 15,
+      "carbs": 16,
+      "fat": 14,
+      "fiber": 1
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 90,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "fried",
+    "mealTags": [
+      "snack",
+      "street",
+      "restaurant"
+    ],
+    "healthTags": [
+      "fried",
+      "high-protein"
+    ],
+    "proteinScore": 4,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "wb-ghugni-bengali",
+    "name": "Ghugni (Bengali, yellow peas)",
+    "localNames": {
+      "bn": "Ghugni"
+    },
+    "region": "east",
+    "state": "west-bengal",
+    "category": "street-food",
+    "subcategory": "regional-street",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 145,
+      "protein": 7,
+      "carbs": 20,
+      "fat": 4,
+      "fiber": 6
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 130,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": [
+      "snack",
+      "street",
+      "breakfast",
+      "budget"
+    ],
+    "healthTags": [
+      "budget-protein",
+      "high-fiber"
+    ],
+    "proteinScore": 2,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "wb-payesh",
+    "name": "Payesh (rice kheer)",
+    "localNames": {
+      "bn": "Payesh"
+    },
+    "region": "east",
+    "state": "west-bengal",
+    "category": "desserts",
+    "subcategory": "kheer-payasam",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 145,
+      "protein": 3.5,
+      "carbs": 25,
+      "fat": 3.5,
+      "fiber": 0.3
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 130,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "dessert",
+      "festival",
+      "home-cooked"
+    ],
+    "healthTags": [],
+    "proteinScore": 1,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "wb-patishapta",
+    "name": "Patishapta (crepe)",
+    "localNames": {
+      "bn": "Patishapta"
+    },
+    "region": "east",
+    "state": "west-bengal",
+    "category": "desserts",
+    "subcategory": "festival-sweet",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 250,
+      "protein": 5,
+      "carbs": 38,
+      "fat": 9,
+      "fiber": 1.5
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 60,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "low",
+    "mealTags": [
+      "dessert",
+      "festival"
+    ],
+    "healthTags": [],
+    "proteinScore": 1,
+    "confidence": "low",
+    "source": "community-estimate",
+    "sourceNote": "Poush Sankranti pithe.",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "wb-pantua",
+    "name": "Pantua",
+    "localNames": {
+      "bn": "Pantua"
+    },
+    "region": "east",
+    "state": "west-bengal",
+    "category": "desserts",
+    "subcategory": "fried-sweet",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 310,
+      "protein": 5,
+      "carbs": 44,
+      "fat": 13,
+      "fiber": 0.3
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 40,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "fried",
+    "mealTags": [
+      "dessert",
+      "festival"
+    ],
+    "healthTags": [
+      "fried",
+      "high-cal"
+    ],
+    "proteinScore": 1,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "wb-cham-cham",
+    "name": "Cham Cham",
+    "localNames": {
+      "bn": "Cham Cham"
+    },
+    "region": "east",
+    "state": "west-bengal",
+    "category": "desserts",
+    "subcategory": "milk-sweet",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 300,
+      "protein": 7,
+      "carbs": 45,
+      "fat": 10,
+      "fiber": 0
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 45,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "dessert",
+      "festival"
+    ],
+    "healthTags": [
+      "high-cal"
+    ],
+    "proteinScore": 2,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "wb-nolen-gur-sandesh",
+    "name": "Nolen Gur Sandesh",
+    "localNames": {
+      "bn": "Nolen Gurer Sandesh"
+    },
+    "region": "east",
+    "state": "west-bengal",
+    "category": "desserts",
+    "subcategory": "milk-sweet",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 290,
+      "protein": 9,
+      "carbs": 38,
+      "fat": 11,
+      "fiber": 0
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 30,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "dessert",
+      "festival"
+    ],
+    "healthTags": [],
+    "proteinScore": 2,
+    "confidence": "low",
+    "source": "community-estimate",
+    "sourceNote": "Winter date-palm jaggery sandesh.",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "wb-langcha",
+    "name": "Langcha",
+    "localNames": {
+      "bn": "Langcha"
+    },
+    "region": "east",
+    "state": "west-bengal",
+    "category": "desserts",
+    "subcategory": "fried-sweet",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 330,
+      "protein": 5,
+      "carbs": 46,
+      "fat": 14,
+      "fiber": 0.3
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 60,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "fried",
+    "mealTags": [
+      "dessert",
+      "festival"
+    ],
+    "healthTags": [
+      "fried",
+      "high-cal"
+    ],
+    "proteinScore": 1,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "wb-shorshe-bata-jhol",
+    "name": "Shorshe Diye Maach (mustard fish)",
+    "localNames": {
+      "bn": "Shorshe Maach"
+    },
+    "region": "east",
+    "state": "west-bengal",
+    "category": "non-veg",
+    "subcategory": "fish",
+    "dietType": "non-veg",
+    "per100g": {
+      "calories": 175,
+      "protein": 15,
+      "carbs": 4,
+      "fat": 11,
+      "fiber": 0.8
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 150,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "high",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ],
+    "healthTags": [
+      "high-protein"
+    ],
+    "proteinScore": 4,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "wb-ghee-bhat",
+    "name": "Ghee Bhat (ghee rice)",
+    "localNames": {
+      "bn": "Ghee Bhat"
+    },
+    "region": "east",
+    "state": "west-bengal",
+    "category": "rice-dishes",
+    "subcategory": "regional-rice",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 175,
+      "protein": 2.7,
+      "carbs": 28,
+      "fat": 6,
+      "fiber": 0.4
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 150,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "low",
+    "mealTags": [
+      "lunch",
+      "festival",
+      "home-cooked"
+    ],
+    "healthTags": [],
+    "proteinScore": 1,
     "confidence": "medium",
     "source": "recipe-analysis",
     "lastReviewed": "2026-06-11"

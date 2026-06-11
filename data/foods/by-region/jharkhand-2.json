@@ -1,0 +1,537 @@
+[
+  {
+    "id": "jh-marua-roti",
+    "name": "Marua Roti (ragi)",
+    "localNames": {
+      "hi": "Marua Roti"
+    },
+    "aliases": [
+      "ragi roti",
+      "finger millet roti"
+    ],
+    "region": "east",
+    "state": "jharkhand",
+    "category": "grains-breads",
+    "subcategory": "millet",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 270,
+      "protein": 7,
+      "carbs": 55,
+      "fat": 2,
+      "fiber": 8
+    },
+    "portions": [
+      {
+        "unit": "roti",
+        "grams": 50,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "low",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked",
+      "budget"
+    ],
+    "healthTags": [
+      "diabetic-friendly",
+      "gluten-free",
+      "high-carb",
+      "high-fiber"
+    ],
+    "proteinScore": 2,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "jh-chilka-roti",
+    "name": "Chilka Roti (rice-dal)",
+    "localNames": {
+      "hi": "Chilka Roti"
+    },
+    "region": "east",
+    "state": "jharkhand",
+    "category": "breakfast",
+    "subcategory": "regional-breakfast",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 175,
+      "protein": 6,
+      "carbs": 30,
+      "fat": 3.5,
+      "fiber": 2.5
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 70,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "low",
+    "mealTags": [
+      "breakfast",
+      "home-cooked",
+      "budget"
+    ],
+    "healthTags": [],
+    "proteinScore": 2,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "jh-aloo-chokha",
+    "name": "Aloo Chokha (Jharkhandi)",
+    "localNames": {
+      "hi": "Aloo Chokha"
+    },
+    "region": "east",
+    "state": "jharkhand",
+    "category": "vegetables",
+    "subcategory": "dry-sabzi",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 95,
+      "protein": 2,
+      "carbs": 15,
+      "fat": 3,
+      "fiber": 2
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 120,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "low",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "side",
+      "home-cooked",
+      "budget"
+    ],
+    "healthTags": [
+      "low-cal"
+    ],
+    "proteinScore": 1,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "jh-koinar-saag",
+    "name": "Koinar Saag",
+    "localNames": {
+      "hi": "Koinar Saag"
+    },
+    "region": "east",
+    "state": "jharkhand",
+    "category": "vegetables",
+    "subcategory": "leafy-greens",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 70,
+      "protein": 3.5,
+      "carbs": 7,
+      "fat": 3,
+      "fiber": 4
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 120,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "low",
+    "mealTags": [
+      "lunch",
+      "side",
+      "home-cooked",
+      "budget"
+    ],
+    "healthTags": [
+      "high-fiber",
+      "low-cal"
+    ],
+    "proteinScore": 2,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "jh-bamboo-shoot-sabzi",
+    "name": "Sanai (bamboo shoot) Sabzi",
+    "localNames": {
+      "hi": "Sanai Sabzi"
+    },
+    "region": "east",
+    "state": "jharkhand",
+    "category": "vegetables",
+    "subcategory": "dry-sabzi",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 80,
+      "protein": 3,
+      "carbs": 8,
+      "fat": 4,
+      "fiber": 4
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 120,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": [
+      "lunch",
+      "side",
+      "home-cooked"
+    ],
+    "healthTags": [
+      "high-fiber",
+      "low-cal"
+    ],
+    "proteinScore": 1,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "jh-putu-mushroom",
+    "name": "Putu (wild mushroom) Curry",
+    "localNames": {
+      "hi": "Putu"
+    },
+    "region": "east",
+    "state": "jharkhand",
+    "category": "vegetables",
+    "subcategory": "gravy-sabzi",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 90,
+      "protein": 4.5,
+      "carbs": 7,
+      "fat": 5,
+      "fiber": 2.5
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 120,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": [
+      "lunch",
+      "main",
+      "home-cooked"
+    ],
+    "healthTags": [
+      "low-cal"
+    ],
+    "proteinScore": 2,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "jh-mutton-curry-jharkhandi",
+    "name": "Jharkhandi Mutton Curry",
+    "localNames": {
+      "hi": "Mutton Curry"
+    },
+    "region": "east",
+    "state": "jharkhand",
+    "category": "non-veg",
+    "subcategory": "mutton-goat",
+    "dietType": "non-veg",
+    "per100g": {
+      "calories": 235,
+      "protein": 18,
+      "carbs": 4,
+      "fat": 16.5,
+      "fiber": 0.8
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 150,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "high",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "festival",
+      "home-cooked"
+    ],
+    "healthTags": [
+      "high-protein"
+    ],
+    "proteinScore": 5,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "jh-arsa-roti",
+    "name": "Arsa Roti",
+    "localNames": {
+      "hi": "Arsa Roti"
+    },
+    "region": "east",
+    "state": "jharkhand",
+    "category": "desserts",
+    "subcategory": "fried-sweet",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 380,
+      "protein": 5,
+      "carbs": 58,
+      "fat": 15,
+      "fiber": 1.5
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 50,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "fried",
+    "mealTags": [
+      "dessert",
+      "festival",
+      "snack"
+    ],
+    "healthTags": [
+      "fried",
+      "high-cal",
+      "high-carb"
+    ],
+    "proteinScore": 1,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "jh-til-barfi",
+    "name": "Til Barfi",
+    "localNames": {
+      "hi": "Til Barfi"
+    },
+    "region": "east",
+    "state": "jharkhand",
+    "category": "desserts",
+    "subcategory": "festival-sweet",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 450,
+      "protein": 10,
+      "carbs": 52,
+      "fat": 23,
+      "fiber": 4
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 25,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "dessert",
+      "festival",
+      "snack"
+    ],
+    "healthTags": [
+      "high-cal",
+      "high-carb",
+      "high-fat"
+    ],
+    "proteinScore": 2,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "jh-dhuska-ghugni",
+    "name": "Dhuska with Ghugni",
+    "localNames": {
+      "hi": "Dhuska Ghugni"
+    },
+    "region": "east",
+    "state": "jharkhand",
+    "category": "street-food",
+    "subcategory": "regional-street",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 230,
+      "protein": 7,
+      "carbs": 32,
+      "fat": 8.5,
+      "fiber": 4
+    },
+    "portions": [
+      {
+        "unit": "plate",
+        "grams": 250,
+        "default": true,
+        "label": "2 dhuska + ghugni"
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "fried",
+    "mealTags": [
+      "breakfast",
+      "snack",
+      "street",
+      "budget"
+    ],
+    "healthTags": [
+      "fried"
+    ],
+    "proteinScore": 2,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "jh-pittha-jharkhandi",
+    "name": "Pittha (steamed, Jharkhandi)",
+    "localNames": {
+      "hi": "Pittha"
+    },
+    "region": "east",
+    "state": "jharkhand",
+    "category": "snacks",
+    "subcategory": "tikki-cutlet",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 175,
+      "protein": 6,
+      "carbs": 33,
+      "fat": 2,
+      "fiber": 3
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 50,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "breakfast",
+      "snack",
+      "home-cooked"
+    ],
+    "healthTags": [],
+    "proteinScore": 2,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  },
+  {
+    "id": "jh-malpua-jharkhandi",
+    "name": "Malpua (Jharkhandi)",
+    "localNames": {
+      "hi": "Malpua"
+    },
+    "region": "east",
+    "state": "jharkhand",
+    "category": "desserts",
+    "subcategory": "fried-sweet",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 350,
+      "protein": 5,
+      "carbs": 50,
+      "fat": 15,
+      "fiber": 0.5
+    },
+    "portions": [
+      {
+        "unit": "piece",
+        "grams": 50,
+        "default": true
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "fried",
+    "mealTags": [
+      "dessert",
+      "festival"
+    ],
+    "healthTags": [
+      "fried",
+      "high-cal",
+      "high-carb"
+    ],
+    "proteinScore": 1,
+    "confidence": "low",
+    "source": "community-estimate",
+    "lastReviewed": "2026-06-11"
+  }
+]
