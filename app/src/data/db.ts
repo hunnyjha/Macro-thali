@@ -9,6 +9,7 @@ import type { LogEntry, MealTemplate } from '../types/log';
 export interface FavRow { foodId: string; addedAt: number; }
 export interface RecentRow { foodId: string; usedAt: number; }
 export interface MetaRow { key: string; value: string; }
+export interface WeightRow { date: string; kg: number; at: number; }
 
 export class MacroKatoriDB extends Dexie {
   foods!: Table<Food, string>;
@@ -17,6 +18,7 @@ export class MacroKatoriDB extends Dexie {
   recents!: Table<RecentRow, string>;
   meta!: Table<MetaRow, string>;
   templates!: Table<MealTemplate, string>;
+  weights!: Table<WeightRow, string>;
 
   constructor() {
     super('macro-katori');
@@ -30,6 +32,10 @@ export class MacroKatoriDB extends Dexie {
     // v2: meal templates (saved reusable meals)
     this.version(2).stores({
       templates: 'id, slot, createdAt',
+    });
+    // v3: body-weight log (one entry per day)
+    this.version(3).stores({
+      weights: 'date, at',
     });
   }
 }

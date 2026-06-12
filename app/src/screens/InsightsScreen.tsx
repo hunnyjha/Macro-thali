@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useLogStore } from '../store/useLogStore';
 import { computeWeeklyInsights, type WeeklyInsights } from '../lib/insights';
+import { WeightSection } from '../components/insights/WeightSection';
 import { kcal } from '../lib/format';
 
 export function InsightsScreen() {
@@ -60,6 +61,8 @@ export function InsightsScreen() {
         {/* goal line label */}
         <p className="mt-2 text-center text-[11px] text-ink-faint">Orange = on/under goal · Red = over goal</p>
       </section>
+
+      <WeightSection />
 
       {/* narrative insights */}
       <section className="space-y-2">

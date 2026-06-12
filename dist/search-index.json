@@ -9,6 +9,9 @@
     "diet": "veg",
     "kcal": 165,
     "protein": 8,
+    "carbs": 24,
+    "fat": 4,
+    "fiber": 4,
     "ps": 2,
     "meal": [
       "breakfast",
@@ -26,6 +29,9 @@
     "diet": "non-veg",
     "kcal": 235,
     "protein": 19,
+    "carbs": 4,
+    "fat": 16,
+    "fiber": 1.5,
     "ps": 5,
     "meal": [
       "lunch",
@@ -44,6 +50,9 @@
     "diet": "veg",
     "kcal": 170,
     "protein": 3,
+    "carbs": 29,
+    "fat": 5,
+    "fiber": 1.2,
     "ps": 1,
     "meal": [
       "lunch",
@@ -61,6 +70,9 @@
     "diet": "veg",
     "kcal": 150,
     "protein": 3.5,
+    "carbs": 12,
+    "fat": 10,
+    "fiber": 4,
     "ps": 1,
     "meal": [
       "lunch",
@@ -79,6 +91,9 @@
     "diet": "non-veg",
     "kcal": 95,
     "protein": 5,
+    "carbs": 13,
+    "fat": 2.5,
+    "fiber": 1,
     "ps": 2,
     "meal": [
       "lunch",
@@ -97,6 +112,9 @@
     "diet": "non-veg",
     "kcal": 130,
     "protein": 4,
+    "carbs": 6,
+    "fat": 10,
+    "fiber": 2,
     "ps": 1,
     "meal": [
       "side",
@@ -113,6 +131,9 @@
     "diet": "veg",
     "kcal": 130,
     "protein": 2.7,
+    "carbs": 28,
+    "fat": 0.3,
+    "fiber": 0.5,
     "ps": 1,
     "meal": [
       "lunch",
@@ -131,6 +152,9 @@
     "diet": "non-veg",
     "kcal": 120,
     "protein": 13,
+    "carbs": 4,
+    "fat": 6,
+    "fiber": 0.8,
     "ps": 4,
     "meal": [
       "lunch",
@@ -149,6 +173,9 @@
     "diet": "veg",
     "kcal": 110,
     "protein": 2.2,
+    "carbs": 17,
+    "fat": 4,
+    "fiber": 2,
     "ps": 1,
     "meal": [
       "lunch",
@@ -168,6 +195,9 @@
     "diet": "non-veg",
     "kcal": 245,
     "protein": 16,
+    "carbs": 3,
+    "fat": 19,
+    "fiber": 1,
     "ps": 4,
     "meal": [
       "lunch",
@@ -186,6 +216,9 @@
     "diet": "veg",
     "kcal": 290,
     "protein": 5,
+    "carbs": 48,
+    "fat": 9,
+    "fiber": 2.5,
     "ps": 1,
     "meal": [
       "dessert",
@@ -203,6 +236,9 @@
     "diet": "non-veg",
     "kcal": 240,
     "protein": 18,
+    "carbs": 4,
+    "fat": 17,
+    "fiber": 0.8,
     "ps": 5,
     "meal": [
       "lunch",
@@ -222,6 +258,9 @@
     "diet": "non-veg",
     "kcal": 150,
     "protein": 14,
+    "carbs": 4,
+    "fat": 9,
+    "fiber": 0.8,
     "ps": 4,
     "meal": [
       "lunch",
@@ -240,6 +279,9 @@
     "diet": "non-veg",
     "kcal": 185,
     "protein": 16,
+    "carbs": 4,
+    "fat": 11,
+    "fiber": 1,
     "ps": 5,
     "meal": [
       "lunch",
@@ -258,6 +300,9 @@
     "diet": "egg",
     "kcal": 165,
     "protein": 9,
+    "carbs": 5,
+    "fat": 12,
+    "fiber": 1,
     "ps": 3,
     "meal": [
       "lunch",
@@ -277,6 +322,9 @@
     "diet": "veg",
     "kcal": 145,
     "protein": 7,
+    "carbs": 20,
+    "fat": 4,
+    "fiber": 6,
     "ps": 2,
     "meal": [
       "breakfast",
@@ -295,6 +343,9 @@
     "diet": "veg",
     "kcal": 130,
     "protein": 3,
+    "carbs": 24,
+    "fat": 2.5,
+    "fiber": 1.2,
     "ps": 1,
     "meal": [
       "breakfast",
@@ -313,6 +364,9 @@
     "diet": "veg",
     "kcal": 150,
     "protein": 4,
+    "carbs": 24,
+    "fat": 4,
+    "fiber": 1,
     "ps": 1,
     "meal": [
       "dessert",
@@ -329,6 +383,9 @@
     "diet": "veg",
     "kcal": 350,
     "protein": 9.7,
+    "carbs": 65,
+    "fat": 5,
+    "fiber": 7,
     "ps": 2,
     "meal": [
       "snack",
@@ -346,6 +403,9 @@
     "diet": "veg",
     "kcal": 470,
     "protein": 12,
+    "carbs": 55,
+    "fat": 22,
+    "fiber": 5,
     "ps": 3,
     "meal": [
       "dessert",
@@ -363,6 +423,9 @@
     "diet": "veg",
     "kcal": 420,
     "protein": 5,
+    "carbs": 60,
+    "fat": 18,
+    "fiber": 1.5,
     "ps": 1,
     "meal": [
       "dessert",
@@ -379,6 +442,9 @@
     "diet": "veg",
     "kcal": 410,
     "protein": 5,
+    "carbs": 55,
+    "fat": 19,
+    "fiber": 0.8,
     "ps": 1,
     "meal": [
       "dessert",
@@ -395,6 +461,9 @@
     "diet": "veg",
     "kcal": 145,
     "protein": 3,
+    "carbs": 26,
+    "fat": 3,
+    "fiber": 0.4,
     "ps": 1,
     "meal": [
       "dessert",
@@ -411,6 +480,9 @@
     "diet": "veg",
     "kcal": 400,
     "protein": 6,
+    "carbs": 52,
+    "fat": 19,
+    "fiber": 2,
     "ps": 1,
     "meal": [
       "dessert",
@@ -427,6 +499,9 @@
     "diet": "veg",
     "kcal": 95,
     "protein": 2,
+    "carbs": 9,
+    "fat": 5.5,
+    "fiber": 3,
     "ps": 1,
     "meal": [
       "lunch",
@@ -446,6 +521,9 @@
     "diet": "veg",
     "kcal": 320,
     "protein": 8,
+    "carbs": 42,
+    "fat": 13,
+    "fiber": 1,
     "ps": 2,
     "meal": [
       "dessert",
@@ -462,6 +540,9 @@
     "diet": "veg",
     "kcal": 90,
     "protein": 2,
+    "carbs": 9,
+    "fat": 5,
+    "fiber": 3.5,
     "ps": 1,
     "meal": [
       "lunch",
@@ -481,6 +562,9 @@
     "diet": "veg",
     "kcal": 125,
     "protein": 2.2,
+    "carbs": 18,
+    "fat": 5,
+    "fiber": 2.2,
     "ps": 1,
     "meal": [
       "breakfast",
@@ -500,6 +584,9 @@
     "diet": "veg",
     "kcal": 410,
     "protein": 20,
+    "carbs": 60,
+    "fat": 7,
+    "fiber": 18,
     "ps": 5,
     "meal": [
       "breakfast",
@@ -518,6 +605,9 @@
     "diet": "veg",
     "kcal": 480,
     "protein": 12,
+    "carbs": 50,
+    "fat": 26,
+    "fiber": 6,
     "ps": 3,
     "meal": [
       "dessert",
@@ -535,6 +625,9 @@
     "diet": "veg",
     "kcal": 390,
     "protein": 5,
+    "carbs": 80,
+    "fat": 5,
+    "fiber": 1.5,
     "ps": 1,
     "meal": [
       "dessert",
@@ -552,6 +645,9 @@
     "diet": "veg",
     "kcal": 120,
     "protein": 4.5,
+    "carbs": 20,
+    "fat": 2.5,
+    "fiber": 2,
     "ps": 2,
     "meal": [
       "lunch",
@@ -571,6 +667,9 @@
     "diet": "veg",
     "kcal": 340,
     "protein": 5,
+    "carbs": 50,
+    "fat": 13,
+    "fiber": 1,
     "ps": 1,
     "meal": [
       "dessert",
@@ -588,6 +687,9 @@
     "diet": "veg",
     "kcal": 150,
     "protein": 8,
+    "carbs": 21,
+    "fat": 3.5,
+    "fiber": 7,
     "ps": 2,
     "meal": [
       "breakfast",
@@ -606,6 +708,9 @@
     "diet": "veg",
     "kcal": 180,
     "protein": 9,
+    "carbs": 20,
+    "fat": 7,
+    "fiber": 4,
     "ps": 3,
     "meal": [
       "breakfast",
@@ -625,6 +730,9 @@
     "diet": "veg",
     "kcal": 280,
     "protein": 9,
+    "carbs": 42,
+    "fat": 8,
+    "fiber": 6,
     "ps": 2,
     "meal": [
       "lunch",
@@ -644,6 +752,9 @@
     "diet": "veg",
     "kcal": 85,
     "protein": 2,
+    "carbs": 11,
+    "fat": 4,
+    "fiber": 3.5,
     "ps": 1,
     "meal": [
       "lunch",
@@ -663,6 +774,9 @@
     "diet": "veg",
     "kcal": 300,
     "protein": 11,
+    "carbs": 44,
+    "fat": 9,
+    "fiber": 6.5,
     "ps": 3,
     "meal": [
       "breakfast",
@@ -681,6 +795,9 @@
     "diet": "veg",
     "kcal": 70,
     "protein": 4,
+    "carbs": 11,
+    "fat": 1,
+    "fiber": 2,
     "ps": 2,
     "meal": [
       "drink",
@@ -699,6 +816,9 @@
     "diet": "veg",
     "kcal": 175,
     "protein": 6,
+    "carbs": 33,
+    "fat": 2,
+    "fiber": 3,
     "ps": 2,
     "meal": [
       "breakfast",
@@ -716,6 +836,9 @@
     "diet": "veg",
     "kcal": 150,
     "protein": 7.5,
+    "carbs": 20,
+    "fat": 4,
+    "fiber": 6.5,
     "ps": 2,
     "meal": [
       "breakfast",
@@ -734,6 +857,9 @@
     "diet": "veg",
     "kcal": 430,
     "protein": 5,
+    "carbs": 60,
+    "fat": 19,
+    "fiber": 1,
     "ps": 1,
     "meal": [
       "dessert",
@@ -750,6 +876,9 @@
     "diet": "veg",
     "kcal": 420,
     "protein": 6,
+    "carbs": 58,
+    "fat": 18,
+    "fiber": 2,
     "ps": 1,
     "meal": [
       "dessert",
@@ -767,6 +896,9 @@
     "diet": "veg",
     "kcal": 130,
     "protein": 4.5,
+    "carbs": 11,
+    "fat": 7.5,
+    "fiber": 1.5,
     "ps": 1,
     "meal": [
       "lunch",
@@ -785,6 +917,9 @@
     "diet": "veg",
     "kcal": 350,
     "protein": 5,
+    "carbs": 50,
+    "fat": 15,
+    "fiber": 0.5,
     "ps": 1,
     "meal": [
       "dessert",
@@ -801,6 +936,9 @@
     "diet": "veg",
     "kcal": 150,
     "protein": 4,
+    "carbs": 26,
+    "fat": 3,
+    "fiber": 1.5,
     "ps": 1,
     "meal": [
       "breakfast",
@@ -819,6 +957,9 @@
     "diet": "veg",
     "kcal": 165,
     "protein": 4,
+    "carbs": 33,
+    "fat": 1.5,
+    "fiber": 2,
     "ps": 1,
     "meal": [
       "breakfast",
@@ -836,6 +977,9 @@
     "diet": "veg",
     "kcal": 70,
     "protein": 3,
+    "carbs": 10,
+    "fat": 2,
+    "fiber": 3.5,
     "ps": 1,
     "meal": [
       "lunch",
@@ -854,6 +998,9 @@
     "diet": "veg",
     "kcal": 220,
     "protein": 6,
+    "carbs": 32,
+    "fat": 8,
+    "fiber": 4,
     "ps": 2,
     "meal": [
       "breakfast",
@@ -873,6 +1020,9 @@
     "diet": "veg",
     "kcal": 180,
     "protein": 3.5,
+    "carbs": 24,
+    "fat": 8,
+    "fiber": 2.5,
     "ps": 1,
     "meal": [
       "snack",
@@ -890,6 +1040,9 @@
     "diet": "veg",
     "kcal": 130,
     "protein": 2.5,
+    "carbs": 22,
+    "fat": 3.5,
+    "fiber": 1.5,
     "ps": 1,
     "meal": [
       "snack",
@@ -907,6 +1060,9 @@
     "diet": "non-veg",
     "kcal": 215,
     "protein": 13,
+    "carbs": 20,
+    "fat": 9,
+    "fiber": 1.5,
     "ps": 4,
     "meal": [
       "snack",
@@ -925,6 +1081,9 @@
     "diet": "non-veg",
     "kcal": 145,
     "protein": 13,
+    "carbs": 5,
+    "fat": 8,
+    "fiber": 1,
     "ps": 4,
     "meal": [
       "lunch",
@@ -943,6 +1102,9 @@
     "diet": "non-veg",
     "kcal": 255,
     "protein": 16,
+    "carbs": 5,
+    "fat": 19,
+    "fiber": 1,
     "ps": 4,
     "meal": [
       "lunch",
@@ -961,6 +1123,9 @@
     "diet": "non-veg",
     "kcal": 175,
     "protein": 15,
+    "carbs": 6,
+    "fat": 10,
+    "fiber": 1,
     "ps": 4,
     "meal": [
       "lunch",
@@ -979,6 +1144,9 @@
     "diet": "egg",
     "kcal": 380,
     "protein": 6,
+    "carbs": 45,
+    "fat": 20,
+    "fiber": 0.5,
     "ps": 1,
     "meal": [
       "dessert",
@@ -995,6 +1163,9 @@
     "diet": "veg",
     "kcal": 200,
     "protein": 8,
+    "carbs": 24,
+    "fat": 8,
+    "fiber": 4,
     "ps": 2,
     "meal": [
       "breakfast",
@@ -1012,6 +1183,9 @@
     "diet": "veg",
     "kcal": 250,
     "protein": 5,
+    "carbs": 36,
+    "fat": 9,
+    "fiber": 3,
     "ps": 1,
     "meal": [
       "snack",
@@ -1030,6 +1204,9 @@
     "diet": "veg",
     "kcal": 130,
     "protein": 2.5,
+    "carbs": 27,
+    "fat": 1.5,
+    "fiber": 1,
     "ps": 1,
     "meal": [
       "snack",
@@ -1047,6 +1224,9 @@
     "diet": "veg",
     "kcal": 190,
     "protein": 6,
+    "carbs": 28,
+    "fat": 6,
+    "fiber": 4,
     "ps": 2,
     "meal": [
       "breakfast",
@@ -1064,6 +1244,9 @@
     "diet": "veg",
     "kcal": 210,
     "protein": 5,
+    "carbs": 28,
+    "fat": 9,
+    "fiber": 4,
     "ps": 1,
     "meal": [
       "snack",
@@ -1080,6 +1263,9 @@
     "diet": "veg",
     "kcal": 150,
     "protein": 6,
+    "carbs": 23,
+    "fat": 4,
+    "fiber": 3.5,
     "ps": 2,
     "meal": [
       "lunch",
@@ -1099,6 +1285,9 @@
     "diet": "veg",
     "kcal": 440,
     "protein": 8,
+    "carbs": 52,
+    "fat": 22,
+    "fiber": 2,
     "ps": 2,
     "meal": [
       "dessert",
@@ -1115,6 +1304,9 @@
     "diet": "veg",
     "kcal": 230,
     "protein": 7,
+    "carbs": 26,
+    "fat": 11,
+    "fiber": 0,
     "ps": 2,
     "meal": [
       "dessert",
@@ -1131,6 +1323,9 @@
     "diet": "veg",
     "kcal": 230,
     "protein": 6,
+    "carbs": 32,
+    "fat": 9,
+    "fiber": 0,
     "ps": 2,
     "meal": [
       "dessert",
@@ -1147,6 +1342,9 @@
     "diet": "veg",
     "kcal": 160,
     "protein": 4.5,
+    "carbs": 24,
+    "fat": 5,
+    "fiber": 0.3,
     "ps": 1,
     "meal": [
       "dessert",
@@ -1163,6 +1361,9 @@
     "diet": "veg",
     "kcal": 320,
     "protein": 8,
+    "carbs": 32,
+    "fat": 17,
+    "fiber": 4,
     "ps": 2,
     "meal": [
       "snack",
@@ -1180,6 +1381,9 @@
     "diet": "veg",
     "kcal": 165,
     "protein": 4,
+    "carbs": 16,
+    "fat": 9,
+    "fiber": 2.5,
     "ps": 1,
     "meal": [
       "lunch",
@@ -1198,6 +1402,9 @@
     "diet": "veg",
     "kcal": 160,
     "protein": 6,
+    "carbs": 22,
+    "fat": 5,
+    "fiber": 2.5,
     "ps": 2,
     "meal": [
       "breakfast",
@@ -1215,6 +1422,9 @@
     "diet": "veg",
     "kcal": 300,
     "protein": 8,
+    "carbs": 44,
+    "fat": 10,
+    "fiber": 6,
     "ps": 2,
     "meal": [
       "breakfast",
@@ -1233,6 +1443,9 @@
     "diet": "veg",
     "kcal": 165,
     "protein": 4.5,
+    "carbs": 16,
+    "fat": 9.5,
+    "fiber": 5,
     "ps": 1,
     "meal": [
       "lunch",
@@ -1251,6 +1464,9 @@
     "diet": "veg",
     "kcal": 180,
     "protein": 6,
+    "carbs": 16,
+    "fat": 10,
+    "fiber": 1.5,
     "ps": 2,
     "meal": [
       "snack",
@@ -1267,6 +1483,9 @@
     "diet": "veg",
     "kcal": 200,
     "protein": 7,
+    "carbs": 26,
+    "fat": 7.5,
+    "fiber": 3.5,
     "ps": 2,
     "meal": [
       "breakfast",
@@ -1284,6 +1503,9 @@
     "diet": "veg",
     "kcal": 75,
     "protein": 2.8,
+    "carbs": 7,
+    "fat": 4,
+    "fiber": 0.5,
     "ps": 1,
     "meal": [
       "lunch",
@@ -1302,6 +1524,9 @@
     "diet": "veg",
     "kcal": 480,
     "protein": 12,
+    "carbs": 42,
+    "fat": 29,
+    "fiber": 5,
     "ps": 3,
     "meal": [
       "snack",
@@ -1319,6 +1544,9 @@
     "diet": "veg",
     "kcal": 140,
     "protein": 5,
+    "carbs": 23,
+    "fat": 3,
+    "fiber": 3.5,
     "ps": 2,
     "meal": [
       "lunch",
@@ -1338,6 +1566,9 @@
     "diet": "veg",
     "kcal": 130,
     "protein": 7,
+    "carbs": 18,
+    "fat": 3.5,
+    "fiber": 6,
     "ps": 2,
     "meal": [
       "lunch",
@@ -1356,6 +1587,9 @@
     "diet": "veg",
     "kcal": 90,
     "protein": 2.5,
+    "carbs": 10,
+    "fat": 4.5,
+    "fiber": 3,
     "ps": 1,
     "meal": [
       "lunch",
@@ -1373,6 +1607,9 @@
     "diet": "veg",
     "kcal": 230,
     "protein": 8,
+    "carbs": 38,
+    "fat": 5,
+    "fiber": 4,
     "ps": 2,
     "meal": [
       "breakfast",
@@ -1391,6 +1628,9 @@
     "diet": "veg",
     "kcal": 175,
     "protein": 6.5,
+    "carbs": 19,
+    "fat": 8.5,
+    "fiber": 5,
     "ps": 2,
     "meal": [
       "lunch",
@@ -1409,6 +1649,9 @@
     "diet": "veg",
     "kcal": 135,
     "protein": 6.5,
+    "carbs": 18,
+    "fat": 4,
+    "fiber": 6,
     "ps": 2,
     "meal": [
       "lunch",
@@ -1427,6 +1670,9 @@
     "diet": "non-veg",
     "kcal": 230,
     "protein": 18,
+    "carbs": 3,
+    "fat": 16,
+    "fiber": 0.5,
     "ps": 5,
     "meal": [
       "lunch",
@@ -1446,6 +1692,9 @@
     "diet": "veg",
     "kcal": 160,
     "protein": 3,
+    "carbs": 18,
+    "fat": 9,
+    "fiber": 2.5,
     "ps": 1,
     "meal": [
       "lunch",
@@ -1464,6 +1713,9 @@
     "diet": "veg",
     "kcal": 60,
     "protein": 3,
+    "carbs": 5,
+    "fat": 3.5,
+    "fiber": 3,
     "ps": 1,
     "meal": [
       "lunch",
@@ -1483,6 +1735,9 @@
     "diet": "veg",
     "kcal": 25,
     "protein": 0.5,
+    "carbs": 5,
+    "fat": 0.4,
+    "fiber": 0.2,
     "ps": 0,
     "meal": [
       "drink",
@@ -1499,6 +1754,9 @@
     "diet": "veg",
     "kcal": 270,
     "protein": 7,
+    "carbs": 55,
+    "fat": 2,
+    "fiber": 8,
     "ps": 2,
     "meal": [
       "lunch",
@@ -1518,6 +1776,9 @@
     "diet": "veg",
     "kcal": 175,
     "protein": 6,
+    "carbs": 30,
+    "fat": 3.5,
+    "fiber": 2.5,
     "ps": 2,
     "meal": [
       "breakfast",
@@ -1535,6 +1796,9 @@
     "diet": "veg",
     "kcal": 95,
     "protein": 2,
+    "carbs": 15,
+    "fat": 3,
+    "fiber": 2,
     "ps": 1,
     "meal": [
       "lunch",
@@ -1554,6 +1818,9 @@
     "diet": "veg",
     "kcal": 70,
     "protein": 3.5,
+    "carbs": 7,
+    "fat": 3,
+    "fiber": 4,
     "ps": 2,
     "meal": [
       "lunch",
@@ -1572,6 +1839,9 @@
     "diet": "veg",
     "kcal": 80,
     "protein": 3,
+    "carbs": 8,
+    "fat": 4,
+    "fiber": 4,
     "ps": 1,
     "meal": [
       "lunch",
@@ -1589,6 +1859,9 @@
     "diet": "veg",
     "kcal": 90,
     "protein": 4.5,
+    "carbs": 7,
+    "fat": 5,
+    "fiber": 2.5,
     "ps": 2,
     "meal": [
       "lunch",
@@ -1606,6 +1879,9 @@
     "diet": "non-veg",
     "kcal": 235,
     "protein": 18,
+    "carbs": 4,
+    "fat": 16.5,
+    "fiber": 0.8,
     "ps": 5,
     "meal": [
       "lunch",
@@ -1625,6 +1901,9 @@
     "diet": "veg",
     "kcal": 380,
     "protein": 5,
+    "carbs": 58,
+    "fat": 15,
+    "fiber": 1.5,
     "ps": 1,
     "meal": [
       "dessert",
@@ -1642,6 +1921,9 @@
     "diet": "veg",
     "kcal": 450,
     "protein": 10,
+    "carbs": 52,
+    "fat": 23,
+    "fiber": 4,
     "ps": 2,
     "meal": [
       "dessert",
@@ -1659,6 +1941,9 @@
     "diet": "veg",
     "kcal": 230,
     "protein": 7,
+    "carbs": 32,
+    "fat": 8.5,
+    "fiber": 4,
     "ps": 2,
     "meal": [
       "breakfast",
@@ -1677,6 +1962,9 @@
     "diet": "veg",
     "kcal": 175,
     "protein": 6,
+    "carbs": 33,
+    "fat": 2,
+    "fiber": 3,
     "ps": 2,
     "meal": [
       "breakfast",
@@ -1694,6 +1982,9 @@
     "diet": "veg",
     "kcal": 350,
     "protein": 5,
+    "carbs": 50,
+    "fat": 15,
+    "fiber": 0.5,
     "ps": 1,
     "meal": [
       "dessert",
@@ -1710,6 +2001,9 @@
     "diet": "veg",
     "kcal": 260,
     "protein": 7,
+    "carbs": 36,
+    "fat": 10,
+    "fiber": 3,
     "ps": 2,
     "meal": [
       "breakfast",
@@ -1728,6 +2022,9 @@
     "diet": "veg",
     "kcal": 280,
     "protein": 9,
+    "carbs": 42,
+    "fat": 8,
+    "fiber": 6,
     "ps": 2,
     "meal": [
       "lunch",
@@ -1747,6 +2044,9 @@
     "diet": "veg",
     "kcal": 90,
     "protein": 4,
+    "carbs": 8,
+    "fat": 5,
+    "fiber": 2.5,
     "ps": 2,
     "meal": [
       "lunch",
@@ -1764,6 +2064,9 @@
     "diet": "veg",
     "kcal": 160,
     "protein": 5,
+    "carbs": 26,
+    "fat": 4.5,
+    "fiber": 3,
     "ps": 2,
     "meal": [
       "lunch",
@@ -1782,6 +2085,9 @@
     "diet": "veg",
     "kcal": 120,
     "protein": 3,
+    "carbs": 26,
+    "fat": 0.8,
+    "fiber": 3,
     "ps": 1,
     "meal": [
       "lunch",
@@ -1801,6 +2107,9 @@
     "diet": "veg",
     "kcal": 200,
     "protein": 4,
+    "carbs": 30,
+    "fat": 7,
+    "fiber": 2,
     "ps": 1,
     "meal": [
       "breakfast",
@@ -1818,6 +2127,9 @@
     "diet": "veg",
     "kcal": 130,
     "protein": 2.5,
+    "carbs": 26,
+    "fat": 1.5,
+    "fiber": 0.8,
     "ps": 1,
     "meal": [
       "breakfast",
@@ -1835,6 +2147,9 @@
     "diet": "veg",
     "kcal": 520,
     "protein": 6,
+    "carbs": 55,
+    "fat": 31,
+    "fiber": 1,
     "ps": 1,
     "meal": [
       "dessert",
@@ -1851,6 +2166,9 @@
     "diet": "veg",
     "kcal": 140,
     "protein": 2.5,
+    "carbs": 28,
+    "fat": 2,
+    "fiber": 0.8,
     "ps": 1,
     "meal": [
       "breakfast",
@@ -1868,6 +2186,9 @@
     "diet": "veg",
     "kcal": 155,
     "protein": 3,
+    "carbs": 33,
+    "fat": 1,
+    "fiber": 1.5,
     "ps": 1,
     "meal": [
       "breakfast",
@@ -1884,6 +2205,9 @@
     "diet": "non-veg",
     "kcal": 165,
     "protein": 14,
+    "carbs": 4,
+    "fat": 11,
+    "fiber": 1,
     "ps": 4,
     "meal": [
       "lunch",
@@ -1902,6 +2226,9 @@
     "diet": "veg",
     "kcal": 120,
     "protein": 3,
+    "carbs": 10,
+    "fat": 8,
+    "fiber": 3.5,
     "ps": 1,
     "meal": [
       "lunch",
@@ -1920,6 +2247,9 @@
     "diet": "non-veg",
     "kcal": 250,
     "protein": 22,
+    "carbs": 5,
+    "fat": 16,
+    "fiber": 1.5,
     "ps": 6,
     "meal": [
       "lunch",
@@ -1938,6 +2268,9 @@
     "diet": "veg",
     "kcal": 520,
     "protein": 2.3,
+    "carbs": 58,
+    "fat": 31,
+    "fiber": 4,
     "ps": 1,
     "meal": [
       "snack",
@@ -1954,6 +2287,9 @@
     "diet": "veg",
     "kcal": 165,
     "protein": 3.5,
+    "carbs": 28,
+    "fat": 4.5,
+    "fiber": 0.3,
     "ps": 1,
     "meal": [
       "dessert",
@@ -1970,6 +2306,9 @@
     "diet": "non-veg",
     "kcal": 100,
     "protein": 5.5,
+    "carbs": 14,
+    "fat": 2.5,
+    "fiber": 1,
     "ps": 2,
     "meal": [
       "lunch",
@@ -1988,6 +2327,9 @@
     "diet": "veg",
     "kcal": 130,
     "protein": 4,
+    "carbs": 23,
+    "fat": 2.5,
+    "fiber": 2,
     "ps": 1,
     "meal": [
       "lunch",
@@ -2006,6 +2348,9 @@
     "diet": "veg",
     "kcal": 70,
     "protein": 1.5,
+    "carbs": 1.5,
+    "fat": 6.5,
+    "fiber": 0,
     "ps": 1,
     "meal": [
       "drink",
@@ -2022,6 +2367,9 @@
     "diet": "veg",
     "kcal": 190,
     "protein": 3.5,
+    "carbs": 32,
+    "fat": 5.5,
+    "fiber": 1.8,
     "ps": 1,
     "meal": [
       "breakfast",
@@ -2041,6 +2389,9 @@
     "diet": "veg",
     "kcal": 140,
     "protein": 4,
+    "carbs": 20,
+    "fat": 5,
+    "fiber": 2.5,
     "ps": 1,
     "meal": [
       "snack",
@@ -2058,6 +2409,9 @@
     "diet": "veg",
     "kcal": 320,
     "protein": 9,
+    "carbs": 48,
+    "fat": 11,
+    "fiber": 5.5,
     "ps": 2,
     "meal": [
       "lunch",
@@ -2076,6 +2430,9 @@
     "diet": "veg",
     "kcal": 180,
     "protein": 3,
+    "carbs": 33,
+    "fat": 4.5,
+    "fiber": 1.5,
     "ps": 1,
     "meal": [
       "breakfast",
@@ -2095,6 +2452,9 @@
     "diet": "veg",
     "kcal": 290,
     "protein": 6,
+    "carbs": 38,
+    "fat": 12,
+    "fiber": 2.5,
     "ps": 2,
     "meal": [
       "snack",
@@ -2113,6 +2473,9 @@
     "diet": "veg",
     "kcal": 180,
     "protein": 7,
+    "carbs": 22,
+    "fat": 7,
+    "fiber": 5,
     "ps": 2,
     "meal": [
       "breakfast",
@@ -2131,6 +2494,9 @@
     "diet": "veg",
     "kcal": 200,
     "protein": 4.5,
+    "carbs": 24,
+    "fat": 10,
+    "fiber": 3,
     "ps": 1,
     "meal": [
       "snack",
@@ -2149,6 +2515,9 @@
     "diet": "veg",
     "kcal": 320,
     "protein": 7,
+    "carbs": 54,
+    "fat": 8.5,
+    "fiber": 3.5,
     "ps": 2,
     "meal": [
       "dessert",
@@ -2166,6 +2535,9 @@
     "diet": "veg",
     "kcal": 175,
     "protein": 7,
+    "carbs": 18,
+    "fat": 8.5,
+    "fiber": 4,
     "ps": 2,
     "meal": [
       "lunch",
@@ -2184,6 +2556,9 @@
     "diet": "veg",
     "kcal": 230,
     "protein": 3.5,
+    "carbs": 40,
+    "fat": 6.5,
+    "fiber": 2.5,
     "ps": 1,
     "meal": [
       "dessert",
@@ -2200,6 +2575,9 @@
     "diet": "non-veg",
     "kcal": 90,
     "protein": 5,
+    "carbs": 12,
+    "fat": 2.5,
+    "fiber": 3.5,
     "ps": 2,
     "meal": [
       "lunch",
@@ -2217,6 +2595,9 @@
     "diet": "veg",
     "kcal": 110,
     "protein": 4,
+    "carbs": 13,
+    "fat": 4.5,
+    "fiber": 5,
     "ps": 1,
     "meal": [
       "snack",
@@ -2234,6 +2615,9 @@
     "diet": "non-veg",
     "kcal": 70,
     "protein": 4,
+    "carbs": 9,
+    "fat": 2,
+    "fiber": 3,
     "ps": 2,
     "meal": [
       "lunch",
@@ -2252,6 +2636,9 @@
     "diet": "non-veg",
     "kcal": 200,
     "protein": 8,
+    "carbs": 24,
+    "fat": 8,
+    "fiber": 1,
     "ps": 2,
     "meal": [
       "lunch",
@@ -2270,6 +2657,9 @@
     "diet": "non-veg",
     "kcal": 215,
     "protein": 17,
+    "carbs": 4,
+    "fat": 15,
+    "fiber": 1.5,
     "ps": 5,
     "meal": [
       "lunch",
@@ -2287,6 +2677,9 @@
     "diet": "veg",
     "kcal": 180,
     "protein": 14,
+    "carbs": 11,
+    "fat": 9,
+    "fiber": 4,
     "ps": 4,
     "meal": [
       "lunch",
@@ -2304,6 +2697,9 @@
     "diet": "veg",
     "kcal": 65,
     "protein": 3.5,
+    "carbs": 9,
+    "fat": 1.5,
+    "fiber": 3.5,
     "ps": 2,
     "meal": [
       "lunch",
@@ -2322,6 +2718,9 @@
     "diet": "non-veg",
     "kcal": 270,
     "protein": 19,
+    "carbs": 2,
+    "fat": 21,
+    "fiber": 0.5,
     "ps": 5,
     "meal": [
       "lunch",
@@ -2340,6 +2739,9 @@
     "diet": "veg",
     "kcal": 300,
     "protein": 4,
+    "carbs": 48,
+    "fat": 11,
+    "fiber": 2,
     "ps": 1,
     "meal": [
       "snack",
@@ -2356,6 +2758,9 @@
     "diet": "non-veg",
     "kcal": 260,
     "protein": 17,
+    "carbs": 4,
+    "fat": 20,
+    "fiber": 1.5,
     "ps": 4,
     "meal": [
       "lunch",
@@ -2374,6 +2779,9 @@
     "diet": "non-veg",
     "kcal": 145,
     "protein": 6,
+    "carbs": 22,
+    "fat": 3.5,
+    "fiber": 2,
     "ps": 2,
     "meal": [
       "lunch",
@@ -2392,6 +2800,9 @@
     "diet": "non-veg",
     "kcal": 130,
     "protein": 20,
+    "carbs": 1,
+    "fat": 5,
+    "fiber": 0.5,
     "ps": 6,
     "meal": [
       "lunch",
@@ -2410,6 +2821,9 @@
     "diet": "veg",
     "kcal": 75,
     "protein": 2.5,
+    "carbs": 11,
+    "fat": 2.5,
+    "fiber": 3.5,
     "ps": 1,
     "meal": [
       "lunch",
@@ -2429,6 +2843,9 @@
     "diet": "veg",
     "kcal": 100,
     "protein": 2.5,
+    "carbs": 9,
+    "fat": 6,
+    "fiber": 2.5,
     "ps": 1,
     "meal": [
       "lunch",
@@ -2446,6 +2863,9 @@
     "diet": "veg",
     "kcal": 95,
     "protein": 3,
+    "carbs": 11,
+    "fat": 4.5,
+    "fiber": 3.5,
     "ps": 1,
     "meal": [
       "lunch",
@@ -2464,6 +2884,9 @@
     "diet": "veg",
     "kcal": 70,
     "protein": 3,
+    "carbs": 6,
+    "fat": 4,
+    "fiber": 3.5,
     "ps": 1,
     "meal": [
       "lunch",
@@ -2482,6 +2905,9 @@
     "diet": "veg",
     "kcal": 105,
     "protein": 4,
+    "carbs": 14,
+    "fat": 3.5,
+    "fiber": 4.5,
     "ps": 1,
     "meal": [
       "lunch",
@@ -2500,6 +2926,9 @@
     "diet": "non-veg",
     "kcal": 150,
     "protein": 15,
+    "carbs": 5,
+    "fat": 8,
+    "fiber": 1,
     "ps": 5,
     "meal": [
       "lunch",
@@ -2518,6 +2947,9 @@
     "diet": "non-veg",
     "kcal": 150,
     "protein": 12,
+    "carbs": 8,
+    "fat": 8,
+    "fiber": 2,
     "ps": 4,
     "meal": [
       "lunch",
@@ -2536,6 +2968,9 @@
     "diet": "non-veg",
     "kcal": 230,
     "protein": 18,
+    "carbs": 5,
+    "fat": 15.5,
+    "fiber": 1,
     "ps": 5,
     "meal": [
       "lunch",
@@ -2554,6 +2989,9 @@
     "diet": "veg",
     "kcal": 195,
     "protein": 3,
+    "carbs": 33,
+    "fat": 6,
+    "fiber": 1,
     "ps": 1,
     "meal": [
       "lunch",
@@ -2572,6 +3010,9 @@
     "diet": "non-veg",
     "kcal": 200,
     "protein": 11,
+    "carbs": 24,
+    "fat": 7,
+    "fiber": 2,
     "ps": 3,
     "meal": [
       "snack",
@@ -2589,6 +3030,9 @@
     "diet": "veg",
     "kcal": 160,
     "protein": 4.5,
+    "carbs": 20,
+    "fat": 7,
+    "fiber": 2.5,
     "ps": 1,
     "meal": [
       "breakfast",
@@ -2607,6 +3051,9 @@
     "diet": "veg",
     "kcal": 135,
     "protein": 2.5,
+    "carbs": 22,
+    "fat": 4,
+    "fiber": 1.5,
     "ps": 1,
     "meal": [
       "snack",
@@ -2624,6 +3071,9 @@
     "diet": "veg",
     "kcal": 290,
     "protein": 6,
+    "carbs": 38,
+    "fat": 12,
+    "fiber": 0.5,
     "ps": 2,
     "meal": [
       "dessert",
@@ -2640,6 +3090,9 @@
     "diet": "veg",
     "kcal": 330,
     "protein": 6,
+    "carbs": 46,
+    "fat": 13,
+    "fiber": 0,
     "ps": 1,
     "meal": [
       "dessert",
@@ -2656,6 +3109,9 @@
     "diet": "veg",
     "kcal": 165,
     "protein": 4,
+    "carbs": 30,
+    "fat": 3,
+    "fiber": 1.2,
     "ps": 1,
     "meal": [
       "breakfast",
@@ -2673,6 +3129,9 @@
     "diet": "veg",
     "kcal": 210,
     "protein": 5,
+    "carbs": 38,
+    "fat": 4.5,
+    "fiber": 2.5,
     "ps": 1,
     "meal": [
       "dessert",
@@ -2690,6 +3149,9 @@
     "diet": "veg",
     "kcal": 240,
     "protein": 5,
+    "carbs": 42,
+    "fat": 6,
+    "fiber": 2,
     "ps": 1,
     "meal": [
       "dessert",
@@ -2706,6 +3168,9 @@
     "diet": "veg",
     "kcal": 150,
     "protein": 3.5,
+    "carbs": 26,
+    "fat": 3.5,
+    "fiber": 0.3,
     "ps": 1,
     "meal": [
       "dessert",
@@ -2722,6 +3187,9 @@
     "diet": "veg",
     "kcal": 110,
     "protein": 2.5,
+    "carbs": 14,
+    "fat": 5,
+    "fiber": 2.5,
     "ps": 1,
     "meal": [
       "lunch",
@@ -2740,6 +3208,9 @@
     "diet": "veg",
     "kcal": 186,
     "protein": 4,
+    "carbs": 38,
+    "fat": 2,
+    "fiber": 0,
     "ps": 1,
     "meal": [
       "dessert",
@@ -2756,6 +3227,9 @@
     "diet": "veg",
     "kcal": 330,
     "protein": 6,
+    "carbs": 46,
+    "fat": 13,
+    "fiber": 0,
     "ps": 1,
     "meal": [
       "dessert",
@@ -2772,6 +3246,9 @@
     "diet": "veg",
     "kcal": 175,
     "protein": 6,
+    "carbs": 26,
+    "fat": 5,
+    "fiber": 0,
     "ps": 2,
     "meal": [
       "dessert",
@@ -2788,6 +3265,9 @@
     "diet": "veg",
     "kcal": 360,
     "protein": 4,
+    "carbs": 60,
+    "fat": 12,
+    "fiber": 1.5,
     "ps": 1,
     "meal": [
       "dessert",
@@ -2804,6 +3284,9 @@
     "diet": "veg",
     "kcal": 300,
     "protein": 5,
+    "carbs": 46,
+    "fat": 11,
+    "fiber": 2,
     "ps": 1,
     "meal": [
       "dessert",
@@ -2821,6 +3304,9 @@
     "diet": "veg",
     "kcal": 210,
     "protein": 4,
+    "carbs": 40,
+    "fat": 4,
+    "fiber": 2,
     "ps": 1,
     "meal": [
       "dessert",
@@ -2838,6 +3324,9 @@
     "diet": "veg",
     "kcal": 300,
     "protein": 4,
+    "carbs": 44,
+    "fat": 12,
+    "fiber": 2.5,
     "ps": 1,
     "meal": [
       "snack",
@@ -2855,6 +3344,9 @@
     "diet": "non-veg",
     "kcal": 220,
     "protein": 21,
+    "carbs": 3,
+    "fat": 14,
+    "fiber": 0.3,
     "ps": 6,
     "meal": [
       "lunch",
@@ -2873,6 +3365,9 @@
     "diet": "veg",
     "kcal": 85,
     "protein": 2.5,
+    "carbs": 16,
+    "fat": 1,
+    "fiber": 0.5,
     "ps": 1,
     "meal": [
       "lunch",
@@ -2890,6 +3385,9 @@
     "diet": "veg",
     "kcal": 180,
     "protein": 8,
+    "carbs": 16,
+    "fat": 9,
+    "fiber": 4,
     "ps": 2,
     "meal": [
       "lunch",
@@ -2908,6 +3406,9 @@
     "diet": "veg",
     "kcal": 85,
     "protein": 3.5,
+    "carbs": 8,
+    "fat": 4.5,
+    "fiber": 4,
     "ps": 1,
     "meal": [
       "lunch",
@@ -2926,6 +3427,9 @@
     "diet": "non-veg",
     "kcal": 185,
     "protein": 16,
+    "carbs": 5,
+    "fat": 11,
+    "fiber": 1,
     "ps": 5,
     "meal": [
       "lunch",
@@ -2944,6 +3448,9 @@
     "diet": "veg",
     "kcal": 110,
     "protein": 5.5,
+    "carbs": 16,
+    "fat": 2.5,
+    "fiber": 4,
     "ps": 2,
     "meal": [
       "lunch",
@@ -2963,6 +3470,9 @@
     "diet": "veg",
     "kcal": 90,
     "protein": 2,
+    "carbs": 19,
+    "fat": 0.4,
+    "fiber": 0.5,
     "ps": 1,
     "meal": [
       "lunch",
@@ -2980,6 +3490,9 @@
     "diet": "veg",
     "kcal": 290,
     "protein": 11,
+    "carbs": 32,
+    "fat": 13,
+    "fiber": 0,
     "ps": 3,
     "meal": [
       "dessert",
@@ -2996,6 +3509,9 @@
     "diet": "non-veg",
     "kcal": 160,
     "protein": 14,
+    "carbs": 4,
+    "fat": 10,
+    "fiber": 1,
     "ps": 4,
     "meal": [
       "lunch",
@@ -3014,6 +3530,9 @@
     "diet": "veg",
     "kcal": 130,
     "protein": 2.7,
+    "carbs": 28,
+    "fat": 0.3,
+    "fiber": 0.4,
     "ps": 1,
     "meal": [
       "lunch",
@@ -3032,6 +3551,9 @@
     "diet": "veg",
     "kcal": 297,
     "protein": 9.6,
+    "carbs": 58,
+    "fat": 3.7,
+    "fiber": 8.9,
     "ps": 2,
     "meal": [
       "lunch",
@@ -3050,6 +3572,9 @@
     "diet": "veg",
     "kcal": 330,
     "protein": 7.5,
+    "carbs": 47,
+    "fat": 12,
+    "fiber": 5.5,
     "ps": 2,
     "meal": [
       "breakfast",
@@ -3069,6 +3594,9 @@
     "diet": "veg",
     "kcal": 121,
     "protein": 6.8,
+    "carbs": 17,
+    "fat": 2.5,
+    "fiber": 3.2,
     "ps": 2,
     "meal": [
       "lunch",
@@ -3088,6 +3616,9 @@
     "diet": "veg",
     "kcal": 105,
     "protein": 7,
+    "carbs": 15,
+    "fat": 1.8,
+    "fiber": 3.5,
     "ps": 2,
     "meal": [
       "lunch",
@@ -3107,6 +3638,9 @@
     "diet": "veg",
     "kcal": 130,
     "protein": 7.5,
+    "carbs": 18,
+    "fat": 2.7,
+    "fiber": 4.5,
     "ps": 2,
     "meal": [
       "lunch",
@@ -3126,6 +3660,9 @@
     "diet": "veg",
     "kcal": 140,
     "protein": 6.5,
+    "carbs": 18,
+    "fat": 4.5,
+    "fiber": 6,
     "ps": 2,
     "meal": [
       "lunch",
@@ -3145,6 +3682,9 @@
     "diet": "veg",
     "kcal": 160,
     "protein": 7,
+    "carbs": 22,
+    "fat": 4.8,
+    "fiber": 7,
     "ps": 2,
     "meal": [
       "lunch",
@@ -3165,6 +3705,9 @@
     "diet": "veg",
     "kcal": 296,
     "protein": 18.3,
+    "carbs": 6.1,
+    "fat": 22.8,
+    "fiber": 0,
     "ps": 5,
     "meal": [
       "snack",
@@ -3182,6 +3725,9 @@
     "diet": "veg",
     "kcal": 240,
     "protein": 9,
+    "carbs": 9,
+    "fat": 19,
+    "fiber": 1.5,
     "ps": 2,
     "meal": [
       "lunch",
@@ -3200,6 +3746,9 @@
     "diet": "veg",
     "kcal": 110,
     "protein": 2.8,
+    "carbs": 13,
+    "fat": 5.5,
+    "fiber": 3,
     "ps": 1,
     "meal": [
       "lunch",
@@ -3219,6 +3768,9 @@
     "diet": "veg",
     "kcal": 120,
     "protein": 2.2,
+    "carbs": 18,
+    "fat": 4.5,
+    "fiber": 2.2,
     "ps": 1,
     "meal": [
       "lunch",
@@ -3238,6 +3790,9 @@
     "diet": "veg",
     "kcal": 95,
     "protein": 2.5,
+    "carbs": 11,
+    "fat": 4.5,
+    "fiber": 3.5,
     "ps": 1,
     "meal": [
       "lunch",
@@ -3256,6 +3811,9 @@
     "diet": "veg",
     "kcal": 150,
     "protein": 7,
+    "carbs": 6,
+    "fat": 11,
+    "fiber": 2.5,
     "ps": 2,
     "meal": [
       "lunch",
@@ -3275,6 +3833,9 @@
     "diet": "veg",
     "kcal": 60,
     "protein": 3.1,
+    "carbs": 4.7,
+    "fat": 3.3,
+    "fiber": 0,
     "ps": 1,
     "meal": [
       "lunch",
@@ -3293,6 +3854,9 @@
     "diet": "veg",
     "kcal": 58,
     "protein": 3.1,
+    "carbs": 5,
+    "fat": 3,
+    "fiber": 0,
     "ps": 1,
     "meal": [
       "breakfast",
@@ -3310,6 +3874,9 @@
     "diet": "egg",
     "kcal": 155,
     "protein": 13,
+    "carbs": 1.1,
+    "fat": 11,
+    "fiber": 0,
     "ps": 4,
     "meal": [
       "breakfast",
@@ -3329,6 +3896,9 @@
     "diet": "egg",
     "kcal": 190,
     "protein": 12,
+    "carbs": 4,
+    "fat": 14,
+    "fiber": 1,
     "ps": 3,
     "meal": [
       "breakfast",
@@ -3349,6 +3919,9 @@
     "diet": "non-veg",
     "kcal": 180,
     "protein": 16,
+    "carbs": 4,
+    "fat": 11,
+    "fiber": 1,
     "ps": 5,
     "meal": [
       "lunch",
@@ -3367,6 +3940,9 @@
     "diet": "non-veg",
     "kcal": 175,
     "protein": 25,
+    "carbs": 2,
+    "fat": 8,
+    "fiber": 0,
     "ps": 7,
     "meal": [
       "dinner",
@@ -3385,6 +3961,9 @@
     "diet": "non-veg",
     "kcal": 165,
     "protein": 31,
+    "carbs": 0,
+    "fat": 3.6,
+    "fiber": 0,
     "ps": 9,
     "meal": [
       "lunch",
@@ -3402,6 +3981,9 @@
     "diet": "veg",
     "kcal": 170,
     "protein": 18,
+    "carbs": 12,
+    "fat": 5,
+    "fiber": 4,
     "ps": 5,
     "meal": [
       "lunch",
@@ -3422,6 +4004,9 @@
     "diet": "veg",
     "kcal": 100,
     "protein": 8,
+    "carbs": 16,
+    "fat": 1,
+    "fiber": 5,
     "ps": 3,
     "meal": [
       "breakfast",
@@ -3439,6 +4024,9 @@
     "diet": "veg",
     "kcal": 168,
     "protein": 3.9,
+    "carbs": 30,
+    "fat": 3.7,
+    "fiber": 1.2,
     "ps": 1,
     "meal": [
       "breakfast",
@@ -3456,6 +4044,9 @@
     "diet": "veg",
     "kcal": 130,
     "protein": 4,
+    "carbs": 27,
+    "fat": 0.5,
+    "fiber": 1,
     "ps": 1,
     "meal": [
       "breakfast",
@@ -3474,6 +4065,9 @@
     "diet": "veg",
     "kcal": 180,
     "protein": 3,
+    "carbs": 33,
+    "fat": 4.5,
+    "fiber": 1.5,
     "ps": 1,
     "meal": [
       "breakfast",
@@ -3493,6 +4087,9 @@
     "diet": "veg",
     "kcal": 170,
     "protein": 4,
+    "carbs": 27,
+    "fat": 5,
+    "fiber": 1.8,
     "ps": 1,
     "meal": [
       "breakfast",
@@ -3511,6 +4108,9 @@
     "diet": "veg",
     "kcal": 165,
     "protein": 3.2,
+    "carbs": 27,
+    "fat": 5,
+    "fiber": 1.5,
     "ps": 1,
     "meal": [
       "lunch",
@@ -3529,6 +4129,9 @@
     "diet": "non-veg",
     "kcal": 190,
     "protein": 9,
+    "carbs": 23,
+    "fat": 7,
+    "fiber": 1,
     "ps": 3,
     "meal": [
       "lunch",
@@ -3547,6 +4150,9 @@
     "diet": "veg",
     "kcal": 120,
     "protein": 4.5,
+    "carbs": 20,
+    "fat": 2.5,
+    "fiber": 2,
     "ps": 2,
     "meal": [
       "lunch",
@@ -3566,6 +4172,9 @@
     "diet": "veg",
     "kcal": 55,
     "protein": 1.5,
+    "carbs": 8,
+    "fat": 1.8,
+    "fiber": 0,
     "ps": 1,
     "meal": [
       "breakfast",
@@ -3583,6 +4192,9 @@
     "diet": "veg",
     "kcal": 90,
     "protein": 2.5,
+    "carbs": 13,
+    "fat": 2.8,
+    "fiber": 0,
     "ps": 1,
     "meal": [
       "drink",
@@ -3599,6 +4211,9 @@
     "diet": "veg",
     "kcal": 300,
     "protein": 4,
+    "carbs": 45,
+    "fat": 12,
+    "fiber": 0.5,
     "ps": 1,
     "meal": [
       "dessert",
@@ -3616,6 +4231,9 @@
     "diet": "veg",
     "kcal": 89,
     "protein": 1.1,
+    "carbs": 23,
+    "fat": 0.3,
+    "fiber": 2.6,
     "ps": 0,
     "meal": [
       "breakfast",
@@ -3634,6 +4252,9 @@
     "diet": "veg",
     "kcal": 567,
     "protein": 26,
+    "carbs": 16,
+    "fat": 49,
+    "fiber": 8.5,
     "ps": 6,
     "meal": [
       "snack",
@@ -3651,6 +4272,9 @@
     "diet": "veg",
     "kcal": 308,
     "protein": 5,
+    "carbs": 32,
+    "fat": 18,
+    "fiber": 2.5,
     "ps": 1,
     "meal": [
       "snack",
@@ -3668,6 +4292,9 @@
     "diet": "veg",
     "kcal": 180,
     "protein": 6.5,
+    "carbs": 15,
+    "fat": 10,
+    "fiber": 5,
     "ps": 2,
     "meal": [
       "lunch",
@@ -3687,6 +4314,9 @@
     "diet": "veg",
     "kcal": 120,
     "protein": 4,
+    "carbs": 9,
+    "fat": 7.5,
+    "fiber": 4.5,
     "ps": 1,
     "meal": [
       "lunch",
@@ -3706,6 +4336,9 @@
     "diet": "veg",
     "kcal": 290,
     "protein": 7,
+    "carbs": 52,
+    "fat": 6,
+    "fiber": 7,
     "ps": 2,
     "meal": [
       "lunch",
@@ -3725,6 +4358,9 @@
     "diet": "veg",
     "kcal": 290,
     "protein": 7,
+    "carbs": 45,
+    "fat": 9,
+    "fiber": 3,
     "ps": 2,
     "meal": [
       "breakfast",
@@ -3743,6 +4379,9 @@
     "diet": "non-veg",
     "kcal": 220,
     "protein": 14,
+    "carbs": 6,
+    "fat": 15,
+    "fiber": 1,
     "ps": 4,
     "meal": [
       "lunch",
@@ -3761,6 +4400,9 @@
     "diet": "non-veg",
     "kcal": 230,
     "protein": 18,
+    "carbs": 9,
+    "fat": 13,
+    "fiber": 0.5,
     "ps": 5,
     "meal": [
       "snack",
@@ -3779,6 +4421,9 @@
     "diet": "veg",
     "kcal": 290,
     "protein": 7,
+    "carbs": 38,
+    "fat": 13,
+    "fiber": 4,
     "ps": 2,
     "meal": [
       "breakfast",
@@ -3797,6 +4442,9 @@
     "diet": "veg",
     "kcal": 45,
     "protein": 2.5,
+    "carbs": 3.5,
+    "fat": 2.3,
+    "fiber": 0,
     "ps": 1,
     "meal": [
       "drink",
@@ -3813,6 +4461,9 @@
     "diet": "veg",
     "kcal": 330,
     "protein": 9,
+    "carbs": 50,
+    "fat": 11,
+    "fiber": 6,
     "ps": 2,
     "meal": [
       "lunch",
@@ -3832,6 +4483,9 @@
     "diet": "veg",
     "kcal": 165,
     "protein": 6,
+    "carbs": 14,
+    "fat": 9.5,
+    "fiber": 2,
     "ps": 2,
     "meal": [
       "lunch",
@@ -3850,6 +4504,9 @@
     "diet": "veg",
     "kcal": 170,
     "protein": 5,
+    "carbs": 16,
+    "fat": 9.5,
+    "fiber": 8,
     "ps": 1,
     "meal": [
       "lunch",
@@ -3867,6 +4524,9 @@
     "diet": "non-veg",
     "kcal": 240,
     "protein": 19,
+    "carbs": 3,
+    "fat": 17,
+    "fiber": 0.5,
     "ps": 5,
     "meal": [
       "lunch",
@@ -3886,6 +4546,9 @@
     "diet": "veg",
     "kcal": 400,
     "protein": 8,
+    "carbs": 40,
+    "fat": 23,
+    "fiber": 3,
     "ps": 2,
     "meal": [
       "snack",
@@ -3903,6 +4566,9 @@
     "diet": "veg",
     "kcal": 430,
     "protein": 5,
+    "carbs": 55,
+    "fat": 21,
+    "fiber": 0.5,
     "ps": 1,
     "meal": [
       "dessert",
@@ -3919,6 +4585,9 @@
     "diet": "veg",
     "kcal": 160,
     "protein": 5,
+    "carbs": 28,
+    "fat": 3,
+    "fiber": 2,
     "ps": 2,
     "meal": [
       "snack",
@@ -3937,6 +4606,9 @@
     "diet": "non-veg",
     "kcal": 185,
     "protein": 10,
+    "carbs": 24,
+    "fat": 5,
+    "fiber": 1.5,
     "ps": 3,
     "meal": [
       "snack",
@@ -3955,6 +4627,9 @@
     "diet": "veg",
     "kcal": 45,
     "protein": 3,
+    "carbs": 6,
+    "fat": 1,
+    "fiber": 3,
     "ps": 2,
     "meal": [
       "lunch",
@@ -3972,6 +4647,9 @@
     "diet": "non-veg",
     "kcal": 230,
     "protein": 14,
+    "carbs": 4,
+    "fat": 18,
+    "fiber": 1.5,
     "ps": 4,
     "meal": [
       "lunch",
@@ -3990,6 +4668,9 @@
     "diet": "veg",
     "kcal": 85,
     "protein": 3.5,
+    "carbs": 11,
+    "fat": 3,
+    "fiber": 3,
     "ps": 1,
     "meal": [
       "breakfast",
@@ -4010,6 +4691,9 @@
     "diet": "veg",
     "kcal": 40,
     "protein": 1.5,
+    "carbs": 6,
+    "fat": 1.2,
+    "fiber": 1,
     "ps": 1,
     "meal": [
       "lunch",
@@ -4029,6 +4713,9 @@
     "diet": "veg",
     "kcal": 185,
     "protein": 4,
+    "carbs": 30,
+    "fat": 5.5,
+    "fiber": 1.8,
     "ps": 1,
     "meal": [
       "breakfast",
@@ -4047,6 +4734,9 @@
     "diet": "veg",
     "kcal": 250,
     "protein": 7,
+    "carbs": 30,
+    "fat": 11,
+    "fiber": 3,
     "ps": 2,
     "meal": [
       "breakfast",
@@ -4064,6 +4754,9 @@
     "diet": "veg",
     "kcal": 170,
     "protein": 5,
+    "carbs": 26,
+    "fat": 5,
+    "fiber": 1.5,
     "ps": 1,
     "meal": [
       "breakfast",
@@ -4081,6 +4774,9 @@
     "diet": "veg",
     "kcal": 110,
     "protein": 3,
+    "carbs": 18,
+    "fat": 2.8,
+    "fiber": 0.6,
     "ps": 1,
     "meal": [
       "lunch",
@@ -4099,6 +4795,9 @@
     "diet": "non-veg",
     "kcal": 200,
     "protein": 17,
+    "carbs": 5,
+    "fat": 12,
+    "fiber": 1.5,
     "ps": 5,
     "meal": [
       "lunch",
@@ -4117,6 +4816,9 @@
     "diet": "veg",
     "kcal": 60,
     "protein": 1.8,
+    "carbs": 8,
+    "fat": 2.2,
+    "fiber": 0,
     "ps": 1,
     "meal": [
       "breakfast",
@@ -4134,6 +4836,9 @@
     "diet": "non-veg",
     "kcal": 210,
     "protein": 10,
+    "carbs": 24,
+    "fat": 8.5,
+    "fiber": 1,
     "ps": 3,
     "meal": [
       "lunch",
@@ -4152,6 +4857,9 @@
     "diet": "non-veg",
     "kcal": 230,
     "protein": 14,
+    "carbs": 16,
+    "fat": 12,
+    "fiber": 2,
     "ps": 4,
     "meal": [
       "dinner",
@@ -4169,6 +4877,9 @@
     "diet": "veg",
     "kcal": 250,
     "protein": 7,
+    "carbs": 32,
+    "fat": 10,
+    "fiber": 4,
     "ps": 2,
     "meal": [
       "breakfast",
@@ -4186,6 +4897,9 @@
     "diet": "veg",
     "kcal": 320,
     "protein": 6,
+    "carbs": 38,
+    "fat": 16,
+    "fiber": 1,
     "ps": 2,
     "meal": [
       "dessert",
@@ -4202,6 +4916,9 @@
     "diet": "non-veg",
     "kcal": 200,
     "protein": 16,
+    "carbs": 3,
+    "fat": 14,
+    "fiber": 1,
     "ps": 4,
     "meal": [
       "lunch",
@@ -4219,6 +4936,9 @@
     "diet": "non-veg",
     "kcal": 80,
     "protein": 4.5,
+    "carbs": 9,
+    "fat": 2.5,
+    "fiber": 3,
     "ps": 2,
     "meal": [
       "lunch",
@@ -4237,6 +4957,9 @@
     "diet": "veg",
     "kcal": 135,
     "protein": 2.8,
+    "carbs": 29,
+    "fat": 0.5,
+    "fiber": 0.6,
     "ps": 1,
     "meal": [
       "lunch",
@@ -4255,6 +4978,9 @@
     "diet": "non-veg",
     "kcal": 240,
     "protein": 17,
+    "carbs": 4,
+    "fat": 17.5,
+    "fiber": 0.5,
     "ps": 5,
     "meal": [
       "snack",
@@ -4272,6 +4998,9 @@
     "diet": "non-veg",
     "kcal": 230,
     "protein": 19,
+    "carbs": 3,
+    "fat": 16,
+    "fiber": 0.5,
     "ps": 5,
     "meal": [
       "snack",
@@ -4290,6 +5019,9 @@
     "diet": "non-veg",
     "kcal": 220,
     "protein": 16,
+    "carbs": 8,
+    "fat": 14,
+    "fiber": 1.5,
     "ps": 4,
     "meal": [
       "snack",
@@ -4307,6 +5039,9 @@
     "diet": "non-veg",
     "kcal": 250,
     "protein": 17,
+    "carbs": 5,
+    "fat": 18,
+    "fiber": 1,
     "ps": 4,
     "meal": [
       "lunch",
@@ -4326,6 +5061,9 @@
     "diet": "non-veg",
     "kcal": 215,
     "protein": 15,
+    "carbs": 6,
+    "fat": 14.5,
+    "fiber": 1,
     "ps": 4,
     "meal": [
       "lunch",
@@ -4344,6 +5082,9 @@
     "diet": "non-veg",
     "kcal": 200,
     "protein": 10,
+    "carbs": 24,
+    "fat": 8,
+    "fiber": 1,
     "ps": 3,
     "meal": [
       "lunch",
@@ -4362,6 +5103,9 @@
     "diet": "non-veg",
     "kcal": 235,
     "protein": 16,
+    "carbs": 6,
+    "fat": 16,
+    "fiber": 0.8,
     "ps": 4,
     "meal": [
       "breakfast",
@@ -4380,6 +5124,9 @@
     "diet": "veg",
     "kcal": 320,
     "protein": 7,
+    "carbs": 48,
+    "fat": 11,
+    "fiber": 1.8,
     "ps": 2,
     "meal": [
       "lunch",
@@ -4397,6 +5144,9 @@
     "diet": "veg",
     "kcal": 285,
     "protein": 9,
+    "carbs": 56,
+    "fat": 2.5,
+    "fiber": 3,
     "ps": 2,
     "meal": [
       "lunch",
@@ -4414,6 +5164,9 @@
     "diet": "veg",
     "kcal": 150,
     "protein": 3,
+    "carbs": 18,
+    "fat": 8,
+    "fiber": 2.5,
     "ps": 1,
     "meal": [
       "lunch",
@@ -4432,6 +5185,9 @@
     "diet": "veg",
     "kcal": 300,
     "protein": 6,
+    "carbs": 36,
+    "fat": 15,
+    "fiber": 3,
     "ps": 2,
     "meal": [
       "breakfast",
@@ -4450,6 +5206,9 @@
     "diet": "veg",
     "kcal": 350,
     "protein": 7,
+    "carbs": 40,
+    "fat": 18,
+    "fiber": 4,
     "ps": 2,
     "meal": [
       "breakfast",
@@ -4467,6 +5226,9 @@
     "diet": "veg",
     "kcal": 290,
     "protein": 5,
+    "carbs": 36,
+    "fat": 14,
+    "fiber": 2.5,
     "ps": 1,
     "meal": [
       "breakfast",
@@ -4485,6 +5247,9 @@
     "diet": "veg",
     "kcal": 130,
     "protein": 2.5,
+    "carbs": 18,
+    "fat": 5.5,
+    "fiber": 2.5,
     "ps": 1,
     "meal": [
       "snack",
@@ -4502,6 +5267,9 @@
     "diet": "veg",
     "kcal": 95,
     "protein": 2,
+    "carbs": 9,
+    "fat": 5.5,
+    "fiber": 3.5,
     "ps": 1,
     "meal": [
       "lunch",
@@ -4521,6 +5289,9 @@
     "diet": "veg",
     "kcal": 110,
     "protein": 5,
+    "carbs": 14,
+    "fat": 4,
+    "fiber": 3.5,
     "ps": 2,
     "meal": [
       "lunch",
@@ -4540,6 +5311,9 @@
     "diet": "veg",
     "kcal": 145,
     "protein": 2.5,
+    "carbs": 22,
+    "fat": 5.5,
+    "fiber": 3,
     "ps": 1,
     "meal": [
       "lunch",
@@ -4558,6 +5332,9 @@
     "diet": "veg",
     "kcal": 100,
     "protein": 1.5,
+    "carbs": 16,
+    "fat": 4,
+    "fiber": 2,
     "ps": 1,
     "meal": [
       "breakfast",
@@ -4577,6 +5354,9 @@
     "diet": "veg",
     "kcal": 230,
     "protein": 7,
+    "carbs": 26,
+    "fat": 11,
+    "fiber": 0,
     "ps": 2,
     "meal": [
       "dessert",
@@ -4593,6 +5373,9 @@
     "diet": "veg",
     "kcal": 360,
     "protein": 4,
+    "carbs": 60,
+    "fat": 12,
+    "fiber": 1,
     "ps": 1,
     "meal": [
       "dessert",
@@ -4610,6 +5393,9 @@
     "diet": "veg",
     "kcal": 380,
     "protein": 3.5,
+    "carbs": 62,
+    "fat": 13,
+    "fiber": 0.5,
     "ps": 1,
     "meal": [
       "dessert",
@@ -4628,6 +5414,9 @@
     "diet": "veg",
     "kcal": 310,
     "protein": 0.5,
+    "carbs": 78,
+    "fat": 0.1,
+    "fiber": 0.5,
     "ps": 0,
     "meal": [
       "dessert",
@@ -4644,6 +5433,9 @@
     "diet": "veg",
     "kcal": 120,
     "protein": 3.5,
+    "carbs": 16,
+    "fat": 4.5,
+    "fiber": 0.5,
     "ps": 1,
     "meal": [
       "drink",
@@ -4660,6 +5452,9 @@
     "diet": "veg",
     "kcal": 130,
     "protein": 3,
+    "carbs": 16,
+    "fat": 6,
+    "fiber": 0,
     "ps": 1,
     "meal": [
       "drink",
@@ -4676,6 +5471,9 @@
     "diet": "veg",
     "kcal": 140,
     "protein": 4,
+    "carbs": 18,
+    "fat": 6,
+    "fiber": 0,
     "ps": 1,
     "meal": [
       "dessert",
@@ -4693,6 +5491,9 @@
     "diet": "veg",
     "kcal": 480,
     "protein": 11,
+    "carbs": 56,
+    "fat": 24,
+    "fiber": 5,
     "ps": 3,
     "meal": [
       "dessert",
@@ -4710,6 +5511,9 @@
     "diet": "veg",
     "kcal": 480,
     "protein": 15,
+    "carbs": 50,
+    "fat": 24,
+    "fiber": 8,
     "ps": 4,
     "meal": [
       "snack",
@@ -4726,6 +5530,9 @@
     "diet": "veg",
     "kcal": 160,
     "protein": 3.5,
+    "carbs": 26,
+    "fat": 5,
+    "fiber": 2,
     "ps": 1,
     "meal": [
       "lunch",
@@ -4745,6 +5552,9 @@
     "diet": "veg",
     "kcal": 360,
     "protein": 9,
+    "carbs": 44,
+    "fat": 16,
+    "fiber": 4,
     "ps": 2,
     "meal": [
       "breakfast",
@@ -4762,6 +5572,9 @@
     "diet": "non-veg",
     "kcal": 250,
     "protein": 18,
+    "carbs": 5,
+    "fat": 18,
+    "fiber": 0.5,
     "ps": 5,
     "meal": [
       "dinner",
@@ -4779,6 +5592,9 @@
     "diet": "veg",
     "kcal": 95,
     "protein": 2,
+    "carbs": 14,
+    "fat": 3.5,
+    "fiber": 2,
     "ps": 1,
     "meal": [
       "breakfast",
@@ -4799,6 +5615,9 @@
     "diet": "veg",
     "kcal": 380,
     "protein": 9,
+    "carbs": 50,
+    "fat": 16,
+    "fiber": 0,
     "ps": 2,
     "meal": [
       "dessert",
@@ -4815,6 +5634,9 @@
     "diet": "veg",
     "kcal": 75,
     "protein": 3.5,
+    "carbs": 7,
+    "fat": 4,
+    "fiber": 3,
     "ps": 1,
     "meal": [
       "lunch",
@@ -4833,6 +5655,9 @@
     "diet": "veg",
     "kcal": 130,
     "protein": 2.2,
+    "carbs": 19,
+    "fat": 5,
+    "fiber": 2.2,
     "ps": 1,
     "meal": [
       "lunch",
@@ -4852,6 +5677,9 @@
     "diet": "veg",
     "kcal": 150,
     "protein": 9,
+    "carbs": 13,
+    "fat": 7,
+    "fiber": 5,
     "ps": 3,
     "meal": [
       "lunch",
@@ -4870,6 +5698,9 @@
     "diet": "non-veg",
     "kcal": 190,
     "protein": 14,
+    "carbs": 5,
+    "fat": 13,
+    "fiber": 0.8,
     "ps": 4,
     "meal": [
       "lunch",
@@ -4889,6 +5720,9 @@
     "diet": "non-veg",
     "kcal": 160,
     "protein": 15,
+    "carbs": 4,
+    "fat": 9,
+    "fiber": 0.5,
     "ps": 5,
     "meal": [
       "lunch",
@@ -4907,6 +5741,9 @@
     "diet": "non-veg",
     "kcal": 205,
     "protein": 16,
+    "carbs": 5,
+    "fat": 13,
+    "fiber": 1,
     "ps": 4,
     "meal": [
       "lunch",
@@ -4926,6 +5763,9 @@
     "diet": "non-veg",
     "kcal": 195,
     "protein": 9,
+    "carbs": 24,
+    "fat": 7.5,
+    "fiber": 1,
     "ps": 3,
     "meal": [
       "lunch",
@@ -4944,6 +5784,9 @@
     "diet": "egg",
     "kcal": 165,
     "protein": 9,
+    "carbs": 6,
+    "fat": 11.5,
+    "fiber": 1,
     "ps": 3,
     "meal": [
       "lunch",
@@ -4963,6 +5806,9 @@
     "diet": "egg",
     "kcal": 250,
     "protein": 10,
+    "carbs": 22,
+    "fat": 13,
+    "fiber": 1.5,
     "ps": 3,
     "meal": [
       "snack",
@@ -4979,6 +5825,9 @@
     "diet": "veg",
     "kcal": 180,
     "protein": 2,
+    "carbs": 22,
+    "fat": 10,
+    "fiber": 2,
     "ps": 1,
     "meal": [
       "lunch",
@@ -4997,6 +5846,9 @@
     "diet": "veg",
     "kcal": 150,
     "protein": 1.5,
+    "carbs": 9,
+    "fat": 12,
+    "fiber": 3,
     "ps": 0,
     "meal": [
       "lunch",
@@ -5014,6 +5866,9 @@
     "diet": "veg",
     "kcal": 270,
     "protein": 8,
+    "carbs": 14,
+    "fat": 20,
+    "fiber": 4,
     "ps": 2,
     "meal": [
       "lunch",
@@ -5031,6 +5886,9 @@
     "diet": "veg",
     "kcal": 110,
     "protein": 3,
+    "carbs": 14,
+    "fat": 5,
+    "fiber": 5,
     "ps": 1,
     "meal": [
       "lunch",
@@ -5049,6 +5907,9 @@
     "diet": "veg",
     "kcal": 165,
     "protein": 7,
+    "carbs": 18,
+    "fat": 7.5,
+    "fiber": 4,
     "ps": 2,
     "meal": [
       "lunch",
@@ -5068,6 +5929,9 @@
     "diet": "veg",
     "kcal": 90,
     "protein": 2.5,
+    "carbs": 12,
+    "fat": 4,
+    "fiber": 4,
     "ps": 1,
     "meal": [
       "lunch",
@@ -5086,6 +5950,9 @@
     "diet": "veg",
     "kcal": 140,
     "protein": 2.5,
+    "carbs": 18,
+    "fat": 7,
+    "fiber": 2.5,
     "ps": 1,
     "meal": [
       "breakfast",
@@ -5104,6 +5971,9 @@
     "diet": "veg",
     "kcal": 330,
     "protein": 8,
+    "carbs": 44,
+    "fat": 14,
+    "fiber": 3,
     "ps": 2,
     "meal": [
       "breakfast",
@@ -5122,6 +5992,9 @@
     "diet": "veg",
     "kcal": 320,
     "protein": 8,
+    "carbs": 44,
+    "fat": 13,
+    "fiber": 4,
     "ps": 2,
     "meal": [
       "breakfast",
@@ -5140,6 +6013,9 @@
     "diet": "egg",
     "kcal": 320,
     "protein": 9,
+    "carbs": 32,
+    "fat": 17,
+    "fiber": 2,
     "ps": 2,
     "meal": [
       "snack",
@@ -5158,6 +6034,9 @@
     "diet": "veg",
     "kcal": 200,
     "protein": 5,
+    "carbs": 30,
+    "fat": 7,
+    "fiber": 3,
     "ps": 1,
     "meal": [
       "snack",
@@ -5176,6 +6055,9 @@
     "diet": "veg",
     "kcal": 140,
     "protein": 3,
+    "carbs": 23,
+    "fat": 4,
+    "fiber": 2,
     "ps": 1,
     "meal": [
       "snack",
@@ -5193,6 +6075,9 @@
     "diet": "veg",
     "kcal": 230,
     "protein": 4,
+    "carbs": 20,
+    "fat": 15,
+    "fiber": 3,
     "ps": 1,
     "meal": [
       "snack",
@@ -5210,6 +6095,9 @@
     "diet": "non-veg",
     "kcal": 245,
     "protein": 15,
+    "carbs": 16,
+    "fat": 14,
+    "fiber": 1,
     "ps": 4,
     "meal": [
       "snack",
@@ -5227,6 +6115,9 @@
     "diet": "veg",
     "kcal": 145,
     "protein": 7,
+    "carbs": 20,
+    "fat": 4,
+    "fiber": 6,
     "ps": 2,
     "meal": [
       "snack",
@@ -5245,6 +6136,9 @@
     "diet": "veg",
     "kcal": 145,
     "protein": 3.5,
+    "carbs": 25,
+    "fat": 3.5,
+    "fiber": 0.3,
     "ps": 1,
     "meal": [
       "dessert",
@@ -5262,6 +6156,9 @@
     "diet": "veg",
     "kcal": 250,
     "protein": 5,
+    "carbs": 38,
+    "fat": 9,
+    "fiber": 1.5,
     "ps": 1,
     "meal": [
       "dessert",
@@ -5278,6 +6175,9 @@
     "diet": "veg",
     "kcal": 310,
     "protein": 5,
+    "carbs": 44,
+    "fat": 13,
+    "fiber": 0.3,
     "ps": 1,
     "meal": [
       "dessert",
@@ -5294,6 +6194,9 @@
     "diet": "veg",
     "kcal": 300,
     "protein": 7,
+    "carbs": 45,
+    "fat": 10,
+    "fiber": 0,
     "ps": 2,
     "meal": [
       "dessert",
@@ -5310,6 +6213,9 @@
     "diet": "veg",
     "kcal": 290,
     "protein": 9,
+    "carbs": 38,
+    "fat": 11,
+    "fiber": 0,
     "ps": 2,
     "meal": [
       "dessert",
@@ -5326,6 +6232,9 @@
     "diet": "veg",
     "kcal": 330,
     "protein": 5,
+    "carbs": 46,
+    "fat": 14,
+    "fiber": 0.3,
     "ps": 1,
     "meal": [
       "dessert",
@@ -5342,6 +6251,9 @@
     "diet": "non-veg",
     "kcal": 175,
     "protein": 15,
+    "carbs": 4,
+    "fat": 11,
+    "fiber": 0.8,
     "ps": 4,
     "meal": [
       "lunch",
@@ -5360,6 +6272,9 @@
     "diet": "veg",
     "kcal": 175,
     "protein": 2.7,
+    "carbs": 28,
+    "fat": 6,
+    "fiber": 0.4,
     "ps": 1,
     "meal": [
       "lunch",
@@ -5377,6 +6292,9 @@
     "diet": "non-veg",
     "kcal": 205,
     "protein": 14,
+    "carbs": 3,
+    "fat": 16,
+    "fiber": 0.5,
     "ps": 4,
     "meal": [
       "lunch",
@@ -5396,6 +6314,9 @@
     "diet": "veg",
     "kcal": 200,
     "protein": 3,
+    "carbs": 34,
+    "fat": 6,
+    "fiber": 0.8,
     "ps": 1,
     "meal": [
       "lunch",
@@ -5414,6 +6335,9 @@
     "diet": "non-veg",
     "kcal": 200,
     "protein": 15,
+    "carbs": 5,
+    "fat": 13,
+    "fiber": 1,
     "ps": 4,
     "meal": [
       "lunch",
@@ -5432,6 +6356,9 @@
     "diet": "non-veg",
     "kcal": 245,
     "protein": 17,
+    "carbs": 5,
+    "fat": 17,
+    "fiber": 1,
     "ps": 5,
     "meal": [
       "lunch",
@@ -5451,6 +6378,9 @@
     "diet": "egg",
     "kcal": 195,
     "protein": 9,
+    "carbs": 7,
+    "fat": 14,
+    "fiber": 2,
     "ps": 3,
     "meal": [
       "lunch",
@@ -5469,6 +6399,9 @@
     "diet": "non-veg",
     "kcal": 110,
     "protein": 8,
+    "carbs": 7,
+    "fat": 6,
+    "fiber": 2,
     "ps": 3,
     "meal": [
       "lunch",
@@ -5487,6 +6420,9 @@
     "diet": "veg",
     "kcal": 120,
     "protein": 3,
+    "carbs": 16,
+    "fat": 5,
+    "fiber": 4,
     "ps": 1,
     "meal": [
       "lunch",
@@ -5506,6 +6442,9 @@
     "diet": "veg",
     "kcal": 200,
     "protein": 10,
+    "carbs": 7,
+    "fat": 14,
+    "fiber": 1,
     "ps": 3,
     "meal": [
       "lunch",
@@ -5525,6 +6464,9 @@
     "diet": "veg",
     "kcal": 420,
     "protein": 4,
+    "carbs": 50,
+    "fat": 23,
+    "fiber": 6,
     "ps": 1,
     "meal": [
       "dessert",
@@ -5542,6 +6484,9 @@
     "diet": "veg",
     "kcal": 340,
     "protein": 6,
+    "carbs": 46,
+    "fat": 14,
+    "fiber": 0.3,
     "ps": 1,
     "meal": [
       "dessert",
@@ -5558,6 +6503,9 @@
     "diet": "veg",
     "kcal": 320,
     "protein": 9,
+    "carbs": 44,
+    "fat": 11,
+    "fiber": 0,
     "ps": 2,
     "meal": [
       "dessert",
@@ -5574,6 +6522,9 @@
     "diet": "veg",
     "kcal": 110,
     "protein": 2.2,
+    "carbs": 18,
+    "fat": 3.5,
+    "fiber": 2,
     "ps": 1,
     "meal": [
       "lunch",
@@ -5592,6 +6543,9 @@
     "diet": "non-veg",
     "kcal": 150,
     "protein": 14,
+    "carbs": 4,
+    "fat": 9,
+    "fiber": 0.8,
     "ps": 4,
     "meal": [
       "lunch",
@@ -5610,6 +6564,9 @@
     "diet": "non-veg",
     "kcal": 215,
     "protein": 13,
+    "carbs": 3,
+    "fat": 17,
+    "fiber": 0.5,
     "ps": 4,
     "meal": [
       "lunch",
@@ -5629,6 +6586,9 @@
     "diet": "non-veg",
     "kcal": 235,
     "protein": 18,
+    "carbs": 4,
+    "fat": 16,
+    "fiber": 0.5,
     "ps": 5,
     "meal": [
       "lunch",
@@ -5648,6 +6608,9 @@
     "diet": "veg",
     "kcal": 145,
     "protein": 3.5,
+    "carbs": 16,
+    "fat": 8,
+    "fiber": 2.5,
     "ps": 1,
     "meal": [
       "lunch",
@@ -5666,6 +6629,9 @@
     "diet": "veg",
     "kcal": 95,
     "protein": 2.5,
+    "carbs": 11,
+    "fat": 4.5,
+    "fiber": 3,
     "ps": 1,
     "meal": [
       "lunch",
@@ -5683,6 +6649,9 @@
     "diet": "veg",
     "kcal": 150,
     "protein": 7,
+    "carbs": 21,
+    "fat": 4,
+    "fiber": 5,
     "ps": 2,
     "meal": [
       "lunch",
@@ -5700,6 +6669,9 @@
     "diet": "veg",
     "kcal": 360,
     "protein": 7,
+    "carbs": 50,
+    "fat": 15,
+    "fiber": 2,
     "ps": 2,
     "meal": [
       "breakfast",
@@ -5717,6 +6689,9 @@
     "diet": "veg",
     "kcal": 145,
     "protein": 4,
+    "carbs": 24,
+    "fat": 3.5,
+    "fiber": 0,
     "ps": 1,
     "meal": [
       "dessert",
@@ -5733,6 +6708,9 @@
     "diet": "veg",
     "kcal": 186,
     "protein": 4,
+    "carbs": 38,
+    "fat": 2,
+    "fiber": 0,
     "ps": 1,
     "meal": [
       "dessert",
@@ -5749,6 +6727,9 @@
     "diet": "veg",
     "kcal": 300,
     "protein": 9,
+    "carbs": 40,
+    "fat": 11,
+    "fiber": 0,
     "ps": 2,
     "meal": [
       "dessert",
@@ -5765,6 +6746,9 @@
     "diet": "egg",
     "kcal": 245,
     "protein": 9,
+    "carbs": 26,
+    "fat": 11,
+    "fiber": 2,
     "ps": 2,
     "meal": [
       "snack",
@@ -5783,6 +6767,9 @@
     "diet": "veg",
     "kcal": 2,
     "protein": 0.1,
+    "carbs": 0,
+    "fat": 0,
+    "fiber": 0,
     "ps": 1,
     "meal": [
       "drink",
@@ -5799,6 +6786,9 @@
     "diet": "veg",
     "kcal": 1,
     "protein": 0,
+    "carbs": 0.2,
+    "fat": 0,
+    "fiber": 0,
     "ps": 0,
     "meal": [
       "drink",
@@ -5815,6 +6805,9 @@
     "diet": "veg",
     "kcal": 35,
     "protein": 0.1,
+    "carbs": 9,
+    "fat": 0,
+    "fiber": 0,
     "ps": 0,
     "meal": [
       "drink",
@@ -5831,6 +6824,9 @@
     "diet": "veg",
     "kcal": 30,
     "protein": 1.8,
+    "carbs": 2.5,
+    "fat": 1.2,
+    "fiber": 0,
     "ps": 1,
     "meal": [
       "drink",
@@ -5847,6 +6843,9 @@
     "diet": "veg",
     "kcal": 110,
     "protein": 2.8,
+    "carbs": 18,
+    "fat": 3,
+    "fiber": 0.4,
     "ps": 1,
     "meal": [
       "drink",
@@ -5864,6 +6863,9 @@
     "diet": "veg",
     "kcal": 95,
     "protein": 3,
+    "carbs": 16,
+    "fat": 2.2,
+    "fiber": 0.8,
     "ps": 1,
     "meal": [
       "drink",
@@ -5882,6 +6884,9 @@
     "diet": "veg",
     "kcal": 400,
     "protein": 75,
+    "carbs": 10,
+    "fat": 6,
+    "fiber": 1,
     "ps": 9,
     "meal": [
       "post-workout",
@@ -5898,6 +6903,9 @@
     "diet": "veg",
     "kcal": 250,
     "protein": 16,
+    "carbs": 6,
+    "fat": 18,
+    "fiber": 1.5,
     "ps": 4,
     "meal": [
       "breakfast",
@@ -5916,6 +6924,9 @@
     "diet": "egg",
     "kcal": 52,
     "protein": 11,
+    "carbs": 0.7,
+    "fat": 0.2,
+    "fiber": 0,
     "ps": 6,
     "meal": [
       "breakfast",
@@ -5933,6 +6944,9 @@
     "diet": "veg",
     "kcal": 144,
     "protein": 15,
+    "carbs": 3,
+    "fat": 8,
+    "fiber": 1,
     "ps": 5,
     "meal": [
       "lunch",
@@ -5951,6 +6965,9 @@
     "diet": "veg",
     "kcal": 364,
     "protein": 18,
+    "carbs": 58,
+    "fat": 5,
+    "fiber": 17,
     "ps": 4,
     "meal": [
       "snack",
@@ -5969,6 +6986,9 @@
     "diet": "non-veg",
     "kcal": 150,
     "protein": 22,
+    "carbs": 3,
+    "fat": 6,
+    "fiber": 0.5,
     "ps": 7,
     "meal": [
       "snack",
@@ -5987,6 +7007,9 @@
     "diet": "veg",
     "kcal": 97,
     "protein": 9,
+    "carbs": 4,
+    "fat": 5,
+    "fiber": 0,
     "ps": 3,
     "meal": [
       "breakfast",
@@ -6004,6 +7027,9 @@
     "diet": "veg",
     "kcal": 52,
     "protein": 0.3,
+    "carbs": 14,
+    "fat": 0.2,
+    "fiber": 2.4,
     "ps": 0,
     "meal": [
       "snack",
@@ -6020,6 +7046,9 @@
     "diet": "veg",
     "kcal": 60,
     "protein": 0.8,
+    "carbs": 15,
+    "fat": 0.4,
+    "fiber": 1.6,
     "ps": 0,
     "meal": [
       "snack",
@@ -6036,6 +7065,9 @@
     "diet": "veg",
     "kcal": 900,
     "protein": 0,
+    "carbs": 0,
+    "fat": 100,
+    "fiber": 0,
     "ps": 0,
     "meal": [
       "side",
@@ -6052,6 +7084,9 @@
     "diet": "veg",
     "kcal": 884,
     "protein": 0,
+    "carbs": 0,
+    "fat": 100,
+    "fiber": 0,
     "ps": 0,
     "meal": [
       "side",
@@ -6068,6 +7103,9 @@
     "diet": "veg",
     "kcal": 230,
     "protein": 1.5,
+    "carbs": 12,
+    "fat": 19,
+    "fiber": 3,
     "ps": 0,
     "meal": [
       "side",
@@ -6084,6 +7122,9 @@
     "diet": "veg",
     "kcal": 350,
     "protein": 22,
+    "carbs": 50,
+    "fat": 4,
+    "fiber": 9,
     "ps": 5,
     "meal": [
       "side",
@@ -6100,6 +7141,9 @@
     "diet": "veg",
     "kcal": 25,
     "protein": 1,
+    "carbs": 5,
+    "fat": 0.2,
+    "fiber": 1.8,
     "ps": 1,
     "meal": [
       "side",

@@ -9,11 +9,14 @@ import { FoodDetailSheet } from '../components/logger/FoodDetailSheet';
 import { TodayTimeline } from '../components/logger/TodayTimeline';
 import { ThaliRow } from '../components/logger/ThaliRow';
 import { ThaliSheet } from '../components/logger/ThaliSheet';
+import { QuickMealsRow } from '../components/logger/QuickMealsRow';
 import { QuickAddChips } from '../components/logger/QuickAddChips';
 import { AddFab } from '../components/logger/AddFab';
+import { NlLogSheet } from '../components/logger/NlLogSheet';
 import { GapCard } from '../components/logger/GapCard';
 import { StreakChips } from '../components/logger/StreakChips';
 import { TemplatesRow } from '../components/logger/TemplatesRow';
+import { WaterCard } from '../components/logger/WaterCard';
 import type { SearchFilters } from '../search/searchEngine';
 import type { SearchDoc, Thali } from '../types/food';
 import type { LogEntry } from '../types/log';
@@ -25,6 +28,7 @@ export function FoodLoggerScreen() {
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [editEntry, setEditEntry] = useState<LogEntry | null>(null);
   const [selectedThali, setSelectedThali] = useState<Thali | null>(null);
+  const [nlOpen, setNlOpen] = useState(false);
   const searchRef = useRef<HTMLDivElement>(null);
 
   const favorites = useLogStore((s) => s.favorites);
@@ -118,6 +122,7 @@ export function FoodLoggerScreen() {
 
               <TemplatesRow />
               <ThaliRow onSelect={setSelectedThali} />
+              <QuickMealsRow onSelect={setSelectedThali} />
 
               {idle.recent.length > 0 && (
                 <Section title="Recent">
@@ -142,10 +147,13 @@ export function FoodLoggerScreen() {
         )}
       </div>
 
+      {!searching && <div className="mt-4"><WaterCard /></div>}
+
       {!searching && <TodayTimeline onEdit={setEditEntry} />}
 
-      <AddFab onSearch={focusSearch} onQuickAdd={focusSearch} />
+      <AddFab onSearch={focusSearch} onQuickAdd={focusSearch} onVoice={() => setNlOpen(true)} />
 
+      <NlLogSheet open={nlOpen} onClose={() => setNlOpen(false)} />
       <FoodDetailSheet foodId={selectedId} onClose={() => setSelectedId(null)} />
       <FoodDetailSheet foodId={null} editEntry={editEntry} onClose={() => setEditEntry(null)} />
       <ThaliSheet thali={selectedThali} onClose={() => setSelectedThali(null)} />

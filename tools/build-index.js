@@ -43,6 +43,9 @@ const searchIndex = foods.map((f) => ({
   diet: f.dietType,
   kcal: f.per100g.calories,
   protein: f.per100g.protein,
+  carbs: f.per100g.carbs,
+  fat: f.per100g.fat,
+  fiber: f.per100g.fiber ?? 0,
   ps: f.proteinScore,
   meal: f.mealTags,
 }));

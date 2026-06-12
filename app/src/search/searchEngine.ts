@@ -8,12 +8,15 @@ import type { ReferenceData } from '../data/dataService';
 //  - synonym expansion (buttermilk -> chaas, flattened rice -> poha, …)
 //  - intent detection (protein / breakfast / bihar / veg -> structured filters)
 
+export type NutriFilter = 'low-cal' | 'high-fiber' | 'high-carb' | 'low-fat';
+
 export interface SearchFilters {
   diet?: DietType;
   region?: Zone;
   category?: string;
   meal?: string;
   highProtein?: boolean;
+  nutri?: NutriFilter;
 }
 
 function normalize(s: string): string {
@@ -169,6 +172,10 @@ export class FoodSearch {
       if (f.category && d.cat !== f.category) return false;
       if (f.meal && !d.meal.includes(f.meal)) return false;
       if (f.highProtein && !(d.protein >= 12 || d.ps >= 7)) return false;
+      if (f.nutri === 'low-cal' && d.kcal > 120) return false;
+      if (f.nutri === 'high-fiber' && d.fiber < 6) return false;
+      if (f.nutri === 'high-carb' && d.carbs < 20) return false;
+      if (f.nutri === 'low-fat' && d.fat > 5) return false;
       return true;
     });
   }

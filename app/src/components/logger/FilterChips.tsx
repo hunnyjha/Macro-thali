@@ -1,4 +1,4 @@
-import type { SearchFilters } from '../../search/searchEngine';
+import type { SearchFilters, NutriFilter } from '../../search/searchEngine';
 import type { DietType, Zone } from '../../types/food';
 
 interface Props {
@@ -18,6 +18,12 @@ const regions: { code: Zone; label: string }[] = [
   { code: 'south', label: 'South' },
   { code: 'west', label: 'West' },
   { code: 'north-east', label: 'North-East' },
+];
+const nutris: { code: NutriFilter; label: string }[] = [
+  { code: 'low-cal', label: 'Low Cal' },
+  { code: 'high-fiber', label: 'High Fiber' },
+  { code: 'high-carb', label: 'High Carb' },
+  { code: 'low-fat', label: 'Low Fat' },
 ];
 
 export function FilterChips({ filters, onChange }: Props) {
@@ -40,6 +46,11 @@ export function FilterChips({ filters, onChange }: Props) {
       {meals.map((m) => (
         <button key={m} className={`chip capitalize ${filters.meal === m ? 'chip-active' : ''}`} onClick={() => toggle('meal', m)}>
           {m}
+        </button>
+      ))}
+      {nutris.map((n) => (
+        <button key={n.code} className={`chip ${filters.nutri === n.code ? 'chip-active' : ''}`} onClick={() => toggle('nutri', n.code)}>
+          {n.label}
         </button>
       ))}
       {regions.map((r) => (

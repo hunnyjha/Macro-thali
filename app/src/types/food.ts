@@ -69,6 +69,9 @@ export interface SearchDoc {
   diet: DietType;
   kcal: number;
   protein: number;
+  carbs: number;
+  fat: number;
+  fiber: number;
   ps: number;       // protein score
   meal: string[];
 }

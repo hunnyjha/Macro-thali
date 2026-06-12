@@ -3,7 +3,8 @@
 import { readFileSync } from 'node:fs';
 import { FoodSearch } from '../src/search/searchEngine.ts';
 import { computeMacros } from '../src/lib/nutrition.ts';
-import { calculate, type Profile } from '../src/lib/calculator.ts';
+import { calculate, caloriesForGoal, type Profile } from '../src/lib/calculator.ts';
+import { parseMeal } from '../src/lib/nlParse.ts';
 
 const read = (p: string) => JSON.parse(readFileSync(new URL(`../public/data/${p}`, import.meta.url), 'utf8'));
 
@@ -75,6 +76,27 @@ check('maintenance = BMR × 1.55', Math.abs(r.maintenance - r.bmr * 1.55) <= 5);
 check('loss < maintain < gain', r.loss < r.maintenance && r.maintenance < r.gain);
 check('fat-loss protein ≥ 2g/kg', r.target.protein >= 140);
 check('macros roughly sum to target kcal', Math.abs((r.target.protein * 4 + r.target.carbs * 4 + r.target.fat * 9) - r.target.calories) < 60);
+
+console.log('\n— NUTRITION FILTERS —');
+check('low-cal filter ≤120 kcal', search.search('', { nutri: 'low-cal' }, 50).every((d: any) => d.kcal <= 120));
+check('high-fiber filter ≥6g', search.search('', { nutri: 'high-fiber' }, 50).every((d: any) => d.fiber >= 6));
+check('low-fat filter ≤5g', search.search('', { nutri: 'low-fat' }, 50).every((d: any) => d.fat <= 5));
+check('high-carb filter ≥20g', search.search('', { nutri: 'high-carb' }, 50).every((d: any) => d.carbs >= 20));
+
+console.log('\n— NATURAL LANGUAGE PARSE —');
+const p1 = parseMeal('2 roti + dahi');
+check('"2 roti + dahi" -> 2 segments', p1.segments.length === 2, JSON.stringify(p1.segments));
+check('roti qty=2, food kept', p1.segments[0].qty === 2 && p1.segments[0].query.includes('roti'));
+check('second segment dahi', p1.segments[1]?.query.includes('dahi'));
+const p2 = parseMeal('3 eggs and 250ml milk');
+check('eggs qty=3', p2.segments[0]?.qty === 3 && p2.segments[0]?.query.includes('egg'));
+check('250ml milk parsed', p2.segments[1]?.qty === 250 && p2.segments[1]?.unit === 'ml');
+const p3 = parseMeal('breakfast mein 4 eggs aur chai');
+check('slot detected breakfast', p3.slot === 'breakfast' && p3.segments.length === 2, JSON.stringify(p3));
+
+console.log('\n— GOAL PRESETS —');
+const m = calculate({ age: 25, sex: 'male', weightKg: 70, heightCm: 175, activity: 'moderate', goal: 'maintain' }).maintenance;
+check('muscle-gain > lean bulk > maintenance', caloriesForGoal(m, 'male', 'muscle-gain') > caloriesForGoal(m, 'male', 'gain') && caloriesForGoal(m, 'male', 'gain') > m);
 
 console.log(`\n${pass} passed, ${fail} failed\n`);
 process.exit(fail ? 1 : 0);
