@@ -2,9 +2,11 @@ import { useMemo, useState } from 'react';
 import { useProfileStore } from '../store/useProfileStore';
 import { useLogStore } from '../store/useLogStore';
 import {
-  calculate, caloriesForGoal, ACTIVITY_META, GOAL_META,
+  calculate, caloriesForGoal, defaultSpeed, ACTIVITY_META, GOAL_META,
   type Activity, type Goal, type Sex,
 } from '../lib/calculator';
+import { NumberInput } from '../components/ui/NumberInput';
+import { SpeedSelector } from '../components/ui/SpeedSelector';
 import { kcal } from '../lib/format';
 
 export function GoalsScreen() {
@@ -17,7 +19,7 @@ export function GoalsScreen() {
   const [applied, setApplied] = useState(false);
 
   const result = useMemo(() => calculate(profile), [profile]);
-  const goalCalories = caloriesForGoal(result.maintenance, profile.sex, profile.goal);
+  const goalCalories = caloriesForGoal(result.maintenance, profile.sex, profile.goal, profile.speed);
 
   const isApplied =
     currentTargets.calories === result.target.calories &&
@@ -48,9 +50,9 @@ export function GoalsScreen() {
         />
 
         <div className="grid grid-cols-3 gap-3">
-          <NumberField label="Age" suffix="yrs" value={profile.age} min={10} max={100} onChange={(v) => setProfile({ age: v })} />
-          <NumberField label="Weight" suffix="kg" value={profile.weightKg} min={25} max={250} onChange={(v) => setProfile({ weightKg: v })} />
-          <NumberField label="Height" suffix="cm" value={profile.heightCm} min={100} max={230} onChange={(v) => setProfile({ heightCm: v })} />
+          <NumberInput label="Age" suffix="yrs" value={profile.age} min={10} max={100} onChange={(v) => setProfile({ age: v })} />
+          <NumberInput label="Weight" suffix="kg" value={profile.weightKg} min={25} max={250} onChange={(v) => setProfile({ weightKg: v })} />
+          <NumberInput label="Height" suffix="cm" value={profile.heightCm} min={100} max={230} onChange={(v) => setProfile({ heightCm: v })} />
         </div>
       </section>
 
@@ -74,24 +76,27 @@ export function GoalsScreen() {
         ))}
       </section>
 
-      {/* Goal presets */}
-      <section className="card space-y-3 p-4">
-        <h2 className="text-sm font-semibold text-ink-muted">Goal preset</h2>
-        <div className="grid grid-cols-2 gap-2">
+      {/* Goal + speed */}
+      <section className="card space-y-4 p-4">
+        <h2 className="text-sm font-semibold text-ink-muted">Your goal</h2>
+        <div className="grid grid-cols-3 gap-2">
           {(Object.keys(GOAL_META) as Goal[]).map((gl) => (
             <button
               key={gl}
               onClick={() => setProfile({ goal: gl })}
-              className={`rounded-xl2 border p-3 text-left transition-colors ${
+              className={`rounded-xl2 border p-3 text-center transition-colors ${
                 profile.goal === gl ? 'border-saffron bg-saffron/15' : 'border-white/10'
               }`}
             >
-              <p className={`text-sm font-semibold ${profile.goal === gl ? 'text-saffron' : 'text-ink'}`}>{GOAL_META[gl].label}</p>
-              <p className="text-[11px] text-ink-faint">{kcal(caloriesForGoal(result.maintenance, profile.sex, gl))} kcal</p>
+              <p className={`text-sm font-semibold leading-tight ${profile.goal === gl ? 'text-saffron' : 'text-ink'}`}>{GOAL_META[gl].label}</p>
+              <p className="mt-1 text-[10px] text-ink-faint">
+                {kcal(caloriesForGoal(result.maintenance, profile.sex, gl, defaultSpeed(gl)))} kcal
+              </p>
             </button>
           ))}
         </div>
         <p className="text-xs text-ink-faint">{GOAL_META[profile.goal].hint}</p>
+        <SpeedSelector goal={profile.goal} speed={profile.speed} onChange={(speed) => setProfile({ speed })} />
       </section>
 
       {/* Results */}
@@ -141,29 +146,6 @@ function Segmented<T extends string>({ value, onChange, options }: {
           {o.label}
         </button>
       ))}
-    </div>
-  );
-}
-
-function NumberField({ label, suffix, value, min, max, onChange }: {
-  label: string; suffix: string; value: number; min: number; max: number; onChange: (v: number) => void;
-}) {
-  const clamp = (v: number) => Math.max(min, Math.min(max, v));
-  return (
-    <div>
-      <label className="mb-1 block text-xs text-ink-faint">{label}</label>
-      <div className="flex items-center rounded-xl2 border border-white/10 bg-charcoal-700">
-        <input
-          type="number"
-          inputMode="numeric"
-          value={value}
-          min={min}
-          max={max}
-          onChange={(e) => onChange(clamp(Number(e.target.value) || min))}
-          className="w-full bg-transparent px-3 py-2.5 text-center font-display text-lg font-bold text-ink focus:outline-none"
-        />
-      </div>
-      <p className="mt-0.5 text-center text-[10px] text-ink-faint">{suffix}</p>
     </div>
   );
 }

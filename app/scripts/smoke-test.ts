@@ -67,7 +67,7 @@ console.log(`  1 katori cooked rice = ${oneKatori.calories} kcal, ${oneKatori.pr
 check('katori portion computes', oneKatori.calories > 150 && oneKatori.calories < 250);
 
 console.log('\n— CALCULATOR —');
-const prof: Profile = { age: 25, sex: 'male', weightKg: 70, heightCm: 175, activity: 'moderate', goal: 'loss' };
+const prof: Profile = { age: 25, sex: 'male', weightKg: 70, heightCm: 175, activity: 'moderate', goal: 'loss', speed: 0.5 };
 const r = calculate(prof);
 console.log(`  25M 70kg 175cm moderate: BMR=${r.bmr} maintain=${r.maintenance} loss=${r.loss} gain=${r.gain}`);
 console.log(`  loss target: ${r.target.calories} kcal · ${r.target.protein}P / ${r.target.carbs}C / ${r.target.fat}F`);
@@ -94,9 +94,15 @@ check('250ml milk parsed', p2.segments[1]?.qty === 250 && p2.segments[1]?.unit =
 const p3 = parseMeal('breakfast mein 4 eggs aur chai');
 check('slot detected breakfast', p3.slot === 'breakfast' && p3.segments.length === 2, JSON.stringify(p3));
 
-console.log('\n— GOAL PRESETS —');
-const m = calculate({ age: 25, sex: 'male', weightKg: 70, heightCm: 175, activity: 'moderate', goal: 'maintain' }).maintenance;
-check('muscle-gain > lean bulk > maintenance', caloriesForGoal(m, 'male', 'muscle-gain') > caloriesForGoal(m, 'male', 'gain') && caloriesForGoal(m, 'male', 'gain') > m);
+console.log('\n— GOALS & SPEEDS —');
+const m = calculate({ age: 25, sex: 'male', weightKg: 70, heightCm: 175, activity: 'moderate', goal: 'maintain', speed: 0 }).maintenance;
+check('loss deltas 550/825/1100', caloriesForGoal(3000, 'male', 'loss', 0.5) === 2450 && caloriesForGoal(3000, 'male', 'loss', 0.75) === 2175 && caloriesForGoal(3000, 'male', 'loss', 1) === 1900);
+check('gain deltas 275/550/825', caloriesForGoal(m, 'male', 'gain', 0.25) === m + 275 && caloriesForGoal(m, 'male', 'gain', 0.5) === m + 550 && caloriesForGoal(m, 'male', 'gain', 0.75) === m + 825);
+check('maintain ignores speed', caloriesForGoal(m, 'male', 'maintain', 0) === m);
+check('male floor 1500', caloriesForGoal(1600, 'male', 'loss', 1) === 1500);
+check('female floor 1200', caloriesForGoal(1300, 'female', 'loss', 1) === 1200);
+const maint = calculate({ age: 25, sex: 'male', weightKg: 70, heightCm: 175, activity: 'moderate', goal: 'maintain', speed: 0 });
+check('maintain protein 1.8 g/kg (126g @ 70kg)', maint.target.protein === 126);
 
 console.log(`\n${pass} passed, ${fail} failed\n`);
 process.exit(fail ? 1 : 0);
