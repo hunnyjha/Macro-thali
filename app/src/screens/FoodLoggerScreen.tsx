@@ -1,6 +1,9 @@
 import { useMemo, useRef, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { useData } from '../app/DataContext';
 import { useLogStore } from '../store/useLogStore';
+import { useAuthStore } from '../store/useAuthStore';
+import { useIsPro } from '../store/useSubscriptionStore';
 import { DailySummary } from '../components/logger/DailySummary';
 import { SearchBar } from '../components/logger/SearchBar';
 import { FilterChips } from '../components/logger/FilterChips';
@@ -23,6 +26,9 @@ import type { LogEntry } from '../types/log';
 
 export function FoodLoggerScreen() {
   const { search } = useData();
+  const nav = useNavigate();
+  const user = useAuthStore((s) => s.user);
+  const isPro = useIsPro();
   const [query, setQuery] = useState('');
   const [filters, setFilters] = useState<SearchFilters>({});
   const [selectedId, setSelectedId] = useState<string | null>(null);
@@ -78,9 +84,25 @@ export function FoodLoggerScreen() {
         <div className="flex items-center gap-2">
           <img src="/favicon.svg" alt="" className="h-8 w-8" />
           <div>
-            <h1 className="font-display text-lg font-extrabold leading-none">Macro Katori</h1>
+            <h1 className="font-display text-lg font-extrabold leading-none">
+              {user ? `Hi, ${user.name.split(' ')[0]}` : 'Macro Katori'}
+            </h1>
             <p className="text-[11px] text-ink-faint">Track Food the Indian Way</p>
           </div>
+        </div>
+        <div className="flex items-center gap-2">
+          {!isPro && (
+            <button onClick={() => nav('/paywall')} className="rounded-full bg-saffron/15 px-3 py-1.5 text-xs font-bold text-saffron active:scale-95">
+              ✨ Pro
+            </button>
+          )}
+          <button
+            onClick={() => nav('/account')}
+            className="flex h-9 w-9 items-center justify-center rounded-full bg-white/8 font-display text-sm font-extrabold text-saffron active:scale-90"
+            aria-label="Account"
+          >
+            {(user?.name?.[0] ?? '?').toUpperCase()}
+          </button>
         </div>
       </header>
 
@@ -151,7 +173,7 @@ export function FoodLoggerScreen() {
 
       {!searching && <TodayTimeline onEdit={setEditEntry} />}
 
-      <AddFab onSearch={focusSearch} onQuickAdd={focusSearch} onVoice={() => setNlOpen(true)} />
+      <AddFab onSearch={focusSearch} onQuickAdd={focusSearch} onVoice={() => (isPro ? setNlOpen(true) : nav('/paywall'))} />
 
       <NlLogSheet open={nlOpen} onClose={() => setNlOpen(false)} />
       <FoodDetailSheet foodId={selectedId} onClose={() => setSelectedId(null)} />

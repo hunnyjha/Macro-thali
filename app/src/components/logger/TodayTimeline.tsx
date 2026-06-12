@@ -1,8 +1,12 @@
+import { useNavigate } from 'react-router-dom';
 import { useLogStore } from '../../store/useLogStore';
 import { useToast } from '../../app/ToastContext';
+import { useIsPro } from '../../store/useSubscriptionStore';
 import { kcal, g } from '../../lib/format';
 import type { LogEntry, MealSlot, TemplateItem } from '../../types/log';
 import { emptyMacros, addMacros } from '../../lib/nutrition';
+
+const FREE_TEMPLATE_LIMIT = 1;
 
 const SLOT_LABEL: Record<MealSlot, string> = {
   breakfast: 'Breakfast', lunch: 'Lunch', snack: 'Snacks', dinner: 'Dinner',
@@ -12,12 +16,19 @@ const ORDER: MealSlot[] = ['breakfast', 'lunch', 'snack', 'dinner'];
 export function TodayTimeline({ onEdit }: { onEdit: (entry: LogEntry) => void }) {
   const bySlot = useLogStore((s) => s.bySlot());
   const entries = useLogStore((s) => s.entries);
+  const templates = useLogStore((s) => s.templates);
   const saveTemplate = useLogStore((s) => s.saveTemplate);
   const { showToast } = useToast();
+  const isPro = useIsPro();
+  const nav = useNavigate();
 
   if (entries.length === 0) return null;
 
   const saveDay = async () => {
+    if (!isPro && templates.length >= FREE_TEMPLATE_LIMIT) {
+      showToast('Unlimited saved meals is a Pro feature', { actionLabel: 'Upgrade', onAction: () => nav('/paywall') });
+      return;
+    }
     const name = window.prompt('Name this meal (e.g. "Hostel Breakfast", "Gym Lunch")');
     if (!name) return;
     const items: TemplateItem[] = entries.map((e) => ({
