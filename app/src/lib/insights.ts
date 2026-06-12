@@ -23,6 +23,13 @@ export interface WeeklyInsights {
   avgProtein: number;
   avgFatSharePct: number;
   streak: number;
+  calorieAdherencePct: number;   // % of logged days within ±10% of calorie goal
+  proteinHitDays: number;        // logged days that reached the protein goal
+  consistency: {                 // per-macro: avg vs target + per-day "on target?"
+    protein: { avg: number; onTarget: boolean[] };
+    carbs: { avg: number; onTarget: boolean[] };
+    fat: { avg: number; onTarget: boolean[] };
+  };
   messages: InsightMsg[];
 }
 
@@ -94,10 +101,26 @@ export async function computeWeeklyInsights(targets: DailyTargets): Promise<Week
     else break;
   }
 
+  // adherence + per-macro consistency (logged days only)
+  const within = (val: number, goal: number, tol: number) => goal > 0 && Math.abs(val - goal) <= goal * tol;
+  const calorieAdherencePct = daysLogged
+    ? Math.round((loggedDays.filter((d) => within(d.macros.calories, targets.calories, 0.1)).length / daysLogged) * 100)
+    : 0;
+  const proteinHitDays = loggedDays.filter((d) => d.macros.protein >= targets.protein).length;
+  const onTargetFor = (pick: (m: Macros) => number, goal: number, tol: number) =>
+    days.map((d) => d.logged && within(pick(d.macros), goal, tol));
+  const consistency = {
+    protein: { avg: avgProtein, onTarget: days.map((d) => d.logged && d.macros.protein >= targets.protein) },
+    carbs: { avg: daysLogged ? Math.round(sum.carbs / daysLogged) : 0, onTarget: onTargetFor((m) => m.carbs, targets.carbs, 0.15) },
+    fat: { avg: daysLogged ? Math.round(sum.fat / daysLogged) : 0, onTarget: onTargetFor((m) => m.fat, targets.fat, 0.15) },
+  };
+
+  const base = { days, daysLogged, avgCalories, avgProtein, avgFatSharePct, streak, calorieAdherencePct, proteinHitDays, consistency };
+
   const messages: InsightMsg[] = [];
   if (daysLogged === 0) {
     messages.push({ tone: 'tip', text: 'Log a few meals this week and your insights will appear here.' });
-    return { days, daysLogged, avgCalories, avgProtein, avgFatSharePct, streak, messages };
+    return { ...base, messages };
   }
 
   messages.push({ tone: 'good', text: `You averaged ${avgProtein}g protein and ${avgCalories} kcal per day.` });
@@ -118,7 +141,8 @@ export async function computeWeeklyInsights(targets: DailyTargets): Promise<Week
     messages.push({ tone: 'tip', text: `You're eating well under your target — make sure you're fuelling enough.` });
   }
 
+  if (proteinHitDays >= 5) messages.push({ tone: 'good', text: `You hit your protein goal on ${proteinHitDays} of ${daysLogged} logged days.` });
   if (streak >= 3) messages.push({ tone: 'good', text: `🔥 ${streak}-day logging streak. Consistency is everything.` });
 
-  return { days, daysLogged, avgCalories, avgProtein, avgFatSharePct, streak, messages };
+  return { ...base, messages };
 }
