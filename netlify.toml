@@ -5,7 +5,8 @@
 [build]
   base = "app"
   command = "npm run build"
-  publish = "app/dist"
+  # publish is resolved relative to `base`, so this points to app/dist
+  publish = "dist"
 
 [build.environment]
   NODE_VERSION = "20"
