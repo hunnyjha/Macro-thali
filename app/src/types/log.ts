@@ -25,3 +25,24 @@ export interface DailyTargets {
   carbs: number;
   fat: number;
 }
+
+// A reusable saved meal (e.g. "Hostel Breakfast", "Gym Lunch").
+export interface TemplateItem {
+  foodId: string;
+  name: string;
+  unit: string;
+  unitGrams: number;
+  quantity: number;
+  oilStyle: OilStyle;
+  macros: Macros;
+  dietType: string;
+}
+
+export interface MealTemplate {
+  id: string;
+  name: string;
+  slot: MealSlot | 'custom';
+  items: TemplateItem[];
+  macros: Macros;   // cached total
+  createdAt: number;
+}

@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { Sheet } from '../ui/Sheet';
 import { useData } from '../../app/DataContext';
 import { useLogStore } from '../../store/useLogStore';
+import { useToast } from '../../app/ToastContext';
 import { getFood } from '../../data/dataService';
 import { computeMacros, oilMatters } from '../../lib/nutrition';
 import { kcal, g, uid, todayISO, slotForNow, DIET_META } from '../../lib/format';
@@ -10,14 +11,20 @@ import type { LogEntry, MealSlot } from '../../types/log';
 
 interface Props {
   foodId: string | null;
+  editEntry?: LogEntry | null;
   onClose: () => void;
 }
 
 const SLOTS: MealSlot[] = ['breakfast', 'lunch', 'snack', 'dinner'];
 
-export function FoodDetailSheet({ foodId, onClose }: Props) {
+export function FoodDetailSheet({ foodId, editEntry, onClose }: Props) {
   const { ref } = useData();
   const addEntry = useLogStore((s) => s.addEntry);
+  const updateEntry = useLogStore((s) => s.updateEntry);
+  const removeEntry = useLogStore((s) => s.removeEntry);
+  const { showToast } = useToast();
+  const editing = !!editEntry;
+  const activeFoodId = editEntry?.foodId ?? foodId;
 
   const [food, setFood] = useState<Food | null>(null);
   const [portion, setPortion] = useState<Portion | null>(null);
@@ -26,19 +33,25 @@ export function FoodDetailSheet({ foodId, onClose }: Props) {
   const [slot, setSlot] = useState<MealSlot>(slotForNow());
 
   useEffect(() => {
-    if (!foodId) { setFood(null); return; }
+    if (!activeFoodId) { setFood(null); return; }
     let alive = true;
-    getFood(foodId).then((f) => {
+    getFood(activeFoodId).then((f) => {
       if (!alive || !f) return;
       setFood(f);
-      const def = f.portions.find((p) => p.default) ?? f.portions[0];
-      setPortion(def);
-      setQty(1);
-      setOilStyle('home_style');
-      setSlot(slotForNow());
+      if (editEntry) {
+        setPortion(f.portions.find((p) => p.unit === editEntry.unit) ?? f.portions[0]);
+        setQty(editEntry.quantity);
+        setOilStyle(editEntry.oilStyle);
+        setSlot(editEntry.slot);
+      } else {
+        setPortion(f.portions.find((p) => p.default) ?? f.portions[0]);
+        setQty(1);
+        setOilStyle('home_style');
+        setSlot(slotForNow());
+      }
     });
     return () => { alive = false; };
-  }, [foodId]);
+  }, [activeFoodId, editEntry]);
 
   const showOil = useMemo(() => (food ? oilMatters(food, ref.oil) : false), [food, ref.oil]);
   const totalGrams = portion ? portion.grams * qty : 0;
@@ -49,6 +62,15 @@ export function FoodDetailSheet({ foodId, onClose }: Props) {
 
   const onAdd = async () => {
     if (!food || !portion || !macros) return;
+    if (editing && editEntry) {
+      await updateEntry(editEntry.id, {
+        unit: portion.unit, unitGrams: portion.grams, quantity: qty, oilStyle,
+        grams: totalGrams, macros, slot,
+      });
+      showToast('Updated');
+      onClose();
+      return;
+    }
     const entry: LogEntry = {
       id: uid(),
       foodId: food.id,
@@ -65,13 +87,21 @@ export function FoodDetailSheet({ foodId, onClose }: Props) {
       date: todayISO(),
     };
     await addEntry(entry);
+    showToast(`Added ${food.name}`, { actionLabel: 'Undo', onAction: () => removeEntry(entry.id) });
+    onClose();
+  };
+
+  const onDelete = async () => {
+    if (!editEntry) return;
+    await removeEntry(editEntry.id);
+    showToast('Removed');
     onClose();
   };
 
   const diet = food ? DIET_META[food.dietType] ?? DIET_META.veg : null;
 
   return (
-    <Sheet open={!!foodId} onClose={onClose} title={food?.name}>
+    <Sheet open={!!activeFoodId} onClose={onClose} title={food?.name}>
       {!food || !portion || !macros ? (
         <p className="py-8 text-center text-ink-muted">Loading…</p>
       ) : (
@@ -152,9 +182,16 @@ export function FoodDetailSheet({ foodId, onClose }: Props) {
             </div>
           </Field>
 
-          <button className="btn-primary w-full" onClick={onAdd}>
-            Add {qty > 1 ? `${g(qty)} × ` : ''}{portion.label ?? ref.portionName.get(portion.unit) ?? portion.unit} · {kcal(macros.calories)} kcal
-          </button>
+          <div className="flex gap-2">
+            {editing && (
+              <button className="btn-ghost shrink-0 px-4 text-red-400" onClick={onDelete} aria-label="Delete">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M4 7h16M9 7V5h6v2M6 7l1 13h10l1-13" /></svg>
+              </button>
+            )}
+            <button className="btn-primary flex-1" onClick={onAdd}>
+              {editing ? 'Save' : 'Add'} {qty > 1 ? `${g(qty)} × ` : ''}{portion.label ?? ref.portionName.get(portion.unit) ?? portion.unit} · {kcal(macros.calories)} kcal
+            </button>
+          </div>
         </div>
       )}
     </Sheet>

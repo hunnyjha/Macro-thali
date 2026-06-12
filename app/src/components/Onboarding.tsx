@@ -70,11 +70,12 @@ export function Onboarding() {
           </div>
 
           <p className="mb-2 mt-5 text-sm font-semibold text-ink-muted">Your goal</p>
-          <div className="grid grid-cols-3 gap-2 pb-4">
+          <div className="grid grid-cols-2 gap-2 pb-4">
             {(Object.keys(GOAL_META) as Goal[]).map((gl) => (
               <button key={gl} onClick={() => setProfile({ goal: gl })}
-                className={`rounded-xl2 border p-3 text-center transition-colors ${profile.goal === gl ? 'border-saffron bg-saffron/15 text-saffron' : 'border-white/10 text-ink-muted'}`}>
-                <p className="text-sm font-semibold">{GOAL_META[gl].label}</p>
+                className={`rounded-xl2 border p-3 text-left transition-colors ${profile.goal === gl ? 'border-saffron bg-saffron/15' : 'border-white/10'}`}>
+                <p className={`text-sm font-semibold ${profile.goal === gl ? 'text-saffron' : 'text-ink'}`}>{GOAL_META[gl].label}</p>
+                <p className="text-[11px] text-ink-faint">{GOAL_META[gl].hint}</p>
               </button>
             ))}
           </div>

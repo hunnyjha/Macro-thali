@@ -2,7 +2,7 @@ import { useMemo, useState } from 'react';
 import { useProfileStore } from '../store/useProfileStore';
 import { useLogStore } from '../store/useLogStore';
 import {
-  calculate, ACTIVITY_META, GOAL_META,
+  calculate, caloriesForGoal, ACTIVITY_META, GOAL_META,
   type Activity, type Goal, type Sex,
 } from '../lib/calculator';
 import { kcal } from '../lib/format';
@@ -17,8 +17,7 @@ export function GoalsScreen() {
   const [applied, setApplied] = useState(false);
 
   const result = useMemo(() => calculate(profile), [profile]);
-  const goalCalories =
-    profile.goal === 'loss' ? result.loss : profile.goal === 'gain' ? result.gain : result.maintenance;
+  const goalCalories = caloriesForGoal(result.maintenance, profile.sex, profile.goal);
 
   const isApplied =
     currentTargets.calories === result.target.calories &&
@@ -75,19 +74,20 @@ export function GoalsScreen() {
         ))}
       </section>
 
-      {/* Goal */}
+      {/* Goal presets */}
       <section className="card space-y-3 p-4">
-        <h2 className="text-sm font-semibold text-ink-muted">Your goal</h2>
-        <div className="grid grid-cols-3 gap-2">
+        <h2 className="text-sm font-semibold text-ink-muted">Goal preset</h2>
+        <div className="grid grid-cols-2 gap-2">
           {(Object.keys(GOAL_META) as Goal[]).map((gl) => (
             <button
               key={gl}
               onClick={() => setProfile({ goal: gl })}
-              className={`rounded-xl2 border p-3 text-center transition-colors ${
-                profile.goal === gl ? 'border-saffron bg-saffron/15 text-saffron' : 'border-white/10 text-ink-muted'
+              className={`rounded-xl2 border p-3 text-left transition-colors ${
+                profile.goal === gl ? 'border-saffron bg-saffron/15' : 'border-white/10'
               }`}
             >
-              <p className="text-sm font-semibold">{GOAL_META[gl].label}</p>
+              <p className={`text-sm font-semibold ${profile.goal === gl ? 'text-saffron' : 'text-ink'}`}>{GOAL_META[gl].label}</p>
+              <p className="text-[11px] text-ink-faint">{kcal(caloriesForGoal(result.maintenance, profile.sex, gl))} kcal</p>
             </button>
           ))}
         </div>
@@ -96,14 +96,9 @@ export function GoalsScreen() {
 
       {/* Results */}
       <section className="card p-4">
-        <h2 className="mb-3 text-sm font-semibold text-ink-muted">Your numbers</h2>
-        <div className="grid grid-cols-3 gap-2 text-center">
-          <CalorieCard label="Fat loss" value={result.loss} active={profile.goal === 'loss'} onClick={() => setProfile({ goal: 'loss' })} />
-          <CalorieCard label="Maintain" value={result.maintenance} active={profile.goal === 'maintain'} onClick={() => setProfile({ goal: 'maintain' })} />
-          <CalorieCard label="Lean gain" value={result.gain} active={profile.goal === 'gain'} onClick={() => setProfile({ goal: 'gain' })} />
-        </div>
-        <p className="mt-2 text-center text-[11px] text-ink-faint">
-          Based on a BMR of {kcal(result.bmr)} kcal × {ACTIVITY_META[profile.activity].label.toLowerCase()} activity.
+        <h2 className="mb-1 text-sm font-semibold text-ink-muted">Your numbers</h2>
+        <p className="mb-3 text-center text-[11px] text-ink-faint">
+          BMR {kcal(result.bmr)} kcal · maintenance {kcal(result.maintenance)} kcal × {ACTIVITY_META[profile.activity].label.toLowerCase()}
         </p>
 
         {/* macro target for chosen goal */}
@@ -170,18 +165,6 @@ function NumberField({ label, suffix, value, min, max, onChange }: {
       </div>
       <p className="mt-0.5 text-center text-[10px] text-ink-faint">{suffix}</p>
     </div>
-  );
-}
-
-function CalorieCard({ label, value, active, onClick }: { label: string; value: number; active: boolean; onClick: () => void }) {
-  return (
-    <button
-      onClick={onClick}
-      className={`rounded-xl2 border p-3 transition-colors ${active ? 'border-saffron bg-saffron/10' : 'border-white/8'}`}
-    >
-      <p className={`font-display text-lg font-extrabold ${active ? 'text-saffron' : 'text-ink'}`}>{kcal(value)}</p>
-      <p className="text-[11px] text-ink-faint">{label}</p>
-    </button>
   );
 }
 

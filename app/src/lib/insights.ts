@@ -26,6 +26,34 @@ export interface WeeklyInsights {
   messages: InsightMsg[];
 }
 
+// Consecutive-day streaks ending today: any-log streak and protein-goal streak.
+export async function computeStreaks(targets: DailyTargets): Promise<{ daily: number; protein: number }> {
+  const logs = await db.logs.toArray();
+  const cal = new Map<string, Macros>();
+  for (const e of logs) cal.set(e.date, addMacros(cal.get(e.date) ?? emptyMacros(), e.macros));
+
+  let daily = 0;
+  let protein = 0;
+  let dailyBroken = false;
+  let proteinBroken = false;
+  const d = new Date();
+  for (let i = 0; i < 400; i++) {
+    const date = todayISO(new Date(d.getFullYear(), d.getMonth(), d.getDate() - i));
+    const m = cal.get(date);
+    const logged = !!m;
+    // Today not yet logged shouldn't break the streak; skip today if empty.
+    if (i === 0 && !logged) { continue; }
+    if (!dailyBroken) { if (logged) daily++; else dailyBroken = true; }
+    if (!proteinBroken) {
+      if (m && m.protein >= targets.protein) protein++;
+      else if (i === 0 && (!m || m.protein < targets.protein)) { /* today in progress: don't break */ }
+      else proteinBroken = true;
+    }
+    if (dailyBroken && proteinBroken) break;
+  }
+  return { daily, protein };
+}
+
 function lastNDates(n: number): string[] {
   const out: string[] = [];
   const d = new Date();

@@ -1,6 +1,6 @@
 import Dexie, { type Table } from 'dexie';
 import type { Food } from '../types/food';
-import type { LogEntry } from '../types/log';
+import type { LogEntry, MealTemplate } from '../types/log';
 
 // IndexedDB via Dexie — scales to tens of thousands of foods without holding
 // them all in JS memory. Full food records live here; the app fetches details
@@ -16,6 +16,7 @@ export class MacroKatoriDB extends Dexie {
   favorites!: Table<FavRow, string>;
   recents!: Table<RecentRow, string>;
   meta!: Table<MetaRow, string>;
+  templates!: Table<MealTemplate, string>;
 
   constructor() {
     super('macro-katori');
@@ -25,6 +26,10 @@ export class MacroKatoriDB extends Dexie {
       favorites: 'foodId, addedAt',
       recents: 'foodId, usedAt',
       meta: 'key',
+    });
+    // v2: meal templates (saved reusable meals)
+    this.version(2).stores({
+      templates: 'id, slot, createdAt',
     });
   }
 }

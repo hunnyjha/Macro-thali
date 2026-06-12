@@ -5,7 +5,7 @@
 
 export type Sex = 'male' | 'female';
 export type Activity = 'sedentary' | 'light' | 'moderate' | 'active' | 'athlete';
-export type Goal = 'loss' | 'maintain' | 'gain';
+export type Goal = 'loss' | 'maintain' | 'gain' | 'muscle-gain';
 
 export interface Profile {
   age: number;
@@ -24,10 +24,11 @@ export const ACTIVITY_META: Record<Activity, { label: string; hint: string; fact
   athlete: { label: 'Athlete', hint: 'Twice-a-day training', factor: 1.9 },
 };
 
-export const GOAL_META: Record<Goal, { label: string; hint: string }> = {
-  loss: { label: 'Fat loss', hint: 'Lose fat steadily (~0.5 kg/week)' },
-  maintain: { label: 'Maintain', hint: 'Stay at current weight' },
-  gain: { label: 'Lean gain', hint: 'Build muscle (~0.25 kg/week)' },
+export const GOAL_META: Record<Goal, { label: string; hint: string; delta: number }> = {
+  loss: { label: 'Fat Loss', hint: 'Lose fat steadily (~0.5 kg/week)', delta: -500 },
+  maintain: { label: 'Maintenance', hint: 'Stay at current weight', delta: 0 },
+  gain: { label: 'Lean Bulk', hint: 'Slow clean muscle gain', delta: 300 },
+  'muscle-gain': { label: 'Muscle Gain', hint: 'Faster surplus for bulking', delta: 500 },
 };
 
 export interface MacroTarget {
@@ -56,8 +57,8 @@ export function bmr(p: Profile): number {
 
 // Macro split for a goal at a given calorie level.
 function macros(calories: number, weightKg: number, goal: Goal): MacroTarget {
-  // protein per kg: more in a deficit, solid for gain
-  const perKg = goal === 'loss' ? 2.0 : goal === 'gain' ? 1.8 : 1.6;
+  // protein per kg: more in a deficit or hard bulk; solid for lean gain
+  const perKg = goal === 'loss' || goal === 'muscle-gain' ? 2.0 : goal === 'gain' ? 1.8 : 1.6;
   const protein = round(weightKg * perKg);
   // fat = 25% of calories (min 0.6 g/kg for hormones)
   const fat = Math.max(round((calories * 0.25) / 9), round(weightKg * 0.6));
@@ -66,15 +67,19 @@ function macros(calories: number, weightKg: number, goal: Goal): MacroTarget {
   return { calories: round(calories, 5), protein, carbs, fat };
 }
 
+// Calories for a goal, clamped to a safe floor for deficits.
+export function caloriesForGoal(maintenance: number, sex: Sex, goal: Goal): number {
+  const floor = sex === 'male' ? 1500 : 1200;
+  const c = maintenance + GOAL_META[goal].delta;
+  return Math.max(round(c, 5), floor);
+}
+
 export function calculate(p: Profile): CalcResult {
   const b = bmr(p);
   const maintenance = round(b * ACTIVITY_META[p.activity].factor, 5);
-  // healthy bounds: never below BMR, and not below a safe floor
-  const floor = p.sex === 'male' ? 1500 : 1200;
-  const loss = Math.max(round(maintenance - 500, 5), Math.round(b), floor);
-  const gain = round(maintenance + 300, 5);
-
-  const goalCalories = p.goal === 'loss' ? loss : p.goal === 'gain' ? gain : maintenance;
+  const loss = caloriesForGoal(maintenance, p.sex, 'loss');
+  const gain = caloriesForGoal(maintenance, p.sex, 'gain');
+  const goalCalories = caloriesForGoal(maintenance, p.sex, p.goal);
   return { bmr: Math.round(b), maintenance, loss, gain, target: macros(goalCalories, p.weightKg, p.goal) };
 }
 

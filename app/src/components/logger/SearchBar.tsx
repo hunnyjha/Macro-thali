@@ -10,6 +10,7 @@ export function SearchBar({ value, onChange }: Props) {
         <circle cx="11" cy="11" r="7" /><path d="m20 20-3-3" />
       </svg>
       <input
+        id="mk-search"
         value={value}
         onChange={(e) => onChange(e.target.value)}
         inputMode="search"
