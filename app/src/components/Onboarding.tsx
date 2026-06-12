@@ -131,10 +131,20 @@ function Num({ label, suffix, value, min, max, onChange }: {
   return (
     <div>
       <label className="mb-1 block text-xs text-ink-faint">{label}</label>
-      <input type="number" inputMode="numeric" value={value} min={min} max={max}
-        onChange={(e) => onChange(clamp(Number(e.target.value) || min))}
-        className="w-full rounded-xl2 border border-white/10 bg-charcoal-700 px-3 py-2.5 text-center font-display text-lg font-bold text-ink focus:outline-none" />
-      <p className="mt-0.5 text-center text-[10px] text-ink-faint">{suffix}</p>
+<input
+  type="number"
+  inputMode="numeric"
+  value={value}
+  min={min}
+  max={max}
+  onChange={(e) => {
+    const val = e.target.value;
+    if (val === "") return;
+    onChange(clamp(Number(val)));
+  }}
+  className="w-full rounded-xl2 border border-white/10 bg-charcoal-700 px-3 py-2.5 text-center font-display text-lg font-bold text-ink focus:outline-none"
+/>
+<p className="mt-0.5 text-center text-[10px] text-ink-faint">{suffix}</p>
     </div>
   );
 }
