@@ -27,7 +27,9 @@ interface LogState {
   init: () => Promise<void>;
   loadDay: (date: string) => Promise<void>;
   addEntry: (entry: LogEntry) => Promise<void>;
+  addMany: (entries: LogEntry[]) => Promise<void>;
   removeEntry: (id: string) => Promise<void>;
+  updateEntry: (id: string, patch: Partial<LogEntry>) => Promise<void>;
   toggleFavorite: (foodId: string) => Promise<void>;
   setTargets: (t: DailyTargets) => void;
   totals: () => Macros;
@@ -73,9 +75,30 @@ export const useLogStore = create<LogState>((set, get) => ({
     }));
   },
 
+  addMany: async (entries) => {
+    if (entries.length === 0) return;
+    await db.logs.bulkPut(entries);
+    const now = Date.now();
+    await db.recents.bulkPut(entries.map((e, i) => ({ foodId: e.foodId, usedAt: now + i })));
+    const recents = await db.recents.orderBy('usedAt').reverse().limit(20).toArray();
+    const today = get().date;
+    set((s) => ({
+      entries: [...s.entries, ...entries.filter((e) => e.date === today)].sort((a, b) => a.loggedAt - b.loggedAt),
+      recents: recents.map((r) => r.foodId),
+    }));
+  },
+
   removeEntry: async (id) => {
     await db.logs.delete(id);
     set((s) => ({ entries: s.entries.filter((e) => e.id !== id) }));
+  },
+
+  updateEntry: async (id, patch) => {
+    const current = get().entries.find((e) => e.id === id);
+    if (!current) return;
+    const updated = { ...current, ...patch };
+    await db.logs.put(updated);
+    set((s) => ({ entries: s.entries.map((e) => (e.id === id ? updated : e)) }));
   },
 
   toggleFavorite: async (foodId) => {

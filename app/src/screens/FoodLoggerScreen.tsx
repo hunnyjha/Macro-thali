@@ -7,14 +7,17 @@ import { FilterChips } from '../components/logger/FilterChips';
 import { FoodResultCard } from '../components/logger/FoodResultCard';
 import { FoodDetailSheet } from '../components/logger/FoodDetailSheet';
 import { TodayTimeline } from '../components/logger/TodayTimeline';
+import { ThaliRow } from '../components/logger/ThaliRow';
+import { ThaliSheet } from '../components/logger/ThaliSheet';
 import type { SearchFilters } from '../search/searchEngine';
-import type { SearchDoc } from '../types/food';
+import type { SearchDoc, Thali } from '../types/food';
 
 export function FoodLoggerScreen() {
   const { search } = useData();
   const [query, setQuery] = useState('');
   const [filters, setFilters] = useState<SearchFilters>({});
   const [selectedId, setSelectedId] = useState<string | null>(null);
+  const [selectedThali, setSelectedThali] = useState<Thali | null>(null);
 
   const favorites = useLogStore((s) => s.favorites);
   const recents = useLogStore((s) => s.recents);
@@ -80,6 +83,7 @@ export function FoodLoggerScreen() {
         ) : (
           idleDocs && (
             <div className="space-y-5">
+              <ThaliRow onSelect={setSelectedThali} />
               {idleDocs.recent.length > 0 && (
                 <Section title="Recent">
                   {idleDocs.recent.map((d) => <FoodResultCard key={d.id} doc={d} onSelect={setSelectedId} />)}
@@ -102,6 +106,7 @@ export function FoodLoggerScreen() {
       {!searching && <TodayTimeline />}
 
       <FoodDetailSheet foodId={selectedId} onClose={() => setSelectedId(null)} />
+      <ThaliSheet thali={selectedThali} onClose={() => setSelectedThali(null)} />
     </div>
   );
 }
