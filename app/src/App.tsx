@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 import { DataProvider } from './app/DataContext';
 import { BottomNav } from './components/layout/BottomNav';
 import { FoodLoggerScreen } from './screens/FoodLoggerScreen';
+import { GoalsScreen } from './screens/GoalsScreen';
 import { ComingSoon } from './screens/ComingSoon';
 
 export default function App() {
@@ -12,7 +13,7 @@ export default function App() {
           <Routes>
             <Route path="/" element={<FoodLoggerScreen />} />
             <Route path="/insights" element={<ComingSoon title="Weekly Insights" note="Your protein, calorie and oil trends will appear here." />} />
-            <Route path="/calculator" element={<ComingSoon title="Goals & Calculator" note="Set your maintenance, fat-loss and protein targets." />} />
+            <Route path="/calculator" element={<GoalsScreen />} />
             <Route path="/learn" element={<ComingSoon title="Learn" note="Simple guides to calories, protein, carbs and fats." />} />
             <Route path="*" element={<ComingSoon title="Not found" note="This page doesn’t exist yet." />} />
           </Routes>

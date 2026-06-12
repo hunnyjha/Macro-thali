@@ -3,6 +3,7 @@
 import { readFileSync } from 'node:fs';
 import { FoodSearch } from '../src/search/searchEngine.ts';
 import { computeMacros } from '../src/lib/nutrition.ts';
+import { calculate, type Profile } from '../src/lib/calculator.ts';
 
 const read = (p: string) => JSON.parse(readFileSync(new URL(`../public/data/${p}`, import.meta.url), 'utf8'));
 
@@ -63,6 +64,17 @@ const rice = foods.find((f: any) => f.id === 'pi-cooked-white-rice');
 const oneKatori = computeMacros(rice, rice.portions.find((p: any) => p.unit === 'katori').grams, 'home_style', oil);
 console.log(`  1 katori cooked rice = ${oneKatori.calories} kcal, ${oneKatori.protein}g protein`);
 check('katori portion computes', oneKatori.calories > 150 && oneKatori.calories < 250);
+
+console.log('\n— CALCULATOR —');
+const prof: Profile = { age: 25, sex: 'male', weightKg: 70, heightCm: 175, activity: 'moderate', goal: 'loss' };
+const r = calculate(prof);
+console.log(`  25M 70kg 175cm moderate: BMR=${r.bmr} maintain=${r.maintenance} loss=${r.loss} gain=${r.gain}`);
+console.log(`  loss target: ${r.target.calories} kcal · ${r.target.protein}P / ${r.target.carbs}C / ${r.target.fat}F`);
+check('BMR in expected range (~1650)', r.bmr > 1600 && r.bmr < 1750);
+check('maintenance = BMR × 1.55', Math.abs(r.maintenance - r.bmr * 1.55) <= 5);
+check('loss < maintain < gain', r.loss < r.maintenance && r.maintenance < r.gain);
+check('fat-loss protein ≥ 2g/kg', r.target.protein >= 140);
+check('macros roughly sum to target kcal', Math.abs((r.target.protein * 4 + r.target.carbs * 4 + r.target.fat * 9) - r.target.calories) < 60);
 
 console.log(`\n${pass} passed, ${fail} failed\n`);
 process.exit(fail ? 1 : 0);
