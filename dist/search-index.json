@@ -2421,6 +2421,211 @@
     ]
   },
   {
+    "id": "mh-thalipeeth",
+    "name": "Thalipeeth (multigrain)",
+    "t": "thalipeeth (multigrain) thalipeeth",
+    "cat": "breakfast",
+    "state": "maharashtra",
+    "region": "west",
+    "diet": "veg",
+    "kcal": 250,
+    "protein": 8,
+    "carbs": 38,
+    "fat": 7.5,
+    "fiber": 6,
+    "ps": 2,
+    "meal": [
+      "breakfast",
+      "dinner",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "mh-sabudana-khichdi",
+    "name": "Sabudana Khichdi",
+    "t": "sabudana khichdi sabudana khichdi",
+    "cat": "breakfast",
+    "state": "maharashtra",
+    "region": "west",
+    "diet": "veg",
+    "kcal": 220,
+    "protein": 3.5,
+    "carbs": 36,
+    "fat": 7,
+    "fiber": 1.5,
+    "ps": 1,
+    "meal": [
+      "breakfast",
+      "festival",
+      "snack",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "mh-bharli-vangi",
+    "name": "Bharli Vangi (stuffed brinjal)",
+    "t": "bharli vangi (stuffed brinjal) bharli vangi",
+    "cat": "vegetables",
+    "state": "maharashtra",
+    "region": "west",
+    "diet": "veg",
+    "kcal": 150,
+    "protein": 3.5,
+    "carbs": 12,
+    "fat": 10,
+    "fiber": 4,
+    "ps": 1,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "mh-pithla",
+    "name": "Pithla (besan curry)",
+    "t": "pithla (besan curry) pithla",
+    "cat": "dal-legumes",
+    "state": "maharashtra",
+    "region": "west",
+    "diet": "veg",
+    "kcal": 130,
+    "protein": 5.5,
+    "carbs": 13,
+    "fat": 6,
+    "fiber": 2.5,
+    "ps": 2,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked",
+      "budget"
+    ]
+  },
+  {
+    "id": "mh-kolhapuri-chicken",
+    "name": "Kolhapuri Chicken",
+    "t": "kolhapuri chicken kolhapuri chicken",
+    "cat": "non-veg",
+    "state": "maharashtra",
+    "region": "west",
+    "diet": "non-veg",
+    "kcal": 210,
+    "protein": 16,
+    "carbs": 5,
+    "fat": 14,
+    "fiber": 1.5,
+    "ps": 4,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "restaurant"
+    ]
+  },
+  {
+    "id": "mh-bombil-fry",
+    "name": "Bombil Fry (Bombay duck)",
+    "t": "bombil fry (bombay duck) bombil fry",
+    "cat": "non-veg",
+    "state": "maharashtra",
+    "region": "west",
+    "diet": "non-veg",
+    "kcal": 215,
+    "protein": 17,
+    "carbs": 9,
+    "fat": 12,
+    "fiber": 0.5,
+    "ps": 5,
+    "meal": [
+      "lunch",
+      "dinner",
+      "side",
+      "restaurant"
+    ]
+  },
+  {
+    "id": "mh-usal",
+    "name": "Usal (sprouted beans)",
+    "t": "usal (sprouted beans) usal",
+    "cat": "dal-legumes",
+    "state": "maharashtra",
+    "region": "west",
+    "diet": "veg",
+    "kcal": 130,
+    "protein": 7,
+    "carbs": 16,
+    "fat": 4,
+    "fiber": 5.5,
+    "ps": 2,
+    "meal": [
+      "breakfast",
+      "lunch",
+      "main",
+      "home-cooked",
+      "budget"
+    ]
+  },
+  {
+    "id": "mh-shrikhand-amrakhand",
+    "name": "Amrakhand (mango shrikhand)",
+    "t": "amrakhand (mango shrikhand) amrakhand",
+    "cat": "desserts",
+    "state": "maharashtra",
+    "region": "west",
+    "diet": "veg",
+    "kcal": 220,
+    "protein": 5.5,
+    "carbs": 32,
+    "fat": 8,
+    "fiber": 0.5,
+    "ps": 2,
+    "meal": [
+      "dessert",
+      "festival"
+    ]
+  },
+  {
+    "id": "mh-kothimbir-vadi",
+    "name": "Kothimbir Vadi",
+    "t": "kothimbir vadi kothimbir vadi",
+    "cat": "snacks",
+    "state": "maharashtra",
+    "region": "west",
+    "diet": "veg",
+    "kcal": 220,
+    "protein": 7,
+    "carbs": 22,
+    "fat": 11,
+    "fiber": 3.5,
+    "ps": 2,
+    "meal": [
+      "snack",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "mh-solkadhi",
+    "name": "Solkadhi (kokum drink)",
+    "t": "solkadhi (kokum drink) solkadhi solkadhi",
+    "cat": "drinks",
+    "state": "maharashtra",
+    "region": "west",
+    "diet": "veg",
+    "kcal": 60,
+    "protein": 1,
+    "carbs": 4,
+    "fat": 4.5,
+    "fiber": 0.5,
+    "ps": 0,
+    "meal": [
+      "drink",
+      "lunch"
+    ]
+  },
+  {
     "id": "mh-poha-kanda",
     "name": "Kanda Poha",
     "t": "kanda poha kanda pohe",
@@ -4280,6 +4485,212 @@
       "snack",
       "street",
       "budget"
+    ]
+  },
+  {
+    "id": "punjab-shahi-paneer",
+    "name": "Shahi Paneer",
+    "t": "shahi paneer shahi paneer",
+    "cat": "paneer-dairy-veg",
+    "state": "punjab",
+    "region": "north",
+    "diet": "veg",
+    "kcal": 245,
+    "protein": 9,
+    "carbs": 9,
+    "fat": 19,
+    "fiber": 1.5,
+    "ps": 2,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "restaurant"
+    ]
+  },
+  {
+    "id": "punjab-aloo-paratha",
+    "name": "Aloo Paratha",
+    "t": "aloo paratha aloo paratha aloo paratha",
+    "cat": "grains-breads",
+    "state": "punjab",
+    "region": "north",
+    "diet": "veg",
+    "kcal": 240,
+    "protein": 6,
+    "carbs": 35,
+    "fat": 8.5,
+    "fiber": 4,
+    "ps": 2,
+    "meal": [
+      "breakfast",
+      "lunch",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "punjab-chicken-tikka",
+    "name": "Chicken Tikka (dry)",
+    "t": "chicken tikka (dry) chicken tikka",
+    "cat": "non-veg",
+    "state": "punjab",
+    "region": "north",
+    "diet": "non-veg",
+    "kcal": 195,
+    "protein": 25,
+    "carbs": 4,
+    "fat": 9,
+    "fiber": 0.5,
+    "ps": 7,
+    "meal": [
+      "snack",
+      "dinner",
+      "restaurant",
+      "post-workout"
+    ]
+  },
+  {
+    "id": "punjab-pindi-chana",
+    "name": "Pindi Chana",
+    "t": "pindi chana pindi chole",
+    "cat": "dal-legumes",
+    "state": "punjab",
+    "region": "north",
+    "diet": "veg",
+    "kcal": 165,
+    "protein": 7.5,
+    "carbs": 23,
+    "fat": 4.5,
+    "fiber": 7,
+    "ps": 2,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "restaurant"
+    ]
+  },
+  {
+    "id": "punjab-bhindi-masala",
+    "name": "Bhindi Masala",
+    "t": "bhindi masala bhindi masala",
+    "cat": "vegetables",
+    "state": "punjab",
+    "region": "north",
+    "diet": "veg",
+    "kcal": 110,
+    "protein": 2.5,
+    "carbs": 9,
+    "fat": 7,
+    "fiber": 3.5,
+    "ps": 1,
+    "meal": [
+      "lunch",
+      "dinner",
+      "side",
+      "home-cooked"
+    ]
+  },
+  {
+    "id": "punjab-tandoori-roti",
+    "name": "Tandoori Roti",
+    "t": "tandoori roti tandoori roti",
+    "cat": "grains-breads",
+    "state": "punjab",
+    "region": "north",
+    "diet": "veg",
+    "kcal": 285,
+    "protein": 9,
+    "carbs": 56,
+    "fat": 3,
+    "fiber": 6,
+    "ps": 2,
+    "meal": [
+      "lunch",
+      "dinner",
+      "restaurant",
+      "main"
+    ]
+  },
+  {
+    "id": "punjab-gajar-halwa",
+    "name": "Gajar ka Halwa",
+    "t": "gajar ka halwa gajrela gajar halwa",
+    "cat": "desserts",
+    "state": "punjab",
+    "region": "north",
+    "diet": "veg",
+    "kcal": 250,
+    "protein": 4,
+    "carbs": 32,
+    "fat": 12,
+    "fiber": 2,
+    "ps": 1,
+    "meal": [
+      "dessert",
+      "festival"
+    ]
+  },
+  {
+    "id": "punjab-pinni",
+    "name": "Atte di Pinni",
+    "t": "atte di pinni pinni",
+    "cat": "desserts",
+    "state": "punjab",
+    "region": "north",
+    "diet": "veg",
+    "kcal": 480,
+    "protein": 9,
+    "carbs": 50,
+    "fat": 27,
+    "fiber": 4,
+    "ps": 2,
+    "meal": [
+      "dessert",
+      "festival",
+      "snack"
+    ]
+  },
+  {
+    "id": "punjab-paneer-tikka",
+    "name": "Paneer Tikka",
+    "t": "paneer tikka paneer tikka",
+    "cat": "high-protein",
+    "state": "punjab",
+    "region": "north",
+    "diet": "veg",
+    "kcal": 230,
+    "protein": 15,
+    "carbs": 7,
+    "fat": 16,
+    "fiber": 1.5,
+    "ps": 4,
+    "meal": [
+      "snack",
+      "dinner",
+      "restaurant",
+      "post-workout"
+    ]
+  },
+  {
+    "id": "punjab-kadhi-pakora",
+    "name": "Punjabi Kadhi Pakora",
+    "t": "punjabi kadhi pakora kadhi pakora",
+    "cat": "dal-legumes",
+    "state": "punjab",
+    "region": "north",
+    "diet": "veg",
+    "kcal": 140,
+    "protein": 4.5,
+    "carbs": 11,
+    "fat": 8.5,
+    "fiber": 1.2,
+    "ps": 1,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked"
     ]
   },
   {
