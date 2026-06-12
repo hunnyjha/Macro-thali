@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #141517;
+  color: theme('colors.ink.DEFAULT');
+  font-family: theme('fontFamily.sans');
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overscroll-behavior-y: none;
+}
+
+/* Hide scrollbars on horizontal chip rows but keep scrolling */
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+@layer components {
+  .card {
+    @apply bg-charcoal-700 rounded-xl2 shadow-card border border-white/5;
+  }
+  .chip {
+    @apply inline-flex items-center gap-1.5 whitespace-nowrap rounded-full px-3.5 py-2 text-sm font-medium
+           border border-white/10 text-ink-muted transition-colors active:scale-95;
+  }
+  .chip-active {
+    @apply bg-saffron text-charcoal-900 border-saffron;
+  }
+  .btn-primary {
+    @apply bg-saffron text-charcoal-900 font-semibold rounded-xl2 px-5 py-3.5 text-base
+           active:scale-[0.98] transition-transform disabled:opacity-50;
+  }
+  .btn-ghost {
+    @apply bg-white/5 text-ink rounded-xl2 px-4 py-3 font-medium active:scale-[0.98] transition-transform;
+  }
+  .safe-bottom { padding-bottom: max(env(safe-area-inset-bottom), 0.5rem); }
+  .safe-top { padding-top: max(env(safe-area-inset-top), 0.5rem); }
+}

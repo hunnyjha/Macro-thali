@@ -1,0 +1,17 @@
+# Netlify deployment for the Macro Katori PWA.
+# The app lives in app/. Its prebuild step copies the food database from
+# the repo root (dist/ + data/reference) into app/public/data automatically.
+
+[build]
+  base = "app"
+  command = "npm run build"
+  publish = "app/dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# Single-page-app fallback so deep links / refresh work with React Router.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

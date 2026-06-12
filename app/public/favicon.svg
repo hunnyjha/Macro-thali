@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="112" fill="#1a1c1e"/>
+  <!-- katori (bowl) -->
+  <path d="M120 232 h272 a8 8 0 0 1 8 8 v8 c0 79-63 144-144 144 s-144-65-144-144 v-8 a8 8 0 0 1 8-8 z" fill="#f5a623"/>
+  <ellipse cx="256" cy="232" rx="140" ry="30" fill="#ffc15e"/>
+  <!-- steam / emerald accent -->
+  <path d="M214 150 c-18-18 18-34 0-56" stroke="#1fb574" stroke-width="14" stroke-linecap="round" fill="none"/>
+  <path d="M256 140 c-18-18 18-34 0-56" stroke="#36d995" stroke-width="14" stroke-linecap="round" fill="none"/>
+  <path d="M298 150 c-18-18 18-34 0-56" stroke="#1fb574" stroke-width="14" stroke-linecap="round" fill="none"/>
+</svg>
