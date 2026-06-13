@@ -1,6 +1,8 @@
 import { useNavigate } from 'react-router-dom';
 import { useAuthStore } from '../store/useAuthStore';
 import { useSubscriptionStore, useIsPro } from '../store/useSubscriptionStore';
+import { useAiSettings } from '../store/useAiSettings';
+import { PROVIDERS } from '../ai/providers';
 import { useToast } from '../app/ToastContext';
 
 export function AccountScreen() {
@@ -9,6 +11,7 @@ export function AccountScreen() {
   const signOut = useAuthStore((s) => s.signOut);
   const sub = useSubscriptionStore();
   const isPro = useIsPro();
+  const ai = useAiSettings();
   const { showToast } = useToast();
 
   const proLabel = !isPro
@@ -51,6 +54,32 @@ export function AccountScreen() {
           <button className="btn-ghost mt-3 w-full" onClick={() => { sub.cancel(); showToast('Switched to Free'); }}>
             Switch to Free
           </button>
+        )}
+      </section>
+
+      {/* AI scanner */}
+      <section className="card space-y-3 p-4">
+        <h2 className="text-sm font-semibold text-ink-muted">AI Food Scanner</h2>
+        <div className="grid grid-cols-2 gap-2">
+          {PROVIDERS.map((p) => (
+            <button key={p.id} onClick={() => ai.setProvider(p.id)}
+              className={`rounded-xl2 border p-3 text-left transition-colors ${ai.providerId === p.id ? 'border-saffron bg-saffron/15' : 'border-white/10'}`}>
+              <p className={`text-sm font-semibold ${ai.providerId === p.id ? 'text-saffron' : 'text-ink'}`}>{p.label.split(' (')[0]}</p>
+              <p className="text-[10px] text-ink-faint">{p.requiresKey ? 'Needs API key' : 'Free · no key'}</p>
+            </button>
+          ))}
+        </div>
+        {ai.providerId === 'gemini' && (
+          <div>
+            <input
+              value={ai.geminiKey}
+              onChange={(e) => ai.setGeminiKey(e.target.value)}
+              type="password"
+              placeholder="Paste Gemini API key"
+              className="input-surface w-full px-3 py-2.5 text-sm"
+            />
+            <p className="mt-1 text-[11px] text-ink-faint">Free key from aistudio.google.com. Stored only on this device.</p>
+          </div>
         )}
       </section>
 

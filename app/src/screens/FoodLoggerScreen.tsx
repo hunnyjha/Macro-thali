@@ -15,6 +15,7 @@ import { ThaliSheet } from '../components/logger/ThaliSheet';
 import { QuickMealsRow } from '../components/logger/QuickMealsRow';
 import { QuickAddChips } from '../components/logger/QuickAddChips';
 import { AddFab } from '../components/logger/AddFab';
+import { FoodScanSheet } from '../components/logger/FoodScanSheet';
 import { NlLogSheet } from '../components/logger/NlLogSheet';
 import { GapCard } from '../components/logger/GapCard';
 import { StreakChips } from '../components/logger/StreakChips';
@@ -35,6 +36,7 @@ export function FoodLoggerScreen() {
   const [editEntry, setEditEntry] = useState<LogEntry | null>(null);
   const [selectedThali, setSelectedThali] = useState<Thali | null>(null);
   const [nlOpen, setNlOpen] = useState(false);
+  const [scanOpen, setScanOpen] = useState(false);
   const searchRef = useRef<HTMLDivElement>(null);
 
   const favorites = useLogStore((s) => s.favorites);
@@ -176,8 +178,14 @@ export function FoodLoggerScreen() {
 
       {!searching && <TodayTimeline onEdit={setEditEntry} />}
 
-      <AddFab onSearch={focusSearch} onQuickAdd={focusSearch} onVoice={() => (isPro ? setNlOpen(true) : nav('/paywall'))} />
+      <AddFab
+        onSearch={focusSearch}
+        onQuickAdd={focusSearch}
+        onVoice={() => (isPro ? setNlOpen(true) : nav('/paywall'))}
+        onScan={() => setScanOpen(true)}
+      />
 
+      <FoodScanSheet open={scanOpen} onClose={() => setScanOpen(false)} onPick={(id) => setSelectedId(id)} />
       <NlLogSheet open={nlOpen} onClose={() => setNlOpen(false)} />
       <FoodDetailSheet foodId={selectedId} onClose={() => setSelectedId(null)} />
       <FoodDetailSheet foodId={null} editEntry={editEntry} onClose={() => setEditEntry(null)} />
