@@ -3,6 +3,7 @@ import { Routes, Route, Navigate } from 'react-router-dom';
 import { DataProvider } from './app/DataContext';
 import { ToastProvider } from './app/ToastContext';
 import { BottomNav } from './components/layout/BottomNav';
+import { CoachButton } from './components/coach/CoachButton';
 import { Onboarding } from './components/Onboarding';
 import { UpgradeGate } from './components/UpgradeGate';
 import { FoodLoggerScreen } from './screens/FoodLoggerScreen';
@@ -45,6 +46,7 @@ export default function App() {
                 <Route path="*" element={<Navigate to="/" replace />} />
               </Routes>
             </main>
+            <CoachButton />
             <BottomNav />
           </div>
         )}

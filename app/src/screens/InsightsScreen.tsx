@@ -3,6 +3,8 @@ import { useLogStore } from '../store/useLogStore';
 import { computeWeeklyInsights, type WeeklyInsights } from '../lib/insights';
 import { WeightSection } from '../components/insights/WeightSection';
 import { ConsistencyCards } from '../components/insights/ConsistencyCards';
+import { AdaptiveCard } from '../components/insights/AdaptiveCard';
+import { CardSkeleton } from '../components/ui/Skeleton';
 import { kcal } from '../lib/format';
 
 export function InsightsScreen() {
@@ -14,12 +16,20 @@ export function InsightsScreen() {
     computeWeeklyInsights(targets).then(setData);
   }, [targets, entries]);
 
-  if (!data) return <div className="safe-top p-6 text-center text-ink-muted">Loading…</div>;
+  if (!data) {
+    return (
+      <div className="safe-top space-y-4 px-4 pt-3">
+        <div className="h-7 w-40 animate-pulse rounded-lg bg-white/[0.06]" />
+        <CardSkeleton />
+        <CardSkeleton />
+      </div>
+    );
+  }
 
   const maxCal = Math.max(targets.calories, ...data.days.map((d) => d.macros.calories), 1);
 
   return (
-    <div className="safe-top space-y-5 px-4 pb-8 pt-3">
+    <div className="safe-top animate-fade-up space-y-5 px-4 pb-8 pt-3">
       <header>
         <h1 className="font-display text-xl font-extrabold">Weekly Insights</h1>
         <p className="text-sm text-ink-muted">Last 7 days · {data.daysLogged} day{data.daysLogged === 1 ? '' : 's'} logged</p>
@@ -62,6 +72,8 @@ export function InsightsScreen() {
         {/* goal line label */}
         <p className="mt-2 text-center text-[11px] text-ink-faint">Orange = on/under goal · Red = over goal</p>
       </section>
+
+      <AdaptiveCard />
 
       <ConsistencyCards />
 

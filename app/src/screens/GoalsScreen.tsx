@@ -33,7 +33,7 @@ export function GoalsScreen() {
   };
 
   return (
-    <div className="safe-top space-y-5 px-4 pb-8 pt-3">
+    <div className="safe-top animate-fade-up space-y-5 px-4 pb-8 pt-3">
       <header>
         <h1 className="font-display text-xl font-extrabold">Goals & Calculator</h1>
         <p className="text-sm text-ink-muted">Find your numbers, then set your daily target.</p>

@@ -114,5 +114,12 @@ check('dal tadka present & estimated', search.search('dal tadka', {}, 5).some((d
 check('veg biryani present', has('veg biryani', 'Veg Biryani'));
 check('rajma chawal present', has('rajma chawal', 'Rajma Chawal'));
 
+console.log('\n— PROTEIN GAP —');
+const { proteinGapSuggestions } = await import('../src/lib/proteinGap.ts');
+const gap = proteinGapSuggestions(30, { used: ['pi-boiled-egg'] });
+check('protein gap returns options', gap.length > 0 && gap[0].protein > 0, gap.map((s: any) => s.text).join(', '));
+check('used food prioritised', gap[0].foodId === 'pi-boiled-egg');
+check('no suggestions when goal met', proteinGapSuggestions(0).length === 0);
+
 console.log(`\n${pass} passed, ${fail} failed\n`);
 process.exit(fail ? 1 : 0);

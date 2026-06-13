@@ -84,7 +84,7 @@ export function FoodLoggerScreen() {
   };
 
   return (
-    <div className="safe-top pb-24">
+    <div className="safe-top animate-fade-up pb-24">
       <header className="flex items-center justify-between px-4 pt-3">
         <div className="flex items-center gap-2">
           <img src="/favicon.svg" alt="" className="h-8 w-8" />
