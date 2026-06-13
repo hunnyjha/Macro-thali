@@ -1,0 +1,4 @@
+# Cloudflare Pages config for the Macro Katori app.
+# Set the project's "Root directory" to `app` in the Cloudflare dashboard.
+name = "macro-thali"
+pages_build_output_dir = "dist"
