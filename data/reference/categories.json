@@ -6,72 +6,340 @@
     {
       "code": "grains-breads",
       "name": "Grains & Breads",
-      "subcategories": ["roti-flatbread", "rice", "puri-fried-bread", "paratha", "millet", "regional-bread"]
+      "subcategories": [
+        "roti-flatbread",
+        "rice",
+        "puri-fried-bread",
+        "paratha",
+        "millet",
+        "regional-bread",
+        "north-indian",
+        "south-indian",
+        "street-food"
+      ]
     },
     {
       "code": "dal-legumes",
       "name": "Dals & Legumes",
-      "subcategories": ["dal", "whole-legume", "sprouts", "besan-based"]
+      "subcategories": [
+        "dal",
+        "whole-legume",
+        "sprouts",
+        "besan-based",
+        "dal-bean",
+        "curry"
+      ]
     },
     {
       "code": "vegetables",
       "name": "Vegetable Dishes",
-      "subcategories": ["dry-sabzi", "gravy-sabzi", "leafy-greens", "stuffed", "kofta"]
+      "subcategories": [
+        "dry-sabzi",
+        "gravy-sabzi",
+        "leafy-greens",
+        "stuffed",
+        "kofta",
+        "leafy-vegetables",
+        "root-vegetables",
+        "gourds-squash",
+        "other-vegetables",
+        "north-indian",
+        "breakfast",
+        "street-food",
+        "sweet",
+        "vegetable-sabzi",
+        "punjabi",
+        "gujarati",
+        "bengali",
+        "bihari",
+        "maharashtrian",
+        "tamil",
+        "telugu",
+        "kannada",
+        "kerala",
+        "rajasthani",
+        "odia",
+        "assamese",
+        "delhi-street",
+        "mumbai-street",
+        "hyderabadi"
+      ]
     },
     {
       "code": "non-veg",
       "name": "Non-Vegetarian",
-      "subcategories": ["chicken", "mutton-goat", "fish", "prawn-seafood", "egg", "pork", "beef-buff"]
+      "subcategories": [
+        "chicken",
+        "mutton-goat",
+        "fish",
+        "prawn-seafood",
+        "egg",
+        "pork",
+        "beef-buff",
+        "punjabi",
+        "gujarati",
+        "bengali",
+        "bihari",
+        "maharashtrian",
+        "tamil",
+        "telugu",
+        "kannada",
+        "kerala",
+        "rajasthani",
+        "odia",
+        "assamese",
+        "delhi-street",
+        "mumbai-street",
+        "hyderabadi"
+      ]
     },
     {
       "code": "paneer-dairy-veg",
       "name": "Paneer & Dairy Dishes",
-      "subcategories": ["paneer", "curd-based", "cheese"]
+      "subcategories": [
+        "paneer",
+        "curd-based",
+        "cheese",
+        "punjabi",
+        "gujarati",
+        "bengali",
+        "bihari",
+        "maharashtrian",
+        "tamil",
+        "telugu",
+        "kannada",
+        "kerala",
+        "rajasthani",
+        "odia",
+        "assamese",
+        "delhi-street",
+        "mumbai-street",
+        "hyderabadi"
+      ]
     },
     {
       "code": "rice-dishes",
       "name": "Rice Dishes",
-      "subcategories": ["biryani", "pulao", "khichdi", "fried-rice", "curd-rice", "regional-rice"]
+      "subcategories": [
+        "biryani",
+        "pulao",
+        "khichdi",
+        "fried-rice",
+        "curd-rice",
+        "regional-rice",
+        "rice-dish",
+        "punjabi",
+        "gujarati",
+        "bengali",
+        "bihari",
+        "maharashtrian",
+        "tamil",
+        "telugu",
+        "kannada",
+        "kerala",
+        "rajasthani",
+        "odia",
+        "assamese",
+        "delhi-street",
+        "mumbai-street",
+        "hyderabadi"
+      ]
     },
     {
       "code": "breakfast",
       "name": "Breakfast",
-      "subcategories": ["south-tiffin", "north-breakfast", "egg-breakfast", "cereal-porridge", "regional-breakfast"]
+      "subcategories": [
+        "south-tiffin",
+        "north-breakfast",
+        "egg-breakfast",
+        "cereal-porridge",
+        "regional-breakfast",
+        "toned-milk",
+        "full-cream-milk",
+        "curd-plain",
+        "lassi-sweet",
+        "buttermilk-masala",
+        "paneer",
+        "cheese-slices",
+        "butter",
+        "high-protein-paneer",
+        "protein-milkshake",
+        "greek-yogurt",
+        "flavoured-yogurt",
+        "high-protein"
+      ]
     },
     {
       "code": "snacks",
       "name": "Snacks",
-      "subcategories": ["fried-snack", "chaat", "baked-snack", "namkeen", "tikki-cutlet"]
+      "subcategories": [
+        "fried-snack",
+        "chaat",
+        "baked-snack",
+        "namkeen",
+        "tikki-cutlet",
+        "dry-fruit-seed",
+        "classic-salted-chips",
+        "masala-chips",
+        "nacho-chips",
+        "bhujia-namkeen",
+        "aloo-bhujia",
+        "moong-dal-namkeen",
+        "peanut-masala",
+        "roasted-makhana",
+        "protein-chips",
+        "popcorn-cheese",
+        "trail-mix",
+        "baked-puffs",
+        "glucose-biscuits",
+        "marie-biscuits",
+        "cream-biscuits",
+        "digestive-biscuits",
+        "oats-cookies",
+        "rusk",
+        "brown-bread",
+        "white-bread",
+        "protein-bar",
+        "granola-bar",
+        "instant-noodles-masala",
+        "oats-masala",
+        "poha-ready-mix",
+        "upma-ready-mix",
+        "idli-batter",
+        "dosa-batter",
+        "frozen-fries",
+        "frozen-nuggets",
+        "ready-paneer-curry",
+        "ready-dal",
+        "paratha-frozen",
+        "dry-fruit-snack"
+      ]
     },
     {
       "code": "street-food",
       "name": "Street Food",
-      "subcategories": ["chaat", "rolls-wraps", "pav-based", "tandoori", "regional-street"]
+      "subcategories": [
+        "chaat",
+        "rolls-wraps",
+        "pav-based",
+        "tandoori",
+        "regional-street"
+      ]
     },
     {
       "code": "drinks",
       "name": "Drinks & Beverages",
-      "subcategories": ["hot-beverage", "lassi-shake", "juice", "sherbet", "milk-based", "regional-drink"]
+      "subcategories": [
+        "hot-beverage",
+        "lassi-shake",
+        "juice",
+        "sherbet",
+        "milk-based",
+        "regional-drink",
+        "cola",
+        "lemon-soda",
+        "orange-drink",
+        "mango-drink",
+        "apple-juice",
+        "mixed-fruit-juice",
+        "coconut-water-pack",
+        "energy-drink",
+        "sports-drink",
+        "zero-sugar-drink",
+        "instant-coffee-powder",
+        "coffee-premix",
+        "tea-leaves",
+        "green-tea-bag",
+        "cold-coffee",
+        "chocolate-milkshake",
+        "malt-drink-powder",
+        "hot-chocolate-powder"
+      ]
     },
     {
       "code": "desserts",
       "name": "Desserts & Sweets",
-      "subcategories": ["milk-sweet", "fried-sweet", "halwa", "kheer-payasam", "festival-sweet", "regional-sweet"]
+      "subcategories": [
+        "milk-sweet",
+        "fried-sweet",
+        "halwa",
+        "kheer-payasam",
+        "festival-sweet",
+        "regional-sweet",
+        "milk-chocolate",
+        "dark-chocolate",
+        "ice-cream-vanilla",
+        "kulfi",
+        "soan-papdi",
+        "gulab-jamun-mix",
+        "rasgulla-tin",
+        "kaju-katli",
+        "protein-wafer"
+      ]
     },
     {
       "code": "staples-basics",
       "name": "Staples & Basics",
-      "subcategories": ["plain-cooked", "raw-ingredient", "fruit", "dairy-raw", "oil-fat", "condiment-pickle"]
+      "subcategories": [
+        "plain-cooked",
+        "raw-ingredient",
+        "fruit",
+        "dairy-raw",
+        "oil-fat",
+        "condiment-pickle",
+        "flour",
+        "oil-ghee",
+        "spice-masala",
+        "protein-food",
+        "whole-wheat-atta",
+        "multigrain-atta",
+        "basmati-rice",
+        "sona-masoori-rice",
+        "toor-dal",
+        "chana-dal",
+        "sunflower-oil",
+        "rice-bran-oil",
+        "ghee",
+        "garam-masala",
+        "chole-masala",
+        "sambar-masala"
+      ]
     },
     {
       "code": "high-protein",
       "name": "High-Protein Foods",
-      "subcategories": ["lean-meat", "egg", "legume", "dairy-protein", "soya", "protein-supplement"]
+      "subcategories": [
+        "lean-meat",
+        "egg",
+        "legume",
+        "dairy-protein",
+        "soya",
+        "protein-supplement",
+        "whey-protein-chocolate",
+        "whey-protein-vanilla",
+        "whey-isolate",
+        "mass-gainer",
+        "plant-protein",
+        "protein-bar-chocolate",
+        "protein-peanut-butter",
+        "creatine-monohydrate",
+        "bcaa-drink",
+        "electrolyte-tablet",
+        "protein-oats",
+        "protein-chips",
+        "whey-protein",
+        "protein-bar",
+        "protein-snack"
+      ]
     },
     {
       "code": "thali-combo",
       "name": "Thalis & Combo Meals",
-      "subcategories": ["regional-thali", "combo-meal", "mini-meal"]
+      "subcategories": [
+        "regional-thali",
+        "combo-meal",
+        "mini-meal"
+      ]
     }
   ]
 }

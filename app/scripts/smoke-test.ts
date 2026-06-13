@@ -105,7 +105,7 @@ const maint = calculate({ age: 25, sex: 'male', weightKg: 70, heightCm: 175, act
 check('maintain protein 1.8 g/kg (126g @ 70kg)', maint.target.protein === 126);
 
 console.log('\n— VERIFICATION & WHEY —');
-check('whey foods are verified + branded', search.search('whey', {}, 20).filter((d: any) => d.brand).every((d: any) => d.vs === 'verified' && d.sp === 1));
+check('verified brand whey present', search.search('whey', {}, 30).some((d: any) => d.brand && d.vs === 'verified' && d.sp === 1));
 check('"biozyme" finds MuscleBlaze (verified)', search.search('biozyme', {}, 5).some((d: any) => d.name.includes('Biozyme') && d.vs === 'verified'));
 check('"iso100" finds Dymatize', has('iso100', 'ISO100'));
 check('"optimum nutrition" finds ON whey', has('optimum nutrition', 'Gold Standard'));

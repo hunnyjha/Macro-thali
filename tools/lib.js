@@ -140,8 +140,15 @@ export function round(n) {
   return Math.round(n * 100) / 100;
 }
 
-// Build a normalized search blob for a food (English + local + aliases + tags).
+// Build a normalized search blob for a food (name + aliases + local names +
+// brand + subcategory, so foods are findable by brand and sub-category too).
 export function searchTokens(food) {
-  const parts = [food.name, ...(food.aliases || []), ...Object.values(food.localNames || {})];
+  const parts = [
+    food.name,
+    ...(food.aliases || []),
+    ...Object.values(food.localNames || {}),
+    food.brand,
+    food.subcategory,
+  ].filter(Boolean);
   return parts.join(' ').toLowerCase();
 }
