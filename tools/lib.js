@@ -61,6 +61,27 @@ export function loadAllThalis() {
   return out;
 }
 
+// Source → user-facing verification status (Verified / Estimated / Community).
+// Manufacturer labels and government/published databases are trusted (Verified);
+// recipe/restaurant computations are Estimated; the rest are Community.
+const VERIFIED_SOURCES = new Set(['ICMR', 'NIN', 'IFCT', 'FSSAI', 'USDA', 'published-database', 'brand-label']);
+const ESTIMATED_SOURCES = new Set(['recipe-analysis', 'restaurant-menu']);
+
+export function verificationFromSource(source) {
+  if (VERIFIED_SOURCES.has(source)) return 'verified';
+  if (ESTIMATED_SOURCES.has(source)) return 'estimated';
+  return 'community';
+}
+
+// Source priority for search ordering (lower = shown first):
+// 1 verified brand data, 2 official databases, 3 internal estimates, 4 community.
+export function sourcePriority(source) {
+  if (source === 'brand-label') return 1;
+  if (['ICMR', 'NIN', 'IFCT', 'FSSAI', 'USDA', 'published-database'].includes(source)) return 2;
+  if (ESTIMATED_SOURCES.has(source)) return 3;
+  return 4;
+}
+
 // Resolve added cooking-oil grams per 100g for a given style.
 export function oilGramsPer100g(food, oilRef, style) {
   if (food.oilModifiers && style in food.oilModifiers) return food.oilModifiers[style];

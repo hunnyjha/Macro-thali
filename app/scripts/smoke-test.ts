@@ -104,5 +104,15 @@ check('female floor 1200', caloriesForGoal(1300, 'female', 'loss', 1) === 1200);
 const maint = calculate({ age: 25, sex: 'male', weightKg: 70, heightCm: 175, activity: 'moderate', goal: 'maintain', speed: 0 });
 check('maintain protein 1.8 g/kg (126g @ 70kg)', maint.target.protein === 126);
 
+console.log('\n— VERIFICATION & WHEY —');
+check('whey foods are verified + branded', search.search('whey', {}, 20).filter((d: any) => d.brand).every((d: any) => d.vs === 'verified' && d.sp === 1));
+check('"biozyme" finds MuscleBlaze (verified)', search.search('biozyme', {}, 5).some((d: any) => d.name.includes('Biozyme') && d.vs === 'verified'));
+check('"iso100" finds Dymatize', has('iso100', 'ISO100'));
+check('"optimum nutrition" finds ON whey', has('optimum nutrition', 'Gold Standard'));
+check('every doc has a verificationStatus', docs.every((d: any) => ['verified', 'estimated', 'community'].includes(d.vs)));
+check('dal tadka present & estimated', search.search('dal tadka', {}, 5).some((d: any) => d.name === 'Dal Tadka' && d.vs === 'estimated'));
+check('veg biryani present', has('veg biryani', 'Veg Biryani'));
+check('rajma chawal present', has('rajma chawal', 'Rajma Chawal'));
+
 console.log(`\n${pass} passed, ${fail} failed\n`);
 process.exit(fail ? 1 : 0);

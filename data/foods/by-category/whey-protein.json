@@ -1,0 +1,581 @@
+[
+  {
+    "id": "whey-muscleblaze-biozyme-performance",
+    "name": "MuscleBlaze Biozyme Performance Whey",
+    "aliases": [
+      "biozyme",
+      "mb biozyme",
+      "muscleblaze whey"
+    ],
+    "region": "pan-india",
+    "state": "pan-india",
+    "category": "high-protein",
+    "subcategory": "protein-supplement",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 371,
+      "protein": 75.8,
+      "carbs": 8.8,
+      "fat": 4.2,
+      "fiber": 0
+    },
+    "portions": [
+      {
+        "unit": "scoop",
+        "grams": 33,
+        "default": true,
+        "label": "1 scoop (33 g)"
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "post-workout",
+      "snack"
+    ],
+    "healthTags": [
+      "high-cal",
+      "high-protein"
+    ],
+    "proteinScore": 9,
+    "confidence": "high",
+    "source": "brand-label",
+    "brand": "MuscleBlaze",
+    "verificationStatus": "verified",
+    "notes": "Per label: 1 scoop (33 g) ≈ 25 g protein, 122 kcal.",
+    "lastReviewed": "2026-06-13"
+  },
+  {
+    "id": "whey-muscleblaze-raw-concentrate",
+    "name": "MuscleBlaze Raw Whey Concentrate",
+    "aliases": [
+      "mb raw whey",
+      "raw whey"
+    ],
+    "region": "pan-india",
+    "state": "pan-india",
+    "category": "high-protein",
+    "subcategory": "protein-supplement",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 400,
+      "protein": 80,
+      "carbs": 6.7,
+      "fat": 6.7,
+      "fiber": 0
+    },
+    "portions": [
+      {
+        "unit": "scoop",
+        "grams": 30,
+        "default": true,
+        "label": "1 scoop (30 g)"
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "post-workout",
+      "snack",
+      "budget"
+    ],
+    "healthTags": [
+      "high-cal",
+      "high-protein"
+    ],
+    "proteinScore": 9,
+    "confidence": "high",
+    "source": "brand-label",
+    "brand": "MuscleBlaze",
+    "verificationStatus": "verified",
+    "notes": "Per label: 1 scoop (30 g) ≈ 24 g protein, 120 kcal.",
+    "lastReviewed": "2026-06-13"
+  },
+  {
+    "id": "whey-avvatar-whey",
+    "name": "Avvatar Whey Protein",
+    "aliases": [
+      "avatar whey"
+    ],
+    "region": "pan-india",
+    "state": "pan-india",
+    "category": "high-protein",
+    "subcategory": "protein-supplement",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 387,
+      "protein": 76.2,
+      "carbs": 8.6,
+      "fat": 5.7,
+      "fiber": 0
+    },
+    "portions": [
+      {
+        "unit": "scoop",
+        "grams": 33.6,
+        "default": true,
+        "label": "1 scoop (33.6 g)"
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "post-workout",
+      "snack"
+    ],
+    "healthTags": [
+      "high-cal",
+      "high-protein"
+    ],
+    "proteinScore": 9,
+    "confidence": "high",
+    "source": "brand-label",
+    "brand": "Avvatar",
+    "verificationStatus": "verified",
+    "notes": "Per label: 1 scoop (33.6 g) ≈ 25.6 g protein, 130 kcal.",
+    "lastReviewed": "2026-06-13"
+  },
+  {
+    "id": "whey-atom-whey",
+    "name": "AS-IT-IS Atom Whey Protein",
+    "aliases": [
+      "atom whey",
+      "asitis atom"
+    ],
+    "region": "pan-india",
+    "state": "pan-india",
+    "category": "high-protein",
+    "subcategory": "protein-supplement",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 397,
+      "protein": 70.6,
+      "carbs": 11.8,
+      "fat": 5.9,
+      "fiber": 0
+    },
+    "portions": [
+      {
+        "unit": "scoop",
+        "grams": 34,
+        "default": true,
+        "label": "1 scoop (34 g)"
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "post-workout",
+      "snack"
+    ],
+    "healthTags": [
+      "high-cal",
+      "high-protein"
+    ],
+    "proteinScore": 9,
+    "confidence": "high",
+    "source": "brand-label",
+    "brand": "Atom (AS-IT-IS)",
+    "verificationStatus": "verified",
+    "notes": "Per label: 1 scoop (34 g) ≈ 24 g protein, 135 kcal.",
+    "lastReviewed": "2026-06-13"
+  },
+  {
+    "id": "whey-on-gold-standard",
+    "name": "ON Gold Standard 100% Whey",
+    "aliases": [
+      "optimum nutrition",
+      "gold standard",
+      "on whey"
+    ],
+    "region": "pan-india",
+    "state": "pan-india",
+    "category": "high-protein",
+    "subcategory": "protein-supplement",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 387,
+      "protein": 77.4,
+      "carbs": 9.7,
+      "fat": 4.8,
+      "fiber": 0
+    },
+    "portions": [
+      {
+        "unit": "scoop",
+        "grams": 31,
+        "default": true,
+        "label": "1 scoop (31 g)"
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "post-workout",
+      "snack"
+    ],
+    "healthTags": [
+      "high-cal",
+      "high-protein"
+    ],
+    "proteinScore": 9,
+    "confidence": "high",
+    "source": "brand-label",
+    "brand": "Optimum Nutrition",
+    "verificationStatus": "verified",
+    "notes": "Per label: 1 scoop (31 g) ≈ 24 g protein, 120 kcal.",
+    "lastReviewed": "2026-06-13"
+  },
+  {
+    "id": "whey-dymatize-iso100",
+    "name": "Dymatize ISO100 Hydrolyzed",
+    "aliases": [
+      "iso100",
+      "iso 100",
+      "dymatize"
+    ],
+    "region": "pan-india",
+    "state": "pan-india",
+    "category": "high-protein",
+    "subcategory": "protein-supplement",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 375,
+      "protein": 78.1,
+      "carbs": 6.3,
+      "fat": 1.6,
+      "fiber": 0
+    },
+    "portions": [
+      {
+        "unit": "scoop",
+        "grams": 32,
+        "default": true,
+        "label": "1 scoop (32 g)"
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "post-workout",
+      "snack"
+    ],
+    "healthTags": [
+      "high-cal",
+      "high-protein"
+    ],
+    "proteinScore": 9,
+    "confidence": "high",
+    "source": "brand-label",
+    "brand": "Dymatize",
+    "verificationStatus": "verified",
+    "notes": "Per label: 1 scoop (32 g) ≈ 25 g protein, 120 kcal (isolate).",
+    "lastReviewed": "2026-06-13"
+  },
+  {
+    "id": "whey-nakpro-gold",
+    "name": "Nakpro Gold Whey Protein",
+    "aliases": [
+      "nakpro"
+    ],
+    "region": "pan-india",
+    "state": "pan-india",
+    "category": "high-protein",
+    "subcategory": "protein-supplement",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 388,
+      "protein": 75.8,
+      "carbs": 7.6,
+      "fat": 4.5,
+      "fiber": 0
+    },
+    "portions": [
+      {
+        "unit": "scoop",
+        "grams": 33,
+        "default": true,
+        "label": "1 scoop (33 g)"
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "post-workout",
+      "snack",
+      "budget"
+    ],
+    "healthTags": [
+      "high-cal",
+      "high-protein"
+    ],
+    "proteinScore": 9,
+    "confidence": "high",
+    "source": "brand-label",
+    "brand": "Nakpro",
+    "verificationStatus": "verified",
+    "notes": "Per label: 1 scoop (33 g) ≈ 25 g protein, 128 kcal.",
+    "lastReviewed": "2026-06-13"
+  },
+  {
+    "id": "whey-asitis-concentrate",
+    "name": "AS-IT-IS 100% Whey Protein",
+    "aliases": [
+      "as it is whey",
+      "asitis whey"
+    ],
+    "region": "pan-india",
+    "state": "pan-india",
+    "category": "high-protein",
+    "subcategory": "protein-supplement",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 400,
+      "protein": 80,
+      "carbs": 5.7,
+      "fat": 5.3,
+      "fiber": 0
+    },
+    "portions": [
+      {
+        "unit": "scoop",
+        "grams": 30,
+        "default": true,
+        "label": "1 scoop (30 g)"
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "post-workout",
+      "snack",
+      "budget"
+    ],
+    "healthTags": [
+      "high-cal",
+      "high-protein"
+    ],
+    "proteinScore": 9,
+    "confidence": "high",
+    "source": "brand-label",
+    "brand": "AS-IT-IS Nutrition",
+    "verificationStatus": "verified",
+    "notes": "Per label: 1 scoop (30 g) ≈ 24 g protein, 120 kcal.",
+    "lastReviewed": "2026-06-13"
+  },
+  {
+    "id": "whey-fuel-one",
+    "name": "Fuel One Whey Protein",
+    "aliases": [
+      "fuel one"
+    ],
+    "region": "pan-india",
+    "state": "pan-india",
+    "category": "high-protein",
+    "subcategory": "protein-supplement",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 384,
+      "protein": 75,
+      "carbs": 9.4,
+      "fat": 4.7,
+      "fiber": 0
+    },
+    "portions": [
+      {
+        "unit": "scoop",
+        "grams": 32,
+        "default": true,
+        "label": "1 scoop (32 g)"
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "post-workout",
+      "snack",
+      "budget"
+    ],
+    "healthTags": [
+      "high-cal",
+      "high-protein"
+    ],
+    "proteinScore": 9,
+    "confidence": "high",
+    "source": "brand-label",
+    "brand": "Fuel One (HealthKart)",
+    "verificationStatus": "verified",
+    "notes": "Per label: 1 scoop (32 g) ≈ 24 g protein, 123 kcal.",
+    "lastReviewed": "2026-06-13"
+  },
+  {
+    "id": "whey-myprotein-impact",
+    "name": "MyProtein Impact Whey",
+    "aliases": [
+      "my protein",
+      "impact whey"
+    ],
+    "region": "pan-india",
+    "state": "pan-india",
+    "category": "high-protein",
+    "subcategory": "protein-supplement",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 412,
+      "protein": 84,
+      "carbs": 4,
+      "fat": 7.6,
+      "fiber": 0
+    },
+    "portions": [
+      {
+        "unit": "scoop",
+        "grams": 25,
+        "default": true,
+        "label": "1 scoop (25 g)"
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "post-workout",
+      "snack"
+    ],
+    "healthTags": [
+      "high-cal",
+      "high-protein"
+    ],
+    "proteinScore": 9,
+    "confidence": "high",
+    "source": "brand-label",
+    "brand": "MyProtein",
+    "verificationStatus": "verified",
+    "notes": "Per label: 1 scoop (25 g) ≈ 21 g protein, 103 kcal.",
+    "lastReviewed": "2026-06-13"
+  },
+  {
+    "id": "whey-gnc-amp",
+    "name": "GNC AMP Gold 100% Whey",
+    "aliases": [
+      "gnc whey",
+      "gnc amp"
+    ],
+    "region": "pan-india",
+    "state": "pan-india",
+    "category": "high-protein",
+    "subcategory": "protein-supplement",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 394,
+      "protein": 72.7,
+      "carbs": 12.1,
+      "fat": 6.1,
+      "fiber": 0
+    },
+    "portions": [
+      {
+        "unit": "scoop",
+        "grams": 33,
+        "default": true,
+        "label": "1 scoop (33 g)"
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "post-workout",
+      "snack"
+    ],
+    "healthTags": [
+      "high-cal",
+      "high-protein"
+    ],
+    "proteinScore": 9,
+    "confidence": "high",
+    "source": "brand-label",
+    "brand": "GNC",
+    "verificationStatus": "verified",
+    "notes": "Per label: 1 scoop (33 g) ≈ 24 g protein, 130 kcal.",
+    "lastReviewed": "2026-06-13"
+  },
+  {
+    "id": "whey-isopure-low-carb",
+    "name": "Isopure Low Carb Whey Isolate",
+    "aliases": [
+      "isopure"
+    ],
+    "region": "pan-india",
+    "state": "pan-india",
+    "category": "high-protein",
+    "subcategory": "protein-supplement",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 355,
+      "protein": 80.6,
+      "carbs": 3.2,
+      "fat": 1.6,
+      "fiber": 0
+    },
+    "portions": [
+      {
+        "unit": "scoop",
+        "grams": 31,
+        "default": true,
+        "label": "1 scoop (31 g)"
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "none",
+    "mealTags": [
+      "post-workout",
+      "snack"
+    ],
+    "healthTags": [
+      "high-cal",
+      "high-protein"
+    ],
+    "proteinScore": 10,
+    "confidence": "high",
+    "source": "brand-label",
+    "brand": "Isopure",
+    "verificationStatus": "verified",
+    "notes": "Per label: 1 scoop (31 g) ≈ 25 g protein, 110 kcal (isolate).",
+    "lastReviewed": "2026-06-13"
+  }
+]

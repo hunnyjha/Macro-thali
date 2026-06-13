@@ -46,19 +46,22 @@ export function FoodLoggerScreen() {
   const hasFilters = Object.values(filters).some(Boolean);
   const searching = hasQuery || hasFilters;
 
-  // Smart ranking: boost frequently-eaten & recent foods toward the top.
+  // Smart ranking: keep match relevance dominant, then surface verified/branded
+  // products, recents and frequently-eaten foods above estimates/community.
   const results: SearchDoc[] = useMemo(() => {
     if (!searching) return [];
     const base = search.search(query, filters);
-    const rank = (id: string) => {
-      const fi = frequent.indexOf(id);
-      const ri = recents.indexOf(id);
-      let score = 0;
-      if (fi >= 0) score += 100 - fi;
-      if (ri >= 0) score += 60 - ri;
-      return score;
+    const order = new Map(base.map((d, idx) => [d.id, idx]));
+    const score = (d: SearchDoc) => {
+      let s = base.length - (order.get(d.id) ?? 0); // relevance (best match first)
+      if (d.sp === 1) s += 50;                       // verified brand data
+      else if (d.vs === 'verified') s += 30;         // government/published
+      else if (d.vs === 'community') s -= 15;
+      if (frequent.includes(d.id)) s += 40;
+      if (recents.includes(d.id)) s += 25;
+      return s;
     };
-    return [...base].sort((a, b) => rank(b.id) - rank(a.id));
+    return [...base].sort((a, b) => score(b) - score(a));
   }, [search, query, filters, searching, frequent, recents]);
 
   const allDocs = useMemo(() => new Map(search.defaults(100000).map((d) => [d.id, d])), [search]);

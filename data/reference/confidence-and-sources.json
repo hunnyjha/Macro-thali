@@ -6,14 +6,14 @@
     {
       "code": "high",
       "name": "High",
-      "description": "Backed by a government or published nutritional database.",
-      "validSources": ["ICMR", "NIN", "FSSAI", "USDA", "IFCT", "published-database"]
+      "description": "Backed by a manufacturer label or a government/published nutritional database.",
+      "validSources": ["ICMR", "NIN", "FSSAI", "USDA", "IFCT", "published-database", "brand-label"]
     },
     {
       "code": "medium",
       "name": "Medium",
       "description": "Recipe-based estimate computed from ingredient nutrition.",
-      "validSources": ["recipe-analysis", "restaurant-menu", "brand-label"]
+      "validSources": ["recipe-analysis", "restaurant-menu"]
     },
     {
       "code": "low",
@@ -31,7 +31,7 @@
     { "code": "published-database", "name": "Peer-reviewed / published nutritional database", "tier": "published" },
     { "code": "recipe-analysis", "name": "Computed from standard recipe ingredients", "tier": "estimate" },
     { "code": "restaurant-menu", "name": "Restaurant / chain published nutrition", "tier": "estimate" },
-    { "code": "brand-label", "name": "Packaged product nutrition label", "tier": "estimate" },
+    { "code": "brand-label", "name": "Verified manufacturer nutrition label", "tier": "brand" },
     { "code": "community-estimate", "name": "Community-contributed estimate", "tier": "community" },
     { "code": "user-created", "name": "User-created custom food", "tier": "community" }
   ]

@@ -13,6 +13,7 @@ import { join } from 'node:path';
 import {
   DIR, loadReference, loadAllFoods, loadAllThalis,
   proteinScore, deriveHealthTags, computeMacros, searchTokens,
+  verificationFromSource, sourcePriority,
 } from './lib.js';
 
 const ref = loadReference();
@@ -21,7 +22,13 @@ mkdirSync(DIR.dist, { recursive: true });
 const rawFoods = loadAllFoods();
 const foods = rawFoods.map(({ _file, ...f }) => {
   const ps = Number.isInteger(f.proteinScore) ? f.proteinScore : proteinScore(f.per100g);
-  return { ...f, proteinScore: ps, healthTags: deriveHealthTags({ ...f, proteinScore: ps }) };
+  return {
+    ...f,
+    proteinScore: ps,
+    healthTags: deriveHealthTags({ ...f, proteinScore: ps }),
+    // verificationStatus may be set explicitly on a record; otherwise derive from source.
+    verificationStatus: f.verificationStatus ?? verificationFromSource(f.source),
+  };
 });
 
 const byCategory = {};
@@ -48,6 +55,9 @@ const searchIndex = foods.map((f) => ({
   fiber: f.per100g.fiber ?? 0,
   ps: f.proteinScore,
   meal: f.mealTags,
+  vs: f.verificationStatus,           // verified | estimated | community
+  sp: sourcePriority(f.source),       // 1 brand, 2 govt, 3 estimate, 4 community
+  brand: f.brand,                     // present for branded products (e.g. whey)
 }));
 
 // Thalis: compute totals at home_style using default (or first) portion per component.

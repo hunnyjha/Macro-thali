@@ -12,6 +12,8 @@ export type OilStyle = 'very_light' | 'home_style' | 'medium' | 'heavy' | 'dhaba
 
 export type Confidence = 'high' | 'medium' | 'low';
 
+export type VerificationStatus = 'verified' | 'estimated' | 'community';
+
 export interface Macros {
   calories: number;
   protein: number;
@@ -55,6 +57,9 @@ export interface Food {
   confidence: Confidence;
   source: string;
   sourceNote?: string;
+  brand?: string;
+  verificationStatus?: VerificationStatus; // derived from source at build time
+  notes?: string;
   lastReviewed: string;
 }
 
@@ -74,6 +79,9 @@ export interface SearchDoc {
   fiber: number;
   ps: number;       // protein score
   meal: string[];
+  vs: VerificationStatus;  // verified | estimated | community
+  sp: number;              // source priority (1 brand … 4 community) for ranking
+  brand?: string;
 }
 
 export interface ThaliComponent {

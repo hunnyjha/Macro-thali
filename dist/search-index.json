@@ -17,7 +17,9 @@
       "breakfast",
       "home-cooked",
       "budget"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "ap-gongura-mutton",
@@ -38,7 +40,9 @@
       "dinner",
       "main",
       "restaurant"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "ap-pulihora",
@@ -58,7 +62,9 @@
       "lunch",
       "festival",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "ap-gutti-vankaya",
@@ -79,7 +85,9 @@
       "dinner",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "ar-thukpa",
@@ -100,7 +108,9 @@
       "dinner",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "ar-pika-pila",
@@ -119,7 +129,9 @@
     "meal": [
       "side",
       "home-cooked"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "ar-apong-rice",
@@ -140,7 +152,9 @@
       "dinner",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "as-masor-tenga",
@@ -161,7 +175,9 @@
       "dinner",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "as-aloo-pitika",
@@ -183,7 +199,9 @@
       "side",
       "home-cooked",
       "budget"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "as-pork-bamboo-shoot",
@@ -204,7 +222,9 @@
       "dinner",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "as-pitha",
@@ -224,7 +244,9 @@
       "dessert",
       "festival",
       "snack"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "bihar-champaran-mutton",
@@ -246,7 +268,9 @@
       "main",
       "festival",
       "restaurant"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "bihar-fish-curry",
@@ -267,7 +291,9 @@
       "dinner",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "bihar-chicken-curry-bihari",
@@ -288,7 +314,9 @@
       "dinner",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "bihar-egg-curry-bihari",
@@ -310,7 +338,9 @@
       "main",
       "home-cooked",
       "budget"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "bihar-chana-ghugni-bihari",
@@ -331,7 +361,9 @@
       "snack",
       "street",
       "budget"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "bihar-dahi-chura",
@@ -352,7 +384,9 @@
       "home-cooked",
       "budget",
       "festival"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "bihar-makhana-kheer",
@@ -371,7 +405,9 @@
     "meal": [
       "dessert",
       "festival"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "bihar-roasted-makhana",
@@ -391,7 +427,9 @@
       "snack",
       "weight-loss",
       "student"
-    ]
+    ],
+    "vs": "verified",
+    "sp": 2
   },
   {
     "id": "bihar-tilkut",
@@ -411,7 +449,9 @@
       "dessert",
       "festival",
       "snack"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "bihar-anarsa",
@@ -430,7 +470,9 @@
     "meal": [
       "dessert",
       "festival"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "bihar-balushahi",
@@ -449,7 +491,9 @@
     "meal": [
       "dessert",
       "festival"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "bihar-rasiya-kheer",
@@ -468,7 +512,9 @@
     "meal": [
       "dessert",
       "festival"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "bihar-pidukiya",
@@ -487,7 +533,9 @@
     "meal": [
       "dessert",
       "festival"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "bihar-parwal-ki-sabzi",
@@ -509,7 +557,9 @@
       "side",
       "home-cooked",
       "budget"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "bihar-parwal-ki-mithai",
@@ -528,7 +578,9 @@
     "meal": [
       "dessert",
       "festival"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "bihar-baigan-bharta",
@@ -550,7 +602,9 @@
       "side",
       "home-cooked",
       "budget"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "bihar-aloo-bhujia",
@@ -572,7 +626,9 @@
       "side",
       "home-cooked",
       "budget"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "bihar-sattu-litti-bharwa",
@@ -593,7 +649,9 @@
       "budget",
       "student",
       "post-workout"
-    ]
+    ],
+    "vs": "verified",
+    "sp": 2
   },
   {
     "id": "bihar-til-laddu",
@@ -613,7 +671,9 @@
       "dessert",
       "festival",
       "snack"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "bihar-laai-laddu",
@@ -633,7 +693,9 @@
       "dessert",
       "festival",
       "snack"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "bihar-khichdi-chokha",
@@ -655,7 +717,9 @@
       "main",
       "home-cooked",
       "budget"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "bihar-pua",
@@ -675,7 +739,9 @@
       "dessert",
       "festival",
       "snack"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "bihar-kala-chana-ghugni",
@@ -696,7 +762,9 @@
       "snack",
       "budget",
       "festival"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "bihar-besan-cheela",
@@ -718,7 +786,9 @@
       "home-cooked",
       "budget",
       "student"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "bihar-litti",
@@ -740,7 +810,9 @@
       "main",
       "home-cooked",
       "budget"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "bihar-chokha",
@@ -762,7 +834,9 @@
       "side",
       "home-cooked",
       "budget"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "bihar-sattu-paratha",
@@ -783,7 +857,9 @@
       "lunch",
       "home-cooked",
       "budget"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "bihar-sattu-sharbat",
@@ -804,7 +880,9 @@
       "snack",
       "budget",
       "post-workout"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "bihar-dal-pitha",
@@ -824,7 +902,9 @@
       "breakfast",
       "snack",
       "home-cooked"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "bihar-ghugni",
@@ -845,7 +925,9 @@
       "snack",
       "street",
       "budget"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "bihar-khaja",
@@ -864,7 +946,9 @@
     "meal": [
       "dessert",
       "festival"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "bihar-thekua",
@@ -884,7 +968,9 @@
       "dessert",
       "festival",
       "snack"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "bihar-kadhi-bari",
@@ -905,7 +991,9 @@
       "dinner",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "bihar-malpua",
@@ -924,7 +1012,9 @@
     "meal": [
       "dessert",
       "festival"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "cg-chila",
@@ -945,7 +1035,9 @@
       "snack",
       "home-cooked",
       "budget"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "cg-fara",
@@ -965,7 +1057,9 @@
       "breakfast",
       "snack",
       "home-cooked"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "cg-aamat",
@@ -986,7 +1080,9 @@
       "dinner",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "dl-chole-kulche",
@@ -1008,7 +1104,9 @@
       "street",
       "budget",
       "student"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "dl-aloo-tikki-chaat",
@@ -1028,7 +1126,9 @@
       "snack",
       "street",
       "budget"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "dl-golgappa",
@@ -1048,7 +1148,9 @@
       "snack",
       "street",
       "budget"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "dl-chicken-shawarma",
@@ -1069,7 +1171,9 @@
       "street",
       "student",
       "lunch"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "goa-fish-curry-rice",
@@ -1090,7 +1194,9 @@
       "dinner",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "goa-pork-vindaloo",
@@ -1111,7 +1217,9 @@
       "dinner",
       "main",
       "restaurant"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "goa-prawn-balchao",
@@ -1132,7 +1240,9 @@
       "dinner",
       "side",
       "restaurant"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "goa-bebinca",
@@ -1151,7 +1261,9 @@
     "meal": [
       "dessert",
       "festival"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "gujarat-sev-khamani",
@@ -1171,7 +1283,9 @@
       "breakfast",
       "snack",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "gujarat-dabeli",
@@ -1192,7 +1306,9 @@
       "street",
       "budget",
       "student"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "gujarat-khichu",
@@ -1212,7 +1328,9 @@
       "snack",
       "breakfast",
       "home-cooked"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "gujarat-muthiya",
@@ -1232,7 +1350,9 @@
       "breakfast",
       "snack",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "gujarat-patra",
@@ -1251,7 +1371,9 @@
     "meal": [
       "snack",
       "home-cooked"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "gujarat-dal-dhokli",
@@ -1273,7 +1395,9 @@
       "main",
       "home-cooked",
       "budget"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "gujarat-mohanthal",
@@ -1292,7 +1416,9 @@
     "meal": [
       "dessert",
       "festival"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "gujarat-basundi",
@@ -1311,7 +1437,9 @@
     "meal": [
       "dessert",
       "festival"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "gujarat-shrikhand",
@@ -1330,7 +1458,9 @@
     "meal": [
       "dessert",
       "festival"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "gujarat-doodhpak",
@@ -1349,7 +1479,9 @@
     "meal": [
       "dessert",
       "festival"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "gujarat-methi-gota",
@@ -1369,7 +1501,9 @@
       "snack",
       "street",
       "home-cooked"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "gujarat-sev-tameta",
@@ -1390,7 +1524,9 @@
       "dinner",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "gujarat-dhokla",
@@ -1410,7 +1546,9 @@
       "breakfast",
       "snack",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "gujarat-thepla",
@@ -1431,7 +1569,9 @@
       "snack",
       "home-cooked",
       "student"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "gujarat-undhiyu",
@@ -1452,7 +1592,9 @@
       "festival",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "gujarat-khandvi",
@@ -1471,7 +1613,9 @@
     "meal": [
       "snack",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "gujarat-handvo",
@@ -1491,7 +1635,9 @@
       "breakfast",
       "snack",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "gujarat-kadhi",
@@ -1512,7 +1658,9 @@
       "dinner",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "gujarat-fafda",
@@ -1532,7 +1680,9 @@
       "snack",
       "festival",
       "street"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "hr-bajra-khichdi",
@@ -1554,7 +1704,9 @@
       "main",
       "home-cooked",
       "budget"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "hr-hara-cholia",
@@ -1575,7 +1727,9 @@
       "snack",
       "home-cooked",
       "budget"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "hr-kachri-ki-sabzi",
@@ -1595,7 +1749,9 @@
       "lunch",
       "side",
       "home-cooked"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "hp-siddu",
@@ -1616,7 +1772,9 @@
       "lunch",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "hp-madra",
@@ -1637,7 +1795,9 @@
       "festival",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "hp-dham-rajmah",
@@ -1658,7 +1818,9 @@
       "festival",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "jk-rogan-josh",
@@ -1680,7 +1842,9 @@
       "main",
       "festival",
       "restaurant"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "jk-dum-aloo-kashmiri",
@@ -1701,7 +1865,9 @@
       "dinner",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "jk-haakh",
@@ -1723,7 +1889,9 @@
       "side",
       "home-cooked",
       "budget"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "jk-kahwa",
@@ -1742,7 +1910,9 @@
     "meal": [
       "drink",
       "snack"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "jh-marua-roti",
@@ -1764,7 +1934,9 @@
       "main",
       "home-cooked",
       "budget"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "jh-chilka-roti",
@@ -1784,7 +1956,9 @@
       "breakfast",
       "home-cooked",
       "budget"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "jh-aloo-chokha",
@@ -1806,7 +1980,9 @@
       "side",
       "home-cooked",
       "budget"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "jh-koinar-saag",
@@ -1827,7 +2003,9 @@
       "side",
       "home-cooked",
       "budget"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "jh-bamboo-shoot-sabzi",
@@ -1847,7 +2025,9 @@
       "lunch",
       "side",
       "home-cooked"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "jh-putu-mushroom",
@@ -1867,7 +2047,9 @@
       "lunch",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "jh-mutton-curry-jharkhandi",
@@ -1889,7 +2071,9 @@
       "main",
       "festival",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "jh-arsa-roti",
@@ -1909,7 +2093,9 @@
       "dessert",
       "festival",
       "snack"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "jh-til-barfi",
@@ -1929,7 +2115,9 @@
       "dessert",
       "festival",
       "snack"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "jh-dhuska-ghugni",
@@ -1950,7 +2138,9 @@
       "snack",
       "street",
       "budget"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "jh-pittha-jharkhandi",
@@ -1970,7 +2160,9 @@
       "breakfast",
       "snack",
       "home-cooked"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "jh-malpua-jharkhandi",
@@ -1989,7 +2181,9 @@
     "meal": [
       "dessert",
       "festival"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "jh-dhuska",
@@ -2010,7 +2204,9 @@
       "snack",
       "street",
       "home-cooked"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "jh-litti-jharkhand",
@@ -2032,7 +2228,9 @@
       "main",
       "home-cooked",
       "budget"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "jh-rugra",
@@ -2052,7 +2250,9 @@
       "lunch",
       "side",
       "home-cooked"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "ka-bisi-bele-bath",
@@ -2073,7 +2273,9 @@
       "dinner",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "ka-ragi-mudde",
@@ -2095,7 +2297,9 @@
       "main",
       "home-cooked",
       "budget"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "ka-mysore-masala-dosa",
@@ -2115,7 +2319,9 @@
       "breakfast",
       "dinner",
       "restaurant"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "ka-neer-dosa",
@@ -2135,7 +2341,9 @@
       "breakfast",
       "dinner",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "ka-mysore-pak",
@@ -2154,7 +2362,9 @@
     "meal": [
       "dessert",
       "festival"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "kerala-appam",
@@ -2174,7 +2384,9 @@
       "breakfast",
       "dinner",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "kerala-puttu",
@@ -2193,7 +2405,9 @@
     "meal": [
       "breakfast",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "kerala-fish-molee",
@@ -2214,7 +2428,9 @@
       "dinner",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "kerala-avial",
@@ -2235,7 +2451,9 @@
       "festival",
       "side",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "kerala-beef-fry",
@@ -2256,7 +2474,9 @@
       "dinner",
       "main",
       "restaurant"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "kerala-banana-chips",
@@ -2275,7 +2495,9 @@
     "meal": [
       "snack",
       "festival"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "kerala-payasam",
@@ -2294,7 +2516,9 @@
     "meal": [
       "dessert",
       "festival"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "lad-thukpa-ladakhi",
@@ -2315,7 +2539,9 @@
       "dinner",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "lad-skyu",
@@ -2336,7 +2562,9 @@
       "dinner",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "lad-butter-tea",
@@ -2355,7 +2583,9 @@
     "meal": [
       "drink",
       "breakfast"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "mp-poha-jalebi",
@@ -2377,7 +2607,9 @@
       "street",
       "budget",
       "student"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "mp-bhutte-ki-kees",
@@ -2397,7 +2629,9 @@
       "snack",
       "street",
       "home-cooked"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "mp-dal-bafla",
@@ -2418,7 +2652,9 @@
       "dinner",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "mh-thalipeeth",
@@ -2438,7 +2674,9 @@
       "breakfast",
       "dinner",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "mh-sabudana-khichdi",
@@ -2459,7 +2697,9 @@
       "festival",
       "snack",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "mh-bharli-vangi",
@@ -2480,7 +2720,9 @@
       "dinner",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "mh-pithla",
@@ -2502,7 +2744,9 @@
       "main",
       "home-cooked",
       "budget"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "mh-kolhapuri-chicken",
@@ -2523,7 +2767,9 @@
       "dinner",
       "main",
       "restaurant"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "mh-bombil-fry",
@@ -2544,7 +2790,9 @@
       "dinner",
       "side",
       "restaurant"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "mh-usal",
@@ -2566,7 +2814,9 @@
       "main",
       "home-cooked",
       "budget"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "mh-shrikhand-amrakhand",
@@ -2585,7 +2835,9 @@
     "meal": [
       "dessert",
       "festival"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "mh-kothimbir-vadi",
@@ -2604,7 +2856,9 @@
     "meal": [
       "snack",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "mh-solkadhi",
@@ -2623,7 +2877,9 @@
     "meal": [
       "drink",
       "lunch"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "mh-poha-kanda",
@@ -2645,7 +2901,9 @@
       "home-cooked",
       "budget",
       "student"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "mh-vada-pav",
@@ -2666,7 +2924,9 @@
       "street",
       "budget",
       "student"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "mh-misal-pav",
@@ -2687,7 +2947,9 @@
       "lunch",
       "street",
       "budget"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "mh-pav-bhaji",
@@ -2708,7 +2970,9 @@
       "dinner",
       "street",
       "restaurant"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "mh-puran-poli",
@@ -2728,7 +2992,9 @@
       "dessert",
       "festival",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "mh-zunka",
@@ -2749,7 +3015,9 @@
       "dinner",
       "home-cooked",
       "budget"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "mh-modak",
@@ -2768,7 +3036,9 @@
     "meal": [
       "dessert",
       "festival"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "mn-eromba",
@@ -2788,7 +3058,9 @@
       "lunch",
       "side",
       "home-cooked"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "mn-singju",
@@ -2808,7 +3080,9 @@
       "snack",
       "side",
       "home-cooked"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "mn-chamthong",
@@ -2829,7 +3103,9 @@
       "dinner",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "ml-jadoh",
@@ -2850,7 +3126,9 @@
       "dinner",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "ml-doh-khlieh",
@@ -2870,7 +3148,9 @@
       "lunch",
       "snack",
       "home-cooked"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "ml-tungrymbai",
@@ -2890,7 +3170,9 @@
       "lunch",
       "side",
       "home-cooked"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "mz-bai",
@@ -2911,7 +3193,9 @@
       "dinner",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "mz-vawksa-rep",
@@ -2932,7 +3216,9 @@
       "dinner",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "mz-koat-pitha",
@@ -2951,7 +3237,9 @@
     "meal": [
       "snack",
       "home-cooked"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "nl-smoked-pork-akhuni",
@@ -2972,7 +3260,9 @@
       "dinner",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "nl-galho",
@@ -2993,7 +3283,9 @@
       "dinner",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "nl-bamboo-steamed-fish",
@@ -3014,7 +3306,9 @@
       "dinner",
       "main",
       "post-workout"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "od-santula",
@@ -3036,7 +3330,9 @@
       "main",
       "home-cooked",
       "budget"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "od-dahi-baigana",
@@ -3056,7 +3352,9 @@
       "lunch",
       "side",
       "home-cooked"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "od-besara",
@@ -3077,7 +3375,9 @@
       "dinner",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "od-saga-bhaja",
@@ -3098,7 +3398,9 @@
       "side",
       "home-cooked",
       "budget"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "od-ghanta-tarkari",
@@ -3119,7 +3421,9 @@
       "main",
       "festival",
       "home-cooked"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "od-chingudi-jhola",
@@ -3140,7 +3444,9 @@
       "dinner",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "od-macha-ghanta",
@@ -3161,7 +3467,9 @@
       "dinner",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "od-mansa-tarkari",
@@ -3182,7 +3490,9 @@
       "dinner",
       "main",
       "festival"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "od-kanika",
@@ -3203,7 +3513,9 @@
       "festival",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "od-mudhi-mansa",
@@ -3223,7 +3535,9 @@
       "snack",
       "street",
       "lunch"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "od-dahi-vada-aloo-dum",
@@ -3244,7 +3558,9 @@
       "snack",
       "street",
       "budget"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "od-gupchup",
@@ -3264,7 +3580,9 @@
       "snack",
       "street",
       "budget"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "od-rasabali",
@@ -3283,7 +3601,9 @@
     "meal": [
       "dessert",
       "festival"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "od-chhena-jhili",
@@ -3302,7 +3622,9 @@
     "meal": [
       "dessert",
       "festival"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "od-chakuli-pitha",
@@ -3322,7 +3644,9 @@
       "breakfast",
       "home-cooked",
       "budget"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "od-enduri-pitha",
@@ -3342,7 +3666,9 @@
       "dessert",
       "festival",
       "breakfast"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "od-poda-pitha",
@@ -3361,7 +3687,9 @@
     "meal": [
       "dessert",
       "festival"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "od-kheeri",
@@ -3380,7 +3708,9 @@
     "meal": [
       "dessert",
       "festival"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "od-aloo-potala-rasa",
@@ -3401,7 +3731,9 @@
       "dinner",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "od-pahala-rasagola",
@@ -3420,7 +3752,9 @@
     "meal": [
       "dessert",
       "festival"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "od-chhena-gaja",
@@ -3439,7 +3773,9 @@
     "meal": [
       "dessert",
       "festival"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "od-chhena-kheeri",
@@ -3458,7 +3794,9 @@
     "meal": [
       "dessert",
       "festival"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "od-arisa-pitha",
@@ -3477,7 +3815,9 @@
     "meal": [
       "dessert",
       "festival"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "od-kakara-pitha",
@@ -3497,7 +3837,9 @@
       "dessert",
       "festival",
       "breakfast"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "od-manda-pitha",
@@ -3517,7 +3859,9 @@
       "dessert",
       "festival",
       "breakfast"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "od-kadali-bara",
@@ -3537,7 +3881,9 @@
       "snack",
       "festival",
       "breakfast"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "od-macha-bhaja",
@@ -3558,7 +3904,9 @@
       "dinner",
       "side",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "od-dahi-pakhala",
@@ -3578,7 +3926,9 @@
       "lunch",
       "home-cooked",
       "budget"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "od-badi-chura",
@@ -3599,7 +3949,9 @@
       "side",
       "home-cooked",
       "budget"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "od-saga-besara",
@@ -3620,7 +3972,9 @@
       "side",
       "home-cooked",
       "budget"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "od-chicken-tarkari-odia",
@@ -3641,7 +3995,9 @@
       "dinner",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "od-dalma",
@@ -3663,7 +4019,9 @@
       "main",
       "home-cooked",
       "budget"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "od-pakhala-bhata",
@@ -3683,7 +4041,9 @@
       "lunch",
       "home-cooked",
       "budget"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "od-chhena-poda",
@@ -3702,7 +4062,9 @@
     "meal": [
       "dessert",
       "festival"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "od-macha-besara",
@@ -3723,7 +4085,104 @@
       "dinner",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
+  },
+  {
+    "id": "pi-veg-biryani",
+    "name": "Veg Biryani",
+    "t": "veg biryani veg biryani",
+    "cat": "rice-dishes",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 170,
+    "protein": 3.5,
+    "carbs": 27,
+    "fat": 5.5,
+    "fiber": 2,
+    "ps": 1,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "restaurant"
+    ],
+    "vs": "estimated",
+    "sp": 3
+  },
+  {
+    "id": "pi-dal-tadka",
+    "name": "Dal Tadka",
+    "t": "dal tadka yellow dal tadka dal fry dal tadka",
+    "cat": "dal-legumes",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 135,
+    "protein": 6,
+    "carbs": 15,
+    "fat": 5.5,
+    "fiber": 3,
+    "ps": 2,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked",
+      "restaurant"
+    ],
+    "vs": "estimated",
+    "sp": 3
+  },
+  {
+    "id": "pi-rajma-chawal",
+    "name": "Rajma Chawal",
+    "t": "rajma chawal rajma chawal",
+    "cat": "rice-dishes",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 145,
+    "protein": 4.8,
+    "carbs": 24,
+    "fat": 3.2,
+    "fiber": 4,
+    "ps": 1,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked",
+      "budget"
+    ],
+    "vs": "estimated",
+    "sp": 3
+  },
+  {
+    "id": "pi-egg-curry",
+    "name": "Egg Curry (2 eggs)",
+    "t": "egg curry (2 eggs) anda curry",
+    "cat": "non-veg",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "egg",
+    "kcal": 165,
+    "protein": 9,
+    "carbs": 5,
+    "fat": 12,
+    "fiber": 1,
+    "ps": 3,
+    "meal": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked",
+      "budget"
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "pi-cooked-white-rice",
@@ -3744,7 +4203,9 @@
       "dinner",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "verified",
+    "sp": 2
   },
   {
     "id": "pi-roti-chapati",
@@ -3765,7 +4226,9 @@
       "dinner",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "verified",
+    "sp": 2
   },
   {
     "id": "pi-tawa-paratha",
@@ -3787,7 +4250,9 @@
       "dinner",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "pi-toor-dal",
@@ -3809,7 +4274,9 @@
       "main",
       "home-cooked",
       "budget"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "pi-moong-dal",
@@ -3831,7 +4298,9 @@
       "main",
       "home-cooked",
       "budget"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "pi-chana-dal",
@@ -3853,7 +4322,9 @@
       "main",
       "home-cooked",
       "budget"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "pi-rajma-curry",
@@ -3875,7 +4346,9 @@
       "main",
       "home-cooked",
       "budget"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "pi-chole-curry",
@@ -3898,7 +4371,9 @@
       "home-cooked",
       "budget",
       "restaurant"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "pi-paneer-raw",
@@ -3918,7 +4393,9 @@
       "snack",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "verified",
+    "sp": 2
   },
   {
     "id": "pi-paneer-butter-masala",
@@ -3939,7 +4416,9 @@
       "dinner",
       "main",
       "restaurant"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "pi-aloo-gobi",
@@ -3961,7 +4440,9 @@
       "side",
       "home-cooked",
       "budget"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "pi-aloo-jeera",
@@ -3983,7 +4464,9 @@
       "side",
       "home-cooked",
       "budget"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "pi-mixed-veg-curry",
@@ -4004,7 +4487,9 @@
       "dinner",
       "side",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "pi-palak-paneer",
@@ -4026,7 +4511,9 @@
       "main",
       "restaurant",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "pi-curd-dahi",
@@ -4047,7 +4534,9 @@
       "dinner",
       "side",
       "home-cooked"
-    ]
+    ],
+    "vs": "verified",
+    "sp": 2
   },
   {
     "id": "pi-milk-toned",
@@ -4067,7 +4556,9 @@
       "breakfast",
       "drink",
       "home-cooked"
-    ]
+    ],
+    "vs": "verified",
+    "sp": 2
   },
   {
     "id": "pi-boiled-egg",
@@ -4089,7 +4580,9 @@
       "post-workout",
       "budget",
       "student"
-    ]
+    ],
+    "vs": "verified",
+    "sp": 2
   },
   {
     "id": "pi-egg-bhurji",
@@ -4112,7 +4605,9 @@
       "hostel",
       "student",
       "budget"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "pi-chicken-curry",
@@ -4133,7 +4628,9 @@
       "dinner",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "pi-tandoori-chicken",
@@ -4154,7 +4651,9 @@
       "snack",
       "restaurant",
       "post-workout"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "pi-grilled-chicken-breast",
@@ -4174,7 +4673,9 @@
       "lunch",
       "dinner",
       "post-workout"
-    ]
+    ],
+    "vs": "verified",
+    "sp": 2
   },
   {
     "id": "pi-soya-chunks-cooked",
@@ -4197,7 +4698,9 @@
       "budget",
       "post-workout",
       "hostel"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "pi-sprouts-salad",
@@ -4217,7 +4720,9 @@
       "breakfast",
       "snack",
       "weight-loss"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "pi-plain-dosa",
@@ -4237,7 +4742,9 @@
       "breakfast",
       "dinner",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "pi-idli",
@@ -4258,7 +4765,9 @@
       "dinner",
       "home-cooked",
       "weight-loss"
-    ]
+    ],
+    "vs": "verified",
+    "sp": 2
   },
   {
     "id": "pi-poha",
@@ -4280,7 +4789,9 @@
       "home-cooked",
       "budget",
       "student"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "pi-upma",
@@ -4301,7 +4812,9 @@
       "home-cooked",
       "budget",
       "student"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "pi-veg-pulao",
@@ -4322,7 +4835,9 @@
       "dinner",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "pi-chicken-biryani",
@@ -4343,7 +4858,9 @@
       "dinner",
       "main",
       "restaurant"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "pi-khichdi",
@@ -4365,7 +4882,9 @@
       "main",
       "home-cooked",
       "budget"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "pi-masala-chai",
@@ -4385,7 +4904,9 @@
       "breakfast",
       "drink",
       "snack"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "pi-sweet-lassi",
@@ -4404,7 +4925,9 @@
     "meal": [
       "drink",
       "snack"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "pi-gulab-jamun",
@@ -4424,7 +4947,9 @@
       "dessert",
       "festival",
       "restaurant"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "pi-banana",
@@ -4445,7 +4970,9 @@
       "snack",
       "post-workout",
       "budget"
-    ]
+    ],
+    "vs": "verified",
+    "sp": 2
   },
   {
     "id": "pi-peanuts-roasted",
@@ -4465,7 +4992,9 @@
       "snack",
       "budget",
       "student"
-    ]
+    ],
+    "vs": "verified",
+    "sp": 2
   },
   {
     "id": "pi-samosa",
@@ -4485,7 +5014,9 @@
       "snack",
       "street",
       "budget"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "punjab-shahi-paneer",
@@ -4506,7 +5037,9 @@
       "dinner",
       "main",
       "restaurant"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "punjab-aloo-paratha",
@@ -4526,7 +5059,9 @@
       "breakfast",
       "lunch",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "punjab-chicken-tikka",
@@ -4547,7 +5082,9 @@
       "dinner",
       "restaurant",
       "post-workout"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "punjab-pindi-chana",
@@ -4568,7 +5105,9 @@
       "dinner",
       "main",
       "restaurant"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "punjab-bhindi-masala",
@@ -4589,7 +5128,9 @@
       "dinner",
       "side",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "punjab-tandoori-roti",
@@ -4610,7 +5151,9 @@
       "dinner",
       "restaurant",
       "main"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "punjab-gajar-halwa",
@@ -4629,7 +5172,9 @@
     "meal": [
       "dessert",
       "festival"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "punjab-pinni",
@@ -4649,7 +5194,9 @@
       "dessert",
       "festival",
       "snack"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "punjab-paneer-tikka",
@@ -4670,7 +5217,9 @@
       "dinner",
       "restaurant",
       "post-workout"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "punjab-kadhi-pakora",
@@ -4691,7 +5240,9 @@
       "dinner",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "punjab-dal-makhani",
@@ -4713,7 +5264,9 @@
       "main",
       "restaurant",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "punjab-sarson-ka-saag",
@@ -4735,7 +5288,9 @@
       "main",
       "festival",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "punjab-makki-di-roti",
@@ -4757,7 +5312,9 @@
       "main",
       "festival",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "punjab-amritsari-kulcha",
@@ -4778,7 +5335,9 @@
       "lunch",
       "restaurant",
       "street"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "punjab-butter-chicken",
@@ -4799,7 +5358,9 @@
       "dinner",
       "main",
       "restaurant"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "punjab-amritsari-fish",
@@ -4820,7 +5381,9 @@
       "dinner",
       "restaurant",
       "street"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "punjab-chole-bhature",
@@ -4841,7 +5404,9 @@
       "lunch",
       "street",
       "restaurant"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "punjab-lassi-namkeen",
@@ -4860,7 +5425,9 @@
     "meal": [
       "drink",
       "snack"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "raj-dal-baati",
@@ -4882,7 +5449,9 @@
       "main",
       "festival",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "raj-gatte-ki-sabzi",
@@ -4903,7 +5472,9 @@
       "dinner",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "raj-ker-sangri",
@@ -4923,7 +5494,9 @@
       "lunch",
       "side",
       "home-cooked"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "raj-laal-maas",
@@ -4945,7 +5518,9 @@
       "main",
       "restaurant",
       "festival"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "raj-pyaaz-kachori",
@@ -4965,7 +5540,9 @@
       "snack",
       "street",
       "breakfast"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "raj-ghevar",
@@ -4984,7 +5561,9 @@
     "meal": [
       "dessert",
       "festival"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "sk-veg-momo",
@@ -5005,7 +5584,9 @@
       "street",
       "student",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "sk-chicken-momo",
@@ -5026,7 +5607,9 @@
       "street",
       "student",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "sk-gundruk-soup",
@@ -5046,7 +5629,9 @@
       "lunch",
       "side",
       "home-cooked"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "sk-phagshapa",
@@ -5067,7 +5652,9 @@
       "dinner",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "tn-sambar",
@@ -5090,7 +5677,9 @@
       "main",
       "home-cooked",
       "budget"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "tn-rasam",
@@ -5112,7 +5701,9 @@
       "side",
       "home-cooked",
       "budget"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "tn-masala-dosa",
@@ -5133,7 +5724,9 @@
       "dinner",
       "restaurant",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "tn-medu-vada",
@@ -5153,7 +5746,9 @@
       "breakfast",
       "snack",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "tn-pongal",
@@ -5173,7 +5768,9 @@
       "breakfast",
       "home-cooked",
       "festival"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "tn-curd-rice",
@@ -5194,7 +5791,9 @@
       "dinner",
       "home-cooked",
       "budget"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "tn-chettinad-chicken",
@@ -5215,7 +5814,9 @@
       "dinner",
       "main",
       "restaurant"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "tn-filter-coffee",
@@ -5235,7 +5836,9 @@
       "breakfast",
       "drink",
       "snack"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "ts-hyderabadi-biryani",
@@ -5256,7 +5859,9 @@
       "dinner",
       "main",
       "restaurant"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "ts-haleem",
@@ -5276,7 +5881,9 @@
       "dinner",
       "festival",
       "restaurant"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "ts-sarva-pindi",
@@ -5296,7 +5903,9 @@
       "breakfast",
       "snack",
       "home-cooked"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "ts-double-ka-meetha",
@@ -5315,7 +5924,9 @@
     "meal": [
       "dessert",
       "festival"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "tr-mui-borok-wahan-mosdeng",
@@ -5335,7 +5946,9 @@
       "lunch",
       "side",
       "home-cooked"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "tr-chakhwi",
@@ -5356,7 +5969,9 @@
       "dinner",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "tr-mui-borok-bangui-rice",
@@ -5377,7 +5992,9 @@
       "dinner",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "up-tunday-kebab",
@@ -5397,7 +6014,9 @@
       "snack",
       "dinner",
       "restaurant"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "up-seekh-kebab",
@@ -5418,7 +6037,9 @@
       "dinner",
       "restaurant",
       "post-workout"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "up-shami-kebab",
@@ -5438,7 +6059,9 @@
       "snack",
       "dinner",
       "restaurant"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "up-mutton-korma-awadhi",
@@ -5460,7 +6083,9 @@
       "main",
       "restaurant",
       "festival"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "up-chicken-korma",
@@ -5481,7 +6106,9 @@
       "dinner",
       "main",
       "restaurant"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "up-awadhi-mutton-biryani",
@@ -5502,7 +6129,9 @@
       "dinner",
       "main",
       "restaurant"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "up-nihari",
@@ -5523,7 +6152,9 @@
       "lunch",
       "main",
       "restaurant"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "up-sheermal",
@@ -5543,7 +6174,9 @@
       "lunch",
       "dinner",
       "restaurant"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "up-rumali-roti",
@@ -5563,7 +6196,9 @@
       "lunch",
       "dinner",
       "restaurant"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "up-banarasi-dum-aloo",
@@ -5584,7 +6219,9 @@
       "dinner",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "up-khasta-kachori-sabzi",
@@ -5605,7 +6242,9 @@
       "snack",
       "street",
       "budget"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "up-matar-kachori",
@@ -5625,7 +6264,9 @@
       "breakfast",
       "snack",
       "street"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "up-aloo-puri",
@@ -5646,7 +6287,9 @@
       "lunch",
       "street",
       "festival"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "up-tamatar-chaat-banarasi",
@@ -5666,7 +6309,9 @@
       "snack",
       "street",
       "budget"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "up-baingan-ka-bharta-up",
@@ -5688,7 +6333,9 @@
       "side",
       "home-cooked",
       "budget"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "up-lauki-chana-dal",
@@ -5710,7 +6357,9 @@
       "main",
       "home-cooked",
       "budget"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "up-arbi-ki-sabzi",
@@ -5731,7 +6380,9 @@
       "dinner",
       "side",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "up-kaddu-ki-sabzi-banarasi",
@@ -5753,7 +6404,9 @@
       "side",
       "home-cooked",
       "festival"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "up-rabri",
@@ -5772,7 +6425,9 @@
     "meal": [
       "dessert",
       "festival"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "up-imarti",
@@ -5792,7 +6447,9 @@
       "dessert",
       "festival",
       "snack"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "up-jalebi",
@@ -5813,7 +6470,9 @@
       "breakfast",
       "street",
       "festival"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "up-petha-agra",
@@ -5832,7 +6491,9 @@
     "meal": [
       "dessert",
       "snack"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "up-thandai",
@@ -5851,7 +6512,9 @@
     "meal": [
       "drink",
       "festival"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "up-banarasi-lassi",
@@ -5870,7 +6533,9 @@
     "meal": [
       "drink",
       "snack"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "up-malaiyo",
@@ -5890,7 +6555,9 @@
       "dessert",
       "festival",
       "snack"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "up-gajak",
@@ -5910,7 +6577,9 @@
       "dessert",
       "festival",
       "snack"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "up-dal-moth",
@@ -5929,7 +6598,9 @@
     "meal": [
       "snack",
       "budget"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "up-tehri",
@@ -5951,7 +6622,9 @@
       "main",
       "home-cooked",
       "budget"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "up-bedmi-puri",
@@ -5971,7 +6644,9 @@
       "breakfast",
       "street",
       "snack"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "up-galouti-kebab",
@@ -5991,7 +6666,9 @@
       "dinner",
       "snack",
       "restaurant"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "up-aloo-tamatar-sabzi",
@@ -6014,7 +6691,9 @@
       "side",
       "home-cooked",
       "budget"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "up-peda",
@@ -6033,7 +6712,9 @@
     "meal": [
       "dessert",
       "festival"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "uk-kafuli",
@@ -6054,7 +6735,9 @@
       "dinner",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "uk-aloo-ke-gutke",
@@ -6076,7 +6759,9 @@
       "side",
       "home-cooked",
       "budget"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "uk-bhatt-ki-churkani",
@@ -6097,7 +6782,9 @@
       "dinner",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "wb-chingri-malai-curry",
@@ -6119,7 +6806,9 @@
       "main",
       "festival",
       "restaurant"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "wb-doi-maach",
@@ -6140,7 +6829,9 @@
       "dinner",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "wb-chicken-kosha",
@@ -6162,7 +6853,9 @@
       "main",
       "restaurant",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "wb-kolkata-mutton-biryani",
@@ -6183,7 +6876,9 @@
       "dinner",
       "main",
       "restaurant"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "wb-dimer-dalna",
@@ -6205,7 +6900,9 @@
       "main",
       "home-cooked",
       "budget"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "wb-dimer-devil",
@@ -6224,7 +6921,9 @@
     "meal": [
       "snack",
       "street"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "wb-aloo-bhaja",
@@ -6245,7 +6944,9 @@
       "side",
       "home-cooked",
       "budget"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "wb-begun-bhaja",
@@ -6265,7 +6966,9 @@
       "lunch",
       "side",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "wb-aloo-posto-bora",
@@ -6285,7 +6988,9 @@
       "lunch",
       "side",
       "home-cooked"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "wb-mochar-ghonto",
@@ -6306,7 +7011,9 @@
       "side",
       "home-cooked",
       "festival"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "wb-dhokar-dalna",
@@ -6328,7 +7035,9 @@
       "main",
       "home-cooked",
       "festival"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "wb-labra",
@@ -6349,7 +7058,9 @@
       "side",
       "home-cooked",
       "festival"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "wb-bengali-aloo-dum",
@@ -6370,7 +7081,9 @@
       "lunch",
       "side",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "wb-radhaballavi",
@@ -6391,7 +7104,9 @@
       "snack",
       "festival",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "wb-koraishutir-kochuri",
@@ -6412,7 +7127,9 @@
       "snack",
       "festival",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "wb-mughlai-paratha",
@@ -6433,7 +7150,9 @@
       "street",
       "lunch",
       "student"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "wb-jhalmuri",
@@ -6454,7 +7173,9 @@
       "street",
       "budget",
       "student"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "wb-phuchka",
@@ -6474,7 +7195,9 @@
       "snack",
       "street",
       "budget"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "wb-beguni",
@@ -6494,7 +7217,9 @@
       "snack",
       "street",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "wb-fish-fry-kolkata",
@@ -6514,7 +7239,9 @@
       "snack",
       "street",
       "restaurant"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "wb-ghugni-bengali",
@@ -6535,7 +7262,9 @@
       "street",
       "breakfast",
       "budget"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "wb-payesh",
@@ -6555,7 +7284,9 @@
       "dessert",
       "festival",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "wb-patishapta",
@@ -6574,7 +7305,9 @@
     "meal": [
       "dessert",
       "festival"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "wb-pantua",
@@ -6593,7 +7326,9 @@
     "meal": [
       "dessert",
       "festival"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "wb-cham-cham",
@@ -6612,7 +7347,9 @@
     "meal": [
       "dessert",
       "festival"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "wb-nolen-gur-sandesh",
@@ -6631,7 +7368,9 @@
     "meal": [
       "dessert",
       "festival"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "wb-langcha",
@@ -6650,7 +7389,9 @@
     "meal": [
       "dessert",
       "festival"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "wb-shorshe-bata-jhol",
@@ -6671,7 +7412,9 @@
       "dinner",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "wb-ghee-bhat",
@@ -6691,7 +7434,9 @@
       "lunch",
       "festival",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "wb-bhapa-ilish",
@@ -6713,7 +7458,9 @@
       "main",
       "festival",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "wb-basanti-pulao",
@@ -6734,7 +7481,9 @@
       "dinner",
       "festival",
       "main"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "wb-chicken-rezala",
@@ -6755,7 +7504,9 @@
       "dinner",
       "main",
       "restaurant"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "wb-mutton-rezala",
@@ -6777,7 +7528,9 @@
       "main",
       "restaurant",
       "festival"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "wb-dim-posto",
@@ -6798,7 +7551,9 @@
       "dinner",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "wb-lau-chingri",
@@ -6819,7 +7574,9 @@
       "dinner",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "wb-enchorer-dalna",
@@ -6841,7 +7598,9 @@
       "main",
       "festival",
       "home-cooked"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "wb-chanar-dalna",
@@ -6863,7 +7622,9 @@
       "main",
       "festival",
       "home-cooked"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "wb-narkel-naru",
@@ -6883,7 +7644,9 @@
       "dessert",
       "festival",
       "snack"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "wb-chanar-jilipi",
@@ -6902,7 +7665,9 @@
     "meal": [
       "dessert",
       "festival"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "wb-kheer-kadam",
@@ -6921,7 +7686,9 @@
     "meal": [
       "dessert",
       "festival"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "wb-aloo-bhate",
@@ -6942,7 +7709,9 @@
       "side",
       "home-cooked",
       "budget"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "wb-macher-jhol",
@@ -6963,7 +7732,9 @@
       "dinner",
       "main",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "wb-shorshe-ilish",
@@ -6985,7 +7756,9 @@
       "main",
       "festival",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "wb-kosha-mangsho",
@@ -7007,7 +7780,9 @@
       "main",
       "festival",
       "restaurant"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "wb-aloo-posto",
@@ -7028,7 +7803,9 @@
       "dinner",
       "side",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "wb-shukto",
@@ -7048,7 +7825,9 @@
       "lunch",
       "side",
       "home-cooked"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "wb-cholar-dal",
@@ -7068,7 +7847,9 @@
       "lunch",
       "festival",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "wb-luchi",
@@ -7088,7 +7869,9 @@
       "breakfast",
       "festival",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "wb-mishti-doi",
@@ -7107,7 +7890,9 @@
     "meal": [
       "dessert",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "wb-rosogolla",
@@ -7126,7 +7911,9 @@
     "meal": [
       "dessert",
       "festival"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "wb-sandesh",
@@ -7145,7 +7932,9 @@
     "meal": [
       "dessert",
       "festival"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "wb-kathi-roll",
@@ -7166,7 +7955,9 @@
       "street",
       "lunch",
       "student"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "pi-black-coffee",
@@ -7185,7 +7976,9 @@
     "meal": [
       "drink",
       "post-workout"
-    ]
+    ],
+    "vs": "verified",
+    "sp": 2
   },
   {
     "id": "pi-green-tea",
@@ -7204,7 +7997,9 @@
     "meal": [
       "drink",
       "weight-loss"
-    ]
+    ],
+    "vs": "verified",
+    "sp": 2
   },
   {
     "id": "pi-nimbu-pani",
@@ -7223,7 +8018,9 @@
     "meal": [
       "drink",
       "snack"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "pi-buttermilk-chaas",
@@ -7242,7 +8039,9 @@
     "meal": [
       "drink",
       "lunch"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "pi-mango-lassi",
@@ -7262,7 +8061,9 @@
       "drink",
       "snack",
       "dessert"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "pi-banana-milkshake",
@@ -7283,7 +8084,9 @@
       "breakfast",
       "post-workout",
       "weight-gain"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "hp-whey-protein-scoop",
@@ -7302,7 +8105,9 @@
     "meal": [
       "post-workout",
       "snack"
-    ]
+    ],
+    "vs": "verified",
+    "sp": 1
   },
   {
     "id": "hp-paneer-bhurji-dry",
@@ -7323,7 +8128,9 @@
       "dinner",
       "post-workout",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "hp-egg-white-boiled",
@@ -7343,7 +8150,9 @@
       "breakfast",
       "post-workout",
       "snack"
-    ]
+    ],
+    "vs": "verified",
+    "sp": 2
   },
   {
     "id": "hp-tofu",
@@ -7364,7 +8173,9 @@
       "dinner",
       "post-workout",
       "home-cooked"
-    ]
+    ],
+    "vs": "verified",
+    "sp": 2
   },
   {
     "id": "hp-roasted-chana",
@@ -7385,7 +8196,9 @@
       "budget",
       "student",
       "post-workout"
-    ]
+    ],
+    "vs": "verified",
+    "sp": 2
   },
   {
     "id": "hp-fish-tikka",
@@ -7406,7 +8219,9 @@
       "dinner",
       "post-workout",
       "restaurant"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "hp-greek-yogurt",
@@ -7426,7 +8241,9 @@
       "breakfast",
       "snack",
       "post-workout"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "pi-apple",
@@ -7445,7 +8262,9 @@
     "meal": [
       "snack",
       "breakfast"
-    ]
+    ],
+    "vs": "verified",
+    "sp": 2
   },
   {
     "id": "pi-mango",
@@ -7464,7 +8283,9 @@
     "meal": [
       "snack",
       "dessert"
-    ]
+    ],
+    "vs": "verified",
+    "sp": 2
   },
   {
     "id": "pi-ghee",
@@ -7483,7 +8304,9 @@
     "meal": [
       "side",
       "home-cooked"
-    ]
+    ],
+    "vs": "verified",
+    "sp": 2
   },
   {
     "id": "pi-mustard-oil",
@@ -7502,7 +8325,9 @@
     "meal": [
       "side",
       "home-cooked"
-    ]
+    ],
+    "vs": "verified",
+    "sp": 2
   },
   {
     "id": "pi-mango-pickle",
@@ -7521,7 +8346,9 @@
     "meal": [
       "side",
       "home-cooked"
-    ]
+    ],
+    "vs": "community",
+    "sp": 4
   },
   {
     "id": "pi-papad-roasted",
@@ -7540,7 +8367,9 @@
     "meal": [
       "side",
       "home-cooked"
-    ]
+    ],
+    "vs": "estimated",
+    "sp": 3
   },
   {
     "id": "pi-green-salad",
@@ -7561,6 +8390,276 @@
       "lunch",
       "dinner",
       "weight-loss"
-    ]
+    ],
+    "vs": "verified",
+    "sp": 2
+  },
+  {
+    "id": "whey-muscleblaze-biozyme-performance",
+    "name": "MuscleBlaze Biozyme Performance Whey",
+    "t": "muscleblaze biozyme performance whey biozyme mb biozyme muscleblaze whey",
+    "cat": "high-protein",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 371,
+    "protein": 75.8,
+    "carbs": 8.8,
+    "fat": 4.2,
+    "fiber": 0,
+    "ps": 9,
+    "meal": [
+      "post-workout",
+      "snack"
+    ],
+    "vs": "verified",
+    "sp": 1,
+    "brand": "MuscleBlaze"
+  },
+  {
+    "id": "whey-muscleblaze-raw-concentrate",
+    "name": "MuscleBlaze Raw Whey Concentrate",
+    "t": "muscleblaze raw whey concentrate mb raw whey raw whey",
+    "cat": "high-protein",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 400,
+    "protein": 80,
+    "carbs": 6.7,
+    "fat": 6.7,
+    "fiber": 0,
+    "ps": 9,
+    "meal": [
+      "post-workout",
+      "snack",
+      "budget"
+    ],
+    "vs": "verified",
+    "sp": 1,
+    "brand": "MuscleBlaze"
+  },
+  {
+    "id": "whey-avvatar-whey",
+    "name": "Avvatar Whey Protein",
+    "t": "avvatar whey protein avatar whey",
+    "cat": "high-protein",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 387,
+    "protein": 76.2,
+    "carbs": 8.6,
+    "fat": 5.7,
+    "fiber": 0,
+    "ps": 9,
+    "meal": [
+      "post-workout",
+      "snack"
+    ],
+    "vs": "verified",
+    "sp": 1,
+    "brand": "Avvatar"
+  },
+  {
+    "id": "whey-atom-whey",
+    "name": "AS-IT-IS Atom Whey Protein",
+    "t": "as-it-is atom whey protein atom whey asitis atom",
+    "cat": "high-protein",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 397,
+    "protein": 70.6,
+    "carbs": 11.8,
+    "fat": 5.9,
+    "fiber": 0,
+    "ps": 9,
+    "meal": [
+      "post-workout",
+      "snack"
+    ],
+    "vs": "verified",
+    "sp": 1,
+    "brand": "Atom (AS-IT-IS)"
+  },
+  {
+    "id": "whey-on-gold-standard",
+    "name": "ON Gold Standard 100% Whey",
+    "t": "on gold standard 100% whey optimum nutrition gold standard on whey",
+    "cat": "high-protein",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 387,
+    "protein": 77.4,
+    "carbs": 9.7,
+    "fat": 4.8,
+    "fiber": 0,
+    "ps": 9,
+    "meal": [
+      "post-workout",
+      "snack"
+    ],
+    "vs": "verified",
+    "sp": 1,
+    "brand": "Optimum Nutrition"
+  },
+  {
+    "id": "whey-dymatize-iso100",
+    "name": "Dymatize ISO100 Hydrolyzed",
+    "t": "dymatize iso100 hydrolyzed iso100 iso 100 dymatize",
+    "cat": "high-protein",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 375,
+    "protein": 78.1,
+    "carbs": 6.3,
+    "fat": 1.6,
+    "fiber": 0,
+    "ps": 9,
+    "meal": [
+      "post-workout",
+      "snack"
+    ],
+    "vs": "verified",
+    "sp": 1,
+    "brand": "Dymatize"
+  },
+  {
+    "id": "whey-nakpro-gold",
+    "name": "Nakpro Gold Whey Protein",
+    "t": "nakpro gold whey protein nakpro",
+    "cat": "high-protein",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 388,
+    "protein": 75.8,
+    "carbs": 7.6,
+    "fat": 4.5,
+    "fiber": 0,
+    "ps": 9,
+    "meal": [
+      "post-workout",
+      "snack",
+      "budget"
+    ],
+    "vs": "verified",
+    "sp": 1,
+    "brand": "Nakpro"
+  },
+  {
+    "id": "whey-asitis-concentrate",
+    "name": "AS-IT-IS 100% Whey Protein",
+    "t": "as-it-is 100% whey protein as it is whey asitis whey",
+    "cat": "high-protein",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 400,
+    "protein": 80,
+    "carbs": 5.7,
+    "fat": 5.3,
+    "fiber": 0,
+    "ps": 9,
+    "meal": [
+      "post-workout",
+      "snack",
+      "budget"
+    ],
+    "vs": "verified",
+    "sp": 1,
+    "brand": "AS-IT-IS Nutrition"
+  },
+  {
+    "id": "whey-fuel-one",
+    "name": "Fuel One Whey Protein",
+    "t": "fuel one whey protein fuel one",
+    "cat": "high-protein",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 384,
+    "protein": 75,
+    "carbs": 9.4,
+    "fat": 4.7,
+    "fiber": 0,
+    "ps": 9,
+    "meal": [
+      "post-workout",
+      "snack",
+      "budget"
+    ],
+    "vs": "verified",
+    "sp": 1,
+    "brand": "Fuel One (HealthKart)"
+  },
+  {
+    "id": "whey-myprotein-impact",
+    "name": "MyProtein Impact Whey",
+    "t": "myprotein impact whey my protein impact whey",
+    "cat": "high-protein",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 412,
+    "protein": 84,
+    "carbs": 4,
+    "fat": 7.6,
+    "fiber": 0,
+    "ps": 9,
+    "meal": [
+      "post-workout",
+      "snack"
+    ],
+    "vs": "verified",
+    "sp": 1,
+    "brand": "MyProtein"
+  },
+  {
+    "id": "whey-gnc-amp",
+    "name": "GNC AMP Gold 100% Whey",
+    "t": "gnc amp gold 100% whey gnc whey gnc amp",
+    "cat": "high-protein",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 394,
+    "protein": 72.7,
+    "carbs": 12.1,
+    "fat": 6.1,
+    "fiber": 0,
+    "ps": 9,
+    "meal": [
+      "post-workout",
+      "snack"
+    ],
+    "vs": "verified",
+    "sp": 1,
+    "brand": "GNC"
+  },
+  {
+    "id": "whey-isopure-low-carb",
+    "name": "Isopure Low Carb Whey Isolate",
+    "t": "isopure low carb whey isolate isopure",
+    "cat": "high-protein",
+    "state": "pan-india",
+    "region": "pan-india",
+    "diet": "veg",
+    "kcal": 355,
+    "protein": 80.6,
+    "carbs": 3.2,
+    "fat": 1.6,
+    "fiber": 0,
+    "ps": 10,
+    "meal": [
+      "post-workout",
+      "snack"
+    ],
+    "vs": "verified",
+    "sp": 1,
+    "brand": "Isopure"
   }
 ]

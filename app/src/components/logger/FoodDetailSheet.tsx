@@ -6,6 +6,7 @@ import { useToast } from '../../app/ToastContext';
 import { getFood } from '../../data/dataService';
 import { computeMacros, oilMatters } from '../../lib/nutrition';
 import { kcal, g, uid, todayISO, slotForNow, DIET_META } from '../../lib/format';
+import { VerifiedBadge } from '../ui/VerifiedBadge';
 import type { Food, OilStyle, Portion } from '../../types/food';
 import type { LogEntry, MealSlot } from '../../types/log';
 
@@ -106,8 +107,14 @@ export function FoodDetailSheet({ foodId, editEntry, onClose }: Props) {
         <p className="py-8 text-center text-ink-muted">Loading…</p>
       ) : (
         <div className="space-y-5">
+          {/* verification + brand */}
+          <div className="flex items-center justify-center gap-2">
+            <VerifiedBadge status={food.verificationStatus ?? 'estimated'} />
+            {food.brand && <span className="text-xs text-ink-muted">{food.brand}</span>}
+          </div>
+
           {/* meta line */}
-          <div className="flex items-center justify-center gap-2 text-xs text-ink-muted">
+          <div className="-mt-2 flex items-center justify-center gap-2 text-xs text-ink-muted">
             {diet && <span className="inline-flex items-center gap-1"><span className="h-2 w-2 rounded-full" style={{ background: diet.dot }} />{diet.label}</span>}
             <span>·</span>
             <span className="capitalize">{ref.stateName.get(food.state) ?? food.state}</span>
@@ -141,6 +148,19 @@ export function FoodDetailSheet({ foodId, editEntry, onClose }: Props) {
 
           {/* quantity */}
           <Field label="Quantity">
+            <div className="mb-2 grid grid-cols-3 gap-2">
+              {([['Small', 0.5], ['Medium', 1], ['Large', 1.5]] as const).map(([lbl, q]) => (
+                <button
+                  key={lbl}
+                  onClick={() => setQty(q)}
+                  className={`rounded-xl2 border py-2 text-xs font-medium transition-colors ${
+                    qty === q ? 'border-saffron bg-saffron/15 text-saffron' : 'border-white/10 text-ink-muted'
+                  }`}
+                >
+                  {lbl}
+                </button>
+              ))}
+            </div>
             <div className="flex items-center gap-4">
               <Stepper value={qty} onChange={setQty} />
               <span className="text-sm text-ink-muted">= {g(totalGrams)} g total</span>
@@ -181,6 +201,13 @@ export function FoodDetailSheet({ foodId, editEntry, onClose }: Props) {
               ))}
             </div>
           </Field>
+
+          {(food.notes || food.verificationStatus !== 'verified') && (
+            <p className="rounded-xl2 border border-white/[0.06] bg-white/[0.03] p-3 text-[11px] leading-relaxed text-ink-faint">
+              {food.notes ? `${food.notes} ` : ''}
+              {food.verificationStatus !== 'verified' && 'Nutrition values may vary depending on preparation methods.'}
+            </p>
+          )}
 
           <div className="flex gap-2">
             {editing && (

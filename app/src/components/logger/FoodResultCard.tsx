@@ -2,6 +2,7 @@ import type { SearchDoc } from '../../types/food';
 import { useLogStore } from '../../store/useLogStore';
 import { useQuickLog } from '../../lib/useQuickLog';
 import { DIET_META, kcal, g } from '../../lib/format';
+import { VerifiedBadge } from '../ui/VerifiedBadge';
 
 interface Props {
   doc: SearchDoc;
@@ -21,8 +22,14 @@ export function FoodResultCard({ doc, onSelect, quickLog = true }: Props) {
       <button onClick={() => onSelect(doc.id)} className="flex min-w-0 flex-1 items-center gap-3 text-left active:scale-[0.99] transition-transform">
         <span className="h-2.5 w-2.5 shrink-0 rounded-full" style={{ background: diet.dot }} title={diet.label} />
         <div className="min-w-0 flex-1">
-          <p className="truncate font-medium text-ink">{doc.name}</p>
-          <p className="mt-0.5 text-xs text-ink-faint">{kcal(doc.kcal)} kcal <span className="text-ink-faint">/100g</span></p>
+          <div className="flex items-center gap-1.5">
+            <p className="truncate font-medium text-ink">{doc.name}</p>
+            {doc.vs === 'verified' && <VerifiedBadge status="verified" compact />}
+          </div>
+          <p className="mt-0.5 text-xs text-ink-faint">
+            {doc.brand ? <span className="text-ink-muted">{doc.brand} · </span> : null}
+            {kcal(doc.kcal)} kcal <span className="text-ink-faint">/100g</span>
+          </p>
         </div>
         {/* protein made prominent */}
         <div className="shrink-0 text-right">

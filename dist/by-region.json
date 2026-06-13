@@ -226,6 +226,10 @@
     "od-macha-besara"
   ],
   "pan-india": [
+    "pi-veg-biryani",
+    "pi-dal-tadka",
+    "pi-rajma-chawal",
+    "pi-egg-curry",
     "pi-cooked-white-rice",
     "pi-roti-chapati",
     "pi-tawa-paratha",
@@ -281,7 +285,19 @@
     "pi-mustard-oil",
     "pi-mango-pickle",
     "pi-papad-roasted",
-    "pi-green-salad"
+    "pi-green-salad",
+    "whey-muscleblaze-biozyme-performance",
+    "whey-muscleblaze-raw-concentrate",
+    "whey-avvatar-whey",
+    "whey-atom-whey",
+    "whey-on-gold-standard",
+    "whey-dymatize-iso100",
+    "whey-nakpro-gold",
+    "whey-asitis-concentrate",
+    "whey-fuel-one",
+    "whey-myprotein-impact",
+    "whey-gnc-amp",
+    "whey-isopure-low-carb"
   ],
   "punjab": [
     "punjab-shahi-paneer",

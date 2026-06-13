@@ -1,0 +1,195 @@
+[
+  {
+    "id": "pi-veg-biryani",
+    "name": "Veg Biryani",
+    "localNames": {
+      "hi": "Veg Biryani"
+    },
+    "region": "pan-india",
+    "state": "pan-india",
+    "category": "rice-dishes",
+    "subcategory": "biryani",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 170,
+      "protein": 3.5,
+      "carbs": 27,
+      "fat": 5.5,
+      "fiber": 2
+    },
+    "portions": [
+      {
+        "unit": "plate",
+        "grams": 300,
+        "default": true,
+        "label": "1 plate"
+      },
+      {
+        "unit": "katori",
+        "grams": 180
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "high",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "restaurant"
+    ],
+    "healthTags": [],
+    "proteinScore": 1,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-13"
+  },
+  {
+    "id": "pi-dal-tadka",
+    "name": "Dal Tadka",
+    "localNames": {
+      "hi": "Dal Tadka"
+    },
+    "aliases": [
+      "yellow dal tadka",
+      "dal fry"
+    ],
+    "region": "pan-india",
+    "state": "pan-india",
+    "category": "dal-legumes",
+    "subcategory": "dal",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 135,
+      "protein": 6,
+      "carbs": 15,
+      "fat": 5.5,
+      "fiber": 3
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 150,
+        "default": true
+      },
+      {
+        "unit": "ladle",
+        "grams": 100
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked",
+      "restaurant"
+    ],
+    "healthTags": [],
+    "proteinScore": 2,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "notes": "Tempered (tadka) toor dal with ghee/oil. Lighter home versions are lower in fat.",
+    "lastReviewed": "2026-06-13"
+  },
+  {
+    "id": "pi-rajma-chawal",
+    "name": "Rajma Chawal",
+    "localNames": {
+      "hi": "Rajma Chawal"
+    },
+    "region": "pan-india",
+    "state": "pan-india",
+    "category": "rice-dishes",
+    "subcategory": "regional-rice",
+    "dietType": "veg",
+    "per100g": {
+      "calories": 145,
+      "protein": 4.8,
+      "carbs": 24,
+      "fat": 3.2,
+      "fiber": 4
+    },
+    "portions": [
+      {
+        "unit": "plate",
+        "grams": 350,
+        "default": true,
+        "label": "1 plate (rajma + rice)"
+      },
+      {
+        "unit": "katori",
+        "grams": 200
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "medium",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked",
+      "budget"
+    ],
+    "healthTags": [
+      "high-fiber"
+    ],
+    "proteinScore": 1,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-13"
+  },
+  {
+    "id": "pi-egg-curry",
+    "name": "Egg Curry (2 eggs)",
+    "localNames": {
+      "hi": "Anda Curry"
+    },
+    "region": "pan-india",
+    "state": "pan-india",
+    "category": "non-veg",
+    "subcategory": "egg",
+    "dietType": "egg",
+    "per100g": {
+      "calories": 165,
+      "protein": 9,
+      "carbs": 5,
+      "fat": 12,
+      "fiber": 1
+    },
+    "portions": [
+      {
+        "unit": "katori",
+        "grams": 200,
+        "default": true,
+        "label": "1 katori with 2 eggs"
+      },
+      {
+        "unit": "gram",
+        "grams": 1
+      }
+    ],
+    "oilSensitivity": "high",
+    "mealTags": [
+      "lunch",
+      "dinner",
+      "main",
+      "home-cooked",
+      "budget"
+    ],
+    "healthTags": [],
+    "proteinScore": 3,
+    "confidence": "medium",
+    "source": "recipe-analysis",
+    "lastReviewed": "2026-06-13"
+  }
+]

@@ -12,7 +12,8 @@ const check = process.argv.includes('--check');
 const KEY_ORDER = [
   'id', 'name', 'localNames', 'aliases', 'region', 'state', 'category', 'subcategory',
   'dietType', 'per100g', 'portions', 'oilSensitivity', 'oilModifiers',
-  'mealTags', 'healthTags', 'proteinScore', 'confidence', 'source', 'sourceNote', 'lastReviewed',
+  'mealTags', 'healthTags', 'proteinScore', 'confidence', 'source', 'sourceNote',
+  'brand', 'verificationStatus', 'notes', 'lastReviewed',
 ];
 
 const orderKeys = (o) => {
