@@ -56,7 +56,7 @@ export function FoodScanSheet({ open, onClose, onPick }: { open: boolean; onClos
         console.warn('[scan] hosted scan unavailable:', serverErr, '| unconfigured:', unconfigured, '| personal key:', !!key);
         if (!unconfigured) throw serverErr; // real failure — surface it
         // 2) Hosted scanner not set up → fall back to a personal key if present.
-        if (!key) { setNeedsKey(true); setError('Photo scanning isn’t enabled yet.'); setPhase('error'); return; }
+        if (!key) { setNeedsKey(true); setError('AI scanner is not configured yet.'); setPhase('error'); return; }
         result = await getProvider('gemini').analyze(img, deps, { apiKey: key });
       }
 

@@ -5,9 +5,9 @@ const KEY = 'mk-ai';
 
 interface Saved { providerId: string; geminiKey: string; }
 function load(): Saved {
-  try { const r = localStorage.getItem(KEY); if (r) return { providerId: 'demo', geminiKey: '', ...JSON.parse(r) }; }
+  try { const r = localStorage.getItem(KEY); if (r) return { providerId: 'server', geminiKey: '', ...JSON.parse(r) }; }
   catch { /* ignore */ }
-  return { providerId: 'demo', geminiKey: '' };
+  return { providerId: 'server', geminiKey: '' };
 }
 
 interface AiState extends Saved {

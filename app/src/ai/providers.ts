@@ -1,31 +1,11 @@
 import type { FoodVisionProvider, FoodPrediction } from './types';
 
-// ── Demo provider ───────────────────────────────────────────────────────────
-// Free, on-device, no key. Returns plausible top-3 from the catalog so the full
-// Scan → confirm → log flow works now. Honest: labelled as demo predictions.
-const demoProvider: FoodVisionProvider = {
-  id: 'demo',
-  label: 'Demo (free, on-device)',
-  requiresKey: false,
-  async analyze(_img, deps) {
-    await new Promise((r) => setTimeout(r, 900)); // simulate inference
-    const picks = deps.sampleFoods(3);
-    const confs = [0.74, 0.51, 0.32];
-    const predictions: FoodPrediction[] = picks.map((f, i) => ({
-      name: f.name,
-      foodId: f.id,
-      confidence: confs[i] ?? 0.25,
-    }));
-    return { predictions, note: 'Demo predictions — add a Gemini key in Account for real photo recognition.' };
-  },
-};
-
 // ── Gemini provider ─────────────────────────────────────────────────────────
-// Google Gemini 1.5 Flash (free tier). Activates when the user supplies a key.
-// Returns dish names which we ground to catalog ids via deps.matchFood.
+// Direct Gemini call (used as a personal-key fallback, e.g. local dev).
+// Reads packaging labels via OCR and identifies brand + product first.
 const geminiProvider: FoodVisionProvider = {
   id: 'gemini',
-  label: 'Gemini 1.5 Flash (free tier)',
+  label: 'Gemini 1.5 Flash (personal key)',
   requiresKey: true,
   async analyze(img, deps, opts) {
     if (!opts.apiKey) throw new Error('Add your Gemini API key in Account → AI Scanner.');
@@ -36,7 +16,7 @@ const geminiProvider: FoodVisionProvider = {
       'the exact BRAND and PRODUCT NAME first (e.g. "MuscleBlaze Biozyme Performance Whey", "Amul Masti Dahi").\n' +
       '2) Otherwise identify the prepared dish/food (prefer Indian dishes).\n' +
       'Return ONLY a JSON array of up to 3 guesses, most likely first, each: ' +
-      '{"name":"brand + product or dish name","confidence":0.0-1.0}. Put the most confident first. No prose, no markdown.';
+      '{"name":"brand + product or dish name","confidence":0.0-1.0}. No prose, no markdown.';
     console.log('[gemini] request sent · model=gemini-1.5-flash · imageBytes≈', img.base64.length, '· mime=', img.mime);
     const res = await fetch(url, {
       method: 'POST',
@@ -69,14 +49,14 @@ const geminiProvider: FoodVisionProvider = {
         return { name: match?.name ?? p.name, foodId: match?.id, confidence: Math.max(0, Math.min(1, Number(p.confidence) || 0.5)) };
       });
     console.log('[gemini] parsing succeeded · predictions:', predictions.length);
-    return { predictions, note: 'Recognised by Gemini. Confirm the item and serving before logging.' };
+    return { predictions };
   },
 };
 
-// ── Server provider ─────────────────────────────────────────────────────────
-// Calls our serverless /api/scan (key held server-side). Works for ALL users
-// with no key. Throws { code:'unconfigured' } when the function/env isn't set up
-// so the caller can fall back to a personal key (e.g. local dev).
+// ── Server provider (DEFAULT) ───────────────────────────────────────────────
+// Calls our serverless /api/scan (Gemini key held server-side). Works for ALL
+// users with no key. Throws { code:'unconfigured' } when the function/env isn't
+// set up so the caller can fall back to a personal key (e.g. local dev).
 export class UnconfiguredError extends Error { code = 'unconfigured' as const; }
 
 const serverProvider: FoodVisionProvider = {
@@ -84,6 +64,7 @@ const serverProvider: FoodVisionProvider = {
   label: 'Macro Katori AI',
   requiresKey: false,
   async analyze(img, deps) {
+    console.log('[scan] calling /api/scan · imageBytes≈', img.base64.length);
     let res: Response;
     try {
       res = await fetch('/api/scan', {
@@ -95,7 +76,8 @@ const serverProvider: FoodVisionProvider = {
       throw new UnconfiguredError('Scan service unreachable');
     }
     const ct = res.headers.get('content-type') || '';
-    // 404/501 or a non-JSON (e.g. SPA HTML in local dev) => not configured here.
+    console.log('[scan] /api/scan status:', res.status, '· content-type:', ct);
+    // 404/501 or non-JSON (e.g. SPA HTML in local dev) => not configured here.
     if (res.status === 404 || res.status === 501 || !ct.includes('application/json')) {
       throw new UnconfiguredError('Scan service not configured');
     }
@@ -112,13 +94,14 @@ const serverProvider: FoodVisionProvider = {
         const match = deps.matchFood(p.name);
         return { name: match?.name ?? p.name, foodId: match?.id, confidence: Math.max(0, Math.min(1, Number(p.confidence) || 0.5)) };
       });
+    console.log('[scan] parsed predictions:', predictions.length, predictions);
     return { predictions, note: 'Recognised by Macro Katori AI. Confirm before logging.' };
   },
 };
 
-export const PROVIDERS: FoodVisionProvider[] = [demoProvider, geminiProvider];
+// No demo provider: the scanner never shows random/placeholder predictions.
+export const PROVIDERS: FoodVisionProvider[] = [serverProvider, geminiProvider];
 
 export function getProvider(id: string): FoodVisionProvider {
-  if (id === 'server') return serverProvider;
-  return PROVIDERS.find((p) => p.id === id) ?? demoProvider;
+  return PROVIDERS.find((p) => p.id === id) ?? serverProvider; // default = server
 }
