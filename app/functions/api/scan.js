@@ -15,6 +15,27 @@ const PROMPT =
 const json = (obj, status = 200) =>
   new Response(JSON.stringify(obj), { status, headers: { 'content-type': 'application/json' } });
 
+// Try current Gemini vision models in order; skip past any that have been
+// retired (404 "is not found") so a deprecation can't silently break scanning.
+async function callGemini(key, payload, preferred) {
+  const models = [preferred, 'gemini-2.5-flash', 'gemini-2.0-flash', 'gemini-flash-latest']
+    .filter(Boolean).filter((m, i, a) => a.indexOf(m) === i);
+  let res;
+  for (const model of models) {
+    res = await fetch(
+      `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${key}`,
+      { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) },
+    );
+    if (res.ok) return res;
+    if (res.status !== 404) return res;
+    const copy = res.clone();
+    let detail = '';
+    try { detail = (await copy.json())?.error?.message ?? ''; } catch { /* ignore */ }
+    if (!/is not found|not supported/i.test(detail)) return res;
+  }
+  return res;
+}
+
 export async function onRequestPost(context) {
   const { request, env } = context;
   const key = env.GEMINI_API_KEY;
@@ -25,19 +46,14 @@ export async function onRequestPost(context) {
   const { base64, mime } = body || {};
   if (!base64) return json({ error: 'no_image' }, 400);
 
+  const payload = {
+    contents: [{ parts: [{ text: PROMPT }, { inlineData: { mimeType: mime || 'image/jpeg', data: base64 } }] }],
+    generationConfig: { temperature: 0.1, responseMimeType: 'application/json' },
+  };
+
   let res;
   try {
-    res = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${key}`,
-      {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          contents: [{ parts: [{ text: PROMPT }, { inlineData: { mimeType: mime || 'image/jpeg', data: base64 } }] }],
-          generationConfig: { temperature: 0.1, responseMimeType: 'application/json' },
-        }),
-      },
-    );
+    res = await callGemini(key, payload, env.GEMINI_MODEL);
   } catch {
     return json({ error: 'upstream_unreachable' }, 502);
   }

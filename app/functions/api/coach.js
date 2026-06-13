@@ -7,6 +7,28 @@
 const json = (obj, status = 200) =>
   new Response(JSON.stringify(obj), { status, headers: { 'content-type': 'application/json' } });
 
+// Try current Gemini models in order; skip past any that have been retired
+// (404 "is not found") so a single deprecation can't silently break the coach.
+async function callGemini(key, payload, preferred) {
+  const models = [preferred, 'gemini-2.5-flash', 'gemini-2.0-flash', 'gemini-flash-latest']
+    .filter(Boolean).filter((m, i, a) => a.indexOf(m) === i);
+  let res;
+  for (const model of models) {
+    res = await fetch(
+      `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${key}`,
+      { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) },
+    );
+    if (res.ok) return res;
+    if (res.status !== 404) return res; // real error (auth, quota…) — stop
+    // 404 → model retired/unknown; clone-read detail then try the next model
+    const copy = res.clone();
+    let detail = '';
+    try { detail = (await copy.json())?.error?.message ?? ''; } catch { /* ignore */ }
+    if (!/is not found|not supported/i.test(detail)) return res;
+  }
+  return res; // all exhausted — return last response for error reporting
+}
+
 export async function onRequestPost(context) {
   const { request, env } = context;
   const key = env.GEMINI_API_KEY;
@@ -27,28 +49,22 @@ export async function onRequestPost(context) {
   }
   contents.push({ role: 'user', parts: [{ text: String(question) }] });
 
-  let res;
+  const payload = {
+    systemInstruction: system ? { parts: [{ text: String(system) }] } : undefined,
+    contents,
+    generationConfig: { temperature: 0.6 },
+  };
+
+  let res, lastStatus = 0, lastDetail = '';
   try {
-    res = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${key}`,
-      {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          systemInstruction: system ? { parts: [{ text: String(system) }] } : undefined,
-          contents,
-          generationConfig: { temperature: 0.6 },
-        }),
-      },
-    );
+    res = await callGemini(key, payload, env.GEMINI_MODEL);
   } catch {
     return json({ error: 'upstream_unreachable' }, 502);
   }
-
   if (!res.ok) {
-    let detail = '';
-    try { detail = (await res.json())?.error?.message ?? ''; } catch { /* ignore */ }
-    return json({ error: 'gemini', status: res.status, detail }, 502);
+    lastStatus = res.status;
+    try { lastDetail = (await res.json())?.error?.message ?? ''; } catch { /* ignore */ }
+    return json({ error: 'gemini', status: lastStatus, detail: lastDetail }, 502);
   }
 
   const data = await res.json();
