@@ -4,6 +4,7 @@ import { Sheet } from '../ui/Sheet';
 import { useData } from '../../app/DataContext';
 import { useAiSettings } from '../../store/useAiSettings';
 import { getProvider } from '../../ai/providers';
+import { canUse, recordUse, DAILY_LIMITS } from '../../lib/usage';
 import type { FoodPrediction, VisionDeps } from '../../ai/types';
 
 type Phase = 'idle' | 'loading' | 'result' | 'error';
@@ -47,17 +48,28 @@ export function FoodScanSheet({ open, onClose, onPick }: { open: boolean; onClos
       const img = { base64: dataUrl.split(',')[1] ?? '', mime: file.type || 'image/jpeg' };
 
       // 1) Hosted scanner (server key) — works for everyone, no key needed.
+      // Daily cap protects the shared quota; personal-key users skip the cap.
       let result;
-      try {
-        console.log('[scan] trying hosted /api/scan');
-        result = await getProvider('server').analyze(img, deps, {});
-      } catch (serverErr) {
-        const unconfigured = (serverErr as { code?: string })?.code === 'unconfigured';
-        console.warn('[scan] hosted scan unavailable:', serverErr, '| unconfigured:', unconfigured, '| personal key:', !!key);
-        if (!unconfigured) throw serverErr; // real failure — surface it
-        // 2) Hosted scanner not set up → fall back to a personal key if present.
-        if (!key) { setNeedsKey(true); setError('AI scanner is not configured yet.'); setPhase('error'); return; }
+      if (key) {
+        // Personal key → use it directly (their own quota, never capped).
         result = await getProvider('gemini').analyze(img, deps, { apiKey: key });
+      } else if (!canUse('scan')) {
+        setNeedsKey(false);
+        setError(`You've used today's free AI scans (${DAILY_LIMITS.scan}/day) — it resets tomorrow. Add your own Gemini key in Account for unlimited scans, or search manually.`);
+        setPhase('error');
+        return;
+      } else {
+        try {
+          console.log('[scan] trying hosted /api/scan');
+          result = await getProvider('server').analyze(img, deps, {});
+          recordUse('scan'); // count only successful hosted scans
+        } catch (serverErr) {
+          const unconfigured = (serverErr as { code?: string })?.code === 'unconfigured';
+          console.warn('[scan] hosted scan unavailable:', serverErr, '| unconfigured:', unconfigured);
+          if (!unconfigured) throw serverErr; // real failure — surface it
+          // Hosted scanner not set up and no personal key → guide the user.
+          setNeedsKey(true); setError('AI scanner is not configured yet.'); setPhase('error'); return;
+        }
       }
 
       console.log('[scan] predictions parsed:', result.predictions.length, result.predictions);

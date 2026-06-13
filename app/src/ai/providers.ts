@@ -3,13 +3,14 @@ import type { FoodVisionProvider, FoodPrediction } from './types';
 // ── Gemini provider ─────────────────────────────────────────────────────────
 // Direct Gemini call (used as a personal-key fallback, e.g. local dev).
 // Reads packaging labels via OCR and identifies brand + product first.
+const GEMINI_MODELS = ['gemini-2.5-flash', 'gemini-2.0-flash', 'gemini-flash-latest'];
+
 const geminiProvider: FoodVisionProvider = {
   id: 'gemini',
-  label: 'Gemini 1.5 Flash (personal key)',
+  label: 'Gemini Flash (personal key)',
   requiresKey: true,
   async analyze(img, deps, opts) {
     if (!opts.apiKey) throw new Error('Add your Gemini API key in Account → AI Scanner.');
-    const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${opts.apiKey}`;
     const prompt =
       'You are a food & packaged-product recognition system with OCR. Examine the photo carefully.\n' +
       '1) If it shows a PACKAGED PRODUCT, SUPPLEMENT, or any LABEL/wrapper, READ the visible text (OCR) and identify ' +
@@ -17,15 +18,21 @@ const geminiProvider: FoodVisionProvider = {
       '2) Otherwise identify the prepared dish/food (prefer Indian dishes).\n' +
       'Return ONLY a JSON array of up to 3 guesses, most likely first, each: ' +
       '{"name":"brand + product or dish name","confidence":0.0-1.0}. No prose, no markdown.';
-    console.log('[gemini] request sent · model=gemini-1.5-flash · imageBytes≈', img.base64.length, '· mime=', img.mime);
-    const res = await fetch(url, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        contents: [{ parts: [{ text: prompt }, { inlineData: { mimeType: img.mime, data: img.base64 } }] }],
-        generationConfig: { temperature: 0.1, responseMimeType: 'application/json' },
-      }),
-    });
+    const payload = {
+      contents: [{ parts: [{ text: prompt }, { inlineData: { mimeType: img.mime, data: img.base64 } }] }],
+      generationConfig: { temperature: 0.1, responseMimeType: 'application/json' },
+    };
+    // Try current models, skipping any retired one (404 "is not found").
+    let res!: Response;
+    for (const model of GEMINI_MODELS) {
+      console.log('[gemini] request sent · model=' + model + ' · imageBytes≈', img.base64.length, '· mime=', img.mime);
+      res = await fetch(
+        `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${opts.apiKey}`,
+        { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) },
+      );
+      if (res.ok || res.status !== 404) break;
+      console.warn('[gemini] model unavailable, trying next:', model);
+    }
     console.log('[gemini] response status:', res.status);
     if (!res.ok) {
       let detail = '';

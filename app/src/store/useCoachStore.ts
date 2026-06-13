@@ -1,6 +1,7 @@
 import { create } from 'zustand';
 import { getCoachContext, ruleReply, geminiReply, serverCoachReply, type CoachTurn } from '../lib/coach';
 import { useAiSettings } from './useAiSettings';
+import { canUse, recordUse, DAILY_LIMITS } from '../lib/usage';
 
 export interface CoachMessage { role: 'user' | 'coach'; text: string; at: number; }
 
@@ -32,14 +33,18 @@ export const useCoachStore = create<CoachState>((set, get) => ({
       const ctx = await getCoachContext();
       const ai = useAiSettings.getState();
       if (ai.providerId === 'gemini' && ai.geminiKey) {
-        // User brought their own key → use it directly.
+        // User brought their own key → use it directly (their own quota, no cap).
         try { reply = await geminiReply(text, ctx, ai.geminiKey, history); }
         catch { reply = ruleReply(text, ctx); }
-      } else {
-        // Default: hosted AI coach (real reasoning). Fall back to the offline
-        // rule engine only when the server has no key / is unreachable.
-        try { reply = await serverCoachReply(text, ctx, history); }
+      } else if (canUse('coach')) {
+        // Default: hosted AI coach (real reasoning). Only count successful calls
+        // against the shared quota. Fall back to the offline rule engine when
+        // the server has no key / is unreachable.
+        try { reply = await serverCoachReply(text, ctx, history); recordUse('coach'); }
         catch { reply = ruleReply(text, ctx); }
+      } else {
+        // Daily shared-AI limit reached → still help for free via the rule engine.
+        reply = `⏳ You've used today's free AI coach (${DAILY_LIMITS.coach}/day) — it resets tomorrow. Here's a quick answer:\n\n${ruleReply(text, ctx)}`;
       }
     } catch {
       reply = 'I had trouble reading your data just now. Try again in a moment.';
