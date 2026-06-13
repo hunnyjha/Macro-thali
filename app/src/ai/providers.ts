@@ -31,26 +31,45 @@ const geminiProvider: FoodVisionProvider = {
     if (!opts.apiKey) throw new Error('Add your Gemini API key in Account → AI Scanner.');
     const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${opts.apiKey}`;
     const prompt =
-      'Identify the Indian (or general) food in this photo. Reply ONLY with a JSON array of up to 3 guesses, ' +
-      'most likely first: [{"name":"dish name","confidence":0.0-1.0}]. No prose.';
+      'You are a food & packaged-product recognition system with OCR. Examine the photo carefully.\n' +
+      '1) If it shows a PACKAGED PRODUCT, SUPPLEMENT, or any LABEL/wrapper, READ the visible text (OCR) and identify ' +
+      'the exact BRAND and PRODUCT NAME first (e.g. "MuscleBlaze Biozyme Performance Whey", "Amul Masti Dahi").\n' +
+      '2) Otherwise identify the prepared dish/food (prefer Indian dishes).\n' +
+      'Return ONLY a JSON array of up to 3 guesses, most likely first, each: ' +
+      '{"name":"brand + product or dish name","confidence":0.0-1.0}. Put the most confident first. No prose, no markdown.';
+    console.log('[gemini] request sent · model=gemini-1.5-flash · imageBytes≈', img.base64.length, '· mime=', img.mime);
     const res = await fetch(url, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
         contents: [{ parts: [{ text: prompt }, { inlineData: { mimeType: img.mime, data: img.base64 } }] }],
-        generationConfig: { temperature: 0.2, responseMimeType: 'application/json' },
+        generationConfig: { temperature: 0.1, responseMimeType: 'application/json' },
       }),
     });
-    if (!res.ok) throw new Error(`Gemini error ${res.status}. Check your key or quota.`);
+    console.log('[gemini] response status:', res.status);
+    if (!res.ok) {
+      let detail = '';
+      try { detail = (await res.json())?.error?.message ?? ''; } catch { /* ignore */ }
+      console.error('[gemini] error body:', detail);
+      if (res.status === 400 || res.status === 403) throw new Error('Gemini rejected the key. Check it in Account → AI Scanner.');
+      if (res.status === 429) throw new Error('Gemini rate limit hit. Wait a moment and try again.');
+      throw new Error(`Gemini error ${res.status}. ${detail}`.trim());
+    }
     const data = await res.json();
     const text: string = data?.candidates?.[0]?.content?.parts?.[0]?.text ?? '[]';
+    console.log('[gemini] raw response text:', text);
     let parsed: { name: string; confidence?: number }[] = [];
-    try { parsed = JSON.parse(text); } catch { throw new Error('Could not read the AI response. Try again.'); }
-    const predictions: FoodPrediction[] = parsed.slice(0, 3).map((p) => {
-      const match = deps.matchFood(p.name);
-      return { name: match?.name ?? p.name, foodId: match?.id, confidence: Math.max(0, Math.min(1, p.confidence ?? 0.5)) };
-    });
-    return { predictions };
+    try { parsed = JSON.parse(text); } catch { console.error('[gemini] JSON parse failed'); throw new Error('Could not read the AI response. Try again.'); }
+    if (!Array.isArray(parsed)) parsed = [];
+    const predictions: FoodPrediction[] = parsed
+      .filter((p) => p && p.name)
+      .slice(0, 3)
+      .map((p) => {
+        const match = deps.matchFood(p.name);
+        return { name: match?.name ?? p.name, foodId: match?.id, confidence: Math.max(0, Math.min(1, Number(p.confidence) || 0.5)) };
+      });
+    console.log('[gemini] parsing succeeded · predictions:', predictions.length);
+    return { predictions, note: 'Recognised by Gemini. Confirm the item and serving before logging.' };
   },
 };
 

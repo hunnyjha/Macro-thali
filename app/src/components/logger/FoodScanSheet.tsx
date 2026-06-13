@@ -1,4 +1,5 @@
 import { useRef, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Sheet } from '../ui/Sheet';
 import { useData } from '../../app/DataContext';
 import { useAiSettings } from '../../store/useAiSettings';
@@ -7,32 +8,43 @@ import type { FoodPrediction, VisionDeps } from '../../ai/types';
 
 type Phase = 'idle' | 'loading' | 'result' | 'error';
 
-// AI Food Scanner. Never auto-logs — a chosen prediction opens the normal food
-// detail sheet (serving size + confirm) via onPick.
+// AI Food Scanner. Real recognition via Gemini whenever a key is configured;
+// never shows random/demo predictions. Never auto-logs — a chosen prediction
+// opens the normal food detail sheet (serving size + confirm) via onPick.
 export function FoodScanSheet({ open, onClose, onPick }: { open: boolean; onClose: () => void; onPick: (foodId: string) => void }) {
   const { search } = useData();
-  const providerId = useAiSettings((s) => s.providerId);
   const geminiKey = useAiSettings((s) => s.geminiKey);
+  const nav = useNavigate();
 
   const [phase, setPhase] = useState<Phase>('idle');
   const [preview, setPreview] = useState<string | null>(null);
   const [preds, setPreds] = useState<FoodPrediction[]>([]);
   const [note, setNote] = useState<string | undefined>();
   const [error, setError] = useState('');
+  const [needsKey, setNeedsKey] = useState(false);
   const fileRef = useRef<HTMLInputElement>(null);
 
-  const reset = () => { setPhase('idle'); setPreview(null); setPreds([]); setError(''); setNote(undefined); };
+  const reset = () => { setPhase('idle'); setPreview(null); setPreds([]); setError(''); setNote(undefined); setNeedsKey(false); };
   const close = () => { reset(); onClose(); };
 
   const deps: VisionDeps = {
-    sampleFoods: (n) => search.defaults(80).sort(() => Math.random() - 0.5).slice(0, n).map((d) => ({ id: d.id, name: d.name })),
+    sampleFoods: () => [], // unused: scanner never shows demo/random foods
     matchFood: (name) => { const hit = search.search(name, {}, 1)[0]; return hit ? { id: hit.id, name: hit.name } : null; },
   };
 
   const onFile = async (file: File) => {
+    const key = geminiKey.trim();
+    console.log('[scan] gemini key present:', !!key, '| length:', key.length);
     setPreview(URL.createObjectURL(file));
-    setPhase('loading');
     setError('');
+    if (!key) {
+      // No real AI configured → proper error, never fake predictions.
+      setNeedsKey(true);
+      setError('Real photo recognition needs a free Gemini API key.');
+      setPhase('error');
+      return;
+    }
+    setPhase('loading');
     try {
       const dataUrl: string = await new Promise((resolve, reject) => {
         const fr = new FileReader();
@@ -41,13 +53,16 @@ export function FoodScanSheet({ open, onClose, onPick }: { open: boolean; onClos
         fr.readAsDataURL(file);
       });
       const base64 = dataUrl.split(',')[1] ?? '';
-      const provider = getProvider(providerId);
-      const result = await provider.analyze({ base64, mime: file.type || 'image/jpeg' }, deps, { apiKey: geminiKey });
-      if (!result.predictions.length) throw new Error('No foods detected. Try a clearer photo.');
+      const provider = getProvider('gemini'); // use real AI automatically when key exists
+      const result = await provider.analyze({ base64, mime: file.type || 'image/jpeg' }, deps, { apiKey: key });
+      console.log('[scan] predictions parsed:', result.predictions.length, result.predictions);
+      if (!result.predictions.length) throw new Error('No food or product detected. Try a clearer, closer photo of the item or its label.');
       setPreds(result.predictions);
       setNote(result.note);
       setPhase('result');
     } catch (e) {
+      console.error('[scan] failed:', e);
+      setNeedsKey(false);
       setError(e instanceof Error ? e.message : 'Something went wrong.');
       setPhase('error');
     }
@@ -55,7 +70,7 @@ export function FoodScanSheet({ open, onClose, onPick }: { open: boolean; onClos
 
   const pick = (p: FoodPrediction) => {
     const id = p.foodId ?? deps.matchFood(p.name)?.id;
-    if (!id) { setError(`Couldn't match “${p.name}”. Try searching instead.`); setPhase('error'); return; }
+    if (!id) { setNeedsKey(false); setError(`Recognised “${p.name}”, but it isn’t in the database yet. Search to log a close match.`); setPhase('error'); return; }
     close();
     onPick(id);
   };
@@ -130,8 +145,18 @@ export function FoodScanSheet({ open, onClose, onPick }: { open: boolean; onClos
         {phase === 'error' && (
           <div className="space-y-3 text-center">
             <p className="text-sm text-ink-muted">{error}</p>
-            <button className="btn-primary w-full" onClick={reset}>Try again</button>
-            <button className="btn-ghost w-full" onClick={close}>Search manually instead</button>
+            {needsKey ? (
+              <>
+                <button className="btn-primary w-full" onClick={() => { close(); nav('/account'); }}>Add Gemini key in Account</button>
+                <p className="text-[11px] text-ink-faint">Get a free key at aistudio.google.com → API keys. Stored only on this device.</p>
+                <button className="btn-ghost w-full" onClick={close}>Search manually instead</button>
+              </>
+            ) : (
+              <>
+                <button className="btn-primary w-full" onClick={reset}>Try again</button>
+                <button className="btn-ghost w-full" onClick={close}>Search manually instead</button>
+              </>
+            )}
           </div>
         )}
       </div>

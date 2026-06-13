@@ -69,18 +69,23 @@ export function AccountScreen() {
             </button>
           ))}
         </div>
-        {ai.providerId === 'gemini' && (
-          <div>
-            <input
-              value={ai.geminiKey}
-              onChange={(e) => ai.setGeminiKey(e.target.value)}
-              type="password"
-              placeholder="Paste Gemini API key"
-              className="input-surface w-full px-3 py-2.5 text-sm"
-            />
-            <p className="mt-1 text-[11px] text-ink-faint">Free key from aistudio.google.com. Stored only on this device.</p>
-          </div>
-        )}
+        <div>
+          <label className="mb-1 block text-xs text-ink-muted">Gemini API key (enables real photo recognition + coach)</label>
+          <input
+            value={ai.geminiKey}
+            onChange={(e) => {
+              const k = e.target.value;
+              ai.setGeminiKey(k);
+              ai.setProvider(k.trim() ? 'gemini' : 'demo'); // auto-enable real AI when a key is present
+            }}
+            type="password"
+            placeholder="Paste Gemini API key"
+            className="input-surface w-full px-3 py-2.5 text-sm"
+          />
+          <p className="mt-1 text-[11px] text-ink-faint">
+            {ai.geminiKey.trim() ? '✓ Real AI recognition enabled.' : 'Free key from aistudio.google.com → API keys. Stored only on this device.'}
+          </p>
+        </div>
       </section>
 
       {/* actions */}
