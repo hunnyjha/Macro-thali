@@ -70,7 +70,7 @@ export function AccountScreen() {
           ))}
         </div>
         <div>
-          <label className="mb-1 block text-xs text-ink-muted">Gemini API key (enables real photo recognition + coach)</label>
+          <label className="mb-1 block text-xs text-ink-muted">Gemini API key (optional — also powers the AI coach)</label>
           <input
             value={ai.geminiKey}
             onChange={(e) => {
@@ -83,7 +83,7 @@ export function AccountScreen() {
             className="input-surface w-full px-3 py-2.5 text-sm"
           />
           <p className="mt-1 text-[11px] text-ink-faint">
-            {ai.geminiKey.trim() ? '✓ Real AI recognition enabled.' : 'Free key from aistudio.google.com → API keys. Stored only on this device.'}
+            {ai.geminiKey.trim() ? '✓ Personal key set (powers the AI coach).' : 'Photo scanning works without a key. Add one only for the AI coach.'}
           </p>
         </div>
       </section>

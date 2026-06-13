@@ -73,8 +73,52 @@ const geminiProvider: FoodVisionProvider = {
   },
 };
 
+// ── Server provider ─────────────────────────────────────────────────────────
+// Calls our serverless /api/scan (key held server-side). Works for ALL users
+// with no key. Throws { code:'unconfigured' } when the function/env isn't set up
+// so the caller can fall back to a personal key (e.g. local dev).
+export class UnconfiguredError extends Error { code = 'unconfigured' as const; }
+
+const serverProvider: FoodVisionProvider = {
+  id: 'server',
+  label: 'Macro Katori AI',
+  requiresKey: false,
+  async analyze(img, deps) {
+    let res: Response;
+    try {
+      res = await fetch('/api/scan', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ base64: img.base64, mime: img.mime }),
+      });
+    } catch {
+      throw new UnconfiguredError('Scan service unreachable');
+    }
+    const ct = res.headers.get('content-type') || '';
+    // 404/501 or a non-JSON (e.g. SPA HTML in local dev) => not configured here.
+    if (res.status === 404 || res.status === 501 || !ct.includes('application/json')) {
+      throw new UnconfiguredError('Scan service not configured');
+    }
+    const data: any = await res.json().catch(() => ({}));
+    if (data?.error === 'not_configured') throw new UnconfiguredError('Server key not set');
+    if (!res.ok) {
+      if (data?.status === 429) throw new Error('Scanner is busy right now. Try again in a moment.');
+      throw new Error('Scanner failed. Please try again.');
+    }
+    const predictions: FoodPrediction[] = (data?.predictions || [])
+      .filter((p: any) => p && p.name)
+      .slice(0, 3)
+      .map((p: any) => {
+        const match = deps.matchFood(p.name);
+        return { name: match?.name ?? p.name, foodId: match?.id, confidence: Math.max(0, Math.min(1, Number(p.confidence) || 0.5)) };
+      });
+    return { predictions, note: 'Recognised by Macro Katori AI. Confirm before logging.' };
+  },
+};
+
 export const PROVIDERS: FoodVisionProvider[] = [demoProvider, geminiProvider];
 
 export function getProvider(id: string): FoodVisionProvider {
+  if (id === 'server') return serverProvider;
   return PROVIDERS.find((p) => p.id === id) ?? demoProvider;
 }

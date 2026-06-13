@@ -34,16 +34,8 @@ export function FoodScanSheet({ open, onClose, onPick }: { open: boolean; onClos
 
   const onFile = async (file: File) => {
     const key = geminiKey.trim();
-    console.log('[scan] gemini key present:', !!key, '| length:', key.length);
     setPreview(URL.createObjectURL(file));
     setError('');
-    if (!key) {
-      // No real AI configured → proper error, never fake predictions.
-      setNeedsKey(true);
-      setError('Real photo recognition needs a free Gemini API key.');
-      setPhase('error');
-      return;
-    }
     setPhase('loading');
     try {
       const dataUrl: string = await new Promise((resolve, reject) => {
@@ -52,9 +44,22 @@ export function FoodScanSheet({ open, onClose, onPick }: { open: boolean; onClos
         fr.onerror = () => reject(new Error('Could not read the image.'));
         fr.readAsDataURL(file);
       });
-      const base64 = dataUrl.split(',')[1] ?? '';
-      const provider = getProvider('gemini'); // use real AI automatically when key exists
-      const result = await provider.analyze({ base64, mime: file.type || 'image/jpeg' }, deps, { apiKey: key });
+      const img = { base64: dataUrl.split(',')[1] ?? '', mime: file.type || 'image/jpeg' };
+
+      // 1) Hosted scanner (server key) — works for everyone, no key needed.
+      let result;
+      try {
+        console.log('[scan] trying hosted /api/scan');
+        result = await getProvider('server').analyze(img, deps, {});
+      } catch (serverErr) {
+        const unconfigured = (serverErr as { code?: string })?.code === 'unconfigured';
+        console.warn('[scan] hosted scan unavailable:', serverErr, '| unconfigured:', unconfigured, '| personal key:', !!key);
+        if (!unconfigured) throw serverErr; // real failure — surface it
+        // 2) Hosted scanner not set up → fall back to a personal key if present.
+        if (!key) { setNeedsKey(true); setError('Photo scanning isn’t enabled yet.'); setPhase('error'); return; }
+        result = await getProvider('gemini').analyze(img, deps, { apiKey: key });
+      }
+
       console.log('[scan] predictions parsed:', result.predictions.length, result.predictions);
       if (!result.predictions.length) throw new Error('No food or product detected. Try a clearer, closer photo of the item or its label.');
       setPreds(result.predictions);
