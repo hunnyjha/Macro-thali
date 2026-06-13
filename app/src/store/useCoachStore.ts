@@ -1,5 +1,5 @@
 import { create } from 'zustand';
-import { getCoachContext, ruleReply, geminiReply } from '../lib/coach';
+import { getCoachContext, ruleReply, geminiReply, serverCoachReply, type CoachTurn } from '../lib/coach';
 import { useAiSettings } from './useAiSettings';
 
 export interface CoachMessage { role: 'user' | 'coach'; text: string; at: number; }
@@ -22,18 +22,24 @@ export const useCoachStore = create<CoachState>((set, get) => ({
   messages: load(),
   loading: false,
   send: async (text) => {
+    const prior = get().messages;
     const user: CoachMessage = { role: 'user', text, at: Date.now() };
-    const withUser = [...get().messages, user];
+    const withUser = [...prior, user];
     set({ messages: withUser, loading: true });
+    const history: CoachTurn[] = prior.map((m) => ({ role: m.role, text: m.text }));
     let reply: string;
     try {
       const ctx = await getCoachContext();
       const ai = useAiSettings.getState();
       if (ai.providerId === 'gemini' && ai.geminiKey) {
-        try { reply = await geminiReply(text, ctx, ai.geminiKey); }
-        catch { reply = ruleReply(text, ctx); } // graceful fallback
+        // User brought their own key → use it directly.
+        try { reply = await geminiReply(text, ctx, ai.geminiKey, history); }
+        catch { reply = ruleReply(text, ctx); }
       } else {
-        reply = ruleReply(text, ctx);
+        // Default: hosted AI coach (real reasoning). Fall back to the offline
+        // rule engine only when the server has no key / is unreachable.
+        try { reply = await serverCoachReply(text, ctx, history); }
+        catch { reply = ruleReply(text, ctx); }
       }
     } catch {
       reply = 'I had trouble reading your data just now. Try again in a moment.';

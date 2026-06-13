@@ -113,17 +113,50 @@ export function ruleReply(qRaw: string, ctx: CoachContext): string {
   return coachAnswer(qRaw, ctx).text;
 }
 
-// ── Optional Gemini text reply — grounded in the Coach Brain knowledge ───────
-export async function geminiReply(question: string, ctx: CoachContext, apiKey: string): Promise<string> {
+// Conversation turns sent to the AI so the coach remembers the chat so far.
+export interface CoachTurn { role: 'user' | 'coach'; text: string; }
+
+// ── Hosted coach (default) — real reasoning via the shared Gemini key ────────
+// Posts to the Cloudflare Function /api/coach, which holds GEMINI_API_KEY.
+// Throws an error with `code` so the caller can fall back to the rule engine.
+export async function serverCoachReply(question: string, ctx: CoachContext, history: CoachTurn[] = []): Promise<string> {
+  let res: Response;
+  try {
+    res = await fetch('/api/coach', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ system: buildCoachSystemPrompt(ctx), question, history }),
+    });
+  } catch {
+    throw Object.assign(new Error('coach offline'), { code: 'offline' });
+  }
+  if (res.status === 404 || res.status === 501) {
+    throw Object.assign(new Error('coach not configured'), { code: 'unconfigured' });
+  }
+  const ct = res.headers.get('content-type') || '';
+  if (!res.ok || !ct.includes('application/json')) {
+    throw Object.assign(new Error(`coach failed (${res.status})`), { code: 'failed' });
+  }
+  const data = await res.json();
+  if (!data?.reply) throw Object.assign(new Error('empty reply'), { code: 'failed' });
+  return String(data.reply).trim();
+}
+
+// ── Optional personal-key Gemini reply — grounded in the Coach Brain ─────────
+export async function geminiReply(question: string, ctx: CoachContext, apiKey: string, history: CoachTurn[] = []): Promise<string> {
   const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`;
   const sys = buildCoachSystemPrompt(ctx);
+  const contents = [
+    ...history.slice(-10).map((h) => ({ role: h.role === 'user' ? 'user' : 'model', parts: [{ text: h.text }] })),
+    { role: 'user', parts: [{ text: question }] },
+  ];
   const res = await fetch(url, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
       systemInstruction: { parts: [{ text: sys }] },
-      contents: [{ parts: [{ text: question }] }],
-      generationConfig: { temperature: 0.5 },
+      contents,
+      generationConfig: { temperature: 0.6 },
     }),
   });
   if (!res.ok) throw new Error(`Coach unavailable (${res.status}).`);

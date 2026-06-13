@@ -139,7 +139,7 @@ export function buildCoachSystemPrompt(ctx: CoachContext): string {
     `PROTEIN: 3–5 feedings of 20–40 g; fix breakfast first. Plate model: ${HAND_MODEL}.`,
     'ADHERENCE LADDER (stabilise in order): ' + ADHERENCE_LADDER.join(' '),
     'PLATEAU: ' + PLATEAU.loss,
-    'RULES: prefer Indian foods; give realistic meals; NEVER recommend extreme amounts of one food; explain reasoning briefly; focus on long-term adherence; <90 words.',
+    'RULES: Answer the SPECIFIC question the user asked — if they ask for a recipe, give a real recipe (ingredients + steps + rough macros); if they ask a general question, reason and answer it directly. Do NOT fall back to a generic "build a plate" template unless that is genuinely what they asked. Prefer Indian foods; give realistic meals; NEVER recommend extreme amounts of one food; explain reasoning briefly; focus on long-term adherence. Keep replies concise (≤120 words; a recipe or plan may go longer). Use the user numbers below only when relevant.',
     `USER NOW — goal: ${ctx.goalLabel}${ctx.speed ? ` @ ${ctx.speed} kg/wk` : ''}; targets ${ctx.targets.calories} kcal / ${ctx.targets.protein}g protein; ` +
       `remaining today ${ctx.remaining.calories} kcal, ${ctx.remaining.protein}g protein; this week avg ${ctx.weekly.avgCalories} kcal, ${ctx.weekly.avgProtein}g protein, ${ctx.weekly.daysLogged}/7 logged, ${ctx.weekly.streak}-day streak` +
       `${ctx.weightChangeKg != null ? `; weight ${ctx.weightChangeKg}kg/${ctx.weightDays}d` : ''}.`,

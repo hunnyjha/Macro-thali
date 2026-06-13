@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { Sheet } from '../ui/Sheet';
 import { useCoachStore } from '../../store/useCoachStore';
 
-const PROMPTS = ['I need protein', 'What should I eat?', 'How much is left today?', "Why isn't my weight changing?"];
+const PROMPTS = ['I need protein', 'What should I eat?', 'How much is left today?', 'Why has my weight stalled?'];
 
 export function CoachSheet({ open, onClose }: { open: boolean; onClose: () => void }) {
   const messages = useCoachStore((s) => s.messages);
