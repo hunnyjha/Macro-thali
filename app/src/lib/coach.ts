@@ -3,12 +3,13 @@ import { useLogStore } from '../store/useLogStore';
 import { useWeightStore } from '../store/useWeightStore';
 import { GOAL_META } from './calculator';
 import { computeWeeklyInsights } from './insights';
-import { proteinGapSuggestions } from './proteinGap';
+import { coachAnswer, buildCoachSystemPrompt } from '../coach/engine';
 
 export interface CoachContext {
   goalLabel: string;
   goal: 'loss' | 'maintain' | 'gain';
   speed: number;
+  weightKg: number;
   targets: { calories: number; protein: number; carbs: number; fat: number };
   remaining: { calories: number; protein: number; carbs: number; fat: number };
   weekly: { avgCalories: number; avgProtein: number; daysLogged: number; streak: number; calorieAdherencePct: number; proteinHitDays: number };
@@ -40,6 +41,7 @@ export async function getCoachContext(): Promise<CoachContext> {
     goalLabel: GOAL_META[profile.goal].label,
     goal: profile.goal,
     speed: profile.speed,
+    weightKg: profile.weightKg,
     targets,
     remaining: {
       calories: Math.round(targets.calories - totals.calories),
@@ -57,10 +59,7 @@ export async function getCoachContext(): Promise<CoachContext> {
   };
 }
 
-const proteinIdeas = (rem: number, used: string[]) =>
-  proteinGapSuggestions(rem, { used, limit: 3 }).map((s) => `${s.text} (+${s.protein}g)`).join(', ');
-
-// ── Phase 3: Adaptive 7-day review ──────────────────────────────────────────
+// ── Adaptive review — follows Coach Brain plateau rules ─────────────────────
 export interface AdaptiveReview {
   show: boolean;
   stall: boolean;
@@ -82,73 +81,42 @@ export function adaptiveReview(ctx: CoachContext): AdaptiveReview {
   let suggestionLabel: string | undefined;
   let deltaKcal: number | undefined;
 
-  if (weightChangeKg != null && weightDays >= 7) {
+  // Coach Brain: a real fat-loss plateau = 7-day avg flat ≥14 days AND adherence ≥80%.
+  const adherent = weekly.calorieAdherencePct >= 80;
+  if (weightChangeKg != null && weightDays >= 14) {
     const perWeek = (weightChangeKg / weightDays) * 7;
-    if (goal === 'loss' && perWeek > -0.15) {
+    if (goal === 'loss' && perWeek > -0.15 && adherent) {
       stall = true;
-      lines.push(`Weight is roughly flat (${weightChangeKg > 0 ? '+' : ''}${weightChangeKg} kg in ${weightDays} days) while aiming to lose.`);
-      suggestionLabel = 'Reduce daily target by 150 kcal';
-      deltaKcal = -150;
-    } else if (goal === 'gain' && perWeek < 0.1) {
+      lines.push(`Weight has been flat (${weightChangeKg > 0 ? '+' : ''}${weightChangeKg} kg over ${weightDays} days) at ${weekly.calorieAdherencePct}% adherence.`);
+      lines.push('Per the playbook: if steps dropped, restore movement first. Otherwise trim ~120 kcal/day OR add ~2,000 steps — not both.');
+      suggestionLabel = 'Reduce daily target by 120 kcal';
+      deltaKcal = -120;
+    } else if (goal === 'gain' && perWeek < 0.1 && adherent) {
       stall = true;
-      lines.push(`Weight isn't rising (${weightChangeKg > 0 ? '+' : ''}${weightChangeKg} kg in ${weightDays} days) while aiming to gain.`);
+      lines.push(`Weight hasn't risen (${weightChangeKg > 0 ? '+' : ''}${weightChangeKg} kg over ${weightDays} days) with high adherence.`);
       suggestionLabel = 'Increase daily target by 150 kcal';
       deltaKcal = 150;
+    } else if (goal === 'loss' && perWeek > -0.15 && !adherent) {
+      lines.push(`Scale is flat but adherence is ${weekly.calorieAdherencePct}% — that's the lever, not your calories. Tighten logging before we cut further.`);
     } else {
-      lines.push(`Weight trend looks on track (${weightChangeKg > 0 ? '+' : ''}${weightChangeKg} kg in ${weightDays} days).`);
+      lines.push(`Weight trend looks on track (${weightChangeKg > 0 ? '+' : ''}${weightChangeKg} kg over ${weightDays} days). Keep going.`);
     }
   } else {
-    lines.push('Add a few weight entries to detect stalls automatically.');
+    lines.push('Log your weight for ~2 weeks so I can judge the trend on a 7-day average (not single weigh-ins).');
   }
 
-  if (weekly.calorieAdherencePct < 60) lines.push('Consistency is the lever right now — aim to log every day before changing targets.');
-  if (stall) lines.push('Other options: add ~2,000 steps/day, or stay consistent one more week before adjusting.');
-
-  return { show: true, stall, title: stall ? 'Possible stall detected' : 'Weekly review', lines, suggestionLabel, deltaKcal };
+  return { show: true, stall, title: stall ? 'Possible plateau detected' : 'Weekly review', lines, suggestionLabel, deltaKcal };
 }
 
-// ── Phase 2: rule-based coach (free, no key) ────────────────────────────────
+// ── Rule-based coach (free, no key) — powered by the Coach Brain engine ──────
 export function ruleReply(qRaw: string, ctx: CoachContext): string {
-  const q = qRaw.toLowerCase();
-  const r = ctx.remaining;
-  const ideas = proteinIdeas(Math.max(r.protein, 20), ctx.usedFoods);
-
-  if (/protein/.test(q)) {
-    if (r.protein <= 0) return `You've already hit your ${ctx.targets.protein}g protein target today — nice work! 💪`;
-    return `You still need ${r.protein}g protein today. Quick wins: ${ideas}.`;
-  }
-  if (/(remaining|left|how much|budget)/.test(q)) {
-    return `Today you have ${Math.max(r.calories, 0)} kcal left — ${Math.max(r.protein, 0)}g protein, ${Math.max(r.carbs, 0)}g carbs, ${Math.max(r.fat, 0)}g fat to go.`;
-  }
-  if (/(weight|stall|plateau|not chang|stuck|scale)/.test(q)) {
-    const rev = adaptiveReview(ctx);
-    return rev.lines.join(' ') + (rev.suggestionLabel ? ` Suggested: ${rev.suggestionLabel} (you approve it in Insights).` : '');
-  }
-  if (/(ate|had|eaten|khaya|biryani|lunch|dinner|breakfast)/.test(q)) {
-    return r.calories >= 0
-      ? `Got it. After today's logs you have ${r.calories} kcal and ${Math.max(r.protein, 0)}g protein left. ${r.protein > 0 ? `To top up protein: ${ideas}.` : 'Protein target met 👍'}`
-      : `You're ${Math.abs(r.calories)} kcal over budget today — a lighter, high-protein dinner (${ideas}) keeps you on track.`;
-  }
-  if (/(what.*eat|suggest|hungry|snack|meal)/.test(q)) {
-    return `With ${Math.max(r.calories, 0)} kcal and ${Math.max(r.protein, 0)}g protein left, good picks: ${ideas}.`;
-  }
-  if (/(motivat|give up|hard|lazy|consistent|streak)/.test(q)) {
-    return `You're on a ${ctx.weekly.streak}-day logging streak and hit protein on ${ctx.weekly.proteinHitDays} of ${ctx.weekly.daysLogged} days. Small consistent wins beat perfect days — keep going! 🔥`;
-  }
-  // default
-  return `I'm your Macro Coach. Today: ${Math.max(r.calories, 0)} kcal and ${Math.max(r.protein, 0)}g protein left (goal: ${ctx.goalLabel}). Ask me "what should I eat?", "I need protein", or "why isn't my weight changing?".`;
+  return coachAnswer(qRaw, ctx).text;
 }
 
-// ── Optional Gemini text reply (free tier) ──────────────────────────────────
+// ── Optional Gemini text reply — grounded in the Coach Brain knowledge ───────
 export async function geminiReply(question: string, ctx: CoachContext, apiKey: string): Promise<string> {
   const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`;
-  const sys = `You are "Macro Coach", a friendly, concise Indian nutrition coach inside the Macro Katori app.
-User goal: ${ctx.goalLabel}${ctx.speed ? ` at ${ctx.speed} kg/week` : ''}.
-Daily targets: ${ctx.targets.calories} kcal, ${ctx.targets.protein}g protein.
-Remaining today: ${ctx.remaining.calories} kcal, ${ctx.remaining.protein}g protein.
-This week: avg ${ctx.weekly.avgCalories} kcal, ${ctx.weekly.avgProtein}g protein, ${ctx.weekly.daysLogged}/7 days logged, ${ctx.weekly.streak}-day streak.
-${ctx.weightChangeKg != null ? `Weight change: ${ctx.weightChangeKg} kg over ${ctx.weightDays} days.` : ''}
-Prefer Indian foods. Keep replies under 80 words. Never tell the user to drastically under-eat. Be encouraging.`;
+  const sys = buildCoachSystemPrompt(ctx);
   const res = await fetch(url, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },

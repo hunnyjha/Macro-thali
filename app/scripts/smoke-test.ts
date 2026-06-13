@@ -121,5 +121,21 @@ check('protein gap returns options', gap.length > 0 && gap[0].protein > 0, gap.m
 check('used food prioritised', gap[0].foodId === 'pi-boiled-egg');
 check('no suggestions when goal met', proteinGapSuggestions(0).length === 0);
 
+console.log('\n— COACH ENGINE (Coach Brain) —');
+const { coachAnswer, buildCoachSystemPrompt } = await import('../src/coach/engine.ts');
+const cctx: any = {
+  goalLabel: 'Fat loss', goal: 'loss', speed: 0.5, weightKg: 80,
+  targets: { calories: 2000, protein: 140, carbs: 200, fat: 55 },
+  remaining: { calories: 600, protein: 30, carbs: 80, fat: 15 },
+  weekly: { avgCalories: 1900, avgProtein: 110, daysLogged: 6, streak: 4, calorieAdherencePct: 85, proteinHitDays: 3 },
+  weightChangeKg: 0, weightDays: 16, usedFoods: ['pi-boiled-egg'],
+};
+check('plateau answer cites flat-14d/adherence rule', /flat|adherence|plateau/i.test(coachAnswer('why has my weight stalled?', cctx).text));
+check('protein answer gives Indian options', /protein/i.test(coachAnswer('i need protein', cctx).text));
+check('meal answer uses plate model', /plate|sabzi|dahi|paneer|roti/i.test(coachAnswer('what should i eat?', cctx).text));
+check('no extreme single-food (≤4 eggs)', !/\b([5-9]|\d\d)\s*eggs/i.test(coachAnswer('what should i eat?', cctx).text));
+check('training answer is coach-style', /muscle|sets|strength|week/i.test(coachAnswer('how should i train?', cctx).text));
+check('system prompt embeds Coach Brain', /Macro Katori Coach|PRINCIPLES|ADHERENCE LADDER/.test(buildCoachSystemPrompt(cctx)));
+
 console.log(`\n${pass} passed, ${fail} failed\n`);
 process.exit(fail ? 1 : 0);
