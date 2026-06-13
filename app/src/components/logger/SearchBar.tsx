@@ -16,7 +16,7 @@ export function SearchBar({ value, onChange }: Props) {
         inputMode="search"
         autoComplete="off"
         placeholder="Search sattu, dahi, poha, protein…"
-        className="w-full rounded-xl2 border border-white/10 bg-charcoal-700 py-3.5 pl-11 pr-10 text-base text-ink placeholder:text-ink-faint focus:border-saffron/60 focus:outline-none"
+        className="input-surface w-full py-3.5 pl-11 pr-10 text-base"
       />
       {value && (
         <button

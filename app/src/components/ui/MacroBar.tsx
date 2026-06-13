@@ -18,8 +18,11 @@ export function MacroBar({ label, value, target, color, unit = 'g' }: Props) {
           {g(value)}<span className="text-ink-faint">/{g(target)}{unit}</span>
         </span>
       </div>
-      <div className="h-1.5 w-full overflow-hidden rounded-full bg-white/8">
-        <div className="h-full rounded-full transition-[width] duration-500" style={{ width: `${pct}%`, background: color }} />
+      <div className="h-2 w-full overflow-hidden rounded-full bg-white/[0.06]">
+        <div
+          className="h-full rounded-full transition-[width] duration-700 ease-out"
+          style={{ width: `${pct}%`, background: `linear-gradient(90deg, ${color}cc, ${color})` }}
+        />
       </div>
     </div>
   );

@@ -9,23 +9,33 @@ const tabs = [
 
 export function BottomNav() {
   return (
-    <nav className="sticky bottom-0 z-30 border-t border-white/8 bg-charcoal-900/95 backdrop-blur safe-bottom">
-      <div className="mx-auto flex max-w-md items-stretch justify-around px-2">
+    <nav className="sticky bottom-0 z-30 border-t border-white/[0.06] bg-charcoal-950/80 backdrop-blur-xl safe-bottom">
+      <div className="mx-auto flex max-w-md items-stretch justify-around px-2 pt-1.5">
         {tabs.map((t) => (
           <NavLink
             key={t.to}
             to={t.to}
             end={t.to === '/'}
             className={({ isActive }) =>
-              `flex flex-1 flex-col items-center gap-1 py-2.5 text-[11px] font-medium transition-colors ${
+              `group flex flex-1 flex-col items-center gap-1 py-1.5 text-[11px] font-medium transition-colors ${
                 isActive ? 'text-saffron' : 'text-ink-faint'
               }`
             }
           >
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <path d={t.icon} />
-            </svg>
-            {t.label}
+            {({ isActive }) => (
+              <>
+                <span
+                  className={`flex h-8 w-12 items-center justify-center rounded-full transition-all duration-200 ${
+                    isActive ? 'bg-saffron/12' : 'bg-transparent'
+                  }`}
+                >
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d={t.icon} />
+                  </svg>
+                </span>
+                {t.label}
+              </>
+            )}
           </NavLink>
         ))}
       </div>

@@ -12,7 +12,11 @@ html, body, #root {
 
 body {
   margin: 0;
-  background: #141517;
+  /* Rich charcoal with a faint top sheen for depth */
+  background:
+    radial-gradient(120% 80% at 50% -10%, rgba(245, 166, 35, 0.05), transparent 60%),
+    linear-gradient(180deg, #15171b 0%, #0f1113 100%);
+  background-attachment: fixed;
   color: theme('colors.ink.DEFAULT');
   font-family: theme('fontFamily.sans');
   -webkit-font-smoothing: antialiased;
@@ -20,28 +24,52 @@ body {
   overscroll-behavior-y: none;
 }
 
+/* Display headings sit tighter for a more premium feel */
+.font-display { letter-spacing: -0.01em; }
+
 /* Hide scrollbars on horizontal chip rows but keep scrolling */
 .no-scrollbar::-webkit-scrollbar { display: none; }
 .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
 
 @layer components {
+  /* Standard surface: subtle vertical gradient, hairline border, soft shadow */
   .card {
-    @apply bg-charcoal-700 rounded-xl2 shadow-card border border-white/5;
+    @apply rounded-xl2 border border-white/[0.06] shadow-card;
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.025), rgba(255, 255, 255, 0)),
+      linear-gradient(180deg, #20242a, #1a1d22);
   }
+  /* Elevated hero surface with a warm saffron-tinted sheen */
+  .card-hero {
+    @apply rounded-xl2 border border-white/[0.07] shadow-elevated;
+    background-image: radial-gradient(130% 110% at 0% 0%, rgba(245, 166, 35, 0.10), transparent 55%),
+      linear-gradient(180deg, #23272e, #181b20);
+  }
+
   .chip {
     @apply inline-flex items-center gap-1.5 whitespace-nowrap rounded-full px-3.5 py-2 text-sm font-medium
-           border border-white/10 text-ink-muted transition-colors active:scale-95;
+           border border-white/10 bg-white/[0.03] text-ink-muted transition-all duration-150 active:scale-95;
   }
   .chip-active {
-    @apply bg-saffron text-charcoal-900 border-saffron;
+    @apply border-transparent bg-saffron text-charcoal-900 shadow-glow-saffron;
   }
+
   .btn-primary {
-    @apply bg-saffron text-charcoal-900 font-semibold rounded-xl2 px-5 py-3.5 text-base
-           active:scale-[0.98] transition-transform disabled:opacity-50;
+    @apply rounded-xl2 px-5 py-3.5 text-base font-semibold text-charcoal-900 shadow-glow-saffron
+           transition-all duration-150 active:scale-[0.98] disabled:opacity-50 disabled:shadow-none;
+    background-image: linear-gradient(180deg, #ffc15e, #f5a623);
   }
   .btn-ghost {
-    @apply bg-white/5 text-ink rounded-xl2 px-4 py-3 font-medium active:scale-[0.98] transition-transform;
+    @apply rounded-xl2 border border-white/[0.06] bg-white/[0.04] px-4 py-3 font-medium text-ink
+           transition-all duration-150 active:scale-[0.98];
   }
+
+  /* Shared input surface for consistent, premium form fields */
+  .input-surface {
+    @apply rounded-xl2 border border-white/10 bg-charcoal-750 text-ink transition-colors
+           placeholder:text-ink-faint focus:border-saffron/60 focus:outline-none
+           focus:ring-2 focus:ring-saffron/20;
+  }
+
   .safe-bottom { padding-bottom: max(env(safe-area-inset-bottom), 0.5rem); }
   .safe-top { padding-top: max(env(safe-area-inset-top), 0.5rem); }
 }

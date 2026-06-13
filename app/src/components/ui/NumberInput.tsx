@@ -41,7 +41,7 @@ export function NumberInput({ label, suffix, value, min, max, onChange }: Props)
         }}
         onBlur={() => { focused.current = false; commit(text); }}
         onKeyDown={(e) => { if (e.key === 'Enter') (e.target as HTMLInputElement).blur(); }}
-        className="w-full rounded-xl2 border border-white/10 bg-charcoal-700 px-3 py-2.5 text-center font-display text-lg font-bold text-ink focus:border-saffron/60 focus:outline-none"
+        className="input-surface w-full px-3 py-2.5 text-center font-display text-lg font-bold"
       />
       <p className="mt-0.5 text-center text-[10px] text-ink-faint">{suffix}</p>
     </div>
