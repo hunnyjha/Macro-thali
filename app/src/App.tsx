@@ -3,7 +3,8 @@ import { Routes, Route, Navigate } from 'react-router-dom';
 import { DataProvider } from './app/DataContext';
 import { ToastProvider } from './app/ToastContext';
 import { BottomNav } from './components/layout/BottomNav';
-import { CoachButton } from './components/coach/CoachButton';
+import { CoachSheet } from './components/coach/CoachSheet';
+import { useUiStore } from './store/useUiStore';
 import { Onboarding } from './components/Onboarding';
 import { UpgradeGate } from './components/UpgradeGate';
 import { FoodLoggerScreen } from './screens/FoodLoggerScreen';
@@ -21,6 +22,8 @@ export default function App() {
   const user = useAuthStore((s) => s.user);
   const onboarded = useProfileStore((s) => s.saved);
   const isPro = useIsPro();
+  const coachOpen = useUiStore((s) => s.coachOpen);
+  const closeCoach = useUiStore((s) => s.closeCoach);
 
   return (
     <DataProvider>
@@ -46,7 +49,7 @@ export default function App() {
                 <Route path="*" element={<Navigate to="/" replace />} />
               </Routes>
             </main>
-            <CoachButton />
+            <CoachSheet open={coachOpen} onClose={closeCoach} />
             <BottomNav />
           </div>
         )}

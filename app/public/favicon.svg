@@ -1,10 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <rect width="512" height="512" rx="112" fill="#1a1c1e"/>
+  <rect width="512" height="512" rx="116" fill="#131A22"/>
+  <!-- soft warm glow -->
+  <ellipse cx="256" cy="300" rx="190" ry="120" fill="#f5a623" opacity="0.06"/>
   <!-- katori (bowl) -->
-  <path d="M120 232 h272 a8 8 0 0 1 8 8 v8 c0 79-63 144-144 144 s-144-65-144-144 v-8 a8 8 0 0 1 8-8 z" fill="#f5a623"/>
-  <ellipse cx="256" cy="232" rx="140" ry="30" fill="#ffc15e"/>
-  <!-- steam / emerald accent -->
-  <path d="M214 150 c-18-18 18-34 0-56" stroke="#1fb574" stroke-width="14" stroke-linecap="round" fill="none"/>
-  <path d="M256 140 c-18-18 18-34 0-56" stroke="#36d995" stroke-width="14" stroke-linecap="round" fill="none"/>
-  <path d="M298 150 c-18-18 18-34 0-56" stroke="#1fb574" stroke-width="14" stroke-linecap="round" fill="none"/>
+  <path d="M132 262 h248 a10 10 0 0 1 10 10 a134 134 0 0 1 -268 0 a10 10 0 0 1 10 -10 Z" fill="url(#g)"/>
+  <!-- rim -->
+  <ellipse cx="256" cy="262" rx="124" ry="22" fill="#0f1113"/>
+  <ellipse cx="256" cy="262" rx="124" ry="22" fill="none" stroke="#ffc15e" stroke-width="9"/>
+  <!-- leaf sprig rising from the bowl -->
+  <path d="M256 250 C256 196 256 168 256 150" stroke="#1fb574" stroke-width="11" stroke-linecap="round" fill="none"/>
+  <path d="M256 196 C232 192 214 170 212 146 C238 148 258 168 256 196 Z" fill="#1fb574"/>
+  <path d="M256 178 C280 174 298 152 300 128 C274 130 254 150 256 178 Z" fill="#36d995"/>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffc15e"/>
+      <stop offset="100%" stop-color="#e08e12"/>
+    </linearGradient>
+  </defs>
 </svg>

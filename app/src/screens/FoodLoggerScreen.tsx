@@ -4,6 +4,7 @@ import { useData } from '../app/DataContext';
 import { useLogStore } from '../store/useLogStore';
 import { useAuthStore } from '../store/useAuthStore';
 import { useIsPro } from '../store/useSubscriptionStore';
+import { useUiStore } from '../store/useUiStore';
 import { DailySummary } from '../components/logger/DailySummary';
 import { SearchBar } from '../components/logger/SearchBar';
 import { FilterChips } from '../components/logger/FilterChips';
@@ -36,7 +37,9 @@ export function FoodLoggerScreen() {
   const [editEntry, setEditEntry] = useState<LogEntry | null>(null);
   const [selectedThali, setSelectedThali] = useState<Thali | null>(null);
   const [nlOpen, setNlOpen] = useState(false);
-  const [scanOpen, setScanOpen] = useState(false);
+  const scanOpen = useUiStore((s) => s.scanOpen);
+  const openScan = useUiStore((s) => s.openScan);
+  const closeScan = useUiStore((s) => s.closeScan);
   const searchRef = useRef<HTMLDivElement>(null);
 
   const favorites = useLogStore((s) => s.favorites);
@@ -86,13 +89,13 @@ export function FoodLoggerScreen() {
   return (
     <div className="safe-top animate-fade-up pb-24">
       <header className="flex items-center justify-between px-4 pt-3">
-        <div className="flex items-center gap-2">
-          <img src="/favicon.svg" alt="" className="h-8 w-8" />
+        <div className="flex items-center gap-2.5">
+          <img src="/favicon.svg" alt="" className="h-9 w-9 rounded-xl" />
           <div>
+            <p className="text-[11px] font-medium text-ink-faint">{greeting()}</p>
             <h1 className="font-display text-lg font-extrabold leading-none">
-              {user ? `Hi, ${user.name.split(' ')[0]}` : 'Macro Katori'}
+              {user ? `${user.name.split(' ')[0]} 👋` : 'Macro Katori'}
             </h1>
-            <p className="text-[11px] text-ink-faint">Track Food the Indian Way</p>
           </div>
         </div>
         <div className="flex items-center gap-2">
@@ -182,10 +185,10 @@ export function FoodLoggerScreen() {
         onSearch={focusSearch}
         onQuickAdd={focusSearch}
         onVoice={() => (isPro ? setNlOpen(true) : nav('/paywall'))}
-        onScan={() => setScanOpen(true)}
+        onScan={openScan}
       />
 
-      <FoodScanSheet open={scanOpen} onClose={() => setScanOpen(false)} onPick={(id) => setSelectedId(id)} />
+      <FoodScanSheet open={scanOpen} onClose={closeScan} onPick={(id) => setSelectedId(id)} />
       <NlLogSheet open={nlOpen} onClose={() => setNlOpen(false)} />
       <FoodDetailSheet foodId={selectedId} onClose={() => setSelectedId(null)} />
       <FoodDetailSheet foodId={null} editEntry={editEntry} onClose={() => setEditEntry(null)} />
@@ -198,6 +201,11 @@ export function FoodLoggerScreen() {
 function GapCardWrap({ onSelect, entriesLen }: { onSelect: (id: string) => void; entriesLen: number }) {
   if (entriesLen === 0) return null;
   return <GapCard onSelect={onSelect} />;
+}
+
+function greeting(): string {
+  const h = new Date().getHours();
+  return h < 12 ? 'Good morning' : h < 17 ? 'Good afternoon' : 'Good evening';
 }
 
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
