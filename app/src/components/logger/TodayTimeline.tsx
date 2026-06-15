@@ -18,11 +18,18 @@ export function TodayTimeline({ onEdit }: { onEdit: (entry: LogEntry) => void })
   const entries = useLogStore((s) => s.entries);
   const templates = useLogStore((s) => s.templates);
   const saveTemplate = useLogStore((s) => s.saveTemplate);
+  const removeEntry = useLogStore((s) => s.removeEntry);
+  const addEntry = useLogStore((s) => s.addEntry);
   const { showToast } = useToast();
   const isPro = useIsPro();
   const nav = useNavigate();
 
   if (entries.length === 0) return null;
+
+  const onRemove = async (e: LogEntry) => {
+    await removeEntry(e.id);
+    showToast(`Removed ${e.name}`, { actionLabel: 'Undo', onAction: () => addEntry(e) });
+  };
 
   const saveDay = async () => {
     if (!isPro && templates.length >= FREE_TEMPLATE_LIMIT) {
@@ -59,24 +66,31 @@ export function TodayTimeline({ onEdit }: { onEdit: (entry: LogEntry) => void })
             </div>
             <div className="space-y-2">
               {items.map((e) => (
-                <button
+                <div
                   key={e.id}
-                  onClick={() => onEdit(e)}
-                  className="flex w-full items-center gap-3 rounded-xl2 border border-white/5 bg-charcoal-700 p-3 text-left active:scale-[0.99] transition-transform"
+                  className="flex items-center gap-2 rounded-xl2 border border-white/5 bg-charcoal-700 p-3"
                 >
-                  <div className="min-w-0 flex-1">
-                    <p className="truncate font-medium text-ink">{e.name}</p>
-                    <p className="mt-0.5 text-xs text-ink-faint">
-                      {g(e.quantity)} × {e.unit}
-                      {e.oilStyle !== 'home_style' && <span className="text-saffron"> · {e.oilStyle.replace('_', ' ')}</span>}
-                    </p>
-                  </div>
-                  <div className="text-right">
-                    <p className="text-sm font-semibold tabular-nums text-ink">{kcal(e.macros.calories)}</p>
-                    <p className="text-[11px] font-semibold text-emerald-light">{g(e.macros.protein)}g P</p>
-                  </div>
-                  <svg className="text-ink-faint" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M9 6l6 6-6 6" /></svg>
-                </button>
+                  <button onClick={() => onEdit(e)} className="flex min-w-0 flex-1 items-center gap-3 text-left active:scale-[0.99] transition-transform">
+                    <div className="min-w-0 flex-1">
+                      <p className="truncate font-medium text-ink">{e.name}</p>
+                      <p className="mt-0.5 text-xs text-ink-faint">
+                        {g(e.quantity)} × {e.unit}
+                        {e.oilStyle !== 'home_style' && <span className="text-saffron"> · {e.oilStyle.replace('_', ' ')}</span>}
+                      </p>
+                    </div>
+                    <div className="text-right">
+                      <p className="text-sm font-semibold tabular-nums text-ink">{kcal(e.macros.calories)}</p>
+                      <p className="text-[11px] font-semibold text-emerald-light">{g(e.macros.protein)}g P</p>
+                    </div>
+                  </button>
+                  <button
+                    onClick={() => onRemove(e)}
+                    aria-label={`Remove ${e.name}`}
+                    className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-white/[0.06] text-ink-faint transition-colors active:scale-90 hover:text-rose-400"
+                  >
+                    <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 7h16M9 7V5h6v2M6 7l1 13h10l1-13M10 11v6M14 11v6" /></svg>
+                  </button>
+                </div>
               ))}
             </div>
           </div>
