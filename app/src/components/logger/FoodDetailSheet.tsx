@@ -7,6 +7,7 @@ import { getFood } from '../../data/dataService';
 import { computeMacros, oilMatters } from '../../lib/nutrition';
 import { kcal, g, uid, todayISO, slotForNow, DIET_META } from '../../lib/format';
 import { VerifiedBadge } from '../ui/VerifiedBadge';
+import { NumberInput } from '../ui/NumberInput';
 import type { Food, OilStyle, Portion } from '../../types/food';
 import type { LogEntry, MealSlot } from '../../types/log';
 
@@ -161,9 +162,18 @@ export function FoodDetailSheet({ foodId, editEntry, onClose }: Props) {
                 </button>
               ))}
             </div>
-            <div className="flex items-center gap-4">
+            <div className="flex items-end gap-4">
               <Stepper value={qty} onChange={setQty} />
-              <span className="text-sm text-ink-muted">= {g(totalGrams)} g total</span>
+              <div className="flex-1">
+                <NumberInput
+                  label="Or type exact grams"
+                  suffix="grams total"
+                  value={Math.round(totalGrams)}
+                  min={1}
+                  max={5000}
+                  onChange={(grams) => portion && portion.grams > 0 && setQty(grams / portion.grams)}
+                />
+              </div>
             </div>
           </Field>
 
